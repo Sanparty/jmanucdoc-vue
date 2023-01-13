@@ -20,7 +20,7 @@
         <hr class="footerhr d-md-none mb-3 px-3" />
         <div class="col-md-6 col-lg-4 order-md-1 contact-footer">
           <div class="phone">
-            <a href="tel:416-902-1054">416-902-1054</a>
+            <a :href="`tel:${phoneNumber}`">{{ phoneNumber }}</a>
           </div>
           <div>Contact</div>
           <h3>John Manucdoc</h3>
@@ -35,6 +35,9 @@
 <script>
 export default {
   Name: "FooterJohn",
+  props: {
+    phoneNumber: String,
+  }
 };
 </script>
 

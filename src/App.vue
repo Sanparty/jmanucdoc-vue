@@ -1,7 +1,7 @@
 <template>
-  <NavbarJohn />
+  <NavbarJohn phone-number="416-902-4154" />
   <HelloWorld msg="Welcome to Your Vue.js App" />
-  <FooterJohn />
+  <FooterJohn phone-number="416-902-4154" />
 </template>
 
 <script>

@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid justify-content-between">
       <div class="order-lg-2">
-        <div class="phone"><a href="tel:416-902-1054">416-902-1054</a></div>
+        <div class="phone"><a :href="`tel:${phoneNumber}`">{{ phoneNumber }}</a></div>
         <div>
           <a href="https://twitter.com/johnman10" target="_blank"
             ><img
@@ -97,7 +97,10 @@
 <script>
 export default {
   Name: "NavbarJohn",
-};
+  props: {
+    phoneNumber: String,
+  }
+}
 </script>
 
 <style>
