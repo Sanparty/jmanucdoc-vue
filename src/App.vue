@@ -1,18 +1,21 @@
 <template>
   <NavbarJohn phone-number="416-902-4154" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <MainJohn email-john="john@remaxprofessionals.ca" msg-john="With you every step of the way" />
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   <FooterJohn phone-number="416-902-4154" />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
 import NavbarJohn from "./components/navbarJohn.vue";
+import MainJohn from "./components/mainJohn.vue"
 import FooterJohn from "./components/footerJohn.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    // HelloWorld,
     NavbarJohn,
+    MainJohn,
     FooterJohn,
   },
 };
