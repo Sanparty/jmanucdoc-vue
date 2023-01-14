@@ -2,6 +2,7 @@
   <NavbarJohn phone-number="416-902-4154" />
   <MainJohn email-john="john@remaxprofessionals.ca" msg-john="With you every step of the way" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+  <CtaContainer />
   <ContactJohn />
   <FooterJohn phone-number="416-902-4154" />
 </template>
@@ -9,7 +10,8 @@
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
 import NavbarJohn from "./components/navbarJohn.vue";
-import MainJohn from "./components/mainJohn.vue"
+import MainJohn from "./components/mainJohn.vue";
+import CtaContainer from "./containers/ctaContainer.vue";
 import ContactJohn from "./components/contactJohn.vue"
 import FooterJohn from "./components/footerJohn.vue";
 export default {
@@ -18,6 +20,7 @@ export default {
     // HelloWorld,
     NavbarJohn,
     MainJohn,
+    CtaContainer,
     ContactJohn,
     FooterJohn,
   },
