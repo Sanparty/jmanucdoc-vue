@@ -1,22 +1,24 @@
 <template>
    <div class="container-fluid mainimage d-flex flex-column align-items-center justify-content-center">
       <div class="mainbio flex-grow-1 text-center">
-        <h1>John Manucdoc</h1>
+        <h1>{{ contact.johnName }}</h1>
         <h2>Broker</h2>
       </div>
-      <div class="byline">{{ msgJohn }}</div>
+      <div class="byline">{{ contact.johnMessage }}</div>
       <div class="john-email">
-        <a :href="`mailto:${emailJohn}`">{{ emailJohn }}</a>
+        <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
       </div>
     </div>
 </template>
 
 <script>
+import johnContact from "../js/components/johnContact.js";
 export default {
   Name: "MainJohn",
-  props: {
-    emailJohn: String,
-    msgJohn: String,
+  data () {
+    return {
+      contact: johnContact
+    }
   }
 }
 </script>

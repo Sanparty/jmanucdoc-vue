@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid justify-content-between">
       <div class="order-lg-2">
-        <div class="phone"><a :href="`tel:${phoneNumber}`">{{ phoneNumber }}</a></div>
+        <div class="phone"><a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a></div>
         <div>
           <a href="https://twitter.com/johnman10" target="_blank"
             ><img
@@ -95,10 +95,13 @@
 </template>
 
 <script>
+import johnContact from "../js/components/johnContact.js";
 export default {
   Name: "NavbarJohn",
-  props: {
-    phoneNumber: String,
+  data () {
+    return {
+      contact: johnContact
+    }
   }
 }
 </script>

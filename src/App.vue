@@ -1,11 +1,11 @@
 <template>
-  <NavbarJohn phone-number="416-902-4154" />
-  <MainJohn email-john="john@remaxprofessionals.ca" msg-john="With you every step of the way" />
+  <NavbarJohn />
+  <MainJohn />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   <CtaContainer />
   <BlogHome />
   <ContactJohn />
-  <FooterJohn phone-number="416-902-4154" />
+  <FooterJohn />
 </template>
 
 <script>

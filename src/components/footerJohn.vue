@@ -20,10 +20,11 @@
         <hr class="footerhr d-md-none mb-3 px-3" />
         <div class="col-md-6 col-lg-4 order-md-1 contact-footer">
           <div class="phone">
-            <a :href="`tel:${phoneNumber}`">{{ phoneNumber }}</a>
+            <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
           </div>
           <div>Contact</div>
-          <h3>John Manucdoc</h3>
+          <h3>{{ contact.johnName }}</h3>
+          <!-- <div>{{ contact.johnEmail }}</div> -->
           <div>Broker</div>
           <div>RE/MAX Professionals Inc., Brokerage</div>
         </div>
@@ -33,10 +34,14 @@
 </template>
 
 <script>
+import johnContact from "../js/components/johnContact.js";
+
 export default {
   Name: "FooterJohn",
-  props: {
-    phoneNumber: String,
+  data () {
+    return {
+      contact: johnContact
+    }
   }
 };
 </script>
