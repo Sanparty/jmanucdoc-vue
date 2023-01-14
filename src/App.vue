@@ -2,6 +2,7 @@
   <NavbarJohn phone-number="416-902-4154" />
   <MainJohn email-john="john@remaxprofessionals.ca" msg-john="With you every step of the way" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+  <ContactJohn />
   <FooterJohn phone-number="416-902-4154" />
 </template>
 
@@ -9,6 +10,7 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 import NavbarJohn from "./components/navbarJohn.vue";
 import MainJohn from "./components/mainJohn.vue"
+import ContactJohn from "./components/contactJohn.vue"
 import FooterJohn from "./components/footerJohn.vue";
 export default {
   name: "App",
@@ -16,6 +18,7 @@ export default {
     // HelloWorld,
     NavbarJohn,
     MainJohn,
+    ContactJohn,
     FooterJohn,
   },
 };
