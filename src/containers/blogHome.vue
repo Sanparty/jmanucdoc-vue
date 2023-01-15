@@ -29,6 +29,9 @@ export default {
     BlogBoximage
   },
   computed: {
+    latestBlog: function () {
+      return blogpostArray.pop();
+    },
     filteredBlogs: function () {
      let blogpostLatest = blogpostArray.slice(Math.max(blogpostArray.length - 4, 0));
      return blogpostLatest.reverse();
