@@ -5,7 +5,7 @@ const danContact = {
     johnTwitter: "https://twitter.com/johnman10",
     johnFacebook: "https://www.facebook.com/john.manucdoc",
     johnLinkedin: "https://www.linkedin.com/in/johnmanucdoc/",
-    johnMessage: "Just do it"
+    johnMessage: "Just do it!"
 
 } ;
 
