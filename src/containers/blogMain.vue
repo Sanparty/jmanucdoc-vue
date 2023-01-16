@@ -3,20 +3,15 @@
       <div class="row row-flex gx-3 gy-3">
         <h2 class="col-12 latest">Latest News</h2>
         <blog-boximage 
-          v-for="blog in filteredBlogs" 
+          v-for="blog in blogs" 
           :key="blog.id"
           :blogName="blog.blogName"
           :blogParagraph1="blog.paragraph1"
-          :blogImage="blog.image"
+          :blogImage=undefined
           :blogImagealt="blog.imageAlt"
           :blogLink="blog.link"
-        >
+          class="col-lg-3">
         </blog-boximage>
-      </div> 
-      <div class="col-12 text-center mt-3">
-        <button class="btn btn-primary" type="submit">
-          <a href="blog/">See All The News</a>
-        </button>
       </div>
     </div>
 </template>
@@ -25,7 +20,7 @@
 import BlogBoximage from '@/components/blogBoximage.vue'
 import blogpostArray from "../js/components/blogposts.js";
 export default {
-  Name: "blogHome",
+  Name: "blogMain",
   components: {
     BlogBoximage
   },
@@ -40,7 +35,7 @@ export default {
   },
   data () {
     return {
-      blogs: blogpostArray,
+      blogs: blogpostArray.reverse(),
     }
   }
 }

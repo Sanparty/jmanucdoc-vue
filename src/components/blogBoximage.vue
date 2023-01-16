@@ -1,6 +1,6 @@
 <template>
     <div class="col-sm-12 col-md-6 my-3">
-        <div class="p-3 content blog-link mb-3">
+        <div v-if="blogImage" class="p-3 content blog-link mb-3">
         <h3>{{ blogName }}</h3>
         <img :src="require('../assets/images/blog/' + blogImage)" :alt="blogImagealt" class="blogimage">
        <p>{{ blogParagraph1 }}</p>
@@ -10,7 +10,17 @@
                 <span class="cont-reading-text">Continue Reading</span><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
             </button>
         </a>
-      </div>
+        </div>
+        <div v-else class="p-3 content blog-link mb-3">
+        <h3>{{ blogName }}</h3>
+       <p>{{ blogParagraph1 }}</p>
+    
+        <a class="no-underline" :href="blogLink">
+            <button class="btn btn-primary mt-3 cont-reading" type="submit">
+                <span class="cont-reading-text">Continue Reading</span><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
+            </button>
+        </a>
+        </div>
     </div>
 </template>
 
