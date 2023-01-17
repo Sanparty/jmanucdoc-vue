@@ -15,9 +15,11 @@ export default createRouter({
         path:'/blog',
         name: 'Blog',
         component: BlogJohn,
-    }, {
+    }, 
+    {
         path:'/blogposts/:blogId',
         name: 'Blogposts',
         component: BlogPost,
-    }],
+    }
+],
 }) ;
