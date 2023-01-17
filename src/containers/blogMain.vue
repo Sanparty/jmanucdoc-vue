@@ -5,6 +5,7 @@
         <blog-boximage 
           v-for="blog in blogs" 
           :key="blog.id"
+          :blogId="blog.id"
           :blogName="blog.blogName"
           :blogParagraph1="blog.paragraph1"
           :blogImage=undefined

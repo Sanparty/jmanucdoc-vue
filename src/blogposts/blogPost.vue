@@ -32,35 +32,15 @@
 </template>
 
 // <script>
-// import blogpostarray from "../js/components/blogposts.js";
+import blogpostarray from "../js/components/blogposts.js";
 export default {
   name: "BlogPost",
-  data() {
-    return {
-      blogpost: {
-        blogId: "Blog16",
-        blogName: "4 Ways to Make the Home Hunting Process Easier",
-        blogDate: "January 16, 2023",
-        image: "blog16.png",
-        imageAlt: "Home Hunting",
-        content: `<p>Shopping for a new home can be intimidating. With so many things to do and think about, it’s easy to feel overwhelmed. But it doesn’t have to be that way. Here are some good tips for making the home hunting process a lot easier and much less stressful.</p>
-    <p><strong>1. Get your mortgage arranged in advance.</strong> </p>
-    <p>You don’t want to find the ideal home on the market, only to face problems arranging a suitable mortgage. You might end up losing the opportunity. So, make mortgage arrangements in advance by getting “pre-approved”. With that pre-approval, you can shop for a new home with confidence.</p>
-    <p><strong>2. Clearly define the kind of home you want, and the area you want to live in.</strong> </p>
-    <p>You can’t view every home that’s on the market. If you try, you’ll burn yourself out! So, write down a clear description of the kind of home you want. How many bedrooms? Big kitchen? Pool? Don’t forget to include the community. Upscale? Close to downtown? Lots of trees and parks? Urban and close to shopping and entertainment? With this information, a shortlist of properties can be created that meet your criteria.</p>
-    <p><strong>3. Take good notes.</strong> </p>
-    <p>After viewing a few homes, you may easily start to forget the details. Was it the first property that had the large elm tree in the backyard or was that the fourth property you saw? If you take good notes, you’ll be better able to make decisions later on about which homes to shortlist.</p>
-    <p><strong>4. Take care of yourself, and your family.</strong> </p>
-    <p>Eat right. Pace yourself. Don’t try to view too many homes in one evening or on one Saturday afternoon.</p>`,
-      },
-    };
+  computed: {
+    blogpost() {
+      const blogId = this.$route.params.blogId;
+      return blogpostarray.find((blogpost) => blogpost.id === blogId);
+    },
   },
-  //   computed: {
-  //     blogpost() {
-  //       const blogId = this.$route.params.blogId;
-  //       return blogpostarray.find((blogpost) => blogpost.id === blogId);
-  //     },
-  //   },
 };
 </script>
 
