@@ -1,5 +1,5 @@
 <template>
-   <div class="container-md px-4 mt-3 d-none d-md-block">
+   <div class="container-md px-4 mt-3 col-sm-12 d-md-block">
       <div class="row row-flex gx-3 gy-3">
         <h2 class="col-12 latest">Latest News</h2>
         <blog-boximage 
@@ -10,6 +10,8 @@
           :blogImage=undefined
           :blogImagealt="blog.imageAlt"
           :blogLink="blog.link"
+          :blogContent="blog.content"
+          :blogDate="blog.date"
           class="col-lg-3">
         </blog-boximage>
       </div>
@@ -44,6 +46,7 @@ export default {
 <style scoped>
 .latest {
     text-align: left;
+    margin-top: 75px;
 }
 .btn {
     background-color: #c1202f;

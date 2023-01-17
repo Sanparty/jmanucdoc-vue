@@ -5,9 +5,9 @@
         <div class="col-md-6 col-lg-8 order-md-2 mb-3">
           <ul class="footer-list">
             <li class="col-12 col-sm-6 col-lg-4">
-              <a href="index.html">Home</a>
+              <router-link :to="{name: 'Home'}">Home</router-link>
             </li>
-            <li class="col-12 col-sm-6 col-lg-4"><a href="blog/">Blog</a></li>
+            <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Blog'}">Blog</router-link></li>
             <li class="col-12 col-sm-6 col-lg-4">Contact</li>
             <li class="col-12 col-sm-6 col-lg-4">Accessibility</li>
             <li class="col-12 col-sm-6 col-lg-4">Buying</li>

@@ -40,8 +40,8 @@
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav navbar-nav-scroll">
-          <li class="nav-item"><a href="index.html">Home</a></li>
-          <li class="nav-item"><a href="blog/">Blog</a></li>
+          <li class="nav-item"><router-link :to="{name: 'Home'}">Home</router-link></li>
+          <li class="nav-item"><router-link :to="{name: 'Blog'}">Blog</router-link></li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"

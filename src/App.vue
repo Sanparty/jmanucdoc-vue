@@ -1,10 +1,18 @@
 <template>
+<NavbarJohn/>
  <router-view/>
+<FooterJohn/>
 </template>
 
 <script>
+import NavbarJohn from "./components/navbarJohn.vue"
+import FooterJohn from "./components/footerJohn.vue"
 export default {
   name: "App",
+  components: {
+    NavbarJohn,
+    FooterJohn
+  }
 
 };
 </script>

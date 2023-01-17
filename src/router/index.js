@@ -1,8 +1,9 @@
 import { createRouter,
          createWebHashHistory,
  } from "vue-router";
-import HomeJohn from "../components/homeJohn.vue";
+import HomeJohn from "../home/homeJohn.vue";
 import BlogJohn from "../blog/blogJohn.vue";
+import BlogPost from "../blogposts/blogPost.vue"
 
 export default createRouter({
     history: createWebHashHistory(),
@@ -14,5 +15,9 @@ export default createRouter({
         path:'/blog',
         name: 'Blog',
         component: BlogJohn,
+    }, {
+        path:'/blogposts/:blogId',
+        name: 'Blogposts',
+        component: BlogPost,
     }],
 }) ;

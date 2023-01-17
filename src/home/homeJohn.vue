@@ -1,28 +1,26 @@
 <template>
-  <NavbarJohn />
   <MainJohn />
   <CtaContainer />
   <BlogHome />
   <ContactJohn />
-  <FooterJohn />
 </template>
 
 <script>
-import NavbarJohn from "./navbarJohn.vue";
-import MainJohn from "./mainJohn.vue";
+
+import MainJohn from "../components/mainJohn.vue";
 import BlogHome from "../containers/blogHome.vue";
 import CtaContainer from "../containers/ctaContainer.vue";
-import ContactJohn from "./contactJohn.vue"
-import FooterJohn from "./footerJohn.vue";
+import ContactJohn from "../components/contactJohn.vue"
+
 export default {
   name: "HomeJohn",
   components: {
-    NavbarJohn,
+
     MainJohn,
     BlogHome,
     CtaContainer,
     ContactJohn,
-    FooterJohn,
+
   },
 };
 </script>

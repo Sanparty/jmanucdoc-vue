@@ -10,12 +10,14 @@
           :blogImage="blog.image"
           :blogImagealt="blog.imageAlt"
           :blogLink="blog.link"
+          :blogContent="blog.content"
+          :blogDate="blog.date"
         >
         </blog-boximage>
       </div> 
       <div class="col-12 text-center mt-3">
         <button class="btn btn-primary" type="submit">
-          <a href="blog/">See All The News</a>
+          <router-link to="/blog/">See All The News</router-link>
         </button>
       </div>
     </div>
