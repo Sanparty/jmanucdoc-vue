@@ -1,8 +1,8 @@
 <template>
   <div
     class="
-      col-lg-12
-      d-none d-lg-flex d-flex
+      col-12
+      d-lg-flex d-flex
       justify-content-center
       align-items-center
       py-5
@@ -29,12 +29,17 @@
       ></router-link>
     </div>
   </div>
+  <ContactJohn />
 </template>
 
 // <script>
 import blogpostarray from "../js/components/blogposts.js";
+import ContactJohn from "../components/contactJohn.vue";
 export default {
   name: "BlogPost",
+  components: {
+    ContactJohn,
+  },
   computed: {
     blogpost() {
       const blogId = this.$route.params.blogId;
@@ -87,6 +92,9 @@ h2 {
   border: none;
   text-transform: uppercase;
   font-weight: bold;
+}
+.btn:hover {
+  background-color: #fff;
 }
 .btn-primary {
   --bs-btn-color: #fff;

@@ -1,6 +1,6 @@
 <template>
-  <div class="col-sm-12 col-md-6 my-3">
-    <div v-if="blogImage" class="p-3 content blog-link mb-3">
+  <div v-if="blogImage" class="col-sm-12 col-md-6 my-3">
+    <div class="p-3 content blog-link mb-3">
       <h3>{{ blogName }}</h3>
       <img
         :src="require('../assets/images/blog/' + blogImage)"
@@ -16,7 +16,9 @@
         </button>
       </div>
     </div>
-    <div v-else class="p-3 content blog-link mb-3">
+  </div>
+  <div v-else class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+    <div class="p-3 content blog-link mb-3">
       <h3>{{ blogName }}</h3>
       <p>{{ blogParagraph1 }}</p>
 

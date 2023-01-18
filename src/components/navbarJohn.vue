@@ -2,7 +2,9 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid justify-content-between">
       <div class="order-lg-2">
-        <div class="phone"><a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a></div>
+        <div class="phone">
+          <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
+        </div>
         <div>
           <a href="https://twitter.com/johnman10" target="_blank"
             ><img
@@ -40,8 +42,12 @@
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav navbar-nav-scroll">
-          <li class="nav-item"><router-link :to="{name: 'Home'}">Home</router-link></li>
-          <li class="nav-item"><router-link :to="{name: 'Blog'}">Blog</router-link></li>
+          <li class="nav-item">
+            <router-link :to="{ name: 'Home' }">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link :to="{ name: 'Blog' }">Blog</router-link>
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -98,15 +104,15 @@
 import johnContact from "../js/components/johnContact.js";
 export default {
   Name: "NavbarJohn",
-  data () {
+  data() {
     return {
-      contact: johnContact
-    }
-  }
-}
+      contact: johnContact,
+    };
+  },
+};
 </script>
 
-<style>
+<style scoped>
 nav {
   background-color: #c1202f;
   padding: 10px;
@@ -124,6 +130,10 @@ nav {
   background-color: #c1202f;
   color: #f7f7f7;
   border: 0px;
+}
+.dropdown-item:hover {
+  background-color: #fff;
+  color: #272727;
 }
 .nav-link {
   padding: 0;

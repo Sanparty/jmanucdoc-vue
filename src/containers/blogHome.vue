@@ -16,7 +16,7 @@
       >
       </blog-boximage>
     </div>
-    <div class="col-12 text-center mt-3">
+    <div class="blog-button col-12 text-center mt-3">
       <button class="btn btn-primary" type="submit">
         <router-link to="/blog/">See All The News</router-link>
       </button>
@@ -52,6 +52,15 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+h2 {
+  color: #cc2a38;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .latest {
   text-align: left;
 }
@@ -60,6 +69,9 @@ export default {
   border: none;
   text-transform: uppercase;
   font-weight: bold;
+}
+.btn:hover {
+  background-color: #d3d3d3ac;
 }
 .btn-primary {
   --bs-btn-color: #fff;
@@ -76,5 +88,12 @@ export default {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
+}
+.blog-button a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.blog-button a:hover {
+  color: #c1202f;
 }
 </style>
