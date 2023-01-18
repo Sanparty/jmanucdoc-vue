@@ -6,19 +6,19 @@
           <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
         </div>
         <div>
-          <a href="https://twitter.com/johnman10" target="_blank"
+          <a :href="contact.johnTwitter" target="_blank"
             ><img
               class="social col-4"
               src="../assets/images/social_tw_white.svg"
               alt="Twitter"
           /></a>
-          <a href="https://www.facebook.com/john.manucdoc" target="_blank"
+          <a :href="contact.johnFacebook" target="_blank"
             ><img
               class="social col-4"
               src="../assets/images/social_fb_white.svg"
               alt="Facebook"
           /></a>
-          <a href="https://www.linkedin.com/in/johnmanucdoc/" target="_blank"
+          <a :href="contact.johnLinkedin" target="_blank"
             ><img
               class="social col-4"
               src="../assets/images/social_in_white.svg"
