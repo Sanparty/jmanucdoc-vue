@@ -37,9 +37,8 @@ export default {
       return blogpostArray.pop();
     },
     filteredBlogs: function () {
-      let blogpostLatest = blogpostArray.slice(
-        Math.max(blogpostArray.length - 4, 0)
-      );
+      const blogsData = blogpostArray;
+      let blogpostLatest = blogsData.slice(Math.max(blogsData.length - 4, 0));
       return blogpostLatest.reverse();
     },
   },
