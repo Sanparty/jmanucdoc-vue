@@ -33,19 +33,11 @@ export default {
     BlogBoximage,
   },
   computed: {
-    latestBlog: function () {
-      return blogpostArray.pop();
-    },
     filteredBlogs: function () {
-      const blogsData = blogpostArray;
+      const blogsData = [...blogpostArray];
       let blogpostLatest = blogsData.slice(Math.max(blogsData.length - 4, 0));
       return blogpostLatest.reverse();
     },
-  },
-  data() {
-    return {
-      blogs: blogpostArray,
-    };
   },
 };
 </script>

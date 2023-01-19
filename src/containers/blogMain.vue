@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     blogs: function () {
-      const blogsData = blogpostArray;
+      let blogsData = [...blogpostArray];
       return blogsData.reverse();
     },
   },
