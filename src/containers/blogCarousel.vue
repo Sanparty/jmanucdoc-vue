@@ -1,8 +1,29 @@
 <template>
-  <div class="container-md px-4 mt-3 d-none d-md-block">
-    <div class="row row-flex gx-3 gy-3">
+  <div class="container-md px-4 mt-3 d-md-none">
       <h2 class="col-12 latest">Latest News</h2>
-      <blog-boximage
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner blog-carousel">
+          <div class="carousel-item active">
+          <blog-boximage
+          :key="latestBlogpost.id"
+          :blogId="latestBlogpost.id"
+          :blogName="latestBlogpost.blogName"
+          :blogParagraph1="latestBlogpost.paragraph1"
+          :blogImage="latestBlogpost.image"
+          :blogImagealt="latestBlogpost.imageAlt"
+          :blogLink="latestBlogpost.link"
+          :blogContent="latestBlogpost.content"
+          :blogDate="latestBlogpost.date"
+        >
+          </blog-boximage>
+        </div>
+         <div class="carousel-item">
+        <blog-boximage
         v-for="blog in filteredBlogs"
         :key="blog.id"
         :blogId="blog.id"
@@ -15,31 +36,19 @@
         :blogDate="blog.date"
       >
       </blog-boximage>
-    </div>
-    <div class="blog-button col-12 text-center mt-3">
-      <button class="btn btn-primary" type="submit">
-        <router-link to="/blog/">See All The News</router-link>
-      </button>
-    </div>
-  </div>
-  <div class="container-md px-4 mt-3 d-md-none">
-    <div class="row row-flex gx-3 gy-3">
-      <h2 class="col-12 latest">Latest News</h2>
-      <blog-boximage
-        :key="latestBlogpost.id"
-          :blogId="latestBlogpost.id"
-          :blogName="latestBlogpost.blogName"
-          :blogParagraph1="latestBlogpost.paragraph1"
-          :blogImage="latestBlogpost.image"
-          :blogImagealt="latestBlogpost.imageAlt"
-          :blogLink="latestBlogpost.link"
-          :blogContent="latestBlogpost.content"
-          :blogDate="latestBlogpost.date"
-      >
-      </blog-boximage>
-    </div>
-    <div class="blog-button col-12 text-center">
-      <button class="btn btn-primary" type="submit">
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="blog-button col-12 text-center mt-3">
+        <button class="btn btn-primary" type="submit">
         <router-link to="/blog/">See All The News</router-link>
       </button>
     </div>
@@ -50,12 +59,12 @@
 import BlogBoximage from "@/components/blogBoximage.vue";
 import blogpostArray from "../js/components/blogposts.js";
 export default {
-  Name: "blogHome",
+  Name: "blogCarousel",
   components: {
     BlogBoximage,
   },
   computed: {
-     latestBlogpost: function() {
+    latestBlogpost: function() {
        const blogsData = [...blogpostArray];
        let latestindex =  (blogsData.length - 1);
        console.log(blogsData[latestindex])
