@@ -62,9 +62,9 @@ const blogpost4 = new Blogpost (
     "Recognizing Potential Major Expenses in a New Home",
     "John Manucdoc",
     "August 1, 2022",
-    "When you see a new home you like on the market, it’s easy to get distracted by all the features you love &#8211; the wrap-around backyard deck or the spacious recreation room that has plenty of space for entertaining. You just need to make sure that in all your excitement you don’t overlook any expensive maintenance issues that could be just around the corner.",
-    `<p>When you see a new home you like on the market, it’s easy to get distracted by all the features you love &#8211; the wrap-around backyard deck or the spacious recreation room that has plenty of space for entertaining. You just need to make sure that in all your excitement you don’t overlook any expensive maintenance issues that could be just around the corner.</p>
-    <p>Nothing lasts forever. The major components of every home &#8211; from the furnace to the roof shingles &#8211; need to be replaced eventually. But, knowing when those maintenance issues are likely to arise can help you make a smarter decision about the home you’re considering.</p>
+    "When you see a new home you like on the market, it’s easy to get distracted by all the features you love - the wrap-around backyard deck or the spacious recreation room that has plenty of space for entertaining. You just need to make sure that in all your excitement you don’t overlook any expensive maintenance issues that could be just around the corner.",
+    `<p>When you see a new home you like on the market, it’s easy to get distracted by all the features you love - the wrap-around backyard deck or the spacious recreation room that has plenty of space for entertaining. You just need to make sure that in all your excitement you don’t overlook any expensive maintenance issues that could be just around the corner.</p>
+    <p>Nothing lasts forever. The major components of every home - from the furnace to the roof shingles - need to be replaced eventually. But, knowing when those maintenance issues are likely to arise can help you make a smarter decision about the home you’re considering.</p>
     <p>How do you do that?</p>
     <p>When viewing the property, ask for the age of the major components of the home, such as the roof shingles, furnace, air conditioner, water heater, and appliances. You might think the roof shingles look merely weathered in spots and have years of service left – when in fact, they’re due to be replaced next year.</p>
     <p>Also pay close attention to the backyard deck, fencing, flooring, and windows. Do any of those components look aged, worn, and in need of repair or replacement sometime soon?</p>
@@ -115,8 +115,8 @@ const blogpost7 = new Blogpost (
     "How to Deal with a Low-Ball Offer",
     "John Manucdoc",
     "September 12, 2022",
-    "If you take care to price your home correctly &#8211; that is, at a price that is in line with what similar properties in the area have sold for recently &#8211; then you have a good chance of selling it at or near your asking price.",
-    `<p>If you take care to price your home correctly &#8211; that is, at a price that is in line with what similar properties in the area have sold for recently &#8211; then you have a good chance of selling it at or near your asking price.</p>
+    "If you take care to price your home correctly - that is, at a price that is in line with what similar properties in the area have sold for recently - then you have a good chance of selling it at or near your asking price.",
+    `<p>If you take care to price your home correctly - that is, at a price that is in line with what similar properties in the area have sold for recently - then you have a good chance of selling it at or near your asking price.</p>
     <p>That doesn’t mean you won’t get a low-ball offer. You might. So, what do you do when that happens?</p>
     <p>First, understand that the buyer may not necessarily be trying to steal away your home at a bargain-basement price. They might simply be mistaken about its true market value. Of course, they might also be coming in at a low price in the hopes they’ll get lucky.</p>
     <p>You will never actually know the buyer’s motives. So, it would be a mistake to get angry or dismiss the offer out-of-hand. That low-ball offer might end up being the beginning of a negotiation that results in the sale of your home at a good price.</p>
@@ -144,7 +144,7 @@ const blogpost8 = new Blogpost (
     <p>That depends on a number of factors. Window replacement can be an expensive renovation. Here are a few things to consider before making your decision.</p>
     <ul type="1">
     <li>Do you see water infiltration or mildew on the interior sides of any of the window sills? This means that moisture is creeping in from the outside, and you need to get those windows repaired or replaced as soon as possible.</li>
-    <li>If your windows are double-paned &#8211; (two panes of glass) &#8211; check for any signs of moisture in between the glass panes. Moisture indicates that the thermal seal is broken and, at a minimum, the glass will need to be replaced.</li>
+    <li>If your windows are double-paned - (two panes of glass) - check for any signs of moisture in between the glass panes. Moisture indicates that the thermal seal is broken and, at a minimum, the glass will need to be replaced.</li>
     <li>Take a look at your windows from the outside. Is the trim rotted or cracked anywhere? Are there dark spots or any signs of rotting on the wood frames? Repairs or replacement may be required.</li>
     <li>Check the operation of your windows. Do they open and close easily? Some windows, such as those in bedrooms, are often designed to be big enough to use as an exit in case of a fire. It’s important to make sure those work properly.</li>
     <li>Finally, are you happy with how your windows look? Do you feel that your property will look significantly better with new windows?</li>
@@ -161,7 +161,7 @@ const blogpost9 = new Blogpost (
     "John Manucdoc",
     "October 10, 2022",
     "If you want to improve how your home shows to potential buyers, you don’t necessarily need to invest in a costly remodeling or renovation. In fact, there are some simple – and relatively inexpensive – things you can do to make your property look significantly better.",
-    `<p>If you want to improve how your home shows to potential buyers, you don’t necessarily need to invest in a costly remodeling or renovation. In fact, there are some simple &#8211; and relatively inexpensive &#8211; things you can do to make your property look significantly better.</p>
+    `<p>If you want to improve how your home shows to potential buyers, you don’t necessarily need to invest in a costly remodeling or renovation. In fact, there are some simple - and relatively inexpensive - things you can do to make your property look significantly better.</p>
     <p>Let’s take a look at some of the options available:</p>
     <p><strong>1. Paint it.</strong></p>
     <p>There’s no doubt about it. A fresh coat of paint will significantly improve the appearance of just about any area of your home. In fact, compared to other home improvements, painting will give you the highest return on investment when you sell your property. Think beyond walls. Painting a door, window frame, garage floor or deck can make those features look like new.</p>
@@ -214,7 +214,7 @@ const blogpost12 = new Blogpost (
     "Sometimes you know a desirable street when you see one. For example, it’s obvious that a home on a cul-de-sac is enticing mainly because there isn’t any through traffic.",
     `<p>Sometimes you know a desirable street when you see one. For example, it’s obvious that a home on a cul-de-sac is enticing mainly because there isn’t any through traffic.</p>
     <p>What are the other characteristics of a desirable street that may not be as obvious? Here are just a few:</p>
-    <p><strong>Sidewalks</strong>. A sidewalk in front of your home is not only handy, it also adds to the property’s curb appeal. In addition, if you have kids, a sidewalk makes it easier &#8211; and safer &#8211; for them to play and visit neighborhood friends.</p>
+    <p><strong>Sidewalks</strong>. A sidewalk in front of your home is not only handy, it also adds to the property’s curb appeal. In addition, if you have kids, a sidewalk makes it easier - and safer - for them to play and visit neighborhood friends.</p>
     <p><strong>Mature trees</strong>. Trees lining the street add depth and beauty. Most homeowners value front yard trees and would miss them if they were gone.</p>
     <p><strong>Safety</strong>. Unfortunately, some streets are more prone to crime and other issues requiring police intervention than others. Clearly, homeowners appreciate a street that’s known for being safe and located in a community with a low crime rate.</p>
     <p><strong>Pride-of-ownership</strong>. When considering buying a home, take a walk along the street. Do homeowners take good care of their properties? If so, that sign of pride-of-ownership indicates it’s a great place to own a home.</p>
@@ -248,7 +248,7 @@ const blogpost14 = new Blogpost (
     "John Manucdoc",
     "December 19, 2022",
     "Remember the last time you walked through a furniture showroom? You probably noticed that the sofa, chairs, tables and other furnishings were arranged – or staged – to make them look more appealing. You might have seen an attractive lamp on a sofa end table, or an appetizing bowl of fruit on a dining room buffet.",
-    `<p>Remember the last time you walked through a furniture showroom? You probably noticed that the sofa, chairs, tables and other furnishings were arranged &#8211; or staged &#8211; to make them look more appealing. You might have seen an attractive lamp on a sofa end table, or an appetizing bowl of fruit on a dining room buffet.</p>
+    `<p>Remember the last time you walked through a furniture showroom? You probably noticed that the sofa, chairs, tables and other furnishings were arranged - or staged - to make them look more appealing. You might have seen an attractive lamp on a sofa end table, or an appetizing bowl of fruit on a dining room buffet.</p>
     <p>When preparing your home for sale, you should do much the same thing. Stage each room to make it look its best. Studies prove this will help sell your home faster and for a better price.</p>
     <p>Here are some simple, affordable staging tips:</p>
     <ol type="1">
@@ -271,8 +271,8 @@ const blogpost15 = new Blogpost (
     "John Manucdoc",
     "January 2, 2023",
     "No matter your age, if you use a computer – and especially the internet – you need to be savvy about security. Yet many users have no idea how vulnerable they might be to malicious thieves who can “hack” and “phish” into personal computers.",
-    `<p>No matter your age, if you use a computer &#8211; and especially the internet &#8211; you need to be savvy about security. Yet many users have no idea how vulnerable they might be to malicious thieves who can “hack” and “phish” into personal computers.</p>
-    <p>To prevent theft of information that can rob you and your family of your financial assets &#8211; and your dignity &#8211; be mindful of the following:</p>
+    `<p>No matter your age, if you use a computer - and especially the internet - you need to be savvy about security. Yet many users have no idea how vulnerable they might be to malicious thieves who can “hack” and “phish” into personal computers.</p>
+    <p>To prevent theft of information that can rob you and your family of your financial assets - and your dignity - be mindful of the following:</p>
     <p>Educate young video gamers on the importance of protecting personal information, and instruct them to inform you of unusual requests for private facts, photos or activities.</p>
     <p>While on social networks, be wary of unknown links to unusual blogs, tweets and other services that invite interaction.</p>
     <p>When using unsecured Wi-Fi networks, increase your computer’s security levels, and ensure your computer has automated anti-virus upgrades.</p>
