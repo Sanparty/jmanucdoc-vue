@@ -58,7 +58,6 @@ export default {
      latestBlogpost: function() {
        const blogsData = [...blogpostArray];
        let latestindex =  (blogsData.length - 1);
-       console.log(blogsData[latestindex])
        return blogsData[latestindex]
     },
     filteredBlogs: function () {
