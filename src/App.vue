@@ -25,7 +25,6 @@ export default {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  overflow: auto;
   height: 100vh;
   background-color: #f7f7f7;
   font-family: Helvetica, "Arial Narrow Bold", sans-serif;

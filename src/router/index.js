@@ -1,12 +1,12 @@
 import { createRouter,
-         createWebHashHistory,
+         createWebHistory,
  } from "vue-router";
 import HomeJohn from "../home/homeJohn.vue";
 import BlogJohn from "../blog/blogJohn.vue";
 import BlogPost from "../blogposts/blogPost.vue"
 
 export default createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes: [{
         path:'/',
         name: 'Home',
@@ -21,5 +21,13 @@ export default createRouter({
         name: 'Blogposts',
         component: BlogPost,
     }
-],
-}) ;
+    ],
+    // eslint-disable-next-line no-unused-vars
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+          return savedPosition
+        } else {
+          return { top: 0 }
+        }
+    },
+}) 
