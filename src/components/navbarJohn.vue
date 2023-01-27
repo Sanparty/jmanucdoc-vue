@@ -43,10 +43,12 @@
       >
         <ul class="navbar-nav navbar-nav-scroll">
           <li class="nav-item">
-            <router-link :to="{ name: 'Home' }">Home</router-link>
+            <router-link :to="{ name: 'Home' }" class="d-none d-lg-block">Home</router-link>
+            <router-link :to="{ name: 'Home' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></router-link>
           </li>
           <li class="nav-item">
-            <router-link :to="{ name: 'Blog' }">Blog</router-link>
+            <router-link :to="{ name: 'Blog' }" class="d-none d-lg-block">Blog</router-link>
+            <router-link :to="{ name: 'Blog' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></router-link>
           </li>
           <li class="nav-item dropdown">
             <a
