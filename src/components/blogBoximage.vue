@@ -56,6 +56,8 @@ export default {
 
 <style scoped>
 .blogimage {
+  float: left;
+  margin: 0 10px 0 0;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -118,7 +120,6 @@ export default {
 }
 @media screen and (min-width: 768px) {
   .blogimage {
-    float: left;
     margin: 0 10px 0 0;
   }
 }
