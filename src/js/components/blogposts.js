@@ -300,7 +300,26 @@ const blogpost16 = new Blogpost (
     "blog16.png",
     "Home Hunting"
 );
+const blogpost17 = new Blogpost (
+    "blog17",
+    "Light Your Way to a Faster Sale",
+    "John Manucdoc",
+    "January 30, 2023",
+    "Remember the last time you visited an upscale furniture showroom? The furniture and fixtures on display probably looked great. The colors and textures jumped out at you. It was a feast for the eyes!",
+    `<p>Remember the last time you visited an upscale furniture showroom? The furniture and fixtures on display probably looked great. The colors and textures jumped out at you. It was a feast for the eyes!</p>
+    <p>There is a good reason why: <strong><em>Lighting</em></strong>.</p>
+    <p>Of course, the quality of the products has a lot to do with how appealing they look when on display. But smart retailers know that proper lighting is key to making those products look their best. In fact, some retailers even hire lighting consultants!</p>
+    <p>What does this have to do with selling your home quickly, and for the best price?</p>
+    <p>Obviously, when showing your property to potential buyers, you want your home to look its very best. Proper lighting can be a big help.</p>
+    <p>When preparing your home for sale, review the lighting in each room and make sure the space is sufficiently well lit. You want the lighting to be strong enough to prevent dark or shadowy areas, yet not so strong that it’s uncomfortable for the eyes.</p>
+    <p>Pay particular attention to traditionally dark areas, such as the garage and closets. Make sure those areas are bright too.</p>
+    <p>If you have a viewing scheduled during the day, take advantage of natural light through windows. Open the curtains!</p>
+    <p>Finally, one of the most important areas is the foyer. Always make sure the entrance has sufficient lighting.</p>`,
+    "blogpost17.html",
+    "blog17.png",
+    "Home Hunting"
+);
 
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16];
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17];
 
 export default blogpostArray;
