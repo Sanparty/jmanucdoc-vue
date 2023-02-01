@@ -64,7 +64,6 @@ export default {
 .blog-link {
   background-color: #d3d3d3ac;
   border-radius: 5px;
-  min-height: 300px;
   transition: all 0.25s;
   text-align: left;
 }
