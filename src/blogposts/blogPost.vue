@@ -22,21 +22,31 @@
       <router-link :to="{ name: 'Blog' }">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
           <span class="cont-reading-text">More Blog News</span
-          ><i
-            class="fa fa-long-arrow-right px-3"
-            aria-hidden="true"
-          ></i></button
-      >
+          ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
+        </button>
       </router-link>
-      <div v-if="previouspost >= 1" class="no-underline" @click="previousBlogpost()">
-        <button class="btn btn-primary no-active mt-3 cont-reading" type="submit">
+      <div
+        v-if="previouspost >= 1"
+        class="no-underline"
+        @click="previousBlogpost()"
+      >
+        <button
+          class="btn btn-primary no-active mt-3 cont-reading"
+          type="submit"
+        >
           <i class="fa fa-chevron-left" aria-hidden="true"></i>
-          <span class="cont-reading-text px-3">Previous</span
-          >
+          <span class="cont-reading-text px-3">Previous</span>
         </button>
       </div>
-      <div v-if="nextpost <= blogtotal" class="no-underline" @click="nextBlogpost()">
-        <button class="btn btn-primary no-active mt-3 cont-reading" type="submit">
+      <div
+        v-if="nextpost <= blogtotal"
+        class="no-underline"
+        @click="nextBlogpost()"
+      >
+        <button
+          class="btn btn-primary no-active mt-3 cont-reading"
+          type="submit"
+        >
           <span class="cont-reading-text px-3">Next</span
           ><i class="fa fa-chevron-right" aria-hidden="true"></i>
         </button>
@@ -60,25 +70,25 @@ export default {
       return blogpostarray.find((blogpost) => blogpost.id === blogId);
     },
     blogtotal() {
-      return blogpostarray.length
+      return blogpostarray.length;
     },
     previouspost() {
-      return parseInt(this.blogpost.id.slice(4)) - 1
+      return parseInt(this.blogpost.id.slice(4)) - 1;
     },
     nextpost() {
-      return parseInt(this.blogpost.id.slice(4)) + 1
-    }
+      return parseInt(this.blogpost.id.slice(4)) + 1;
+    },
   },
   methods: {
-     previousBlogpost() {
-      let previousId = parseInt(this.blogpost.id.slice(4)) - 1
+    previousBlogpost() {
+      let previousId = parseInt(this.blogpost.id.slice(4)) - 1;
       this.$router.push({
         name: "Blogposts",
         params: { blogId: `blog${previousId}` },
       });
     },
     nextBlogpost() {
-      let nextId = parseInt(this.blogpost.id.slice(4)) + 1
+      let nextId = parseInt(this.blogpost.id.slice(4)) + 1;
       this.$router.push({
         name: "Blogposts",
         params: { blogId: `blog${nextId}` },
@@ -172,14 +182,20 @@ h2 {
 }
 .no-active {
   text-decoration: none;
-    --bs-btn-active-color: inherit;
+  --bs-btn-active-color: inherit;
   float: left;
   margin-right: 10px;
 }
 
 @media screen and (min-width: 630px) {
   .no-active {
-  width: 25%;
+    width: 25%;
+  }
 }
+@media (hover: none) {
+  .btn:hover {
+    color: #f7f7f7;
+    background-color: #c1202f;
+  }
 }
 </style>
