@@ -118,7 +118,6 @@ export default {
 nav {
   background-color: #c1202f;
   padding: 10px;
-  position: absolute;
   top: 0;
   width: 100%;
   text-align: left;
