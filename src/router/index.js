@@ -6,7 +6,7 @@ import BlogJohn from "../blog/blogJohn.vue";
 import BlogPost from "../blogposts/blogPost.vue"
 
 export default createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(process.env.BASE_URL),
     routes: [{
         path:'/',
         name: 'Home',
