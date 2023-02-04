@@ -20,6 +20,10 @@ export default createRouter({
         path:'/blogposts/:blogId',
         name: 'Blogposts',
         component: BlogPost,
+    },
+    {
+        path: "/blogposts/",
+        redirect: "/blog",
     }
     ],
     // eslint-disable-next-line no-unused-vars
