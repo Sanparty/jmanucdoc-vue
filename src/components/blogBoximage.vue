@@ -39,7 +39,7 @@ export default {
     showBlogpost() {
       this.$router.push({
         name: "Blogposts",
-        params: { blogId: this.blogId },
+        params: { blogId: this.blogId, blogName: this.blogName },
       });
     },
   },
