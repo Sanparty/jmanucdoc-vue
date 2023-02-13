@@ -319,7 +319,22 @@ const blogpost17 = new Blogpost (
     "blog17.png",
     "Home Hunting"
 );
+const blogpost18 = new Blogpost (
+    "blog18",
+    "Doorways to Better Living Spaces",
+    "John Manucdoc",
+    "February 13, 2023",
+    "When people renovate or remodel a room, they almost always overlook the door. However, changing the style of an interior door, or adding a new one, can dramatically change the look of a living space – often for the better.",
+    `<p>When people renovate or remodel a room, they almost always overlook the door. However, changing the style of an interior door, or adding a new one, can dramatically change the look of a living space &#8211; often for the better.</p>
+    <p>Although the most common type of door is the traditional solid 6-panel door, there are many other choices available. Want to add light and a greater sense of space to a room? Consider a door with glass panels. Do you have an interior door that gets in the way when opened? Change it to a bi-fold door, which cuts the distance of the swing in half.</p>
+    <p>There are also specialty doors that are designed to block noise, and sliding doors that tuck neatly into the wall when opened.</p>
+    <p>Interior doors are typically much less expensive than their exterior counterparts. So, making the decision to upgrade or add a door to a room is an affordable design option.</p>
+    <p>Visit a door showroom and explore the possibilities.</p>`,
+    "blogpost18.html",
+    "blog18.png",
+    "Home Hunting"
+);
 
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17];
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18];
 
 export default blogpostArray;
