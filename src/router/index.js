@@ -51,9 +51,7 @@ let router =  createRouter({
 }) 
  // eslint-disable-next-line no-unused-vars
 router.beforeEach((to, from, next) => {
-    const titleFromParams = to.params?.blogId
-    console.log(to)
-    console.log(from)
+    const titleFromParams = to.params?.blogName
    
     if (titleFromParams) {
       document.title = `${titleFromParams}`
@@ -61,7 +59,6 @@ router.beforeEach((to, from, next) => {
       document.title = to.meta?.title ?? 'John Manucdoc'
     }
     next()
-    console.log(next)
   })
 
   export default router
