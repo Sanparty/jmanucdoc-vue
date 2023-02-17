@@ -1,14 +1,18 @@
 <template>
+<div class="home-container container-fluid p-0">
   <MainJohn />
+  <HomeContainer />
   <CtaContainer />
   <BlogHome />
   <ContactJohn />
+</div>
 </template>
 
 <script>
 
 import MainJohn from "../components/mainJohn.vue";
 import BlogHome from "../containers/blogHome.vue";
+import HomeContainer from "../containers/homeContainer.vue"
 import CtaContainer from "../containers/ctaContainer.vue";
 import ContactJohn from "../components/contactJohn.vue"
 
@@ -18,6 +22,7 @@ export default {
 
     MainJohn,
     BlogHome,
+    HomeContainer,
     CtaContainer,
     ContactJohn,
 
@@ -40,5 +45,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.home-container {
+  background-color: #f7f7f7;
 }
 </style>

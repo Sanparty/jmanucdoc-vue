@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div
     class="
       container-fluid
@@ -73,6 +73,7 @@ h2 {
   color: #f7f7f7;
   text-decoration: none;
 }
+
 
 @media screen and (min-width: 576px) {
   h1 {
