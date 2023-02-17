@@ -103,5 +103,11 @@ h2 {
   h1 {
     font-size: 8rem;
   }
+  .byline {
+    font-size: 2rem;
+  }
+  .john-email {
+    font-size: 1.5rem;
+  }
 }
 </style>
