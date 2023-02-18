@@ -1,6 +1,17 @@
 <template>
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid justify-content-between">
+      <button
+        class="navbar-toggler col-2 col-sm-1 navbar-dark"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="order-lg-2">
         <div class="phone">
           <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
@@ -26,17 +37,7 @@
           /></a>
         </div>
       </div>
-      <button
-        class="navbar-toggler col-2 col-sm-1 navbar-dark"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      
       <div
         class="collapse navbar-collapse justify-content-start"
         id="navbarSupportedContent"
