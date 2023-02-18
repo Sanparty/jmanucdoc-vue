@@ -49,7 +49,7 @@ h2 {
 }
 .latest {
   text-align: left;
-  margin-top: 75px;
+  margin-top: 100px;
 }
 .btn {
   background-color: #c1202f;
