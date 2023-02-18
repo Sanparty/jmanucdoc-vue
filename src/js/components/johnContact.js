@@ -1,5 +1,7 @@
 const johnContact = {
     johnName: "John Manucdoc",
+    johnTitle: "Broker",
+    johnCompany: "RE/MAX Professionals Inc., Brokerage",
     johnNumber: "416-902-1054",
     johnEmail: "john@remaxprofessionals.ca",
     johnTwitter: "https://twitter.com/johnman10",
