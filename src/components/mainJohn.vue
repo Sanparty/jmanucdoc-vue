@@ -11,7 +11,7 @@
   >
     <div class="mainbio flex-grow-1 text-center">
       <h1>{{ contact.johnName }}</h1>
-      <h2>Broker</h2>
+      <h2>{{ contact.johnTitle }}</h2>
     </div>
     <div class="byline">{{ contact.johnMessage }}</div>
     <div class="john-email">
