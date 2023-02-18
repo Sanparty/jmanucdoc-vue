@@ -19,14 +19,16 @@
         </div>
         <hr class="footerhr d-md-none mb-3 px-3" />
         <div class="col-md-6 col-lg-4 order-md-1 contact-footer">
+          <h3>{{ contact.johnName }}</h3>
           <div class="phone">
             <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
           </div>
-          <div>Contact</div>
-          <h3>{{ contact.johnName }}</h3>
-          <!-- <div>{{ contact.johnEmail }}</div> -->
-          <div>Broker</div>
-          <div>RE/MAX Professionals Inc., Brokerage</div>
+          <div class="email">  
+            <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
+          </div>
+          
+          <div>{{ contact.johnTitle }}</div>
+          <div>{{ contact.johnCompany }}</div>
         </div>
       </div>
     </div>
@@ -78,10 +80,13 @@ footer li {
   border-width: 5px;
   width: 100%;
 }
+.email,
 .phone {
   color: white;
   font-weight: bold;
 }
+.email a,
+.email a:visited,
 .phone a,
 .phone a:visited {
   text-decoration: none;
@@ -93,6 +98,15 @@ footer li {
   background: url(../assets/images/icon_phone_white.svg) no-repeat;
   width: 18px;
   height: 18px;
+  float: left;
+  margin: 2px 1px;
+}
+.email:before {
+  content: "";
+  display: block;
+  background: url(../assets/images/1011335_email_envelope_mail_message_send_icon_darkbg.svg) no-repeat;
+  width: 20px;
+  height: 20px;
   float: left;
   margin: 2px 1px;
 }
