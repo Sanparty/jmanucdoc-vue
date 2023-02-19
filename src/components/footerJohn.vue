@@ -8,7 +8,7 @@
               <router-link :to="{name: 'Home'}">Home</router-link>
             </li>
             <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Blog'}">Blog</router-link></li>
-            <li class="col-12 col-sm-6 col-lg-4">Contact</li>
+            <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Contact'}">Contact</router-link></li>
             <li class="col-12 col-sm-6 col-lg-4">Accessibility</li>
             <li class="col-12 col-sm-6 col-lg-4">Buying</li>
             <li class="col-12 col-sm-6 col-lg-4">Selling</li>
