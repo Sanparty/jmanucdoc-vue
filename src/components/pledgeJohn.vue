@@ -1,7 +1,7 @@
 <template>
     <div class="row row-flex">
         <div v-for="pledge in pledges" :key="pledge.message" class="col-12 col-sm-6 my-3">
-             <div v-if="!pledge.headingMessage && !pledge.mainMessage" class="info content p-3">
+             <div class="info content p-3">
                 {{ pledge.message }}
             </div>
         </div>
@@ -13,8 +13,7 @@
         name: "pledgeJohn",
         props: {
             pledges: Object
-        }
-        
+        },
     }
 </script>
 
@@ -26,6 +25,7 @@
     color:#272727;
     max-height: 200px;
     text-align: left;
+    margin-bottom: -1.25em;
 }
 .cta-start {
     color:#c1202f;
@@ -38,6 +38,17 @@
 @media screen and (min-width: 576px)  {
     .content {
         height: 100%;
+    }
+    .info {
+        margin-bottom: auto;
+    }
+}
+@media screen and (min-width: 992px)  {
+    .content {
+        height: 100%;
+    }
+    .info {
+        font-size: 1.25rem;
     }
 }
 </style>
