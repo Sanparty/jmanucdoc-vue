@@ -1,7 +1,7 @@
 <template>
 <div class="row">
      <div class="col-12 col-lg-6 mb-3">
-        <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" />
+        <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" alt="Real Estate Agent Showing Home To Clients" />
     </div>
     <div class="col-lg-6 d-flex flex-column justify-content-center">
         <div v-for="pledge in pledges" :key="pledge.message">

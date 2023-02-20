@@ -9,6 +9,7 @@
                 backgroundSize: 'cover'
                 }"
             >
+            <span class="background-image" role="img" :aria-label="altimage"> </span>
                 <h1 class="latest">{{ heading }}</h1>
                 <!-- <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" /> -->
             </div>
@@ -33,7 +34,8 @@
             contact: Object,
             image: String, 
             bgPosition: String,
-            heading: String
+            heading: String,
+            altimage: String
         },
     }
 </script>

@@ -9,6 +9,7 @@
       justify-content-center
     "
   >
+  <span class="background-image" role="img" aria-label="Houses On Suburban Street"> </span>
     <div class="mainbio flex-grow-1 text-center">
       <h1>{{ contact.johnName }}</h1>
       <h2>{{ contact.johnTitle }}</h2>

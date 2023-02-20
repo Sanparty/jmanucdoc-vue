@@ -7,7 +7,7 @@
           </p>
         </div>
         <div class="col-12 col-md-6">
-            <img class="bio-image img-fluid" src="../assets/images/agent_talking_to_clients.jpeg" />
+            <img class="bio-image img-fluid" src="../assets/images/agent_talking_to_clients.jpeg" alt="Real Estate Agent Talking To Clients" />
         </div>
     </div>
 </template>
