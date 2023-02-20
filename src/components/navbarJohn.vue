@@ -21,7 +21,7 @@
             <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
           </div>
         </div>
-        <div>
+        <div class="d-none d-lg-block">
           <a :href="contact.johnTwitter" target="_blank"
             ><img
               class="social col-1"
@@ -100,7 +100,7 @@
             </div>
           </li>
           <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Your Mississauga</a></li>
+          <!-- <li class="nav-item"><a href="#">Your Mississauga</a></li> -->
           <li class="nav-item"><a href="#">Communities</a></li>
           <li class="nav-item"></li>
         </ul>
@@ -159,6 +159,7 @@ nav {
 
 .navbar-nav li {
   font-weight: bold;
+  font-size: .9rem;
   border-bottom: 2px solid rgb(211, 211, 211, 0.5);
   border-bottom-width: 50%;
   padding: 20px;
@@ -255,6 +256,11 @@ button a {
   .navbar-nav a:active,
   .navbar-nav a:focus {
     color: #272727;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-nav li {
+  font-size: inherit;
   }
 }
 </style>

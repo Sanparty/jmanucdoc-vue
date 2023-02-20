@@ -2,16 +2,19 @@
 <NavbarJohn/>
  <router-view/>
 <FooterJohn/>
+<SocialBar/>
 </template>
 
 <script>
 import NavbarJohn from "./components/navbarJohn.vue"
 import FooterJohn from "./components/footerJohn.vue"
+import SocialBar from "./components/socialBar.vue"
 export default {
   name: "App",
   components: {
     NavbarJohn,
-    FooterJohn
+    FooterJohn,
+    SocialBar
   }
 
 };

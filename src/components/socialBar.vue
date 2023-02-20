@@ -1,0 +1,95 @@
+<template>
+    <div class="container-fluid bar d-lg-none">
+        <!-- <div class="d-flex flex-column-reverse align-items-end">
+          <div class="phone">
+            <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
+          </div>
+          <div class="email">  
+            <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
+          </div>
+        </div> -->
+        <div> 
+          <a :href="contact.johnTwitter" target="_blank"
+            ><img
+              class="social col-4"
+              src="../assets/images/social_tw_white.svg"
+              alt="Twitter"
+          /></a>
+          <a :href="contact.johnFacebook" target="_blank"
+            ><img
+              class="social col-4"
+              src="../assets/images/social_fb_white.svg"
+              alt="Facebook"
+          /></a>
+          <a :href="contact.johnLinkedin" target="_blank"
+            ><img
+              class="social col-4"
+              src="../assets/images/social_in_white.svg"
+              alt="LinkedIn"
+          /></a>
+      
+      </div>
+    </div>
+</template>
+
+<script>
+import johnContact from "../js/components/johnContact.js";
+export default {
+  Name: "SocialBar",
+  data() {
+    return {
+      contact: johnContact,
+    };
+  },
+};
+</script>
+
+<style scoped>
+.bar {
+  background-color: #c1202f;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.social {
+  height: 18px;
+  float: right;
+}
+/* .email,
+.phone {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.email a,
+.email a:visited,
+.phone a,
+.phone a:visited {
+  text-decoration: none;
+  color: white;
+}
+.phone:before {
+  content: "";
+  display: block;
+  background: url(../assets/images/icon_phone_white.svg) no-repeat;
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 2px 1px;
+}
+.email:before {
+  content: "";
+  display: block;
+  background: url(../assets/images/1011335_email_envelope_mail_message_send_icon.svg) no-repeat;
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin: 2px 1px;
+} */
+
+
+</style>
