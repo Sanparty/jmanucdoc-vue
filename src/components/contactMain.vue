@@ -1,27 +1,28 @@
 <template>
-    <div class="row main d-flex flex-wrap justify-content-center">
-          <div class="bio-image col-11 col-md-6"
-          :style="
-            {
-            backgroundImage: image,
-            backgroundPosition: bgPosition,
-            backgroundSize: 'cover'
-            }"
-          >
-            <h1 class="latest">{{ heading }}</h1>
-            <!-- <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" /> -->
+    <div class="container-md">
+        <div class="row main d-flex flex-wrap justify-content-center">
+            <div class="bio-image col-12 col-md-6"
+            :style="
+                {
+                backgroundImage: image,
+                backgroundPosition: bgPosition,
+                backgroundSize: 'cover'
+                }"
+            >
+                <h1 class="latest">{{ heading }}</h1>
+                <!-- <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" /> -->
+            </div>
+            <div class="contact-box content d-flex flex-column justify-content-start align-items-start p-3 col-12 col-md-6">
+                <h2>{{ contact.johnName }}</h2>
+                <h3 v-if="contact.johnCompany">{{ contact.johnCompany}}</h3>
+                <div class="phone">Direct: <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a></div>
+                <div v-if="contact.johnNumberOffice" class="phone">Office: <a :href="`tel:${contact.johnNumberOffice}`">{{ contact.johnNumberOffice }}</a></div>
+                <div class="email"><a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a></div>
+                <div>{{ contact.johnAddress.johnStreet}}</div>
+                <div>{{ contact.johnAddress.johnCity}}, {{ contact.johnAddress.johnProvince }}</div>
+                <div>{{ contact.johnAddress.johnPostalCode}}</div>
+            </div>
         </div>
-        <div class="contact-box content d-flex flex-column justify-content-start align-items-start p-3 col-11 col-md-6">
-            <h2>{{ contact.johnName }}</h2>
-            <h3 v-if="contact.johnCompany">{{ contact.johnCompany}}</h3>
-            <div class="phone">Direct: <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a></div>
-            <div v-if="contact.johnNumberOffice" class="phone">Office: <a :href="`tel:${contact.johnNumberOffice}`">{{ contact.johnNumberOffice }}</a></div>
-            <div class="email"><a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a></div>
-            <div>{{ contact.johnAddress.johnStreet}}</div>
-            <div>{{ contact.johnAddress.johnCity}}, {{ contact.johnAddress.johnProvince }}</div>
-            <div>{{ contact.johnAddress.johnPostalCode}}</div>
-        </div>
-      
     </div>
 </template>
 

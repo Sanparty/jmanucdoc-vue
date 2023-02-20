@@ -1,5 +1,5 @@
 <template>
-<div class="container-md">
+<div class="container-fluid">
     <div class="title row col-lg-10">
     </div>
     <ContactMain class="margin-top"
