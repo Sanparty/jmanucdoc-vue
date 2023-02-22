@@ -1,6 +1,8 @@
 <template>
   <BlogMain />
+  <div class="container-fluid">
   <ContactJohn />
+  </div>
 </template>
 
 <script>

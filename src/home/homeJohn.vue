@@ -4,7 +4,9 @@
   <HomeContainer />
   <CtaContainer />
   <BlogHome />
+<div class="container-fluid">
   <ContactJohn />
+  </div>
 </div>
 </template>
 
