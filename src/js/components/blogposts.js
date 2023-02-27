@@ -334,7 +334,34 @@ const blogpost18 = new Blogpost (
     "blog18.png",
     "Home Hunting"
 );
+const blogpost19 = new Blogpost (
+    "blog19",
+    "Should You Move or Renovate?",
+    "John Manucdoc",
+    "February 27, 2023",
+    "Determining whether you should buy a new home or fix up your current one isn’t easy. In fact, the decision can be steeped in so much drama, they make reality TV shows about it!",
+    `<p>Determining whether you should buy a new home or fix up your current one isn’t easy. In fact, the decision can be steeped in so much drama, they make reality TV shows about it!</p>
+    <figure class="table-bordered col-12 clear">
+    <table>
+    <tbody>
+    <tr>
+    <td class="p-2">So, if you’re wondering whether to move or improve, here are three things to consider:</td>
+    </tr>
+    </tbody>
+    </table>
+    </figure>
+    <p><strong>1. Will a renovation truly fix what you don’t like about your property?</strong></p>
+    <p>If you’re tired of a small kitchen, for example, given the layout of your house, it might not be possible to make it any bigger. On the other hand, if you’re craving a spacious rec room with a cozy fireplace, then a renovation could make that happen.</p>
+    <p>Of course, there are some things you may want that aren’t specific to your house, such as an easier commute or nearby park. Those are features you may only be able to get by moving.</p>
+    <p><strong>2. How much will a renovation cost? How does that compare to the cost of moving to a new home?<br /></strong><br />It’s important to get accurate estimates of both the cost to renovate, and the cost of a new home, so you can make an informed decision. </p>
+    <p>Renovations often have a habit of costing more than you originally anticipate. Remember, the final result should be a home you want to stay in for quite some time.</p>
+    <p><strong>3. Beware of compromising versus settling.<br /></strong><br />Whichever decision you make &#8211; to renovate or to sell &#8211; you can expect to have to make at least some compromises. That’s normal.</p>
+    <p>For example, consider the impact of adding an extension to your house. It would be a major renovation. Is it the ideal way to get the extra room you want? Do the benefits of renovating outweigh the benefits of finding a new larger home that already includes the space you need?</p>`,
+    "blogpost19.html",
+    "blog19.png",
+    "Person Making Determination"
+);
 
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18];
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19];
 
 export default blogpostArray;
