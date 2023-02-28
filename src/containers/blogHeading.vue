@@ -1,23 +1,26 @@
 <template>
   <div class="container-fluid p-0">
-    <div class="row col-12">
-    <div class="col-lg-6">
+    <div class="d-flex flex-wrap">
+    <div class="col-12 col-lg-6">
       <SubMainJohn 
       :title="`Blog`"
       :image="`url(${require('../assets/images/homeforsale.jpg')})`"
       :altimage="`Home For Sale`"
-      :bgPosition="`left top`"
+      :bgPosition="`center top`"
+      :bgSize="`cover`"
       />
     </div>
-     <div class="col-lg-6">
+     <div class="col-12 col-lg-6">
       <SubMainJohn 
-      :title="`Latest News`"
+      :title="`Contact`"
       :image="`url(${require('../assets/images/Suburban-Homes-1080x675.jpg')})`"
-      :altimage="`Home For Sale`"
-      :bgPosition="`left top`"
+      :altimage="`Suburban Homes`"
+      :bgPosition="`left bottom`"
+      :bgSize="`cover`"
       />
     </div>
     </div>
+  
   </div>
 </template>
 

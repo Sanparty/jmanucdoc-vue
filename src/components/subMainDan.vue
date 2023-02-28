@@ -23,12 +23,12 @@
 </template>
 
 <script>
-import johnContact from "../js/components/johnContact.js";
+import danContact from "../js/components/danContact.js";
 export default {
   Name: "SubMainJohn",
   data() {
     return {
-      contact: johnContact,
+      contact: danContact,
     };
   },
   props: {
