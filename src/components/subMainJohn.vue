@@ -64,11 +64,6 @@ h2 {
 .mainbio {
   margin-top: 40%;
 }
-.textBackground {
-  background-color: rgb(100, 100, 100, 0.50);
-  border-radius: 10px;
-  padding: 3px;
-}
 .byline {
   color: #f7f7f7;
   font-size: 1.5rem;
@@ -106,14 +101,14 @@ h2 {
 }
 .sub-bio {
     margin-top: 10%;
-}
+} 
 @media screen and (min-width: 576px) {
    h1,
   .subheading {
         font-size: 4rem;
     }
     .mainbio {
-        margin-top: 20%;
+        margin-top: 15%;
     }
     .john-email {
         margin-bottom: 10%;
@@ -145,11 +140,7 @@ h2 {
     font-size: 1.5rem;
   }
   .subpage {
-        /* background-image: url(../assets/images/homeforsale.jpg);
-        background-size: cover;
-        background-position: left top; */
         height: auto;
-        /* padding: 10px; */
   }
 }
 </style>

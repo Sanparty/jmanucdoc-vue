@@ -10,13 +10,17 @@
       :bgSize="`cover`"
       />
     </div>
-     <div class="col-12 col-lg-6">
-      <SubMainJohn 
-      :title="`Contact`"
-      :image="`url(${require('../assets/images/Suburban-Homes-1080x675.jpg')})`"
-      :altimage="`Suburban Homes`"
-      :bgPosition="`left bottom`"
-      :bgSize="`cover`"
+     <div class="d-none d-lg-block col-lg-6">
+      <SubStory 
+      :key="latestBlogpost.id"
+      :blogId="latestBlogpost.id"
+      :blogName="latestBlogpost.blogName"
+      :blogParagraph1="latestBlogpost.paragraph1"
+      :blogImage="latestBlogpost.image"
+      :blogImagealt="latestBlogpost.imageAlt"
+      :blogLink="latestBlogpost.link"
+      :blogContent="latestBlogpost.content"
+      :blogDate="latestBlogpost.date"
       />
     </div>
     </div>
@@ -26,16 +30,19 @@
 
 <script>
 import SubMainJohn from "../components/subMainJohn.vue"
+import SubStory from "../components/subStory.vue"
 import blogpostArray from "../js/components/blogposts.js";
 export default {
   Name: "blogHeading",
   components: {
     SubMainJohn,
+    SubStory,
   },
   computed: {
-    blogs: function () {
-      let blogsData = [...blogpostArray];
-      return blogsData.reverse();
+    latestBlogpost: function() {
+       const blogsData = [...blogpostArray];
+       let latestindex =  (blogsData.length - 1);
+       return blogsData[latestindex]
     },
   },
 };
@@ -50,31 +57,5 @@ h2 {
   color: #cc2a38;
   text-transform: uppercase;
   font-weight: bold;
-}
-.latest {
-  text-align: left;
-  margin-top: 100px;
-}
-.btn {
-  background-color: #c1202f;
-  border: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #0d6efd;
-  --bs-btn-border-color: #0d6efd;
-  --bs-btn-hover-color: #c1202f;
-  --bs-btn-hover-bg: #fff;
-  --bs-btn-hover-border-color: #0a58ca;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a58ca;
-  --bs-btn-active-border-color: #0a53be;
-  --bs-btn-active-shadow: inset 0 3px 5pxrgba (0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd;
 }
 </style>
