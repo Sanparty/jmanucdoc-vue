@@ -1,32 +1,33 @@
 <template>
-  <div class="container-md px-4 mt-4 col-sm-12 d-md-block">
-    <div class="row row-flex gx-3 gy-3">
-      <!-- <h2 class="col-12 latest">Latest News</h2> -->
-      <blog-boximage
-        v-for="blog in blogs"
-        :key="blog.id"
-        :blogId="blog.id"
-        :blogName="blog.blogName"
-        :blogParagraph1="blog.paragraph1"
-        :blogImage="undefined"
-        :blogImagealt="blog.imageAlt"
-        :blogLink="blog.link"
-        :blogContent="blog.content"
-        :blogDate="blog.date"
-        class="col-lg-3"
-      >
-      </blog-boximage>
+  <div class="container-fluid p-0">
+    <div class="row col-12">
+    <div class="col-lg-6">
+      <SubMainJohn 
+      :title="`Blog`"
+      :image="`url(${require('../assets/images/homeforsale.jpg')})`"
+      :altimage="`Home For Sale`"
+      :bgPosition="`left top`"
+      />
+    </div>
+     <div class="col-lg-6">
+      <SubMainJohn 
+      :title="`Latest News`"
+      :image="`url(${require('../assets/images/Suburban-Homes-1080x675.jpg')})`"
+      :altimage="`Home For Sale`"
+      :bgPosition="`left top`"
+      />
+    </div>
     </div>
   </div>
 </template>
 
 <script>
-import BlogBoximage from "@/components/blogBoximage.vue";
+import SubMainJohn from "../components/subMainJohn.vue"
 import blogpostArray from "../js/components/blogposts.js";
 export default {
-  Name: "blogMain",
+  Name: "blogHeading",
   components: {
-    BlogBoximage,
+    SubMainJohn,
   },
   computed: {
     blogs: function () {
