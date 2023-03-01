@@ -1,9 +1,25 @@
 <template>
   <div class="container-md px-4 mt-4 col-sm-12 d-md-block">
-    <div class="row row-flex gx-3 gy-3">
+    <div class="row row-flex gx-3 gy-3 d-lg-none">
       <!-- <h2 class="col-12 latest">Latest News</h2> -->
       <blog-boximage
         v-for="blog in blogs"
+        :key="blog.id"
+        :blogId="blog.id"
+        :blogName="blog.blogName"
+        :blogParagraph1="blog.paragraph1"
+        :blogImage="undefined"
+        :blogImagealt="blog.imageAlt"
+        :blogLink="blog.link"
+        :blogContent="blog.content"
+        :blogDate="blog.date"
+        class="col-lg-3"
+      >
+      </blog-boximage>
+      </div>
+      <div class="row row-flex gx-3 gy-3 d-none d-lg-flex">
+      <blog-boximage
+        v-for="blog in blogsNolatest"
         :key="blog.id"
         :blogId="blog.id"
         :blogName="blog.blogName"
@@ -33,6 +49,11 @@ export default {
       let blogsData = [...blogpostArray];
       return blogsData.reverse();
     },
+    blogsNolatest: function () {
+      let blogsData = [...blogpostArray];
+      blogsData.pop()
+      return blogsData.reverse();
+    }
   },
 };
 </script>
