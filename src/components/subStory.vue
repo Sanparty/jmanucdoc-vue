@@ -45,7 +45,6 @@ export default {
 <style scoped>
 h2 {
   color: #cc2a38;
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 2.5rem;
 }

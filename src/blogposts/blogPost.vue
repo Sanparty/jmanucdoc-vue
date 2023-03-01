@@ -12,7 +12,7 @@
   >
     <div class="p-3 col-lg-6 blog-main">
       <h1>{{ blogpost.blogName }}</h1>
-      <h2>{{ blogpost.blogDate }}</h2>
+      <h4>{{ blogpost.date }}</h4>
       <img
         :src="require('../assets/images/blog/' + blogpost.image)"
         :alt="blogpost.imageAlt"
@@ -105,11 +105,6 @@ h1 {
   color: #cc2a38;
   font-weight: bold;
   font-size: 50px;
-}
-h2 {
-  color: #cc2a38;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 .blog-container {
   text-align: left;
