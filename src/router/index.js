@@ -4,7 +4,8 @@ import { createRouter,
 import HomeJohn from "../home/homeJohn.vue";
 import BlogJohn from "../blog/blogJohn.vue";
 import BlogPost from "../blogposts/blogPost.vue";
-import ContactContainer from "../contact/contactContainer.vue"
+import ContactContainer from "../contact/contactContainer.vue";
+import BuyingContainer from "../buying/buyingContainer.vue"
 
 let router =  createRouter({
     history: createWebHistory(process.env.BASE_URL),
@@ -47,6 +48,14 @@ let router =  createRouter({
             title: "John Manucdoc | Contact"
         },
         component: ContactContainer,
+    },
+    {
+        path:'/buying/',
+        name: 'Buying',
+        meta: {
+            title: "John Manucdoc | Buying"
+        },
+        component: BuyingContainer,
     },
     ],
     // eslint-disable-next-line no-unused-vars
