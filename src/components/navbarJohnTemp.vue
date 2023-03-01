@@ -57,10 +57,10 @@
             <router-link :to="{ name: 'Blog' }" class="d-none d-lg-block">Blog</router-link>
             <router-link :to="{ name: 'Blog' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></router-link>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <router-link :to="{ name: 'Buying' }" class="d-none d-lg-block">Buying</router-link>
             <router-link :to="{ name: 'Buying' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Buying</span></router-link>
-          </li> -->
+          </li>
           <li class="nav-item"></li>
         </ul>
       </div>
