@@ -1,42 +1,41 @@
 <template>
-  <div class="container-fluid d-lg-flex d-flex justify-content-start align-items-center">
-          <div class="p-3 blog-main">
-            <ul>
-            <li><a class="dropdown-item" href="#">Selecting an Agent</a></li>
-            <li><a class="dropdown-item" href="#">Arrange Financing</a></li>
-            <li><a class="dropdown-item" href="#">Viewing Homes</a></li>
-            <li><a class="dropdown-item" href="#">Making an Offer</a></li>
-              <li><a class="dropdown-item" href="#">Closing the Sale</a></li>
-              </ul>
-            <!-- <div class="no-underline" @click="showBlogpost()">
+  <div
+    class="container-fluid d-lg-flex d-flex justify-content-start align-items-center"
+  >
+    <div class="p-3 blog-main">
+      <ul>
+        <li>
+          <span class="no-underline" @click="BuyingSelect()"
+            >Selecting an Agent</span
+          >
+        </li>
+        <li><a class="dropdown-item" href="#">Arrange Financing</a></li>
+        <li><a class="dropdown-item" href="#">Viewing Homes</a></li>
+        <li><a class="dropdown-item" href="#">Making an Offer</a></li>
+        <li><a class="dropdown-item" href="#">Closing the Sale</a></li>
+      </ul>
+      <!-- <div class="no-underline" @click="showBlogpost()">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
           <span class="cont-reading-text">Continue Reading</span
           ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
         </button>
       </div> -->
-          </div>
-        </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   Name: "SubStory",
   methods: {
-    showBlogpost() {
+    BuyingSelect() {
       this.$router.push({
-        name: "Blogposts",
-        params: { blogId: this.blogId, blogName: this.blogName },
+        name: "BuyingSelect",
+        props: {
+          selecting: String
+        }
       });
     },
-  },
-  props: {
-    blogId: String,
-    blogName: String,
-    blogParagraph1: String,
-    blogImage: String,
-    blogImagealt: String,
-    blogLink: String,
-    blogDate: String
   },
 };
 </script>
@@ -49,13 +48,12 @@ li {
   color: inherit;
   padding: 5px 10px;
   font-size: 3rem;
-  font-weight: bold; 
+  font-weight: bold;
 }
 li a:hover {
   color: #cc2a38;
   transition: 0.5s ease;
 }
-
 
 h2 {
   color: #cc2a38;
@@ -63,12 +61,12 @@ h2 {
   font-size: 2.5rem;
 }
 .blog-main {
-    color:#f7f7f7;
-    margin-top: 50px;
+  color: #f7f7f7;
+  margin-top: 50px;
 }
 .blog-main a {
-    color:#f7f7f7;
-    text-decoration: none;
+  color: #f7f7f7;
+  text-decoration: none;
 }
 .no-underline {
   text-decoration: none;
@@ -128,14 +126,14 @@ h2 {
 }
 
 @media screen and (min-width: 576px) {
-   h1 {
-        font-size: 4rem;
-    }
+  h1 {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
   h1 {
-        font-size: 8rem;
+    font-size: 8rem;
   }
 }
 </style>

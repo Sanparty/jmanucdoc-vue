@@ -4,11 +4,11 @@
     <div class="col-12">
     <BuyingHeading />
     </div>
-    <div class="col-12">
+    <div class="container-md">
    <BuyingHome 
    :pageInfo="buying"
    /> 
- <!--
+<!-- 
  <BuyingHome 
    :pageInfo="selectingAgent"
    />
@@ -27,7 +27,7 @@
    <BuyingHome 
    :pageInfo="closingSale"
  
-   /> -->
+   />  -->
   </div>
   <div class="container-fluid">
   <ContactJohn />

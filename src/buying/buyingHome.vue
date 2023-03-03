@@ -5,7 +5,6 @@
       d-lg-flex d-flex
       justify-content-center
       align-items-center
-      py-5
       blog-container
     "
   >
@@ -52,6 +51,7 @@ h3 {
   text-align: left;
   background-color: #d3d3d3ac;
   height: 100%;
+  border-radius: 10px;
 }
 .blog-main a {
   color: #f7f7f7;
