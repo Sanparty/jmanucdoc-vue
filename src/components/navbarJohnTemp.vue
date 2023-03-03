@@ -187,6 +187,7 @@ button a {
 }
 .navbar-nav li > a:hover {
   color: #272727;
+  transition: 0.25s ease;
 }
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 100vh);

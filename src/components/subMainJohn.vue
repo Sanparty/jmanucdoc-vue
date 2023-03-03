@@ -5,6 +5,7 @@
                 backgroundImage: image,
                 backgroundPosition: bgPosition,
                 backgroundSize: bgSize,
+                height: height
                 }"
   >
     <span class="background-image" role="img" :aria-label="`${ altimage }`"> </span>
@@ -37,7 +38,8 @@ export default {
     bgPosition: String,
     heading: String,
     altimage: String,
-    bgSize: String
+    bgSize: String,
+    height: String
   }
 };
 </script>

@@ -1,25 +1,17 @@
 <template>
 <div class="home-container container-fluid p-0">
   <div class="d-flex flex-wrap align-items-start">
-    <div class="col-12 col-lg-6">
-    <SubMainJohn 
-      :title="`Buying`"
-      :image="`url(${require('../assets/images/homeforsale.jpg')})`"
-      :altimage="`Home For Sale`"
-      :bgPosition="`center top`"
-      :bgSize="`cover`"
-      class="col-lg-6"
-      />
+    <div class="col-12">
+    <BuyingHeading />
     </div>
-    <div class="col-12 col-lg-6">
-   <!-- <BuyingHome 
+    <div class="col-12">
+   <BuyingHome 
    :pageInfo="buying"
-   /> -->
-
+   /> 
+ <!--
  <BuyingHome 
    :pageInfo="selectingAgent"
    />
-   <!---
    <BuyingHome 
    :pageInfo="arrangeFinancing"
   
@@ -37,23 +29,24 @@
  
    /> -->
   </div>
-  </div>
-    <div class="container-fluid">
+  <div class="container-fluid">
   <ContactJohn />
   </div>
+  </div>
+   
 </div>
 
 </template>
 
 <script>
     import ContactJohn from "../components/contactJohn.vue"
-    import SubMainJohn from "@/components/subMainJohn.vue"
+    import BuyingHeading from "../containers/buyingHeading.vue"
     import BuyingHome from "../buying/buyingHome.vue"
     import { buying, selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale } from "../js/components/buying"
     export default {
        name: "buyingContainer",
        components: {
-        SubMainJohn,
+        BuyingHeading,
         BuyingHome,
         ContactJohn,
       },

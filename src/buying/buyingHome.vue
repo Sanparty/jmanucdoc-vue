@@ -6,7 +6,6 @@
       justify-content-center
       align-items-center
       py-5
-      mt-5
       blog-container
     "
   >
@@ -57,12 +56,6 @@ h3 {
 .blog-main a {
   color: #f7f7f7;
   text-decoration: none;
-}
-.blogimage {
-  border-radius: 5px;
-  margin-bottom: 10px;
-  float: left;
-  margin: 0 10px 0 0;
 }
 ul {
   list-style-type: disc;
