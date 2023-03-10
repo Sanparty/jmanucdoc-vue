@@ -10,8 +10,11 @@
       :bgSize="`cover`"
       />
     </div>
-     <div class="col-12 col-lg-6">
+    <div class="d-none d-lg-block col-lg-6">
      <BuyingMenu />
+    </div>
+    <div class="d-lg-none col-12">
+      <BuyingMenuSmall />
     </div>
     </div>
   
@@ -21,16 +24,21 @@
 <script>
 import SubMainJohn from "../components/subMainJohn.vue"
 import BuyingMenu from "@/components/buyingMenu.vue";
+import BuyingMenuSmall from '@/components/buyingMenuSmall.vue';
 export default {
   Name: "buyingHeading",
   components: {
     SubMainJohn,
     BuyingMenu,
+    BuyingMenuSmall
   },
 };
 </script>
 
 <style scoped>
+.container-fluid {
+  background-color: #272727;
+}
 h1 {
   font-weight: bold;
   font-size: 50px;

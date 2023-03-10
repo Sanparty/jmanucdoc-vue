@@ -10,7 +10,6 @@
     "
   >
     <div class="blog-main container-md">
-      <!-- <h3>{{ pageInfo.heading }}</h3> -->
       <h1>{{ pageInfo.title.title1 }}</h1>
       <div v-html="pageInfo.content.content1"></div>
       <div v-if="pageInfo.title.title2">

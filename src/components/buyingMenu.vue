@@ -5,18 +5,12 @@
     <div class="blog-main">
       <ul>
         <li>
-          <span class="no-underline" @click="BuyingSelect()"
-            >Selecting an Agent</span
-          >
+          <router-link :to="{ name: 'BuyingSelect' }" class="no-underline" >Selecting an Agent</router-link>
         </li>
-        <li><span class="no-underline" @click="BuyingFinancing()"
-            >Arrange Financing</span></li>
-        <li><span class="no-underline" @click="BuyingViewing()"
-            >Viewing Homes</span></li>
-        <li><span class="no-underline" @click="BuyingOffer()"
-            >Making an Offer</span></li>
-        <li><span class="no-underline" @click="BuyingClosing()"
-            >Closing the Sale</span></li>
+        <li><router-link :to="{ name: 'BuyingFinancing' }" class="no-underline" >Arrange Financing</router-link></li>
+        <li><router-link :to="{ name: 'BuyingViewing' }" class="no-underline" >Viewing Homes</router-link></li>
+        <li><router-link :to="{ name: 'BuyingOffer' }" class="no-underline" >Making an Offer</router-link></li>
+        <li><router-link :to="{ name: 'BuyingClosing' }" class="no-underline" >Closing the Sale</router-link></li>
       </ul>
       <!-- <div class="no-underline" @click="showBlogpost()">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
@@ -30,49 +24,7 @@
 
 <script>
 export default {
-  Name: "SubStory",
-  methods: {
-    BuyingSelect() {
-      this.$router.push({
-        name: "BuyingSelect",
-        props: {
-          selecting: String
-        }
-      });
-    },
-    BuyingFinancing() {
-      this.$router.push({
-        name: "BuyingFinancing",
-        props: {
-          selecting: String
-        }
-      });
-    },
-    BuyingViewing() {
-      this.$router.push({
-        name: "BuyingViewing",
-        props: {
-          selecting: String
-        }
-      });
-    },
-    BuyingClosing() {
-      this.$router.push({
-        name: "BuyingClosing",
-        props: {
-          selecting: String
-        }
-      });
-    },
-    BuyingOffer() {
-      this.$router.push({
-        name: "BuyingOffer",
-        props: {
-          selecting: String
-        }
-      });
-    },
-  },
+  Name: "BuyingMenu",
 };
 </script>
 
@@ -85,7 +37,8 @@ li {
   color: inherit;
   font-weight: bold;
 }
-li:hover {
+li:hover,
+.no-underline:hover {
   color: #cc2a38;
   transition: 0.5s ease;
   cursor: pointer;

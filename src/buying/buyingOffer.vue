@@ -2,13 +2,13 @@
   <div class="home-container container-fluid p-0">
     <div class="d-flex flex-wrap align-items-start">
       <div class="col-12">
-      <BuyingMenuSmmall 
-    :heading="makingOffer.heading"
-    :contact="contact"
-    :image="`url(${require('../assets/images/Suburban-Homes-1080x675.jpg')})`"
-    :altimage="`Suburban Homes`"
-    :bgPosition="`center center`"
-    />
+      <BuyingHeadingSmall 
+        :heading="makingOffer.heading"
+        :contact="contact"
+        :image="`url(${require('../assets/images/Suburban-Homes-1080x675.jpg')})`"
+        :altimage="`Suburban Homes`"
+        :bgPosition="`center center`"
+      />
   </div>
       <div class="col-12">
         <BuyingHome :pageInfo="makingOffer" />
@@ -22,13 +22,13 @@
 
 <script>
 import ContactJohn from "../components/contactJohn.vue";
-import BuyingMenuSmmall from "../components/buyingMenuSmall.vue";
+import BuyingHeadingSmall from "../containers/buyingHeadingSmall.vue";
 import BuyingHome from "./buyingHome.vue";
 import { makingOffer } from "../js/components/buying";
 export default {
   name: "buyingOffer",
   components: {
-    BuyingMenuSmmall,
+    BuyingHeadingSmall,
     BuyingHome,
     ContactJohn,
   },

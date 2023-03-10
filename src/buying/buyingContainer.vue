@@ -8,26 +8,6 @@
    <BuyingHome 
    :pageInfo="buying"
    /> 
-<!-- 
- <BuyingHome 
-   :pageInfo="selectingAgent"
-   />
-   <BuyingHome 
-   :pageInfo="arrangeFinancing"
-  
-   />
-   <BuyingHome 
-   :pageInfo="viewingHomes"
-  
-   />
-   <BuyingHome 
-   :pageInfo="makingOffer"
- 
-   />
-   <BuyingHome 
-   :pageInfo="closingSale"
- 
-   />  -->
   </div>
   <div class="container-fluid">
   <ContactJohn />
@@ -42,7 +22,7 @@
     import ContactJohn from "../components/contactJohn.vue"
     import BuyingHeading from "../containers/buyingHeading.vue"
     import BuyingHome from "../buying/buyingHome.vue"
-    import { buying, selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale } from "../js/components/buying"
+    import { buying } from "../js/components/buying"
     export default {
        name: "buyingContainer",
        components: {
@@ -52,12 +32,7 @@
       },
       data() {      
         return {
-          buying: buying,
-          selectingAgent: selectingAgent,
-          arrangeFinancing: arrangeFinancing,
-          viewingHomes: viewingHomes,
-          makingOffer: makingOffer,
-          closingSale: closingSale
+          buying: buying
         };
       },
     }

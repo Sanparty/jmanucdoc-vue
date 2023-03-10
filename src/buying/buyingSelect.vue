@@ -5,13 +5,13 @@
         <BuyingHeading />
       </div> -->
       <div class="col-12">
-      <BuyingMenuSmmall 
-    :heading="selectingAgent.heading"
-    :contact="contact"
-    :image="`url(${require('../assets/images/homeforsale.jpg')})`"
-    :altimage="`Home for Sale`"
-    :bgPosition="`center center`"
-    />
+      <BuyingHeadingSmall 
+        :heading="selectingAgent.heading"
+        :contact="contact"
+        :image="`url(${require('../assets/images/homeforsale.jpg')})`"
+        :altimage="`Home for Sale`"
+        :bgPosition="`center center`"
+      />
   </div>
       <div class="col-12">
         <BuyingHome :pageInfo="selectingAgent" />
@@ -25,13 +25,13 @@
 
 <script>
 import ContactJohn from "../components/contactJohn.vue";
-import BuyingMenuSmmall from "../components/buyingMenuSmall.vue";
+import BuyingHeadingSmall from "../containers/buyingHeadingSmall.vue";
 import BuyingHome from "./buyingHome.vue";
 import { selectingAgent } from "../js/components/buying";
 export default {
   name: "buyingSelect",
   components: {
-    BuyingMenuSmmall,
+    BuyingHeadingSmall,
     BuyingHome,
     ContactJohn,
   },
