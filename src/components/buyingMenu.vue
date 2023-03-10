@@ -2,7 +2,7 @@
   <div
     class="container-fluid d-lg-flex d-flex justify-content-start align-items-center"
   >
-    <div class="p-3 blog-main">
+    <div class="blog-main">
       <ul>
         <li>
           <span class="no-underline" @click="BuyingSelect()"
@@ -79,11 +79,10 @@ export default {
 <style scoped>
 ul {
   list-style-type: none;
+  padding-top: 10px;
 }
 li {
   color: inherit;
-  padding: 5px 10px;
-  font-size: 3rem;
   font-weight: bold;
 }
 li:hover {
@@ -99,7 +98,6 @@ h2 {
 }
 .blog-main {
   color: #f7f7f7;
-  margin-top: 50px;
 }
 .blog-main a {
   color: #f7f7f7;
@@ -166,11 +164,29 @@ h2 {
   h1 {
     font-size: 4rem;
   }
+  li {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  ul {
+    padding-top: 0;
+  }
   h1 {
     font-size: 8rem;
+  }
+  .blog-main {
+  margin-top: 60px;
+  }
+  li {
+     padding: 10px;
+     font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  li {
+    font-size: 3rem;
   }
 }
 </style>

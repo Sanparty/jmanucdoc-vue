@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row main d-flex">
-            <div class="bio-image col-12 col-md-9 py-4"
+            <div class="bio-image col-12 col-lg-9 py-5"
             :style="
                 {
                 backgroundImage: image,
@@ -12,7 +12,7 @@
                 <span class="background-image" role="img" :aria-label="altimage"> </span>
                 <h1 class="latest">{{ heading }}</h1>
             </div>
-            <div class="contact-box d-flex flex-column justify-content-center align-items-start col-12 col-md-3">
+            <div class="contact-box d-flex flex-column justify-content-center align-items-start col-12 col-lg-3">
                 <ul>
                     <li>
                          <span class="no-underline" @click="BuyingSelect()"
@@ -99,6 +99,7 @@ ul {
 li {
   color: #f7f7f7;
   font-weight: bold;
+  font-size: 1rem;
 }
 li:hover {
   color: #cc2a38;
@@ -119,42 +120,30 @@ li:hover {
     color: #f7f7f7;
     text-decoration: none;
 }
-.phone:before {
-  content: "";
-  display: block;
-  background: url(../assets/images/icon_phone_dark.svg) no-repeat;
-  width: 18px;
-  height: 18px;
-  float: left;
-  margin: 2px 1px;
-}
-.email:before {
-  content: "";
-  display: block;
-  background: url(../assets/images/1011335_email_envelope_mail_message_send_icon_greybg.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin: 2px 1px;
-}
 h1.latest {
   color: #f7f7f7;
   font-weight: bold;
   text-align: left;
-  font-size: 5rem;
+  font-size: 3rem;
   margin-top: 10px;
   align-content: center;
 }
-@media screen and (max-width: 767px) {  
-    h2 {
-        font-size: 1.5rem;
+@media screen and (min-width: 992px) {  
+    .main {
+        margin-top: 70px;
     }
-    h3 {
+    h1.latest {
+          font-size: 5rem;
+    }
+    li {
         font-size: 1.25rem;
     }
-    .bio-image {
-        height: 200px;
-    }   
 }
+@media screen and (min-width: 1200px) {  
+    .main {
+        margin-top: 50px;
+    }
+}
+
 
 </style>

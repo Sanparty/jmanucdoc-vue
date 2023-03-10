@@ -8,10 +8,9 @@
       :altimage="`Agent Showing Home`"
       :bgPosition="`center top`"
       :bgSize="`cover`"
-      :height="`auto`"
       />
     </div>
-     <div class="d-none d-lg-block col-lg-6">
+     <div class="col-12 col-lg-6">
      <BuyingMenu />
     </div>
     </div>
