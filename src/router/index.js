@@ -74,7 +74,7 @@ let router =  createRouter({
         path:'/buying/arrangingfinancing',
         name: 'BuyingFinancing',
         meta: {
-            title: "John Manucdoc | Selecting an Agent"
+            title: "John Manucdoc | Arranging Financing"
         },
         component: BuyingFinancing,
     },
