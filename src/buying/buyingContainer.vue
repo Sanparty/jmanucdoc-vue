@@ -4,7 +4,7 @@
     <div class="col-12">
     <BuyingHeading />
     </div>
-    <div class="container-md">
+    <div class="col-12">
    <BuyingHome 
    :pageInfo="buying"
    /> 

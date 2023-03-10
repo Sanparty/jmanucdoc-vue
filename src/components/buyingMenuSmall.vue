@@ -1,7 +1,7 @@
 <template>
-    <div class="container-md">
-        <div class="row main d-flex flex-wrap justify-content-center align-items-center">
-            <div class="bio-image col-12 col-md-9"
+    <div class="container-fluid">
+        <div class="row main d-flex">
+            <div class="bio-image col-12 col-md-9 py-4"
             :style="
                 {
                 backgroundImage: image,
@@ -9,22 +9,24 @@
                 backgroundSize: 'cover'
                 }"
             >
-            <span class="background-image" role="img" :aria-label="altimage"> </span>
+                <span class="background-image" role="img" :aria-label="altimage"> </span>
                 <h1 class="latest">{{ heading }}</h1>
-                <!-- <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" /> -->
             </div>
-            <div class="contact-box content d-flex flex-column justify-content-start align-items-start p-3 col-12 col-md-3">
+            <div class="contact-box d-flex flex-column justify-content-center align-items-start col-12 col-md-3">
                 <ul>
-        <li>
-          <span class="no-underline" @click="BuyingSelect()"
-            >Selecting an Agent</span
-          >
-        </li>
-        <li><a class="dropdown-item" href="#">Arrange Financing</a></li>
-        <li><a class="dropdown-item" href="#">Viewing Homes</a></li>
-        <li><a class="dropdown-item" href="#">Making an Offer</a></li>
-        <li><a class="dropdown-item" href="#">Closing the Sale</a></li>
-      </ul>
+                    <li>
+                         <span class="no-underline" @click="BuyingSelect()"
+                             >Selecting an Agent</span>
+                    </li>
+                    <li><span class="no-underline" @click="BuyingFinancing()"
+                        >Arrange Financing</span></li>
+                    <li><span class="no-underline" @click="BuyingViewing()"
+                        >Viewing Homes</span></li>
+                    <li><span class="no-underline" @click="BuyingOffer()"
+                        >Making an Offer</span></li>
+                    <li><span class="no-underline" @click="BuyingClosing()"
+                        >Closing the Sale</span></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -40,34 +42,82 @@
             heading: String,
             altimage: String
         },
+        methods: {
+            BuyingSelect() {
+            this.$router.push({
+                name: "BuyingSelect",
+                props: {
+                selecting: String
+                }
+            });
+            },
+            BuyingFinancing() {
+            this.$router.push({
+                name: "BuyingFinancing",
+                props: {
+                selecting: String
+                }
+            });
+            },
+            BuyingViewing() {
+            this.$router.push({
+                name: "BuyingViewing",
+                props: {
+                selecting: String
+                }
+            });
+            },
+            BuyingClosing() {
+            this.$router.push({
+                name: "BuyingClosing",
+                props: {
+                selecting: String
+                }
+            });
+            },
+            BuyingOffer() {
+            this.$router.push({
+                name: "BuyingOffer",
+                props: {
+                selecting: String
+                }
+            });
+            },
+        },
     }
 </script>
 
 <style scoped>
-.content {
-    height: 100%;
-}
-.main {
-    margin-top: 100px;
-    margin-bottom: 10px;
-}
-.contact-box {
-  background-color: #d3d3d3ac;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+.container-fluid {
+  background-color: #272727;
+  height: 100%;
   text-align: left;
 }
-.contact-box a {
-    color: #272727;
-    text-decoration: none;
+ul {
+  list-style-type: none;
+}
+li {
+  color: #f7f7f7;
+  font-weight: bold;
+}
+li:hover {
+  color: #cc2a38;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.main {
+    margin-top: 50px;
 }
 .bio-image {
-    /* border-radius: 10px; */
-    /* background-image: url(../assets/images/agent_showing_home.jpeg); */
-    background-size: cover;
-    /* background-position: center center; */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px; 
+    height: 100%;
+}
+.contact-box {
+  text-align: left;
+  padding-top: 20px;
+}
+.contact-box a {
+    color: #f7f7f7;
+    text-decoration: none;
 }
 .phone:before {
   content: "";
@@ -106,14 +156,5 @@ h1.latest {
         height: 200px;
     }   
 }
-@media screen and (min-width: 768px) {  
-   .bio-image {
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 10px; 
-   }
-    .contact-box {
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0; 
-   }
-}
+
 </style>

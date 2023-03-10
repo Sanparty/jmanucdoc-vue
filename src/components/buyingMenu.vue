@@ -9,10 +9,14 @@
             >Selecting an Agent</span
           >
         </li>
-        <li><a class="dropdown-item" href="#">Arrange Financing</a></li>
-        <li><a class="dropdown-item" href="#">Viewing Homes</a></li>
-        <li><a class="dropdown-item" href="#">Making an Offer</a></li>
-        <li><a class="dropdown-item" href="#">Closing the Sale</a></li>
+        <li><span class="no-underline" @click="BuyingFinancing()"
+            >Arrange Financing</span></li>
+        <li><span class="no-underline" @click="BuyingViewing()"
+            >Viewing Homes</span></li>
+        <li><span class="no-underline" @click="BuyingOffer()"
+            >Making an Offer</span></li>
+        <li><span class="no-underline" @click="BuyingClosing()"
+            >Closing the Sale</span></li>
       </ul>
       <!-- <div class="no-underline" @click="showBlogpost()">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
@@ -36,6 +40,38 @@ export default {
         }
       });
     },
+    BuyingFinancing() {
+      this.$router.push({
+        name: "BuyingFinancing",
+        props: {
+          selecting: String
+        }
+      });
+    },
+    BuyingViewing() {
+      this.$router.push({
+        name: "BuyingViewing",
+        props: {
+          selecting: String
+        }
+      });
+    },
+    BuyingClosing() {
+      this.$router.push({
+        name: "BuyingClosing",
+        props: {
+          selecting: String
+        }
+      });
+    },
+    BuyingOffer() {
+      this.$router.push({
+        name: "BuyingOffer",
+        props: {
+          selecting: String
+        }
+      });
+    },
   },
 };
 </script>
@@ -50,9 +86,10 @@ li {
   font-size: 3rem;
   font-weight: bold;
 }
-li a:hover {
+li:hover {
   color: #cc2a38;
   transition: 0.5s ease;
+  cursor: pointer;
 }
 
 h2 {

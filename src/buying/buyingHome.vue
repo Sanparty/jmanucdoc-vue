@@ -6,9 +6,10 @@
       justify-content-center
       align-items-center
       blog-container
+      py-3
     "
   >
-    <div class="p-3 blog-main">
+    <div class="blog-main container-md">
       <!-- <h3>{{ pageInfo.heading }}</h3> -->
       <h1>{{ pageInfo.title.title1 }}</h1>
       <div v-html="pageInfo.content.content1"></div>
@@ -51,7 +52,6 @@ h3 {
   text-align: left;
   background-color: #d3d3d3ac;
   height: 100%;
-  border-radius: 10px;
 }
 .blog-main a {
   color: #f7f7f7;

@@ -4,20 +4,17 @@
       <!-- <div class="col-12">
         <BuyingHeading />
       </div> -->
-      <BuyingMenuSmmall class="margin-top"
-    :heading="`Selecting an Agent`"
+      <div class="col-12">
+      <BuyingMenuSmmall 
+    :heading="selectingAgent.heading"
     :contact="contact"
-    :image="`url(${require('../assets/images/agent_showing_home.jpeg')})`"
-    :altimage="`Real Estate Agent Showing Home To Clients`"
+    :image="`url(${require('../assets/images/homeforsale.jpg')})`"
+    :altimage="`Home for Sale`"
     :bgPosition="`center center`"
     />
-      <div class="container-md">
-        <!-- <BuyingHome :pageInfo="buying" /> -->
+  </div>
+      <div class="col-12">
         <BuyingHome :pageInfo="selectingAgent" />
-        <!-- <BuyingHome :pageInfo="arrangeFinancing" />
-        <BuyingHome :pageInfo="viewingHomes" />
-        <BuyingHome :pageInfo="makingOffer" />
-        <BuyingHome :pageInfo="closingSale" /> -->
       </div>
       <div class="container-fluid">
         <ContactJohn />
@@ -28,33 +25,19 @@
 
 <script>
 import ContactJohn from "../components/contactJohn.vue";
-// import BuyingHeading from "../containers/buyingHeading.vue";
 import BuyingMenuSmmall from "../components/buyingMenuSmall.vue";
-import BuyingHome from "../buying/buyingHome.vue";
-import {
-  buying,
-  selectingAgent,
-  arrangeFinancing,
-  viewingHomes,
-  makingOffer,
-  closingSale,
-} from "../js/components/buying";
+import BuyingHome from "./buyingHome.vue";
+import { selectingAgent } from "../js/components/buying";
 export default {
-  name: "buyingContainer2",
+  name: "buyingSelect",
   components: {
-    // BuyingHeading,
     BuyingMenuSmmall,
     BuyingHome,
     ContactJohn,
   },
   data() {
     return {
-      buying: buying,
       selectingAgent: selectingAgent,
-      arrangeFinancing: arrangeFinancing,
-      viewingHomes: viewingHomes,
-      makingOffer: makingOffer,
-      closingSale: closingSale,
     };
   },
 };
