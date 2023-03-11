@@ -4,13 +4,7 @@
   >
     <div class="blog-main">
       <ul>
-        <li>
-          <router-link :to="{ name: 'BuyingSelect' }" class="no-underline" >Selecting an Agent</router-link>
-        </li>
-        <li><router-link :to="{ name: 'BuyingFinancing' }" class="no-underline" >Arrange Financing</router-link></li>
-        <li><router-link :to="{ name: 'BuyingViewing' }" class="no-underline" >Viewing Homes</router-link></li>
-        <li><router-link :to="{ name: 'BuyingOffer' }" class="no-underline" >Making an Offer</router-link></li>
-        <li><router-link :to="{ name: 'BuyingClosing' }" class="no-underline" >Closing the Sale</router-link></li>
+        <li v-for="(buyingpost,index) in buyingposts" :key="index" class="no-underline" @click="showBuyingPost(buyingpost.id)">{{  buyingpost.heading }}</li>
       </ul>
       <!-- <div class="no-underline" @click="showBlogpost()">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
@@ -23,9 +17,22 @@
 </template>
 
 <script>
+import { selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale } from "../js/components/buying";
 export default {
   Name: "BuyingMenu",
-};
+  data () {
+    return {
+      buyingposts: [
+        selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale
+      ]
+    }
+  },
+  methods:{
+    showBuyingPost(id) {
+      this.$router.push({name:'buyingposts',params:{buyingid:id}})
+    }
+  },
+}
 </script>
 
 <style scoped>

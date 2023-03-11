@@ -1,27 +1,31 @@
 <template> 
     <div class="contact-box d-none d-lg-flex flex-column justify-content-center align-items-start col-lg-3">
-         <ul>
-        <li>
-          <router-link :to="{ name: 'BuyingSelect' }" class="no-underline" >Selecting an Agent</router-link>
-        </li>
-        <li><router-link :to="{ name: 'BuyingFinancing' }" class="no-underline" >Arrange Financing</router-link></li>
-        <li><router-link :to="{ name: 'BuyingViewing' }" class="no-underline" >Viewing Homes</router-link></li>
-        <li><router-link :to="{ name: 'BuyingOffer' }" class="no-underline" >Making an Offer</router-link></li>
-        <li><router-link :to="{ name: 'BuyingClosing' }" class="no-underline" >Closing the Sale</router-link></li>
+      <ul>
+        <li v-for="(buyingpost,index) in buyingposts" :key="index" class="no-underline" @click="showBuyingPost(buyingpost.id)">{{  buyingpost.heading }}</li>
       </ul>
     </div>
     <div class="d-lg-none scrollmenu py-3">
-        <router-link :to="{ name: 'BuyingSelect' }" class="smallmenulink" >Selecting an Agent</router-link>
-        <router-link :to="{ name: 'BuyingFinancing' }" class="smallmenulink" >Arrange Financing</router-link>
-        <router-link :to="{ name: 'BuyingViewing' }" class="smallmenulink" >Viewing Homes</router-link>
-        <router-link :to="{ name: 'BuyingOffer' }" class="smallmenulink" >Making an Offer</router-link>
-        <router-link :to="{ name: 'BuyingClosing' }" class="smallmenulink" >Closing the Sale</router-link>      
+        <span v-for="(buyingpost,index) in buyingposts" :key="index" class="smallmenulink" @click="showBuyingPost(buyingpost.id)">{{  buyingpost.heading }}</span>
+    
     </div>
 </template>
 
 <script>
+    import { selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale } from "../js/components/buying";
     export default {
         name: "BuyingMenuSmall",
+        data () {
+          return {
+            buyingposts: [
+              selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale
+            ]
+          }
+        },
+        methods:{
+          showBuyingPost(id) {
+            this.$router.push({name:'buyingposts', params:{buyingid:id}})
+          }
+        },
     }
 </script>
 

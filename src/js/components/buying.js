@@ -1,5 +1,6 @@
 const buying = {
     heading: "Buying",
+    id: "buying",
     title: {
         title1: "Find Your Dream Home – Right Here!",
         title2: "Ready to Get Started?"
@@ -23,6 +24,7 @@ const buying = {
 }
 const selectingAgent = {
     heading: "Selecting an Agent",
+    id: "selectingagent",
     title: {
         title1: "Do You Have a Personal Real Estate Agent?",
         title2: "Your Real Estate Agent Works for You",
@@ -54,6 +56,7 @@ const selectingAgent = {
 }
 const arrangeFinancing = {
     heading: "Arrange Financing",
+    id: "arrangefinancing",
     title: {
         title1: "Get a Mortgage Pre-Approval",
         title2: "How Much Home Can You Afford?",
@@ -74,6 +77,7 @@ const arrangeFinancing = {
 }
 const viewingHomes = {
     heading: "Viewing Homes",
+    id: "viewinghomes",
     title: {
         title1: "The Home Shopping Process",
         title2: "What to Look for when Viewing a Property",
@@ -108,6 +112,7 @@ const viewingHomes = {
 }
 const makingOffer = {
     heading: "Making an Offer",
+    id: "makingoffer",
     title: {
         title1: "Preparing the Offer",
         title2: "How the Process Works",
@@ -134,6 +139,7 @@ const makingOffer = {
 }
 const closingSale = {
     heading: "Closing the Sale",
+    id: "closingsale",
     title: {
         title1: "Ensuring the Closing Goes Smoothly"
     },
