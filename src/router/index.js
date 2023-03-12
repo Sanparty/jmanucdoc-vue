@@ -63,7 +63,6 @@ let router =  createRouter({
         meta: {
             title: "John Manucdoc | Buying"
         },
-        props: true,
         component: BuyingPost,
     },
     
