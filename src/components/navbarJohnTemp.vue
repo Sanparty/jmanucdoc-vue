@@ -61,6 +61,10 @@
             <router-link :to="{ name: 'Buying' }" class="d-none d-lg-block">Buying</router-link>
             <router-link :to="{ name: 'Buying' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Buying</span></router-link>
           </li>
+          <li class="nav-item">
+            <router-link :to="{ name: 'Selling' }" class="d-none d-lg-block">Selling</router-link>
+            <router-link :to="{ name: 'Selling' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Selling</span></router-link>
+          </li>
           <li class="nav-item"></li>
         </ul>
       </div>

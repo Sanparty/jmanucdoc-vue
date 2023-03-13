@@ -11,7 +11,7 @@
             <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Contact'}">Contact</router-link></li>
             <li class="col-12 col-sm-6 col-lg-4">Accessibility</li>
             <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Buying'}">Buying</router-link></li>
-            <li class="col-12 col-sm-6 col-lg-4">Selling</li>
+            <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Selling'}">Selling</router-link></li>
             <li class="col-12 col-sm-6 col-lg-4">About</li>
             <li class="col-12 col-sm-6 col-lg-4">Your Mississauga</li>
             <li class="col-12 col-sm-6 col-lg-4">Communities</li>
