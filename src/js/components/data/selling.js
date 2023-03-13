@@ -33,7 +33,7 @@ const selectingRightAgent = {
     id: "selectingrightagent",
     image: "agent_talking_to_clients.jpeg",
     altImage: "Agent Talking To Clients",
-    imageSize: "center center",
+    imageSize: "center 25%",
     title: {
         title1: "Why Sell with Me?",
     },
@@ -86,7 +86,7 @@ const attractingBuyers = {
     id: "attractingbuyers",
     image: "agent_showing_home.jpeg",
     altImage: "Agent Showing Home To Clients",
-    imageSize: "center center",
+    imageSize: "center 40%",
     title: {
         title1: "How Do You Attract Qualified Buyers?",
     },
@@ -114,7 +114,7 @@ const handlingViewings = {
     id: "handlingviewings",
     image: "homeforsale.jpg",
     altImage: "Home For Sale",
-    imageSize: "center center",
+    imageSize: "center 70%",
     title: {
         title1: "Ensuring Viewings are Successful",
     },
@@ -141,7 +141,7 @@ const dealingOffers = {
     id: "dealingoffers",
     image: "agent_talking_to_clients.jpeg",
     altImage: "Agent Talking To Clients",
-    imageSize: "center center",
+    imageSize: "center 25%",
     title: {
         title1: "Your Agent Will Handle all the Details",
     },

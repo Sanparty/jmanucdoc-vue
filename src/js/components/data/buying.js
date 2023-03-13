@@ -30,7 +30,7 @@ const selectingAgent = {
     id: "selectingagent",
     image: "agent_talking_to_clients.jpeg",
     altImage: "Agent Talking To Clients",
-    imageSize: "center center",
+    imageSize: "center 25%",
     title: {
         title1: "Do You Have a Personal Real Estate Agent?",
         title2: "Your Real Estate Agent Works for You",
@@ -157,7 +157,7 @@ const closingSale = {
     id: "closingsale",
     image: "agent_showing_home.jpeg",
     altImage: "Agent Showing Home To Clients",
-    imageSize: "center center",
+    imageSize: "center 40%",
     title: {
         title1: "Ensuring the Closing Goes Smoothly"
     },
