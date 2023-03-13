@@ -49,59 +49,10 @@
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav navbar-nav-scroll">
-          <li class="nav-item">
-            <router-link :to="{ name: 'Home' }" class="d-none d-lg-block">Home</router-link>
-            <router-link :to="{ name: 'Home' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></router-link>
+          <li v-for="navlink in navlinks" :key="navlink.id" class="nav-item">
+            <router-link :to="{ name: navlink.routerlink }" class="d-none d-lg-block">{{ navlink.name }}</router-link>
+            <router-link :to="{ name: navlink.routerlink }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">{{ navlink.name }}</span></router-link>
           </li>
-          <li class="nav-item">
-            <router-link :to="{ name: 'Blog' }" class="d-none d-lg-block">Blog</router-link>
-            <router-link :to="{ name: 'Blog' }" class="d-lg-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></router-link>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Buying
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Selecting an Agent</a>
-              <a class="dropdown-item" href="#">Arrange Financing</a>
-              <a class="dropdown-item" href="#">Viewing Homes</a>
-              <a class="dropdown-item" href="#">Making an Offer</a>
-              <a class="dropdown-item" href="#">Closing the Sale</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Selling
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Selecting the Right Agent</a>
-              <a class="dropdown-item" href="#">Setting Your Price</a>
-              <a class="dropdown-item" href="#">Attracting Buyers</a>
-              <a class="dropdown-item" href="#">Handling Viewings</a>
-              <a class="dropdown-item" href="#">Dealing With Offers</a>
-              <a class="dropdown-item" href="#">Closing the Sale</a>
-              <a class="dropdown-item" href="#">Free Home Evaluation</a>
-            </div>
-          </li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <!-- <li class="nav-item"><a href="#">Your Mississauga</a></li> -->
-          <li class="nav-item"><a href="#">Communities</a></li>
           <li class="nav-item"></li>
         </ul>
       </div>
@@ -111,11 +62,13 @@
 
 <script>
 import johnContact from "../js/components/johnContact.js";
+import { navLinks } from "../js/components/pagelinks"
 export default {
   Name: "NavbarJohn",
   data() {
     return {
       contact: johnContact,
+      navlinks: navLinks,
     };
   },
 };
@@ -228,6 +181,7 @@ button a {
 }
 .navbar-nav li > a:hover {
   color: #272727;
+  transition: 0.25s ease;
 }
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 100vh);

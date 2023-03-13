@@ -3,18 +3,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-8 order-md-2 mb-3">
-          <ul class="footer-list">
+          <ul v-for="footerlink in footerlinks" :key="footerlink.id" class="footer-list">
             <li class="col-12 col-sm-6 col-lg-4">
-              <router-link :to="{name: 'Home'}">Home</router-link>
+              <router-link :to="{name: footerlink.routerlink}">{{ footerlink.name }}</router-link>
             </li>
-            <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Blog'}">Blog</router-link></li>
-            <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Contact'}">Contact</router-link></li>
-            <li class="col-12 col-sm-6 col-lg-4">Accessibility</li>
-            <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Buying'}">Buying</router-link></li>
-            <li class="col-12 col-sm-6 col-lg-4"><router-link :to="{name: 'Selling'}">Selling</router-link></li>
-            <li class="col-12 col-sm-6 col-lg-4">About</li>
-            <li class="col-12 col-sm-6 col-lg-4">Your Mississauga</li>
-            <li class="col-12 col-sm-6 col-lg-4">Communities</li>
           </ul>
         </div>
         <hr class="footerhr d-md-none mb-3 px-3" />
@@ -37,12 +29,14 @@
 
 <script>
 import johnContact from "../js/components/johnContact.js";
+import { footerLinks } from "../js/components/pagelinks"
 
 export default {
   Name: "FooterJohn",
   data () {
     return {
-      contact: johnContact
+      contact: johnContact,
+      footerlinks: footerLinks
     }
   }
 };
