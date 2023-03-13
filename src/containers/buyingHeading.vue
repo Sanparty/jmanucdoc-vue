@@ -25,7 +25,7 @@
 import SubMainJohn from "../components/subMainJohn.vue"
 import BuyingMenu from "@/components/buyingMenu.vue";
 import BuyingMenuSmall from '@/components/buyingMenuSmall.vue';
-import { buying} from "../js/components/buying";
+import { buying } from "../js/components/data/buying";
 
 export default {
   Name: "buyingHeading",

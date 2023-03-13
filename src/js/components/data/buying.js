@@ -171,4 +171,5 @@ const closingSale = {
         `
     },
 }
-export  { buying, selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale }
+const buyingPosts = { selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale }
+export  { buying, buyingPosts }

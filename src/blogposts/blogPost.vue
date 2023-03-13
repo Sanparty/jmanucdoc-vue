@@ -59,7 +59,7 @@
 </template>
 
 // <script>
-import blogpostarray from "../js/components/blogposts.js";
+import blogpostarray from "../js/components/data/blogposts";
 import ContactJohn from "../components/contactJohn.vue";
 export default {
   name: "BlogPost",

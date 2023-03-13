@@ -22,7 +22,7 @@
     import ContactJohn from "../components/contactJohn.vue"
     import SellingHeading from "../containers/sellingHeading.vue"
     import SellingHome from "../selling/sellingHome.vue"
-    import { selling } from "../js/components/selling"
+    import { selling } from "../js/components/data/selling"
     export default {
        name: "sellingContainer",
        components: {

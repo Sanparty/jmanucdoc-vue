@@ -25,7 +25,7 @@
 import ContactJohn from "../components/contactJohn.vue";
 import BuyingHeadingSmall from "../containers/buyingHeadingSmall.vue";
 import BuyingHome from "./buyingHome.vue";
-import { selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale } from "../js/components/buying";
+import { buyingPosts } from "../js/components/data";
 export default {
   name: "buyingPost",
   components: {
@@ -35,9 +35,7 @@ export default {
   },
   data () {
     return {
-      buyingposts: [
-        selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale
-      ],
+      buyingposts: buyingPosts,
       buyid: this.$route.params.buyingid,
     }
   },

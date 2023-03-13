@@ -164,7 +164,7 @@ const dealingOffers = {
         <p>Want to discuss how much you may be able to get for your house? Please submit the form below or call or email me for a no-obligation Personal Consultation.</p>`,   
     },
 }
-const closingSale = {
+const closingTheSale = {
     heading: "Closing the Sale",
     id: "closingsale",
     image: "AdobeStock_16789283_New.jpg",
@@ -184,4 +184,6 @@ const closingSale = {
         `,   
     },
 }
-export  { selling, selectingRightAgent, settingYourPrice, attractingBuyers, handlingViewings, dealingOffers, closingSale }
+
+const sellingPosts = { selectingRightAgent, settingYourPrice, attractingBuyers, handlingViewings, dealingOffers, closingTheSale }
+export  { selling, sellingPosts }

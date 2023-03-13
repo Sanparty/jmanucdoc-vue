@@ -11,15 +11,16 @@
 </template>
 
 <script>
-    import { selectingRightAgent, settingYourPrice, attractingBuyers, handlingViewings, dealingOffers, closingSale } from "../js/components/selling";
-    export default {
+   import { sellingPosts } from "../js/components/data";
+   export default {
         name: "SellingMenuSmall",
         data () {
           return {
-            sellingposts: [
-              selectingRightAgent, settingYourPrice, attractingBuyers, handlingViewings, dealingOffers, closingSale
-            ]
+            sellingposts: sellingPosts
           }
+        },
+        computed: {
+
         },
         methods:{
           showSellingPost(id) {

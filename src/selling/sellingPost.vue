@@ -25,7 +25,7 @@
 import ContactJohn from "../components/contactJohn.vue";
 import SellingHeadingSmall from "../containers/sellingHeadingSmall.vue";
 import SellingHome from "../selling/sellingHome.vue";
-import { selectingRightAgent, settingYourPrice, attractingBuyers, handlingViewings, dealingOffers, closingSale } from "../js/components/selling";
+import { sellingPosts } from "../js/components/data";
 export default {
   name: "sellingPost",
   components: {
@@ -35,9 +35,7 @@ export default {
   },
   data () {
     return {
-      sellingposts: [
-        selectingRightAgent, settingYourPrice, attractingBuyers, handlingViewings, dealingOffers, closingSale
-      ],
+      sellingposts: sellingPosts,
       sellid: this.$route.params.sellingid,
     }
   },

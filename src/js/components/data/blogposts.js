@@ -1,4 +1,4 @@
-import Blogpost from "./blogpost.js";
+import Blogpost from "../data/blogpost";
 
 const blogpost1 = new Blogpost (
     "blog1",

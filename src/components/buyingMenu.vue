@@ -17,14 +17,12 @@
 </template>
 
 <script>
-import { selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale } from "../js/components/buying";
+import { buyingPosts } from "../js/components/data";
 export default {
   Name: "BuyingMenu",
   data () {
     return {
-      buyingposts: [
-        selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale
-      ]
+      buyingposts: buyingPosts
     }
   },
   methods:{

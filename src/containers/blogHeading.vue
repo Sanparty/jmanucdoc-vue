@@ -31,7 +31,7 @@
 <script>
 import SubMainJohn from "../components/subMainJohn.vue"
 import SubStory from "../components/subStory.vue"
-import blogpostArray from "../js/components/blogposts.js";
+import blogpostArray from "../js/components/data/blogposts";
 export default {
   Name: "blogHeading",
   components: {

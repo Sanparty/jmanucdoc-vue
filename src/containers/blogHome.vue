@@ -48,7 +48,7 @@
 
 <script>
 import BlogBoximage from "@/components/blogBoximage.vue";
-import blogpostArray from "../js/components/blogposts.js";
+import blogpostArray from "../js/components/data/blogposts";
 export default {
   Name: "blogHome",
   components: {

@@ -11,14 +11,12 @@
 </template>
 
 <script>
-    import { selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale } from "../js/components/buying";
+    import { buyingPosts } from "../js/components/data";
     export default {
         name: "BuyingMenuSmall",
         data () {
           return {
-            buyingposts: [
-              selectingAgent, arrangeFinancing, viewingHomes, makingOffer, closingSale
-            ]
+            buyingposts: buyingPosts
           }
         },
         methods:{
