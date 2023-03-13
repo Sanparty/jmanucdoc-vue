@@ -361,7 +361,24 @@ const blogpost19 = new Blogpost (
     "blog19.png",
     "Person Making Determination"
 );
-
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19];
+const blogpost20 = new Blogpost (
+    "blog20",
+    "Making “Community Targeting” Work for You",
+    "John Manucdoc",
+    "March 13, 2023",
+    "Imagine if you dreamed of owning a special limited-edition vehicle. What would you do to ensure that your dream vehicle would someday be parked in your driveway – with your name on the ownership papers?",
+    `<p>Imagine if you dreamed of owning a special limited-edition vehicle. What would you do to ensure that your dream vehicle would someday be parked in your driveway &#8211; with your name on the ownership papers?</p>
+    <p>You would probably start by doing some research. You’d find out how much that vehicle would cost, what features are available, and so forth. You would likely visit a local dealership and take a test drive if a model is available on site. You would keep an eye on the market for any that come up and let the dealer know you’re looking for just that car.</p>
+    <p>If you did, then, someday, you’d probably be the proud owner of the limited-edition car of your dreams.</p>
+    <p>What does this have to do with real estate?</p>
+    <p>Well, you can take the same approach when there’s a community you’d love to live in someday. You can target it, learn what homes typically cost in that area, and keep your eye on that market in case a property becomes available that meets your criteria.</p>
+    <p>By focusing on a specific community, you increase your chances of someday living there, simply because you’re focusing on it.</p>
+    <p>Of course, community targeting isn’t as simple as aiming to own a specific car someday. That’s why you need a real estate professional who can keep an eye on that community on your behalf, and alert you to opportunities that become available.</p>
+    <p>Then, if a listing that’s a good fit comes on the market, you can decide whether or not to make a move.</p>`,
+    "blogpost20.html",
+    "blog20.png",
+    "Map with Location Marker"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20];
 
 export default blogpostArray;
