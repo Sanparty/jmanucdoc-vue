@@ -3,7 +3,7 @@
     <div class="d-flex flex-wrap">
     <div class="col-12 col-lg-6">
       <SubMainJohn 
-      :title="`Blog`"
+      :heading="`Blog`"
       :image="`url(${require('../assets/images/homeforsale.jpg')})`"
       :altimage="`Home For Sale`"
       :bgPosition="`center top`"
