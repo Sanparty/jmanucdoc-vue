@@ -9,6 +9,8 @@ import BuyingContainer from "../buying/buyingContainer.vue"
 import BuyingPost from "../buying/buyingPost.vue"
 import SellingContainer from "../selling/sellingContainer.vue"
 import SellingPost from "../selling/sellingPost.vue"
+import AboutContainer from "../about/aboutContainer"
+import CommunitiesContainer from "../communities/communitiesContainer"
 
 let router =  createRouter({
     history: createWebHistory(process.env.BASE_URL),
@@ -83,6 +85,22 @@ let router =  createRouter({
             title: "John Manucdoc | Selling"
         },
         component: SellingPost,
+    },
+    {
+        path:'/about/',
+        name: 'About',
+        meta: {
+            title: "John Manucdoc | About"
+        },
+        component: AboutContainer,
+    },
+    {
+        path:'/communities/',
+        name: 'Communities',
+        meta: {
+            title: "John Manucdoc | Communities"
+        },
+        component: CommunitiesContainer,
     },
     
     ],

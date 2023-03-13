@@ -23,9 +23,18 @@ const sellingLink = {
     name: "Selling",
     routerlink: "Selling",
 }
+const aboutLink = {
+    id: "aboutlink",
+    name: "About",
+    routerlink: "About",
+}
+const communitiesLink = {
+    id: "communitieslink",
+    name: "Communities",
+    routerlink: "Communities",
+}
 
+const navLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
+const footerLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
 
-const navLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink }
-const footerLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink }
-
-export { navLinks, footerLinks}
+export { contactLink, navLinks, footerLinks}
