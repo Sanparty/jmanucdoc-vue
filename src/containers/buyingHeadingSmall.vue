@@ -27,7 +27,6 @@
             BuyingMenuSmall
         },
         props: {
-            contact: Object,
             image: String, 
             bgPosition: String,
             heading: String,
