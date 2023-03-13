@@ -9,7 +9,7 @@
   >
     <span class="background-image" role="img" :aria-label="`${ altimage }`"> </span>
     <div class="mainbio flex-grow-1">
-      <h1 class="subheading">{{ title }}</h1>
+      <h1 class="subheading">{{ heading }}</h1>
     </div>
     <div class="mainbio sub-bio">
       <h2 class="johnsub">{{ contact.johnName }}</h2>

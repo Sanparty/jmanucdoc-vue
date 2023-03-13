@@ -5,9 +5,9 @@
       <BuyingHeadingSmall 
         :heading="buyingpost.heading"
         :contact="contact"
-        :image="`url(${require('../assets/images/homeforsale.jpg')})`"
-        :altimage="`Home for Sale`"
-        :bgPosition="`center center`"
+        :image="`url(${require(`../assets/images/${ buyingpost.image }`)})`"
+        :altimage="buyingpost.altImage"
+        :bgPosition="buyingpost.imageSize"
       />
       </div>
       <div v-if="buyid == buyingpost.id" class="col-12">

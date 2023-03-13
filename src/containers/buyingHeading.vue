@@ -3,10 +3,10 @@
     <div class="d-flex flex-wrap">
     <div class="col-12 col-lg-6">
       <SubMainJohn 
-      :title="`Buying`"
-      :image="`url(${require('../assets/images/agent_showing_home.jpeg')})`"
-      :altimage="`Agent Showing Home`"
-      :bgPosition="`center top`"
+      :heading="buying.heading"
+      :image="`url(${require(`../assets/images/${ buying.image }`)})`"
+      :altimage="buying.altImage"
+      :bgPosition="buying.imageSize"
       :bgSize="`cover`"
       />
     </div>
@@ -25,12 +25,19 @@
 import SubMainJohn from "../components/subMainJohn.vue"
 import BuyingMenu from "@/components/buyingMenu.vue";
 import BuyingMenuSmall from '@/components/buyingMenuSmall.vue';
+import { buying} from "../js/components/buying";
+
 export default {
   Name: "buyingHeading",
   components: {
     SubMainJohn,
     BuyingMenu,
     BuyingMenuSmall
+  },
+  data () {
+    return {
+      buying: buying,
+    }
   },
 };
 </script>
