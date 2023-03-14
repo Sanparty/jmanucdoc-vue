@@ -1,36 +1,24 @@
 <template>
-  <div class="col-6 col-md-3">
-    <div class="cta">
-      <img class="cta-image col-12" src="../assets/images/cta-calc.svg" alt="Calculator Symbol"/>
-      Mortgage Calculator
-    </div>
-  </div>
-  <div class="col-6 col-md-3">
-    <div class="cta">
-      <img class="cta-image col-12" src="../assets/images/cta-eval.svg" alt="Clipboard Symbol"/>
-      Free Home Evaluation
-    </div>
-  </div>
-  <div class="col-6 col-md-3">
-    <div class="cta">
-      <img class="cta-image col-12" src="../assets/images/cta-buying.svg" alt="House Symbol"/>
-      Thinking of Buying?
-    </div>
-  </div>
-  <div class="col-6 col-md-3">
-    <div class="cta">
-      <img class="cta-image col-12" src="../assets/images/cta-selling.svg" alt="For Sale Sign Symbol" />
-      Thinking of Selling?
-    </div>
+  <div v-for="cta in ctaData" :key="cta.id" class="col-6 col-md-3">
+    <router-link :to="{name: cta.routerLink}">
+      <div class="cta">
+        <img class="cta-image col-12" :src="require('../assets/images/' + cta.image)" :alt="cta.altImage" />
+        {{ cta.heading }}
+      </div>
+    </router-link>        
   </div>
 </template>
 
 <script>
+import ctaData from "../js/components/data/ctadata.js"
+
 export default {
   Name: "CtaJohn",
-  // props: {
-  //   phoneNumber: String,
-  // }
+  data () {
+    return {
+      ctaData: ctaData
+    }
+  },
 };
 </script>
 
@@ -57,13 +45,5 @@ export default {
 }
 .cta-image {
     height: 5em;
-}
-.cta-start {
-    color:#c1202f;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.cta-arrow {
-    color:#c1202f;
 }
 </style>

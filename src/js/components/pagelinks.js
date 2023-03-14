@@ -36,5 +36,5 @@ const communitiesLink = {
 
 const navLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
 const footerLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
-
-export { contactLink, navLinks, footerLinks}
+const ctaLinks = { buyingLink, sellingLink }
+export { contactLink, navLinks, footerLinks, ctaLinks}
