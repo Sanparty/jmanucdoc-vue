@@ -11,6 +11,7 @@ import SellingContainer from "../selling/sellingContainer.vue"
 import SellingPost from "../selling/sellingPost.vue"
 import AboutContainer from "../about/aboutContainer"
 import CommunitiesContainer from "../communities/communitiesContainer"
+import EvaluationContainer from "../selling/evaluationContainer"
 
 let router =  createRouter({
     history: createWebHistory(process.env.BASE_URL),
@@ -101,6 +102,14 @@ let router =  createRouter({
             title: "John Manucdoc | Communities"
         },
         component: CommunitiesContainer,
+    },
+    {
+        path:'/home-valuation/',
+        name: 'HomeEvaluation',
+        meta: {
+            title: "John Manucdoc | Free Home Evaluation"
+        },
+        component: EvaluationContainer,
     },
     
     ],
