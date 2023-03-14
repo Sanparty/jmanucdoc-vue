@@ -1,6 +1,6 @@
 <template>
-  <div class="contact-me container-md mt-4 mb-4 p-3">
-    <div class="row">
+  <div class="contact-me pb-3">
+    <div class="container-md">
       <h2 class="col-12 latest">Get a Free Home Evaluation</h2>
       <h4 class="col-12 latest">*Required Field</h4>
       <form class="container">
@@ -221,8 +221,7 @@ h2 {
   font-weight: bold;
 }
 .contact-me {
-  background-color: rgba(212, 212, 212, 0.527);
-  border-radius: 5px;
+  background-color: #d3d3d3ac;
   text-align: left;
 }
 .latest {

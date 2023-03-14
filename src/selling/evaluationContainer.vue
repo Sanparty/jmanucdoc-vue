@@ -3,19 +3,24 @@
   <div class="d-flex flex-wrap align-items-start">
     <div class="col-12">
       <AboutHeadingSmall 
-        :heading="`Free Home Evaluation`"
+        :heading="evaluation.heading"
         :contact="contact"
-        :image="`url(${require(`../assets/images/${ about.image }`)})`"
-        :altimage="about.altImage"
-        :bgPosition="about.imageSize"
+        :image="`url(${require(`../assets/images/${ evaluation.image }`)})`"
+        :altimage="evaluation.altImage"
+        :bgPosition="evaluation.imageSize"
       />
     </div>
     <div class="col-12">
+   <aboutHome 
+   :pageInfo="evaluation"
+   /> 
+  </div>
+    <div class="col-12">
       <HomeEvaluation />
-  </div>
-  <div class="container-fluid">
-  <ContactJohn />
-  </div>
+    </div>
+    <div class="container-fluid">
+      <ContactJohn />
+    </div>
   </div>
    
 </div>
@@ -25,18 +30,20 @@
 <script>
     import ContactJohn from "../components/contactJohn.vue"
     import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
+    import AboutHome from "../about/aboutHome.vue"
     import HomeEvaluation from "../selling/homeEvaluation.vue"
-    import about from "../js/components/data/about"
+    import evaluation from "../js/components/data/evaluation"
     export default {
        name: "aboutContainer",
        components: {
         AboutHeadingSmall,
+        AboutHome,
         HomeEvaluation,
         ContactJohn,
       },
       data() {      
         return {
-          about: about
+          evaluation: evaluation
         };
       },
     }

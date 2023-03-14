@@ -13,7 +13,7 @@ const evaluation = {
     id: "evaluation",
     image: "cta-eval.svg",
     altImage: "Clipboard Symbol",
-    routerLink: ""
+    routerLink: ctaLinks.evaluationLink.routerlink
 }
 
 const thinkingBuying = {
