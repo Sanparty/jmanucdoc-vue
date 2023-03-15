@@ -25,15 +25,24 @@
         <div v-html="pageInfo.content.content4"></div>
       </div>
     </div>
+    
+  </div>
+  <div v-if="pageInfo.calculator" class="container-md" >
+      <mortgageCalculator class="mt-4"/>
   </div>
 </template>
 
 <script>
+import mortgageCalculator from './mortgageCalculator.vue';
+
 export default {
   name: "BuyingHome",
+  components: {
+    mortgageCalculator
+  },
   props: {
     pageInfo: Object,
-  }  
+  },
 };
 </script>
 

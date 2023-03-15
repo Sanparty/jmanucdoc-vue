@@ -66,6 +66,7 @@ const arrangeFinancing = {
     image: "Suburban-Homes-1080x675.jpg",
     altImage: "Suburban Homes",
     imageSize: "center center",
+    calculator: true,
     title: {
         title1: "Get a Mortgage Pre-Approval",
         title2: "How Much Home Can You Afford?",
