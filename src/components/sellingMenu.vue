@@ -142,12 +142,12 @@ h2 {
   }
   li {
      padding: 10px;
-     font-size: 2rem;
+     font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 1200px) {
   li {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 </style>
