@@ -42,4 +42,4 @@ const evaluationLink = {
 const navLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
 const footerLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
 const ctaLinks = { buyingLink, sellingLink, evaluationLink }
-export { contactLink, navLinks, footerLinks, ctaLinks }
+export { contactLink, navLinks, footerLinks, ctaLinks, evaluationLink }
