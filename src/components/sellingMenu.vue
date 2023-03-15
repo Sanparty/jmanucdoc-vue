@@ -5,6 +5,7 @@
     <div class="blog-main">
       <ul>
         <li v-for="(sellingpost,index) in sellingposts" :key="index" class="no-underline" @click="showSellingPost(sellingpost.id)">{{  sellingpost.heading }}</li>
+        <li><router-link :to="{name: evaluationlink.routerlink}" class="no-underline">{{ evaluationlink.name }}</router-link></li>
       </ul>
       <!-- <div class="no-underline" @click="showBlogpost()">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
@@ -18,11 +19,13 @@
 
 <script>
 import { sellingPosts } from "../js/components/data";
+import { evaluationLink } from "@/js/components/pagelinks";
 export default {
   Name: "SellingMenu",
   data () {
     return {
-      sellingposts: sellingPosts
+      sellingposts: sellingPosts,
+      evaluationlink: evaluationLink
     }
   },
   methods:{

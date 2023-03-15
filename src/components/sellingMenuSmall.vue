@@ -2,21 +2,24 @@
     <div class="contact-box d-none d-lg-flex flex-column justify-content-center align-items-start col-lg-3">
       <ul>
         <li v-for="(sellingpost,index) in sellingposts" :key="index" class="no-underline" @click="showSellingPost(sellingpost.id)">{{  sellingpost.heading }}</li>
+        <li><router-link :to="{name: evaluationlink.routerlink}" class="no-underline">{{ evaluationlink.name }}</router-link></li>
       </ul>
     </div>
     <div class="d-lg-none scrollmenu py-3">
         <span v-for="(sellingpost,index) in sellingposts" :key="index" class="smallmenulink" @click="showSellingPost(sellingpost.id)">{{  sellingpost.heading }}</span>
-    
+        <router-link :to="{name: evaluationlink.routerlink}" class="smallmenulink">{{ evaluationlink.name }}</router-link>
     </div>
 </template>
 
 <script>
    import { sellingPosts } from "../js/components/data";
+   import { evaluationLink } from "../js/components/pagelinks";
    export default {
         name: "SellingMenuSmall",
         data () {
           return {
-            sellingposts: sellingPosts
+            sellingposts: sellingPosts,
+            evaluationlink: evaluationLink
           }
         },
         computed: {
@@ -66,7 +69,7 @@ li:hover,
 }
 @media screen and (min-width: 992px) {  
     li {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 }
 </style>
