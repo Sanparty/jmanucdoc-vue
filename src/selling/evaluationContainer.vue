@@ -1,9 +1,20 @@
 <template>
 <div class="home-container container-fluid p-0">
   <div class="d-flex flex-wrap align-items-start">
-    <div class="col-12">
+    <!-- <div class="col-12">
       <AboutHeadingSmall 
         :heading="evaluation.heading"
+        :name="true"
+        :contact="contact"
+        :image="`url(${require(`../assets/images/${ evaluation.image }`)})`"
+        :altimage="evaluation.altImage"
+        :bgPosition="evaluation.imageSize"
+      />
+    </div> -->
+    <div class="col-12">
+      <SellingHeadingSmall 
+        :heading="evaluation.heading"
+        :name="true"
         :contact="contact"
         :image="`url(${require(`../assets/images/${ evaluation.image }`)})`"
         :altimage="evaluation.altImage"
@@ -30,6 +41,7 @@
 <script>
     import ContactJohn from "../components/contactJohn.vue"
     import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
+    import SellingHeadingSmall from "../containers/sellingHeadingSmall.vue"
     import AboutHome from "../about/aboutHome.vue"
     import HomeEvaluation from "../selling/homeEvaluation.vue"
     import evaluation from "../js/components/data/evaluation"
@@ -37,6 +49,7 @@
        name: "aboutContainer",
        components: {
         AboutHeadingSmall,
+        SellingHeadingSmall,
         AboutHome,
         HomeEvaluation,
         ContactJohn,
