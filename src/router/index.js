@@ -104,7 +104,7 @@ let router =  createRouter({
         component: CommunitiesContainer,
     },
     {
-        path:'/home-valuation/',
+        path:'/selling/home-valuation/',
         name: 'HomeEvaluation',
         meta: {
             title: "John Manucdoc | Free Home Evaluation"
