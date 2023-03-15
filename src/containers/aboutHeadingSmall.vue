@@ -10,7 +10,10 @@
                 }"
             >
                 <span class="background-image" role="img" :aria-label="altimage"> </span>
-                <div class="container-md"><h1 class="latest">{{ heading }}</h1></div>
+                <div class="container-md">
+                    <span v-if="name"><router-link :to="{ name: 'Selling' }" class="selling-link">Selling</router-link></span>
+                    <h1 class="latest">{{ heading }}</h1>
+                </div>
                 
             </div>
         </div>
@@ -24,7 +27,8 @@
             image: String, 
             bgPosition: String,
             heading: String,
-            altimage: String
+            altimage: String,
+            name: Boolean
         },
     }
 </script>
@@ -50,6 +54,14 @@ h1.latest {
   align-content: center;
 }
 .buying-link {
+    color: #c1202f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.selling-link {
     color: #c1202f;
     text-transform: uppercase;
     font-weight: bold;
