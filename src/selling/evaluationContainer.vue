@@ -40,7 +40,6 @@
 
 <script>
     import ContactJohn from "../components/contactJohn.vue"
-    import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
     import SellingHeadingSmall from "../containers/sellingHeadingSmall.vue"
     import AboutHome from "../about/aboutHome.vue"
     import HomeEvaluation from "../selling/homeEvaluation.vue"
@@ -48,7 +47,7 @@
     export default {
        name: "aboutContainer",
        components: {
-        AboutHeadingSmall,
+  
         SellingHeadingSmall,
         AboutHome,
         HomeEvaluation,
