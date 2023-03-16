@@ -12,6 +12,7 @@ import SellingPost from "../selling/sellingPost.vue"
 import AboutContainer from "../about/aboutContainer"
 import CommunitiesContainer from "../communities/communitiesContainer"
 import EvaluationContainer from "../selling/evaluationContainer"
+import CalculatorContainer from "../buying/calculatorContainer"
 
 let router =  createRouter({
     history: createWebHistory(process.env.BASE_URL),
@@ -110,6 +111,14 @@ let router =  createRouter({
             title: "John Manucdoc | Free Home Evaluation"
         },
         component: EvaluationContainer,
+    },
+    {
+        path:'/buying/mortgage-calculator/',
+        name: 'MortgageCalculator',
+        meta: {
+            title: "John Manucdoc | Mortgage Calculator"
+        },
+        component: CalculatorContainer,
     },
     
     ],

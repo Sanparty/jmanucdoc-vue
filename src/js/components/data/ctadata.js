@@ -5,7 +5,7 @@ const mortgageCalculator = {
     id: "mortgagecalculator",
     image: "cta-calc.svg",
     altImage: "Calculator Symbol",
-    routerLink: ""
+    routerLink: ctaLinks.calculatorLink.routerlink
 }
 
 const evaluation = {

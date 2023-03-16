@@ -38,8 +38,13 @@ const evaluationLink = {
     name: "Free Home Evaluation",
     routerlink: "HomeEvaluation",
 }
+const calculatorLink = {
+    id: "calculatorlink",
+    name: "Mortgage Calculator",
+    routerlink: "MortgageCalculator",
+}
 
 const navLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
 const footerLinks = { homeLink, blogLink, contactLink, buyingLink, sellingLink, aboutLink, communitiesLink }
-const ctaLinks = { buyingLink, sellingLink, evaluationLink }
+const ctaLinks = { buyingLink, sellingLink, evaluationLink, calculatorLink }
 export { contactLink, navLinks, footerLinks, ctaLinks, evaluationLink }

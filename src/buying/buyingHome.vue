@@ -28,7 +28,7 @@
     
   </div>
   <div v-if="pageInfo.calculator" class="container-md" >
-      <mortgageCalculator class="mt-4"/>
+      <mortgageCalculator :includeHeading="true" class="mt-4"/>
   </div>
 </template>
 
