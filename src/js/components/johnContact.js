@@ -2,7 +2,7 @@ const johnContact = {
     johnName: "John Manucdoc",
     johnTitle: "Broker",
     johnCompany: "RE/MAX Professionals Inc., Brokerage",
-    johnNumber: "416-902-1054",
+    johnNumber: "416-902-4154",
     johnNumberOffice: "416-232-9000",
     johnEmail: "john@remaxprofessionals.ca",
     johnTwitter: "https://twitter.com/johnman10",
