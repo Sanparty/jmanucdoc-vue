@@ -1,19 +1,19 @@
 const johnContact = {
-    johnName: "John Manucdoc",
-    johnTitle: "Broker",
-    johnCompany: "RE/MAX Professionals Inc., Brokerage",
-    johnNumber: "416-902-4154",
-    johnNumberOffice: "416-232-9000",
-    johnEmail: "john@remaxprofessionals.ca",
-    johnTwitter: "https://twitter.com/johnman10",
-    johnFacebook: "https://www.facebook.com/john.manucdoc",
-    johnLinkedin: "https://www.linkedin.com/in/johnmanucdoc/",
-    johnMessage: "With you every step of the way",
-    johnAddress: {
-        johnStreet: "1 The East Mall Crescent, Third Floor",
-        johnCity: "Toronto",
-        johnProvince: "ON",
-        johnPostalCode: "M9B 6G8"
+    contactName: "John Manucdoc",
+    contactTitle: "Broker",
+    contactCompany: "RE/MAX Professionals Inc., Brokerage",
+    contactNumber: "416-902-4154",
+    contactNumberOffice: "416-232-9000",
+    contactEmail: "john@remaxprofessionals.ca",
+    contactTwitter: "https://twitter.com/johnman10",
+    contactFacebook: "https://www.facebook.com/john.manucdoc",
+    contactLinkedin: "https://www.linkedin.com/in/johnmanucdoc/",
+    contactMessage: "With you every step of the way",
+    contactAddress: {
+        contactStreet: "1 The East Mall Crescent, Third Floor",
+        contactCity: "Toronto",
+        contactProvince: "ON",
+        contactPostalCode: "M9B 6G8"
     }
 
 } ;

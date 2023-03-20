@@ -1,19 +1,19 @@
 const danContact = {
-    johnName: "Dan San Pedro",
-    johnTitle: "Broker",
-    johnCompany: "dansanpedro.com",
-    johnNumber: "647-527-3063",
-    johnNumberOffice: "",
-    johnEmail: "dansp@me.com",
-    johnTwitter: "https://twitter.com/sanparty",
-    johnFacebook: "",
-    johnLinkedin: "https://www.linkedin.com/in/sanparty",
-    johnMessage: "Let's Do It",
-    johnAddress: {
-        johnStreet: "2441 Ploughshare Crt",
-        johnCity: "Mississauga",
-        johnProvince: "ON",
-        johnPostalCode: "L5L 3m6"
+    contactName: "Dan San Pedro",
+    contactTitle: "Real Estate Agent",
+    contactCompany: "dansanpedro.com",
+    contactNumber: "416-803-5075",
+    contactNumberOffice: "",
+    contactEmail: "dansp@me.com",
+    contactTwitter: "https://twitter.com/sanparty",
+    contactFacebook: "",
+    contactLinkedin: "https://www.linkedin.com/in/sanparty",
+    contactMessage: "Let's Do It",
+    contactAddress: {
+        contactStreet: "305 Queen St W",
+        contactCity: "Mississauga",
+        contactProvince: "ON",
+        contactPostalCode: "M5A 4S7"
     }
 }
 
