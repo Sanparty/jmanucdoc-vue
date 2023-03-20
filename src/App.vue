@@ -1,20 +1,28 @@
 <template>
-<NavbarJohn/>
+<NavbarJohn :contact="john"/>
 <router-view :key="$route.fullPath"></router-view>
-<FooterJohn/>
-<SocialBar/>
+<FooterJohn :contact="john"/>
+<SocialBar :contact="john" />
 </template>
 
 <script>
 import NavbarJohn from "./components/navbarJohn.vue"
 import FooterJohn from "./components/footerJohn.vue"
 import SocialBar from "./components/socialBar.vue"
+import johnContact from "./js/components/johnContact";
+import danContact from "./js/components/danContact";
 export default {
   name: "App",
   components: {
     NavbarJohn,
     FooterJohn,
     SocialBar
+  },
+  data () {
+    return {
+      john: johnContact,
+      dan: danContact
+    }
   }
 
 };
