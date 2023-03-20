@@ -1,6 +1,7 @@
 <template>
 <div class="home-container container-fluid p-0">
-  <MainJohn />
+  <MainJohn 
+  :contact="john"/>
   <HomeContainer />
   <CtaContainer />
   <BlogHome />
@@ -17,9 +18,17 @@ import BlogHome from "../containers/blogHome.vue";
 import HomeContainer from "../containers/homeContainer.vue"
 import CtaContainer from "../containers/ctaContainer.vue";
 import ContactJohn from "../components/contactJohn.vue"
+import johnContact from "../js/components/johnContact.js";
+import danContact from "../js/components/danContact.js"
 
 export default {
   name: "HomeJohn",
+  data () {
+    return {
+      john: johnContact,
+      dan: danContact
+    }
+  },
   components: {
 
     MainJohn,

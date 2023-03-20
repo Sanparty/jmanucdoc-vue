@@ -11,16 +11,16 @@
         </div>
         <hr class="footerhr d-md-none mb-3 px-3" />
         <div class="col-md-6 col-lg-4 order-md-1 contact-footer">
-          <h3>{{ contact.johnName }}</h3>
+          <h3>{{ contact.contactName }}</h3>
           <div class="phone">
-            <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
+            <a :href="`tel:${contact.contactNumber}`">{{ contact.contactNumber }}</a>
           </div>
           <div class="email">  
-            <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
+            <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
           </div>
           
-          <div>{{ contact.johnTitle }}</div>
-          <div>{{ contact.johnCompany }}</div>
+          <div>{{ contact.contactTitle }}</div>
+          <div>{{ contact.contactCompany }}</div>
         </div>
       </div>
     </div>
@@ -28,14 +28,15 @@
 </template>
 
 <script>
-import johnContact from "../js/components/johnContact.js";
 import { footerLinks } from "../js/components/pagelinks"
 
 export default {
   Name: "FooterJohn",
+  props:  {
+    contact: Object
+  }, 
   data () {
     return {
-      contact: johnContact,
       footerlinks: footerLinks
     }
   }

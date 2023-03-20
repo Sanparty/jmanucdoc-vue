@@ -14,14 +14,14 @@
                 <!-- <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" /> -->
             </div>
             <div class="contact-box content d-flex flex-column justify-content-start align-items-start p-3 col-12 col-md-6">
-                <h2>{{ contact.johnName }}</h2>
-                <h3 v-if="contact.johnCompany">{{ contact.johnCompany}}</h3>
-                <div class="phone">Direct: <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a></div>
-                <div v-if="contact.johnNumberOffice" class="phone">Office: <a :href="`tel:${contact.johnNumberOffice}`">{{ contact.johnNumberOffice }}</a></div>
-                <div class="email"><a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a></div>
-                <div>{{ contact.johnAddress.johnStreet}}</div>
-                <div>{{ contact.johnAddress.johnCity}}, {{ contact.johnAddress.johnProvince }}</div>
-                <div>{{ contact.johnAddress.johnPostalCode}}</div>
+                <h2>{{ contact.contactName }}</h2>
+                <h3 v-if="contact.contactCompany">{{ contact.contactCompany}}</h3>
+                <div class="phone">Direct: <a :href="`tel:${contact.contactNumber}`">{{ contact.contactNumber }}</a></div>
+                <div v-if="contact.contactNumberOffice" class="phone">Office: <a :href="`tel:${contact.contactNumberOffice}`">{{ contact.contactNumberOffice }}</a></div>
+                <div class="email"><a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a></div>
+                <div>{{ contact.contactAddress.contactStreet}}</div>
+                <div>{{ contact.contactAddress.contactCity}}, {{ contact.contactAddress.contactProvince }}</div>
+                <div>{{ contact.contactAddress.contactPostalCode}}</div>
             </div>
         </div>
     </div>

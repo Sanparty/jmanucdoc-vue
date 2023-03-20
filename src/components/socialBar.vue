@@ -9,19 +9,19 @@
           </div>
         </div> -->
         <div> 
-          <a :href="contact.johnTwitter" target="_blank"
+          <a :href="contact.contactTwitter" target="_blank"
             ><img
               class="social col-4"
               src="../assets/images/social_tw_white.svg"
               alt="Twitter"
           /></a>
-          <a :href="contact.johnFacebook" target="_blank"
+          <a :href="contact.contactFacebook" target="_blank"
             ><img
               class="social col-4"
               src="../assets/images/social_fb_white.svg"
               alt="Facebook"
           /></a>
-          <a :href="contact.johnLinkedin" target="_blank"
+          <a :href="contact.contactLinkedin" target="_blank"
             ><img
               class="social col-4"
               src="../assets/images/social_in_white.svg"
@@ -33,14 +33,11 @@
 </template>
 
 <script>
-import johnContact from "../js/components/johnContact.js";
 export default {
   Name: "SocialBar",
-  data() {
-    return {
-      contact: johnContact,
-    };
-  },
+  props: {
+    contact: Object
+  }
 };
 </script>
 

@@ -10,12 +10,12 @@
     "
   >
     <div class="mainbio flex-grow-1 text-center">
-      <h1>{{ contact.johnName }}</h1>
+      <h1>{{ contact.contactName }}</h1>
       <h2>Broker</h2>
     </div>
-    <div class="byline">{{ contact.johnMessage }}</div>
-    <div class="john-email">
-      <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
+    <div class="byline">{{ contact.contactMessage }}</div>
+    <div class="contact-email">
+      <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
     </div>
   </div>
 </template>
@@ -65,11 +65,11 @@ h2 {
   font-weight: bold;
   /* text-shadow: 2px 2px 2px #272727; */
 }
-.john-email {
+.contact-email {
   color: #f7f7f7;
   margin-bottom: 30%;
 }
-.john-email a {
+.contact-email a {
   color: #f7f7f7;
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ h2 {
   .mainbio {
     margin-top: 20%;
   }
-  .john-email {
+  .contact-email {
     margin-bottom: 10%;
   }
 }

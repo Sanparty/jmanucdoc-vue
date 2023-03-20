@@ -12,12 +12,12 @@
       <h1 class="subheading">{{ heading }}</h1>
     </div>
     <div class="mainbio sub-bio">
-      <h2 class="johnsub">{{ contact.johnName }}</h2>
-      <h3 class="brokersub">{{ contact.johnTitle }}</h3>
+      <h2 class="contactsub">{{ contact.contactName }}</h2>
+      <h3 class="brokersub">{{ contact.contactTitle }}</h3>
     </div>
-    <div class="byline">{{ contact.johnMessage }}</div>
-    <div class="john-email">
-      <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
+    <div class="byline">{{ contact.contactMessage }}</div>
+    <div class="contact-email">
+      <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
     </div>
   </div>
 </template>
@@ -71,11 +71,11 @@ h2 {
   font-weight: bold;
   /* text-shadow: 2px 2px 2px #272727; */
 }
-.john-email {
+.contact-email {
   color: #f7f7f7;
   margin-bottom: 30%;
 }
-.john-email a {
+.contact-email a {
   color: #f7f7f7;
   text-decoration: none;
 }
@@ -88,7 +88,7 @@ h2 {
 .subheading {
     font-size: 4rem;
 }
-.johnsub {
+.contactsub {
     text-transform: capitalize;
     color: #f7f7f7;
     font-size: 2.5rem;
@@ -110,7 +110,7 @@ h2 {
     .mainbio {
         margin-top: 15%;
     }
-    .john-email {
+    .contact-email {
         margin-bottom: 10%;
     }
 }
@@ -136,7 +136,7 @@ h2 {
   .byline {
     font-size: 2rem;
   }
-  .john-email {
+  .contact-email {
     font-size: 1.5rem;
   }
   .subpage {

@@ -15,26 +15,26 @@
       <div class="order-lg-2">
         <div class="d-flex flex-column-reverse flex-xl-row align-items-end">
           <div class="phone">
-            <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
+            <a :href="`tel:${contact.contactNumber}`">{{ contact.contactNumber }}</a>
           </div>
           <div class="email">  
-            <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
+            <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
           </div>
         </div>
         <div class="d-none d-lg-block">
-          <a :href="contact.johnTwitter" target="_blank"
+          <a :href="contact.contactTwitter" target="_blank"
             ><img
               class="social col-1"
               src="../assets/images/social_tw_white.svg"
               alt="Twitter"
           /></a>
-          <a :href="contact.johnFacebook" target="_blank"
+          <a :href="contact.contactFacebook" target="_blank"
             ><img
               class="social col-1"
               src="../assets/images/social_fb_white.svg"
               alt="Facebook"
           /></a>
-          <a :href="contact.johnLinkedin" target="_blank"
+          <a :href="contact.contactLinkedin" target="_blank"
             ><img
               class="social col-1"
               src="../assets/images/social_in_white.svg"
@@ -61,13 +61,14 @@
 </template>
 
 <script>
-import johnContact from "../js/components/johnContact.js";
 import { navLinks } from "../js/components/pagelinks"
 export default {
   Name: "NavbarJohn",
+  props: {
+   contact: Object
+  },
   data() {
     return {
-      contact: johnContact,
       navlinks: navLinks,
     };
   },
