@@ -10,15 +10,22 @@
     "
   >
   <span class="background-image" role="img" aria-label="Houses On Suburban Street"> </span>
+  <Transition appear>
     <div class="mainbio flex-grow-1 text-center">
       <h1>{{ contact.contactName }}</h1>
       <h2>{{ contact.contactTitle }}</h2>
     </div>
+  </Transition>
+  <Transition appear>
     <div class="byline">{{ contact.contactMessage }}</div>
+     </Transition>
+       <Transition appear>
     <div class="contact-email">
       <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
     </div>
+</Transition>
   </div>
+
 </template>
 
 <script>
@@ -73,6 +80,16 @@ h2 {
   text-decoration: none;
 }
 
+.v-enter-active,
+.v-leave-active {
+  transition: all 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  transform: translateY(-40px);
+  opacity: 0;
+}
 
 @media screen and (min-width: 576px) {
   h1 {

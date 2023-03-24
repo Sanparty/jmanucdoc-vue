@@ -1,4 +1,5 @@
 <template>
+    <Transition appear>
     <div class="container-fluid bar d-lg-none">
         <!-- <div class="d-flex flex-column-reverse align-items-end">
           <div class="phone">
@@ -30,6 +31,7 @@
       
       </div>
     </div>
+  </Transition>
 </template>
 
 <script>
@@ -87,6 +89,15 @@ export default {
   float: left;
   margin: 2px 1px;
 } */
+.v-enter-active,
+.v-leave-active {
+  transition: all 0.5s ease;
+  transition-delay: .75s;
+}
 
+.v-enter-from,
+.v-leave-to {
+  transform: translateX(110px);
+}
 
 </style>

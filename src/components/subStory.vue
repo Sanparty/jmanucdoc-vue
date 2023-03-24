@@ -1,5 +1,6 @@
 <template>
   <div class="container-fluid d-lg-flex d-flex justify-content-center align-items-center">
+    <Transition appear>
           <div class="p-3 blog-main">
             <h2>{{ blogName }}</h2>
             <h4>{{ blogDate }}</h4>
@@ -16,6 +17,7 @@
         </button>
       </div>
           </div>
+          </Transition>
         </div>
 </template>
 
@@ -110,6 +112,17 @@ h2 {
   background-color: #272727;
   height: 100%;
   text-align: left;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: all 1s ease;
+  transition-delay: 0.5s;
+}
+
+.v-enter-from,
+.v-leave-to {
+  transform: translateX(40px);
+  opacity: 0;
 }
 @media screen and (min-width: 576px) {
    h1 {

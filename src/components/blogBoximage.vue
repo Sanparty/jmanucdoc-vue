@@ -1,4 +1,5 @@
 <template>
+  <Transition appear>
   <div v-if="blogImage" class="col-sm-12 col-md-6 my-3">
     <div class="p-3 content blog-link mb-3">
       <h3>{{ blogName }}</h3>
@@ -30,6 +31,7 @@
       </div>
     </div>
   </div>
+</Transition>
 </template>
 
 <script>
@@ -111,6 +113,16 @@ export default {
 }
 .no-underline {
   text-decoration: none;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s ease;
+  transition-delay: 0.5s;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 @media screen and (min-width: 576px) {
   .content {

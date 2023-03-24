@@ -1,4 +1,5 @@
 <template>
+  <Transition appear>
   <div class="container-fluid mainimage subpage d-flex flex-column"
       :style="
                 {
@@ -20,25 +21,26 @@
       <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
     </div>
   </div>
+</Transition>
 </template>
 
 <script>
 import johnContact from "../js/components/johnContact.js";
 export default {
-  Name: "SubMainJohn",
-  data() {
-    return {
-      contact: johnContact,
-    };
-  },
-  props: {
-    title: String,
-    image: String, 
-    bgPosition: String,
-    heading: String,
-    altimage: String,
-    bgSize: String,
-  }
+    Name: "SubMainJohn",
+    data() {
+        return {
+            contact: johnContact,
+        };
+    },
+    props: {
+        title: String,
+        image: String,
+        bgPosition: String,
+        heading: String,
+        altimage: String,
+        bgSize: String,
+    },
 };
 </script>
 
@@ -102,6 +104,16 @@ h2 {
 .sub-bio {
     margin-top: 10%;
 } 
+.v-enter-active,
+.v-leave-active {
+  transition: all 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  transform: translateY(-40px);
+  opacity: 0;
+}
 @media screen and (min-width: 576px) {
    h1,
   .subheading {
@@ -113,6 +125,11 @@ h2 {
     .contact-email {
         margin-bottom: 10%;
     }
+    .v-enter-from,
+  .v-leave-to {
+  transform: translateX(-40px);
+  opacity: 0;
+}
 }
 @media screen and (max-height: 450px) {
   .mainbio h1 {

@@ -10,6 +10,7 @@
       blog-container
     "
   >
+  <Transition appear>
     <div class="p-3 col-lg-6 blog-main">
       <h1>{{ blogpost.blogName }}</h1>
       <h4>{{ blogpost.date }}</h4>
@@ -52,6 +53,7 @@
         </button>
       </div>
     </div>
+  </Transition>
   </div>
   <div class="container-fluid">
   <ContactJohn />
@@ -182,6 +184,15 @@ h1 {
   --bs-btn-active-color: inherit;
   float: left;
   margin-right: 10px;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 @media (hover: none) {
   .btn:hover {

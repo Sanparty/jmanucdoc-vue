@@ -1,5 +1,6 @@
 <template>
   <div class="contact-me pb-3">
+  <Transition appear>
     <div class="container-md">
       <h2 class="col-12 latest">Get a Free Home Evaluation</h2>
       <h4 class="col-12 latest">*Required Field</h4>
@@ -116,22 +117,6 @@
               <option value='house' >House</option><option value='townhouse' >Townhouse</option><option value='apartment' >Apartment</option><option value='duplex' >Duplex</option><option value='triplex' >Triplex</option><option value='fourplex' >Fourplex</option><option value='mobilehome' >Mobile Home</option><option value='gardenhome' >Garden Home</option><option value='residentialcommercialmix' >Residential Commercial Mix</option><option value='specialpurpose' >Special Purpose</option><option value='office' >Office</option><option value='industrial' >Industrial</option><option value='warehouse' >Warehouse</option><option value='plaza' >Plaza</option><option value='retail' >Retail</option><option value='condominium' >Condominium</option>
               </select>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div class="mb-3 col-md-4">
             <label for="locationArea" class="form-label">Location/Area</label>
             <input
@@ -201,6 +186,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
+  </Transition>
   </div>
 </template>
 
@@ -251,5 +237,14 @@ h2 {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>

@@ -9,6 +9,7 @@
       py-3
     "
   >
+  <Transition appear>
     <div class="blog-main container-md">
       <h1>{{ pageInfo.title.title1 }}</h1>
       <div v-html="pageInfo.content.content1"></div>
@@ -25,7 +26,7 @@
         <div v-html="pageInfo.content.content4"></div>
       </div>
     </div>
-    
+  </Transition>
   </div>
   <div v-if="pageInfo.calculator" class="container-md" >
       <mortgageCalculator :includeHeading="true" class="mt-4"/>
@@ -76,5 +77,14 @@ li {
   display: list-item;
   text-transform: none;
   padding: 0.5rem 0;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>

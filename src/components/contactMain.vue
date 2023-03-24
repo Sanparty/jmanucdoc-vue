@@ -1,29 +1,32 @@
 <template>
     <div class="container-md">
-        <div class="row main d-flex flex-wrap justify-content-center">
-            <div class="bio-image col-12 col-md-6"
-            :style="
-                {
-                backgroundImage: image,
-                backgroundPosition: bgPosition,
-                backgroundSize: 'cover'
-                }"
-            >
-            <span class="background-image" role="img" :aria-label="altimage"> </span>
-                <h1 class="latest">{{ heading }}</h1>
-                <!-- <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" /> -->
+        <Transition appear>
+            <div class="row main d-flex flex-wrap justify-content-center">
+                
+                <div class="bio-image col-12 col-md-6"
+                :style="
+                    {
+                    backgroundImage: image,
+                    backgroundPosition: bgPosition,
+                    backgroundSize: 'cover'
+                    }"
+                >
+                <span class="background-image" role="img" :aria-label="altimage"> </span>
+                    <h1 class="latest">{{ heading }}</h1>
+                    <!-- <img class="bio-image img-fluid" src="../assets/images/agent_showing_home.jpeg" /> -->
+                </div>
+                <div class="contact-box content d-flex flex-column justify-content-start align-items-start p-3 col-12 col-md-6">
+                    <h2>{{ contact.contactName }}</h2>
+                    <h3 v-if="contact.contactCompany">{{ contact.contactCompany}}</h3>
+                    <div class="phone">Direct: <a :href="`tel:${contact.contactNumber}`">{{ contact.contactNumber }}</a></div>
+                    <div v-if="contact.contactNumberOffice" class="phone">Office: <a :href="`tel:${contact.contactNumberOffice}`">{{ contact.contactNumberOffice }}</a></div>
+                    <div class="email"><a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a></div>
+                    <div>{{ contact.contactAddress.contactStreet}}</div>
+                    <div>{{ contact.contactAddress.contactCity}}, {{ contact.contactAddress.contactProvince }}</div>
+                    <div>{{ contact.contactAddress.contactPostalCode}}</div>
+                </div>
             </div>
-            <div class="contact-box content d-flex flex-column justify-content-start align-items-start p-3 col-12 col-md-6">
-                <h2>{{ contact.contactName }}</h2>
-                <h3 v-if="contact.contactCompany">{{ contact.contactCompany}}</h3>
-                <div class="phone">Direct: <a :href="`tel:${contact.contactNumber}`">{{ contact.contactNumber }}</a></div>
-                <div v-if="contact.contactNumberOffice" class="phone">Office: <a :href="`tel:${contact.contactNumberOffice}`">{{ contact.contactNumberOffice }}</a></div>
-                <div class="email"><a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a></div>
-                <div>{{ contact.contactAddress.contactStreet}}</div>
-                <div>{{ contact.contactAddress.contactCity}}, {{ contact.contactAddress.contactProvince }}</div>
-                <div>{{ contact.contactAddress.contactPostalCode}}</div>
-            </div>
-        </div>
+        </Transition>
     </div>
 </template>
 
@@ -87,6 +90,16 @@ h1.latest {
   font-size: 3rem;
   margin-top: 10px;
 }
+.v-enter-active,
+.v-leave-active {
+  transition: all 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  transform: translateY(-40px);
+  opacity: 0;
+}
 @media screen and (max-width: 767px) {  
     h2 {
         font-size: 1.5rem;
@@ -107,5 +120,10 @@ h1.latest {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0; 
    }
+   .v-enter-from,
+     .v-leave-to {
+        transform: translateX(-40px);
+        opacity: 0;
+    }
 }
 </style>

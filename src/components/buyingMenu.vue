@@ -4,7 +4,9 @@
   >
     <div class="blog-main">
       <ul>
+        <TransitionGroup appear>
         <li v-for="(buyingpost,index) in buyingposts" :key="index" class="no-underline" @click="showBuyingPost(buyingpost.id)">{{  buyingpost.heading }}</li>
+      </TransitionGroup>
       </ul>
       <!-- <div class="no-underline" @click="showBlogpost()">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
@@ -116,6 +118,17 @@ h2 {
   background-color: #272727;
   height: 100%;
   text-align: left;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: all 1s ease;
+  transition-delay: 0.5s;
+}
+
+.v-enter-from,
+.v-leave-to {
+  transform: translateX(40px);
+  opacity: 0;
 }
 
 @media screen and (min-width: 576px) {

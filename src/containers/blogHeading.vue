@@ -49,6 +49,9 @@ export default {
 </script>
 
 <style scoped>
+.container-fluid {
+  background-color: #272727;
+}
 h1 {
   font-weight: bold;
   font-size: 50px;

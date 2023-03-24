@@ -3,10 +3,12 @@
     class="container-fluid d-lg-flex d-flex justify-content-start align-items-center"
   >
     <div class="blog-main">
-      <ul>
+      <Transition appear>
+      <ul>        
         <li v-for="(sellingpost,index) in sellingposts" :key="index" class="no-underline" @click="showSellingPost(sellingpost.id)">{{  sellingpost.heading }}</li>
         <li><router-link :to="{name: evaluationlink.routerlink}" class="no-underline">{{ evaluationlink.name }}</router-link></li>
-      </ul>
+    </ul>
+  </Transition>
       <!-- <div class="no-underline" @click="showBlogpost()">
         <button class="btn btn-primary mt-3 cont-reading" type="submit">
           <span class="cont-reading-text">Continue Reading</span
@@ -120,6 +122,18 @@ h2 {
   height: 100%;
   text-align: left;
 }
+.v-enter-active,
+.v-leave-active {
+  transition: all 1s ease;
+  transition-delay: 0.5s;
+}
+
+.v-enter-from,
+.v-leave-to {
+  transform: translateX(40px);
+  opacity: 0;
+}
+
 
 @media screen and (min-width: 576px) {
   h1 {
