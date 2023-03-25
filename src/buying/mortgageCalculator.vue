@@ -1,5 +1,6 @@
 <template>
   <div class="contact-me p-3">
+    <Transition appear>
     <div class="container-md">
       <form class="container-md" @submit.prevent="calculate">
       <h2 v-if="includeHeading" class="col-12 latest">Mortgage Calculator</h2>
@@ -38,6 +39,7 @@
       </div>
       </form>
     </div>
+  </Transition>
   </div>
 </template>
 
@@ -149,5 +151,14 @@ h2 {
 }
 .results {
   font-size: 1.25rem;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>
