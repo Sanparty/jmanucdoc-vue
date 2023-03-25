@@ -62,9 +62,9 @@ const selectingRightAgent = {
 const settingYourPrice = {
     heading: "Setting Your Price",
     id: "selectingyourprice",
-    image: "Suburban-Homes-1080x675.jpg",
+    image: "SuburbanHomesDrone.jpeg",
     altImage: "Suburban Homes",
-    imageSize: "center center",
+    imageSize: "center 25%",
     title: {
         title1: "How Do You Determine Your Asking Price?",
     },

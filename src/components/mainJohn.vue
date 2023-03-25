@@ -49,9 +49,9 @@ h2 {
   font-weight: bold;
 }
 .mainimage {
-  background-image: url(../assets/images/AdobeStock_16789283_New.jpg);
+  background-image: url(../assets/images/SuburbanHomesDrone.jpeg);
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   height: 100vh;
   width: 100%;
   /* padding: 10px; */

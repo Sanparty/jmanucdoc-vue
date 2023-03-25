@@ -63,9 +63,9 @@ const selectingAgent = {
 const arrangeFinancing = {
     heading: "Arrange Financing",
     id: "arrangefinancing",
-    image: "Suburban-Homes-1080x675.jpg",
+    image: "SuburbanHomesDrone.jpeg",
     altImage: "Suburban Homes",
-    imageSize: "center center",
+    imageSize: "center 25%",
     calculator: true,
     title: {
         title1: "Get a Mortgage Pre-Approval",

@@ -12,7 +12,7 @@
     <!-- <ContactMain class="mt-3"
     :heading="`Contact Me`"
     :contact="contact"
-    :image="`url(${require('../assets/images/Suburban-Homes-1080x675.jpg')})`"
+    :image="`url(${require('../assets/images/SuburbanHomesDrone.jpeg')})`"
     :altimage="`Suburban Homes`"
     :bgPosition="`center right`"
     />

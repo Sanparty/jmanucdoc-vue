@@ -1,9 +1,9 @@
 const communities = {
     heading: "Communities",
     id: "communities",
-    image: "Suburban-Homes-1080x675.jpg",
+    image: "SuburbanHomesDrone.jpeg",
     altImage: "Suburban Homes",
-    imageSize: "center center",
+    imageSize: "center 25%",
     title: {
         title1: "Get the Community Information You Need",
         title2: "Next Steps?",
