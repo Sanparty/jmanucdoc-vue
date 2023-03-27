@@ -126,7 +126,7 @@ h2 {
 }
 @media screen and (min-width: 576px) {
    h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
@@ -134,5 +134,10 @@ h2 {
   h1 {
         font-size: 8rem;
   }
+}
+@media screen and (max-height: 950px) {  
+   h2 {
+    font-size: 2.25rem;
+   }
 }
 </style>
