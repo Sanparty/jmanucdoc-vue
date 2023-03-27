@@ -125,11 +125,6 @@ h2 {
     .contact-email {
         margin-bottom: 10%;
     }
-    .v-enter-from,
-  .v-leave-to {
-  transform: translateX(-40px);
-  opacity: 0;
-}
 }
 @media screen and (max-height: 450px) {
   .mainbio h1 {
@@ -159,5 +154,10 @@ h2 {
   .subpage {
         height: auto;
   }
+  .v-enter-from,
+  .v-leave-to {
+  transform: translateX(-40px);
+  opacity: 0;
+}
 }
 </style>
