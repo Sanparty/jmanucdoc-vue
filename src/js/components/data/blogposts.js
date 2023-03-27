@@ -379,6 +379,27 @@ const blogpost20 = new Blogpost (
     "blog20.png",
     "Map with Location Marker"
 );
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20];
+const blogpost21 = new Blogpost (
+    "blog21",
+    "Low-Cost Storage Hacks for Creating More Space",
+    "John Manucdoc",
+    "March 27, 2023",
+    "Comedian George Carlin’s most memorable routine was, “A place for my stuff.” In it, he talked about dealing with the increasing quantity of items we accumulate throughout life.",
+    `<p>Comedian George Carlin’s most memorable routine was, “A place for my stuff.” In it, he talked about dealing with the increasing quantity of items we accumulate throughout life.</p>
+    <p>George was funny. The problem is not. Here are some low-cost ideas for quickly creating storage space for your stuff.</p>
+    <ul>
+    <li>Attach a cloth pouch or thin plastic basket to the inside of cupboard doors. This is a great way to store Tupperware lids, cosmetics, etc.</li>
+    <li>Install hooks inside the foyer closet for loose items such as hats and scarfs.</li>
+    <li>Use egg cartons to make effective storage inserts in drawers.</li>
+    <li>Fashion stores often put purchases in stiff, high-quality boxes. Placed on their sides, these make effective storage compartments. (Shoeboxes are especially effective.)</li>
+    <li>Consider using suitcases for out-of-season clothing. In addition to storage, they also provide protection.</li>
+    <li>Never throw out an old wine rack. There are numerous ways these can be used for storage. (For example: tools)</li>
+    </ul>
+    <p>By thinking creatively, you can probably come up with many other simple ideas for creating more storage. The reward is a home that looks neater and more spacious.</p>`,
+    "blogpost21.html",
+    "blog21.png",
+    "Packing for Storage"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21];
 
 export default blogpostArray;
