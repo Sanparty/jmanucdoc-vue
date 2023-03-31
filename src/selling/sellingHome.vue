@@ -28,11 +28,18 @@
     </div>
   </Transition>
   </div>
+  <div v-if="pageInfo.lookingSell" class="container-md" >
+      <LookingSell :includeHeading="true" class="mt-4"/>
+  </div>
 </template>
 
 <script>
+import LookingSell from "../selling/lookingSell.vue"
 export default {
   name: "SellingHome",
+  components: {
+    LookingSell
+  },
   props: {
     pageInfo: Object,
   }  

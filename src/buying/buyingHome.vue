@@ -27,19 +27,26 @@
       </div>
     </div>
   </Transition>
+
+  </div>
+  <div v-if="pageInfo.lookingBuy" class="container-md" >
+      <LookingBuy :includeHeading="true" class="mt-4"/>
   </div>
   <div v-if="pageInfo.calculator" class="container-md" >
       <mortgageCalculator :includeHeading="true" class="mt-4"/>
   </div>
+
 </template>
 
 <script>
 import mortgageCalculator from './mortgageCalculator.vue';
+import LookingBuy from "../buying/lookingBuy.vue";
 
 export default {
   name: "BuyingHome",
   components: {
-    mortgageCalculator
+    mortgageCalculator,
+    LookingBuy
   },
   props: {
     pageInfo: Object,

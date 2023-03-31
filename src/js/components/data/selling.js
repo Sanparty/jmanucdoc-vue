@@ -4,6 +4,7 @@ const selling = {
     image: "homeforsale.jpg",
     altImage: "Home For Sale",
     imageSize: "center center",
+    lookingSell: true,
     title: {
         title1: "Selling Your House for the Highest Possible Price",
         title2: "Your Personal Consultation"
@@ -34,6 +35,7 @@ const selectingRightAgent = {
     image: "agent_talking_to_clients.jpeg",
     altImage: "Agent Talking To Clients",
     imageSize: "center 25%",
+    lookingSell: true,
     title: {
         title1: "Why Sell with Me?",
     },
@@ -65,6 +67,7 @@ const settingYourPrice = {
     image: "SuburbanHomesDrone.jpeg",
     altImage: "Suburban Homes",
     imageSize: "center 25%",
+    lookingSell: true,
     title: {
         title1: "How Do You Determine Your Asking Price?",
     },
@@ -87,6 +90,7 @@ const attractingBuyers = {
     image: "agent_showing_home.jpeg",
     altImage: "Agent Showing Home To Clients",
     imageSize: "center 40%",
+    lookingSell: true,
     title: {
         title1: "How Do You Attract Qualified Buyers?",
     },
@@ -115,6 +119,7 @@ const handlingViewings = {
     image: "homeforsale.jpg",
     altImage: "Home For Sale",
     imageSize: "center 70%",
+    lookingSell: true,
     title: {
         title1: "Ensuring Viewings are Successful",
     },
@@ -142,6 +147,7 @@ const dealingOffers = {
     image: "agent_talking_to_clients.jpeg",
     altImage: "Agent Talking To Clients",
     imageSize: "center 25%",
+    lookingSell: true,
     title: {
         title1: "Your Agent Will Handle all the Details",
     },
@@ -170,6 +176,7 @@ const closingTheSale = {
     image: "AdobeStock_16789283_New.jpg",
     altImage: "Suburban Homes",
     imageSize: "center center",
+    lookingSell: true,
     title: {
         title1: "Making Sure Your Move Goes Smoothly",
     },

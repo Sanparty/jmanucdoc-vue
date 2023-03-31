@@ -4,6 +4,7 @@ const buying = {
     image: "agent_showing_home.jpeg",
     altImage: "Agent Showing Home",
     imageSize: "center center",
+    lookingBuy: true,
     title: {
         title1: "Find Your Dream Home – Right Here!",
         title2: "Ready to Get Started?"
@@ -31,6 +32,7 @@ const selectingAgent = {
     image: "agent_talking_to_clients.jpeg",
     altImage: "Agent Talking To Clients",
     imageSize: "center 25%",
+    lookingBuy: true,
     title: {
         title1: "Do You Have a Personal Real Estate Agent?",
         title2: "Your Real Estate Agent Works for You",
@@ -66,6 +68,7 @@ const arrangeFinancing = {
     image: "SuburbanHomesDrone.jpeg",
     altImage: "Suburban Homes",
     imageSize: "center 25%",
+    lookingBuy: true,
     calculator: true,
     title: {
         title1: "Get a Mortgage Pre-Approval",
@@ -91,6 +94,7 @@ const viewingHomes = {
     image: "homeforsale.jpg",
     altImage: "Home For Sale",
     imageSize: "center center",
+    lookingBuy: true,
     title: {
         title1: "The Home Shopping Process",
         title2: "What to Look for when Viewing a Property",
@@ -129,6 +133,7 @@ const makingOffer = {
     image: "AdobeStock_16789283_New.jpg",
     altImage: "Suburban Homes",
     imageSize: "center center",
+    lookingBuy: true,
     title: {
         title1: "Preparing the Offer",
         title2: "How the Process Works",
@@ -159,6 +164,7 @@ const closingSale = {
     image: "agent_showing_home.jpeg",
     altImage: "Agent Showing Home To Clients",
     imageSize: "center 40%",
+    lookingBuy: true,
     title: {
         title1: "Ensuring the Closing Goes Smoothly"
     },
