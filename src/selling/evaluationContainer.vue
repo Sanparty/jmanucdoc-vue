@@ -27,7 +27,7 @@
    /> 
   </div>
     <div class="col-12">
-      <HomeEvaluation />
+      <HomeEvaluation :includeHeading="false"/>
     </div>
     <div class="container-fluid">
       <ContactJohn />

@@ -1,8 +1,8 @@
 <template>
-  <div class="contact-me pb-3">
+  <div class="contact-me p-3">
   <Transition appear>
     <div class="container-md">
-      <h2 v-if="includeHeading" class="col-12 latest">Get a Free Home Evaluation</h2>
+      <h2 v-if="includeHeading" class="col-12 latest">Looking to Buy a Home?</h2>
       <h4 class="col-12 latest">*Required Field</h4>
       <form class="container">
         <div class="row">
@@ -49,44 +49,6 @@
             />
           </div>
           <div class="mb-3 col-md-6">
-            <label for="streetAddress" class="form-label">Street Address *</label>
-            <input
-              type="text"
-              class="form-control"
-              id="streetAddress"
-              aria-describedby="streetAddress"
-              required
-            />
-          </div>
-          <div class="mb-3 col-md-6">
-            <label for="cityTown" class="form-label">City/Town</label>
-            <input
-              type="text"
-              class="form-control"
-              id="cityTown"
-              aria-describedby="cityTown"
-            />
-          </div>
-          <div class="mb-3 col-md-6">
-            <label for="stateProvince" class="form-label">State/Province</label>
-            <input
-              type="text"
-              class="form-control"
-              id="stateProvince"
-              aria-describedby="stateProvince"
-            />
-          </div>
-          <div class="mb-3 col-md-6">
-            <label for="postalCode" class="form-label">Zip/Postal Code</label>
-            <input
-              type="text"
-              class="form-control"
-              id="postalCode"
-              aria-describedby="postalCode"
-            />
-          </div>
-        
-          <div class="mb-3 col-md-6">
             <label for="mobilePhone" class="form-label">Mobile Number</label>
             <input
               type="tel"
@@ -104,44 +66,40 @@
               aria-describedby="workPhone"
             />
           </div>
-          
-          <div class="mb-3 col-md-4">
-            <label for="propertyTypes" class="form-label">Property Types</label>
-            <select class="form-control" id="propertyTypes" aria-describedby="propertyTypes">
-              <option value='residential' >Residential</option><option value='recreational' >Recreational</option><option value='agriculture' >Agriculture</option><option value='openhouse' >Open House</option><option value='parking' >Parking</option><option value='land' >Land</option><option value='commercial' >Commercial</option><option value='investment' >Investment</option></select>
+          <div class="mb-3 col-md-6">
+            <label for="buyMinimum" class="form-label">Price Range (From) *</label>
+            <input
+              type="number"
+              class="form-control"
+              id="buyMinimum"
+              aria-describedby="buyMinimum"
+              placeholder="$"
+            />
           </div>
-          <div class="mb-3 col-md-4">
+          <div class="mb-3 col-md-6">
+            <label for="buyMaximum" class="form-label">Price Range (To) *</label>
+            <input
+              type="number"
+              class="form-control"
+              id="buyMaximum"
+              aria-describedby="buyMaximum"
+              placeholder="$"
+            />
+          </div>
+          <div class="mb-3 col-md-6">
             <label for="buildingType" class="form-label">Building Type</label>
             <select class="form-control" id="buildingType" aria-describedby="buildingType">
            
               <option value='house' >House</option><option value='townhouse' >Townhouse</option><option value='apartment' >Apartment</option><option value='duplex' >Duplex</option><option value='triplex' >Triplex</option><option value='fourplex' >Fourplex</option><option value='mobilehome' >Mobile Home</option><option value='gardenhome' >Garden Home</option><option value='residentialcommercialmix' >Residential Commercial Mix</option><option value='specialpurpose' >Special Purpose</option><option value='office' >Office</option><option value='industrial' >Industrial</option><option value='warehouse' >Warehouse</option><option value='plaza' >Plaza</option><option value='retail' >Retail</option><option value='condominium' >Condominium</option>
               </select>
             </div>
-          <div class="mb-3 col-md-4">
+          <div class="mb-3 col-md-6">
             <label for="locationArea" class="form-label">Location/Area</label>
             <input
               type="text"
               class="form-control"
               id="locationArea"
               aria-describedby="locationArea"
-            />
-          </div>
-          <div class="mb-3 col-md-6">
-            <label for="properySize" class="form-label">Property Size</label>
-            <input
-              type="text"
-              class="form-control"
-              id="properySize"
-              aria-describedby="properySize"
-            />
-          </div>
-          <div class="mb-3 col-md-6">
-            <label for="lotSize" class="form-label">Lot Size</label>
-            <input
-              type="text"
-              class="form-control"
-              id="lotSize"
-              aria-describedby="lotSize"
             />
           </div>
           <div class="mb-3 col-md-6">
@@ -163,16 +121,6 @@
             />
           </div>
           <div class="mb-3 col-md-12">
-            <label for="propertyDesc" class="form-label">Property Description</label>
-            <textarea
-              type="text"
-              class="form-control"
-              id="propertyDesc"
-              aria-describedby="propertyDesc"
-              rows="5"
-            ></textarea>
-          </div>
-          <div class="mb-3 col-md-12">
             <label for="comments" class="form-label">Comments</label>
             <textarea
               type="text"
@@ -192,7 +140,7 @@
 
 <script>
 export default {
-  Name: "homeEvaluation",
+  Name: "lookingBuy",
   props: {
     includeHeading: Boolean
   }
