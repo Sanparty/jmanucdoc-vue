@@ -53,6 +53,7 @@ li:hover,
 .scrollmenu {
   overflow: auto;
   white-space: nowrap;
+  text-align: center;
 }
 .smallmenulink {
     padding-right: 10px;
@@ -60,6 +61,7 @@ li:hover,
     font-weight: bold;
     text-decoration: none;
     color: #f7f7f7;
+    cursor: pointer;
 }
 @media screen and (min-width: 992px) {  
     li {
