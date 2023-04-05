@@ -8,11 +8,11 @@
             <div class="d-flex flex-column" >
             <p v-if="pledge.headingMessage" >
                     <span class="cta-start">{{ pledge.headingMessage }}</span> {{ pledge.message }}
-                    <i class="fa fa-arrow-right cta-arrow" aria-hidden="true"></i>
+                    <router-link v-if="pledge.routerLink" :to="{name: pledge.routerLink}"><i class="fa fa-arrow-right cta-arrow" aria-hidden="true"></i></router-link>
                 </p>
             
             <p class="mainmessage" v-if="pledge.mainMessage">
-           {{ pledge.message }}<br />
+           {{ pledge.message }}<router-link v-if="pledge.routerLink" :to="{name: pledge.routerLink}" style="text-decoration: none; color: #cc2a38; font-weight: bold;">{{ pledge.message2 }}</router-link>{{ pledge.message3 }}<br />
             <span class="mainp mt-3">{{ pledge.mainMessage }}
             </span>
             </p> 
