@@ -400,6 +400,28 @@ const blogpost21 = new Blogpost (
     "blog21.png",
     "Packing for Storage"
 );
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21];
+const blogpost22 = new Blogpost (
+    "blog22",
+    "A Bird’s Eye View of Selling Your Home",
+    "John Manucdoc",
+    "April 10, 2023",
+    "If you haven’t sold a home before, the process can seem complex and even intimidating. It really isn’t. In fact, the steps to selling your property - quickly and for the best price - are straightforward, although not necessarily easy.",
+    `<p>If you haven’t sold a home before, the process can seem complex and even intimidating. It really isn’t. In fact, the steps to selling your property &#8211; quickly and for the best price &#8211; are straightforward, although not necessarily easy.</p>
+    <p>Here’s a bird’s-eye view of the steps to expect:</p>
+    <ul>
+    <li>Determine what your property will likely sell for on today’s market. This is referred to as the Current Market Value.</li>
+    <li>Decide on a list price. Doing this properly is crucial. If you set the price too high, you’ll discourage buyers from seeing your home. On the other hand, if the price is too low, you may be leaving thousands of dollars on the table.</li>
+    <li>Prepare your home for sale. This involves cleaning, de-cluttering, fixing and staging so that your property wows potential buyers.</li>
+    <li>Market and promote the property to the marketplace. This needs to be done effectively to maximize the number of qualified buyers who find out about and become interested in your listing.</li>
+    <li>Show your property to buyers interested in seeing it.</li>
+    <li>Negotiate offers effectively so that you sell your property for the best price and conditions.</li>
+    <li>Make a deal and begin the transaction paperwork!</li>
+    </ul>
+    `,
+    "blogpost22.html",
+    "blog22.png",
+    "Marking Checklist"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22];
 
 export default blogpostArray;
