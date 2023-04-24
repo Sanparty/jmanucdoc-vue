@@ -422,6 +422,24 @@ const blogpost22 = new Blogpost (
     "blog22.png",
     "Marking Checklist"
 );
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22];
+const blogpost23 = new Blogpost (
+    "blog23",
+    "Worried You Won’t Find the Home You Want?",
+    "John Manucdoc",
+    "April 24, 2023",
+    "If you’re thinking of selling your home, you may be concerned that you won’t be able to find the kind of property you’re looking to buy. After all, getting into a more desirable home is the main reason many people move in the first place. Should you be concerned?",
+    `<p>If you’re thinking of selling your home, you may be concerned that you won’t be able to find the kind of property you’re looking to buy. After all, getting into a more desirable home is the main reason many people move in the first place. Should you be concerned?</p>
+    <p>There are a couple of things to consider:</p>
+    <p>First, think about the last time you purchased a car. You probably had a price range in mind and a general idea of the kind of vehicle you wanted. After visiting a few dealerships &#8211; or shopping online &#8211; you probably discovered seven or eight models that fit your criteria.</p>
+    <p>Even with that limited selection, you were likely able to pick one that was right for you.</p>
+    <p>Well, that’s good news. In the real estate market, there are probably dozens of properties available that meet many or all of your criteria. So, the odds are with you that you’ll find a property you love.</p>
+    <p>Secondly, new properties come on the market all the time. </p>
+    <p>Is it possible that you still won’t find a home that’s absolutely perfect for you in every way? Of course it is. However, there is an excellent chance you’ll get into a property that has everything you need and most, if not all, of what you want.</p>
+    <p>That’s not just encouraging. It’s exciting!</p>`,
+    "blogpost23.html",
+    "blog23.png",
+    "Looking for Home"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23];
 
 export default blogpostArray;
