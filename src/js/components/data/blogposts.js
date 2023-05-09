@@ -440,6 +440,25 @@ const blogpost23 = new Blogpost (
     "blog23.png",
     "Looking for Home"
 );
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23];
+const blogpost24 = new Blogpost (
+    "blog24",
+    "Modernizing Your Home Security",
+    "John Manucdoc",
+    "May 8, 2023",
+    "As technology evolves and becomes more affordable, homeowners should consider replacing their older equipment with a completely new security system, rather than patching together outdated units that provide specific functions in isolation.",
+    `<p>As technology evolves and becomes more affordable, homeowners should consider replacing their older equipment with a completely new security system, rather than patching together outdated units that provide specific functions in isolation.</p>
+    <p>A modern system will wake you up in the morning to your own personalized display screen, adjust your room temperature, turn on your lights and operate other household functions. When you leave the house, wireless technology will allow you to watch your property, both inside and out, from any number of computing devices. This means you can also program household functions from afar.</p>
+    <p>These newer residential security systems can coordinate a wide range of functions by remote control, from locking windows and closing the garage door, to adjusting the thermostat, drapery and lighting. They can even notify you if a room has been entered or a cabinet has been opened. Commercial-type closed-circuit television cameras (CCTV) with live video feed are also being introduced to residential systems in many average-sized homes. In addition, these modern systems coordinate driveway and doorway cameras (connected to your home computer or TV), monitor for break-ins, provide smoke and CO2 detection, and include water sensors for the detection of a burst pipe, leaking water tank or an overflowing tub.</p>
+    <p>In the near future, residential video surveillance will distinguish pets from people, and even burglars from letter carriers. The latest CCTV cameras can identify intruders using motion or heat sensors or even activity pattern recognition (e.g. climbing a fence or jimmying a lock).</p>`,
+    "blogpost24.html",
+    "blog24.png",
+    "Home Security"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24];
 
-export default blogpostArray;
+export default blogpostArray
+
+
+// Possible to only provide latest posts
+// const latestposts = blogpostArray.slice(-9)
+// export default latestposts;
