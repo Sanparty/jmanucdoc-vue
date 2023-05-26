@@ -454,7 +454,25 @@ const blogpost24 = new Blogpost (
     "blog24.png",
     "Home Security"
 );
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24];
+const blogpost25 = new Blogpost (
+    "blog25",
+    "Your Home at a Glance",
+    "John Manucdoc",
+    "May 22, 2023",
+    "Have you ever driven up to a restaurant and been disappointed by your first impression? Perhaps the windows looked dark and gloomy, the façade was worn and unattractive or for some other reason it just didn’t look like a tempting place to eat.",
+    `<p>Have you ever driven up to a restaurant and been disappointed by your first impression? Perhaps the windows looked dark and gloomy, the façade was worn and unattractive or for some other reason it just didn’t look like a tempting place to eat.</p>
+    <p>It could still be a fantastic restaurant &#8211; a real gem. But, your first impression has soured your anticipation. If you still walk through the front door, it will likely be with much lower expectations.</p>
+    <p>This scenario often plays out in the real estate market as well.</p>
+    <p>Buyers drive up to a home for sale and quickly form an impression based on what they see “from the curb”. That’s why you’ll hear real estate experts talk about the importance of “curb appeal”. It’s one of the most important selling points of a property.</p>
+    <p>If you plan to put your home on the market, you want your home to look as attractive as possible from the street. Fortunately, there are many simple things you can do to improve curb appeal.</p>
+    <p>For example, you can trim shrubs and hedges, plant flowers, clean the walkway and driveway, paint the front door and garage door, and clean the exteriors of the windows. All these projects are relatively easy and inexpensive. Yet, each can have a dramatic impact on a buyer’s first impression.</p>
+    <p>Don’t be like the great restaurant that’s hidden behind an unkept façade. Make sure your curb appeal reflects the overall value of your property.</p>
+    <p>Looking for more advice on selling your home quickly and for the best price? Call today.</p>`,
+    "blogpost25.html",
+    "blog25.jpg",
+    "Lovely Home"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25];
 
 export default blogpostArray
 
