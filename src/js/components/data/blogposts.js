@@ -472,7 +472,24 @@ const blogpost25 = new Blogpost (
     "blog25.jpg",
     "Lovely Home"
 );
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25];
+const blogpost26 = new Blogpost (
+    "blog26",
+    "Making Your Kitchen More Attractive to Buyers",
+    "John Manucdoc",
+    "June 5, 2023",
+    "What’s one of the most important rooms in your home? When it comes to selling your property quickly, and for the best price, the answer is clearly the kitchen. In fact, one of the most common explanations buyers often give for not making an offer is, “I liked the house, but I wasn’t too keen on the kitchen.”",
+    `<p>What’s one of the most important rooms in your home? When it comes to selling your property quickly, and for the best price, the answer is clearly the kitchen. In fact, one of the most common explanations buyers often give for not making an offer is, “I liked the house, but I wasn’t too keen on the kitchen.”</p>
+    <p>That doesn’t mean you must do a major renovation. However, you should do what you can to make the kitchen as attractive as possible to buyers.</p>
+    <p>Here are some ideas:</p>
+    <p>First, clear the countertops. Put away the toaster and other items. You want to make the entire countertop area seem as spacious as possible.</p>
+    <p>If the cabinetry is old, you can spruce it up by installing new knobs, handles and other hardware. A fresh coat of paint on the walls and ceiling can also make the kitchen look like it has had a major renovation &#8211; but will only cost a few hundred dollars. According to an article on the website HGTV.com. “The fastest, most inexpensive kitchen updates include painting and new cabinet hardware.”</p>
+    <p>Replacing the countertops is a more expensive renovation, but may be worthwhile if the current counters are old and worn.</p>
+    <p>Finally, when preparing your kitchen for a viewing, make sure it’s clean and tidy. The garbage and recycling bins should be empty. Buyers will open cabinets, so make sure items on shelves are neatly organized with the front labels facing forward.</p>`,
+    "blogpost26.html",
+    "blog26.jpeg",
+    "Kitchen"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26];
 
 export default blogpostArray
 
