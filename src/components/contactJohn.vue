@@ -2,7 +2,7 @@
   <div class="contact-me container-md mt-4 mb-4 p-3">
     <div class="row">
       <h2 class="col-12 latest">Contact Me</h2>
-      <form class="container">
+      <form method="post" action="contact-form-process.php" class="container">
         <div class="row">
           <div class="mb-3 col-md-6">
             <label for="firstName" class="form-label">First Name *</label>
