@@ -2,13 +2,14 @@
   <div class="contact-me container-md mt-4 mb-4 p-3">
     <div class="row">
       <h2 class="col-12 latest">Contact Me</h2>
-      <form class="container">
+      <form action="" class="container" @submit.prevent="sendEmail">
         <div class="row">
           <div class="mb-3 col-md-6">
             <label for="firstName" class="form-label">First Name *</label>
             <input
               type="text"
               class="form-control"
+              v-model="firstName"
               id="firstName"
               aria-describedby="firstName"
             />
@@ -18,18 +19,20 @@
             <input
               type="text"
               class="form-control"
+              v-model="lastName"
               id="lastName"
               aria-describedby="lastName"
             />
           </div>
           <div class="mb-3 col-md-4">
-            <label for=" emailAddress" class="form-label"
+            <label for="emailAddress" class="form-label"
               >Email address *</label
             >
             <input
               type="email"
               class="form-control"
-              id="exampleAddress"
+              v-model="emailAddress"
+              id="emailAddress"
               aria-describedby="emailAddress"
             />
           </div>
@@ -38,6 +41,7 @@
             <input
               type="tel"
               class="form-control"
+              v-model="homePhone"
               id="homePhone"
               aria-describedby="homePhone"
             />
@@ -47,6 +51,7 @@
             <input
               type="tel"
               class="form-control"
+              v-model="cellPhone"
               id="cellPhone"
               aria-describedby="cellPhone"
             />
@@ -56,6 +61,7 @@
             <textarea
               type="text"
               class="form-control"
+              v-model="comment"
               id="comment"
               aria-describedby="comment"
               rows="5"
@@ -69,8 +75,32 @@
 </template>
 
 <script>
+import { Email } from "@/assets/smtp/smtp.js";
+
 export default {
   Name: "contactJohn",
+  data() {
+    return {
+      firstName: "",
+      lastName: "",
+      emailAddress: "",
+      homePhone: "",
+      cellPhone: "",
+      comment: "",
+    }
+  },
+  methods: {
+    sendEmail() {
+      Email.send({
+        SecureToken: "0ec49f21-fb1b-4049-893d-817612dacb60",
+        To: "dsanpedro@gmail.com",
+        From: "dan@dan.ca",
+        name: this.firstName + this.lastName,
+        Subject: "An email from Real Estate Contact Form",
+        Body: this.comment,
+      }).then((message) => alert(message));
+    },
+  },
 };
 </script>
 
