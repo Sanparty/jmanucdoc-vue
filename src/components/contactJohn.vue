@@ -2,6 +2,7 @@
   <div class="contact-me container-md mt-4 mb-4 p-3">
     <div class="row">
       <h2 class="col-12 latest">Contact Me</h2>
+      <h4 class="col-12 latest">*Required Field</h4>
       <form class="container">
         <div class="row">
           <div class="mb-3 col-md-6">
@@ -24,7 +25,7 @@
           </div>
           <div class="mb-3 col-md-4">
             <label for=" emailAddress" class="form-label"
-              >Email address *</label
+              >Email Address *</label
             >
             <input
               type="email"
