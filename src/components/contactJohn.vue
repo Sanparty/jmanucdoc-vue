@@ -90,38 +90,7 @@ export default {
       result: ''
     }
   },
-  // data() {
-  //   return {
-  //     firstName: '',
-  //     lastName: '',
-  //     emailAddress: '',
-  //     homePhone: '',
-  //     cellPhone: '',
-  //     comment: ''
-  //   }
-  // },
   methods: {
-    // sendEmail(e) {
-    //   try {
-    //     emailjs.sendForm('jman_web', 'template_e28bu7j', e.target,
-    //     'EVwDPvs94HElj1O62', {
-    //       name: this.firstName + this.lastName,
-    //       email: this.emailAddress,
-    //       message: this.comment
-    //     })
-
-    //   } catch(error) {
-    //       console.log({error})
-    //   }
-    //   // Reset form field
-    //   this.firstName = ''
-    //   this.lastName = ''
-    //   this.emailAddress = ''
-    //   this.comment = ''
-    //   this.homePhone = ''
-    //   this.cellPhone = ''
-
-    // },
     sendEmail() {
       emailjs.sendForm('jman_web', 'template_e28bu7j', this.$refs.form, 'EVwDPvs94HElj1O62')
         .then((result) => {
