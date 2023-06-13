@@ -4,12 +4,13 @@
     <div class="container-md">
       <h2 v-if="includeHeading" class="col-12 latest">Looking to Buy a Home?</h2>
       <h4 class="col-12 latest">*Required Field</h4>
-      <form class="container">
+      <form ref="form" class="container" @submit.prevent="sendEmail">
         <div class="row">
           <div class="mb-3 col-md-6">
             <label for="firstName" class="form-label">First Name *</label>
             <input
               type="text"
+              name="firstName"
               class="form-control"
               id="firstName"
               aria-describedby="firstName"
@@ -20,6 +21,7 @@
             <label for="lastName" class="form-label">Last Name *</label>
             <input
               type="text"
+              name="lastName"
               class="form-control"
               id="lastName"
               aria-describedby="lastName"
@@ -32,6 +34,7 @@
             >
             <input
               type="email"
+              name="emailAddress"
               class="form-control"
               id="exampleAddress"
               aria-describedby="emailAddress"
@@ -42,6 +45,7 @@
             <label for="homePhone" class="form-label">Home Phone *</label>
             <input
               type="tel"
+              name="homePhone"
               class="form-control"
               id="homePhone"
               aria-describedby="homePhone"
@@ -52,6 +56,7 @@
             <label for="mobilePhone" class="form-label">Mobile Number</label>
             <input
               type="tel"
+              name="mobilePhone"
               class="form-control"
               id="mobilePhone"
               aria-describedby="mobilePhone"
@@ -61,6 +66,7 @@
             <label for="workPhone" class="form-label">Work Number</label>
             <input
               type="tel"
+              name="workPhone"
               class="form-control"
               id="workPhone"
               aria-describedby="workPhone"
@@ -70,9 +76,11 @@
             <label for="buyMinimum" class="form-label">Price Range (From) *</label>
             <input
               type="number"
+              name="buyMinimum"
               class="form-control"
               id="buyMinimum"
               aria-describedby="buyMinimum"
+              required
               placeholder="$"
             />
           </div>
@@ -80,15 +88,17 @@
             <label for="buyMaximum" class="form-label">Price Range (To) *</label>
             <input
               type="number"
+              name="buyMaximum"
               class="form-control"
               id="buyMaximum"
               aria-describedby="buyMaximum"
+              required
               placeholder="$"
             />
           </div>
           <div class="mb-3 col-md-6">
             <label for="buildingType" class="form-label">Building Type</label>
-            <select class="form-control" id="buildingType" aria-describedby="buildingType">
+            <select class="form-control" name="buildingType" id="buildingType" aria-describedby="buildingType">
            
               <option value='house' >House</option><option value='townhouse' >Townhouse</option><option value='apartment' >Apartment</option><option value='duplex' >Duplex</option><option value='triplex' >Triplex</option><option value='fourplex' >Fourplex</option><option value='mobilehome' >Mobile Home</option><option value='gardenhome' >Garden Home</option><option value='residentialcommercialmix' >Residential Commercial Mix</option><option value='specialpurpose' >Special Purpose</option><option value='office' >Office</option><option value='industrial' >Industrial</option><option value='warehouse' >Warehouse</option><option value='plaza' >Plaza</option><option value='retail' >Retail</option><option value='condominium' >Condominium</option>
               </select>
@@ -97,6 +107,7 @@
             <label for="locationArea" class="form-label">Location/Area</label>
             <input
               type="text"
+              name="locationArea"
               class="form-control"
               id="locationArea"
               aria-describedby="locationArea"
@@ -106,6 +117,7 @@
             <label for="bedrooms" class="form-label">Bedrooms</label>
             <input
               type="number"
+              name="bedrooms"
               class="form-control"
               id="bedrooms"
               aria-describedby="bedrooms"
@@ -115,6 +127,7 @@
             <label for="bathrooms" class="form-label">Bathrooms</label>
             <input
               type="number"
+              name="bathrooms"
               class="form-control"
               id="bathrooms"
               aria-describedby="bathrooms"
@@ -124,6 +137,7 @@
             <label for="comments" class="form-label">Comments</label>
             <textarea
               type="text"
+              name="comments"
               class="form-control"
               id="comments"
               aria-describedby="comments"
@@ -131,7 +145,8 @@
             ></textarea>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <input type="submit" class="btn btn-primary" value="Send">
+        <div id="resultMessage">{{ result }}</div>
       </form>
     </div>
   </Transition>
@@ -139,10 +154,33 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
+
 export default {
   Name: "lookingBuy",
   props: {
     includeHeading: Boolean
+  },
+  data() {
+    return {
+      result: ''
+    }
+  },
+  methods: {
+    sendEmail() {
+      emailjs.sendForm('jman_web', 'template_tumyy0g', this.$refs.form, 'EVwDPvs94HElj1O62')
+        .then((result) => {
+            console.log('SUCCESS!', result.text);
+            // Clears form/inputs after button is Selected
+            console.log(this.$refs.form.firstName)
+            this.$refs.form.reset();
+            this.result = 'Your message has been received. Thanks for contacting me.'
+        }, (error) => {
+            console.log('FAILED...', error.text);
+            this.result = 'Sorry, your message did not send correctly. Please try again later.'
+        }
+        );
+    }
   }
 };
 </script>
@@ -197,5 +235,11 @@ h2 {
 .v-enter-from,
 .v-leave-to {
   opacity: 0;
+}
+#resultMessage {
+  color: #cc2a38;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 10px;
 }
 </style>
