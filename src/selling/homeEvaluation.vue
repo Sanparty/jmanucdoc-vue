@@ -4,12 +4,13 @@
     <div class="container-md">
       <h2 v-if="includeHeading" class="col-12 latest">Get a Free Home Evaluation</h2>
       <h4 class="col-12 latest">*Required Field</h4>
-      <form class="container">
+      <form ref="form" class="container" @submit.prevent="sendEmail">
         <div class="row">
           <div class="mb-3 col-md-6">
             <label for="firstName" class="form-label">First Name *</label>
             <input
               type="text"
+              name="firstName"
               class="form-control"
               id="firstName"
               aria-describedby="firstName"
@@ -20,6 +21,7 @@
             <label for="lastName" class="form-label">Last Name *</label>
             <input
               type="text"
+              name="lastName"
               class="form-control"
               id="lastName"
               aria-describedby="lastName"
@@ -27,11 +29,12 @@
             />
           </div>
           <div class="mb-3 col-md-6">
-            <label for=" emailAddress" class="form-label"
+            <label for="emailAddress" class="form-label"
               >Email address *</label
             >
             <input
               type="email"
+              name="emailAddress"
               class="form-control"
               id="exampleAddress"
               aria-describedby="emailAddress"
@@ -42,6 +45,7 @@
             <label for="homePhone" class="form-label">Home Phone *</label>
             <input
               type="tel"
+              name="homePhone"
               class="form-control"
               id="homePhone"
               aria-describedby="homePhone"
@@ -52,6 +56,7 @@
             <label for="streetAddress" class="form-label">Street Address *</label>
             <input
               type="text"
+              name="streetAddress"
               class="form-control"
               id="streetAddress"
               aria-describedby="streetAddress"
@@ -62,6 +67,7 @@
             <label for="cityTown" class="form-label">City/Town</label>
             <input
               type="text"
+              name="cityTown"
               class="form-control"
               id="cityTown"
               aria-describedby="cityTown"
@@ -71,6 +77,7 @@
             <label for="stateProvince" class="form-label">State/Province</label>
             <input
               type="text"
+              name="stateProvince"
               class="form-control"
               id="stateProvince"
               aria-describedby="stateProvince"
@@ -80,6 +87,7 @@
             <label for="postalCode" class="form-label">Zip/Postal Code</label>
             <input
               type="text"
+              name="postalCode"
               class="form-control"
               id="postalCode"
               aria-describedby="postalCode"
@@ -90,6 +98,7 @@
             <label for="mobilePhone" class="form-label">Mobile Number</label>
             <input
               type="tel"
+              name="mobilePhone"
               class="form-control"
               id="mobilePhone"
               aria-describedby="mobilePhone"
@@ -99,6 +108,7 @@
             <label for="workPhone" class="form-label">Work Number</label>
             <input
               type="tel"
+              name="workPhone"
               class="form-control"
               id="workPhone"
               aria-describedby="workPhone"
@@ -107,12 +117,12 @@
           
           <div class="mb-3 col-md-4">
             <label for="propertyTypes" class="form-label">Property Types</label>
-            <select class="form-control" id="propertyTypes" aria-describedby="propertyTypes">
+            <select class="form-control" name="eval-propertyType" id="propertyTypes" aria-describedby="propertyTypes">
               <option value='residential' >Residential</option><option value='recreational' >Recreational</option><option value='agriculture' >Agriculture</option><option value='openhouse' >Open House</option><option value='parking' >Parking</option><option value='land' >Land</option><option value='commercial' >Commercial</option><option value='investment' >Investment</option></select>
           </div>
           <div class="mb-3 col-md-4">
             <label for="buildingType" class="form-label">Building Type</label>
-            <select class="form-control" id="buildingType" aria-describedby="buildingType">
+            <select class="form-control" name="eval-buildingType" id="buildingType" aria-describedby="buildingType">
            
               <option value='house' >House</option><option value='townhouse' >Townhouse</option><option value='apartment' >Apartment</option><option value='duplex' >Duplex</option><option value='triplex' >Triplex</option><option value='fourplex' >Fourplex</option><option value='mobilehome' >Mobile Home</option><option value='gardenhome' >Garden Home</option><option value='residentialcommercialmix' >Residential Commercial Mix</option><option value='specialpurpose' >Special Purpose</option><option value='office' >Office</option><option value='industrial' >Industrial</option><option value='warehouse' >Warehouse</option><option value='plaza' >Plaza</option><option value='retail' >Retail</option><option value='condominium' >Condominium</option>
               </select>
@@ -121,6 +131,7 @@
             <label for="locationArea" class="form-label">Location/Area</label>
             <input
               type="text"
+              name="eval-locationArea"
               class="form-control"
               id="locationArea"
               aria-describedby="locationArea"
@@ -130,6 +141,7 @@
             <label for="properySize" class="form-label">Property Size</label>
             <input
               type="text"
+              name="eval-propertySize"
               class="form-control"
               id="properySize"
               aria-describedby="properySize"
@@ -139,6 +151,7 @@
             <label for="lotSize" class="form-label">Lot Size</label>
             <input
               type="text"
+              name="eval-lotSize"
               class="form-control"
               id="lotSize"
               aria-describedby="lotSize"
@@ -148,6 +161,7 @@
             <label for="bedrooms" class="form-label">Bedrooms</label>
             <input
               type="number"
+              name="eval-bedrooms"
               class="form-control"
               id="bedrooms"
               aria-describedby="bedrooms"
@@ -157,6 +171,7 @@
             <label for="bathrooms" class="form-label">Bathrooms</label>
             <input
               type="number"
+              name="eval-bathrooms"
               class="form-control"
               id="bathrooms"
               aria-describedby="bathrooms"
@@ -166,6 +181,7 @@
             <label for="propertyDesc" class="form-label">Property Description</label>
             <textarea
               type="text"
+              name="eval-propertyDesc"
               class="form-control"
               id="propertyDesc"
               aria-describedby="propertyDesc"
@@ -176,14 +192,16 @@
             <label for="comments" class="form-label">Comments</label>
             <textarea
               type="text"
+              name="comments"
               class="form-control"
               id="comments"
               aria-describedby="comments"
               rows="5"
             ></textarea>
           </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        </div> 
+        <input type="submit" class="btn btn-primary" value="Send">
+        <div id="resultMessage">{{ result }}</div>
       </form>
     </div>
   </Transition>
@@ -191,10 +209,32 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com'
 export default {
   Name: "homeEvaluation",
   props: {
     includeHeading: Boolean
+  },
+  data() {
+    return {
+      result: ''
+    }
+  },
+  methods: {
+    sendEmail() {
+      emailjs.sendForm('jman_web', 'template_tumyy0g', this.$refs.form, 'EVwDPvs94HElj1O62')
+        .then((result) => {
+            console.log('SUCCESS!', result.text);
+            // Clears form/inputs after button is Selected
+            console.log(this.$refs.form.firstName)
+            this.$refs.form.reset();
+            this.result = 'Your message has been received. Thanks for contacting me.'
+        }, (error) => {
+            console.log('FAILED...', error.text);
+            this.result = 'Sorry, your message did not send correctly. Please try again later.'
+        }
+        );
+    }
   }
 };
 </script>
@@ -249,5 +289,11 @@ h2 {
 .v-enter-from,
 .v-leave-to {
   opacity: 0;
+}
+#resultMessage {
+  color: #cc2a38;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 10px;
 }
 </style>
