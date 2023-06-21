@@ -30,17 +30,23 @@
     </div>
 </template>
 
-<script>
-    export default {
+<script lang="ts">
+import { PropType, defineComponent } from 'vue'
+import Contact from '@/types/contact'
+
+    export default defineComponent ({
         name: "ContactMain",
         props: {
-            contact: Object,
+            contact: {
+                type: Object as PropType<Contact>,
+                required: true
+            },
             image: String, 
             bgPosition: String,
             heading: String,
             altimage: String
         },
-    }
+    })
 </script>
 
 <style scoped>
