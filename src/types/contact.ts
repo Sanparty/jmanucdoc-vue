@@ -1,20 +1,20 @@
 interface Contact {
-    contactId?: Number,
-    contactName: String,
-    contactTitle: String,
-    contactCompany?: String,
-    contactNumber: String,
-    contactNumberOffice?: String,
-    contactEmail: String,
-    contactTwitter?: String,
-    contactFacebook?: String,
-    contactLinkedin?: String,
-    contactMessage?: String,
+    contactId?: number,
+    contactName: string,
+    contactTitle: string,
+    contactCompany?: string,
+    contactNumber: string,
+    contactNumberOffice?: string,
+    contactEmail: string,
+    contactTwitter?: string,
+    contactFacebook?: string,
+    contactLinkedin?: string,
+    contactMessage?: string,
     contactAddress: {
-        contactStreet: String,
-        contactCity: String,
-        contactProvince: String,
-        contactPostalCode: String
+        contactStreet: string,
+        contactCity: string,
+        contactProvince: string,
+        contactPostalCode: string
     }
 }
 
