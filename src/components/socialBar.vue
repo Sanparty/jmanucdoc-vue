@@ -3,27 +3,27 @@
     <div class="container-fluid bar d-lg-none">
         <!-- <div class="d-flex flex-column-reverse align-items-end">
           <div class="phone">
-            <a :href="`tel:${contact.johnNumber}`">{{ contact.johnNumber }}</a>
+            <a :href="`tel:${contact.contactNumber}`">{{ contact.contactNumber }}</a>
           </div>
           <div class="email">  
-            <a :href="`mailto:${contact.johnEmail}`">{{ contact.johnEmail }}</a>
+            <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
           </div>
         </div> -->
         <div> 
           <a :href="contact.contactTwitter" target="_blank"
-            ><img
+            ><img v-if="contact.contactTwitter"
               class="social col-4"
               src="../assets/images/social_tw_white.svg"
               alt="Twitter"
           /></a>
           <a :href="contact.contactFacebook" target="_blank"
-            ><img
+            ><img v-if="contact.contactFacebook"
               class="social col-4"
               src="../assets/images/social_fb_white.svg"
               alt="Facebook"
           /></a>
           <a :href="contact.contactLinkedin" target="_blank"
-            ><img
+            ><img v-if="contact.contactLinkedin"
               class="social col-4"
               src="../assets/images/social_in_white.svg"
               alt="LinkedIn"
@@ -34,13 +34,19 @@
   </Transition>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent, PropType } from 'vue';
+import Contact from '@/types/contact';
+
+export default defineComponent ({
   Name: "SocialBar",
   props: {
-    contact: Object
+    contact: {
+      type: Object as PropType<Contact>,
+      required: true
+    },
   }
-};
+});
 </script>
 
 <style scoped>
@@ -56,7 +62,6 @@ export default {
 
 .social {
   height: 18px;
-  float: right;
 }
 /* .email,
 .phone {
