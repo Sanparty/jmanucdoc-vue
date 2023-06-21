@@ -7,7 +7,7 @@ const danContact: Contact = {
     contactNumber: "416-803-5075",
     contactEmail: "dansp@me.com",
     contactTwitter: "https://twitter.com/sanparty",
-    contactLinkedin: "https://www.linkedin.com/in/sanparty",
+    contactLinkedin: "https://www.linkedin.com/in/dsanpedro",
     contactMessage: "Let's Do It",
     contactAddress: {
         contactStreet: "305 Queen St W",
