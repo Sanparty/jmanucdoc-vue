@@ -1,6 +1,7 @@
 import Contact from "@/types/contact"
 
 const johnContact: Contact = {
+    contactId: 1,
     contactName: "John Manucdoc",
     contactTitle: "Broker",
     contactCompany: "RE/MAX Professionals Inc., Brokerage",
