@@ -23,19 +23,19 @@
         </div>
         <div class="d-none d-lg-block">
           <a :href="contact.contactTwitter" target="_blank"
-            ><img
+            ><img v-if="contact.contactTwitter"
               class="social col-1"
               src="../assets/images/social_tw_white.svg"
               alt="Twitter"
           /></a>
           <a :href="contact.contactFacebook" target="_blank"
-            ><img
+            ><img v-if="contact.contactFacebook"
               class="social col-1"
               src="../assets/images/social_fb_white.svg"
               alt="Facebook"
           /></a>
           <a :href="contact.contactLinkedin" target="_blank"
-            ><img
+            ><img v-if="contact.contactLinkedin"
               class="social col-1"
               src="../assets/images/social_in_white.svg"
               alt="LinkedIn"
@@ -62,15 +62,17 @@
 
 <script lang="ts">
 import { navLinks } from "../js/components/pagelinks"
-import { defineComponent } from 'vue'
-import type { PropType } from 'vue'
+import { PropType, defineComponent } from 'vue'
 import Contact from "@/types/contact"
 
 
 export default defineComponent({
   Name: "NavbarJohn",
   props: {
-   contact: Object as PropType<Contact>
+    contact: {
+      type: Object as PropType<Contact>,
+      required: true
+    },
   },
   data() {
     return {
