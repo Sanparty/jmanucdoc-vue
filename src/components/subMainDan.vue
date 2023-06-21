@@ -22,9 +22,10 @@
   </div>
 </template>
 
-<script>
-import danContact from "../js/components/danContact.js";
-export default {
+<script lang="ts">
+import danContact from "@/js/components/danContact";
+import { defineComponent } from "vue";
+export default defineComponent ({
   Name: "SubMainJohn",
   data() {
     return {
@@ -39,7 +40,7 @@ export default {
     altimage: String,
     bgSize: String
   }
-};
+});
 </script>
 
 <style scoped>

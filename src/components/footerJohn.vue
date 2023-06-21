@@ -27,10 +27,11 @@
   </footer>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue"
 import { footerLinks } from "../js/components/pagelinks"
 
-export default {
+export default defineComponent ({
   Name: "FooterJohn",
   props:  {
     contact: Object
@@ -40,7 +41,7 @@ export default {
       footerlinks: footerLinks
     }
   }
-};
+});
 </script>
 
 <style scoped>

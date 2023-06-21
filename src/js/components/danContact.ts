@@ -1,4 +1,6 @@
-const danContact = {
+import Contact from "@/types/contact"
+
+const danContact: Contact = {
     contactName: "Dan San Pedro",
     contactTitle: "Real Estate Agent",
     contactCompany: "dansanpedro.com",

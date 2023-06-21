@@ -11,17 +11,18 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 
 import MainJohn from "../components/mainJohn.vue";
 import BlogHome from "../containers/blogHome.vue";
 import HomeContainer from "../containers/homeContainer.vue"
 import CtaContainer from "../containers/ctaContainer.vue";
 import ContactJohn from "../components/contactJohn.vue"
-import johnContact from "../js/components/johnContact.js";
-import danContact from "../js/components/danContact.js"
+import johnContact from "@/js/components/johnContact";
+import danContact from "@/js/components/danContact"
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent({
   name: "HomeJohn",
   data () {
     return {
@@ -38,7 +39,7 @@ export default {
     ContactJohn,
 
   },
-};
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

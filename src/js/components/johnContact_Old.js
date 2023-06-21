@@ -1,4 +1,4 @@
-const johnContact = {
+const johnContact= {
     contactName: "John Manucdoc",
     contactTitle: "Broker",
     contactCompany: "RE/MAX Professionals Inc., Brokerage",
@@ -15,7 +15,6 @@ const johnContact = {
         contactProvince: "ON",
         contactPostalCode: "M9B 6G8"
     }
-
-} ;
+};
 
 export default johnContact;

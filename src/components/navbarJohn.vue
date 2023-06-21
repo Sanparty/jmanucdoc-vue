@@ -60,19 +60,24 @@
   </nav>
 </template>
 
-<script>
+<script lang="ts">
 import { navLinks } from "../js/components/pagelinks"
-export default {
+import { defineComponent } from 'vue'
+import type { PropType } from 'vue'
+import Contact from "@/types/contact"
+
+
+export default defineComponent({
   Name: "NavbarJohn",
   props: {
-   contact: Object
+   contact: Object as PropType<Contact>
   },
   data() {
     return {
       navlinks: navLinks,
     };
   },
-};
+});
 </script>
 
 <style scoped>
