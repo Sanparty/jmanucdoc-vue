@@ -489,7 +489,24 @@ const blogpost26 = new Blogpost (
     "blog26.jpeg",
     "Kitchen"
 );
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26];
+const blogpost27 = new Blogpost (
+    "blog27",
+    "Bringing Fitness Home",
+    "John Manucdoc",
+    "June 19, 2023",
+    "Are you thinking about purchasing home fitness equipment? Owning your own treadmill, exercise bike, or rowing machine can save you a lot of time and money compared to joining a fitness club. However, selecting the right equipment can be a challenge. Here are some tips:",
+    `<p>Are you thinking about purchasing home fitness equipment? Owning your own treadmill, exercise bike, or rowing machine can save you a lot of time and money compared to joining a fitness club. However, selecting the right equipment can be a challenge. Here are some tips:</p>
+    <ul>
+    <li>Try it first. Ask your home fitness equipment dealer to let you do a few minutes of exercise on the machine you’re considering. Most will agree. Be suspicious if they don’t.</li>
+    <li>Ask around. Staff at local fitness clubs know the best equipment. Ask them for recommendations. Also ask friends and colleagues.</li>
+    <li>Read on-line reviews. Type the name and model of the fitness machine you’re considering into Google along with the word “reviews”. Chances are you’ll find several websites that contain candid customer comments, complaints and testimonials.</li>
+    <li>Make sure it fits. Home fitness equipment can take up a lot of space. Make sure the one you select fits in the room you have in mind. Pay particular attention to the ceiling height. You don’t want to hit your head while working out on your stair climber!</li>
+    </ul>`,
+    "blogpost27.html",
+    "blog27.jpg",
+    "Fitness Area"
+);
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27];
 
 export default blogpostArray
 
