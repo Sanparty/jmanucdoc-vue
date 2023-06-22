@@ -28,13 +28,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue"
+import { defineComponent, PropType } from "vue"
 import { footerLinks } from "../js/components/pagelinks"
+import Contact from "@/types/contact"
 
 export default defineComponent ({
   Name: "FooterJohn",
   props:  {
-    contact: Object
+    contact: {
+      type: Object as PropType<Contact>,
+      required: true
+    },
   }, 
   data () {
     return {
