@@ -30,13 +30,19 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { PropType, defineComponent } from 'vue';
+import Article from '@/types/article'
+
+export default defineComponent ({
   name: "aboutHome",
   props: {
-    pageInfo: Object,
-  }  
-};
+    pageInfo: {
+      type: Object as PropType<Article>,
+      required: true
+    },
+  }
+});
 </script>
 
 <style scoped>
