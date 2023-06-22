@@ -6,14 +6,15 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 import CtaJohn from "../components/ctaJohn.vue"
-export default {
+export default defineComponent ({
   Name: "ctaContainer",
   components: {
     CtaJohn
   }
-}
+})
 </script>
 
 <style>

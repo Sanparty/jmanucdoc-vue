@@ -9,17 +9,18 @@
   </div>
 </template>
 
-<script>
-import ctaData from "../js/components/data/ctadata.js"
+<script lang="ts">
+import { defineComponent } from "vue";
+import ctaData from "@/js/components/data/ctadata"
 
-export default {
+export default defineComponent ({
   Name: "CtaJohn",
   data () {
     return {
       ctaData: ctaData
     }
   },
-};
+});
 </script>
 
 <style scoped>
