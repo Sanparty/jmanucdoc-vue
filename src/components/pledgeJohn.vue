@@ -8,13 +8,15 @@
     </div>
 </template>
 
-<script>
-    export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+    export default defineComponent ({
         name: "pledgeJohn",
         props: {
             pledges: Object
         },
-    }
+    })
 </script>
 
 <style scoped>
