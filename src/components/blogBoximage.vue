@@ -34,8 +34,10 @@
 </Transition>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent ({
   Name: "BlogBoximage",
   methods: {
     showBlogpost() {
@@ -53,7 +55,7 @@ export default {
     blogImagealt: String,
     blogLink: String,
   },
-};
+});
 </script>
 
 <style scoped>
