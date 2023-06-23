@@ -4,7 +4,6 @@
     <div class="col-12">
       <AboutHeadingSmall 
         :heading="about.heading"
-        :contact="contact"
         :image="`url(${require(`../assets/images/${ about.image }`)})`"
         :altimage="about.altImage"
         :bgPosition="about.imageSize"
@@ -24,12 +23,13 @@
 
 </template>
 
-<script>
+<script lang="ts">
     import ContactJohn from "../components/contactJohn.vue"
     import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
     import AboutHome from "../about/aboutHome.vue"
-    import communities from "../js/components/data/communities"
-    export default {
+    import communities from "@/js/components/data/communities"
+import { defineComponent } from "vue"
+    export default defineComponent ({
        name: "communitiesContainer",
        components: {
         AboutHeadingSmall,
@@ -41,7 +41,7 @@
           about: communities
         };
       },
-    }
+    })
    
     
     

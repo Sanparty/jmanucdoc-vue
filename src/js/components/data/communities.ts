@@ -1,4 +1,6 @@
-const communities = {
+import Article from "@/types/article"
+
+const communities: Article = {
     heading: "Communities",
     id: "communities",
     image: "SuburbanHomesDrone.jpeg",
