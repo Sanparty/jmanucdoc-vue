@@ -27,13 +27,14 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import ContactJohn from "../components/contactJohn.vue"
 import ContactMain from "../components/contactMain.vue"
-import johnContact from "../js/components/johnContact.js";
-import danContact from "../js/components/danContact.js"
+import johnContact from "@/js/components/johnContact";
+import danContact from "@/js/components/danContact"
+import { defineComponent } from "vue";
 
-    export default {
+    export default defineComponent ({
         name: "ContactContainer",
         components: {
             ContactJohn,
@@ -45,7 +46,7 @@ import danContact from "../js/components/danContact.js"
                 contact2: danContact
             }
         }
-    }
+    })
 </script>
 
 <style scoped>

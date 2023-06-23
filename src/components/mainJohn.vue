@@ -28,14 +28,20 @@
 
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent, PropType } from 'vue';
+import Contact from '@/types/contact';
 
-export default {
+
+export default defineComponent ({
   Name: "MainJohn",
   props: {
-    contact: Object
+    contact: {
+      type: Object as PropType<Contact>,
+      required: true
+    }
   }
-};
+});
 </script>
 
 <style scoped>

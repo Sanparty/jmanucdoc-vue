@@ -5,13 +5,14 @@
 <SocialBar :contact="john" />
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 import NavbarJohn from "./components/navbarJohn.vue"
 import FooterJohn from "./components/footerJohn.vue"
 import SocialBar from "./components/socialBar.vue"
-import johnContact from "./js/components/johnContact";
-import danContact from "./js/components/danContact";
-export default {
+import johnContact from "@/js/components/johnContact";
+import danContact from "@/js/components/danContact";
+export default defineComponent ({
   name: "App",
   components: {
     NavbarJohn,
@@ -25,7 +26,7 @@ export default {
     }
   }
 
-};
+});
 </script>
 
 <style>

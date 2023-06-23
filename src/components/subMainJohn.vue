@@ -24,9 +24,10 @@
 </Transition>
 </template>
 
-<script>
-import johnContact from "../js/components/johnContact.js";
-export default {
+<script lang="ts">
+import johnContact from "@/js/components/johnContact";
+import { defineComponent } from "vue";
+export default defineComponent ({
     Name: "SubMainJohn",
     data() {
         return {
@@ -41,7 +42,7 @@ export default {
         altimage: String,
         bgSize: String,
     },
-};
+});
 </script>
 
 <style scoped>

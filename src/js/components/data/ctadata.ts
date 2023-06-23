@@ -1,6 +1,7 @@
 import { ctaLinks } from "../pagelinks"
+import Cta from "@/types/cta"
 
-const mortgageCalculator = {
+const mortgageCalculator: Cta = {
     heading: "Mortgage Calculator",
     id: "mortgagecalculator",
     image: "cta-calc.svg",
@@ -8,7 +9,7 @@ const mortgageCalculator = {
     routerLink: ctaLinks.calculatorLink.routerlink
 }
 
-const evaluation = {
+const evaluation: Cta = {
     heading: "Free Home Evaluation",
     id: "evaluation",
     image: "cta-eval.svg",
@@ -16,7 +17,7 @@ const evaluation = {
     routerLink: ctaLinks.evaluationLink.routerlink
 }
 
-const thinkingBuying = {
+const thinkingBuying: Cta = {
     heading: "Thinking of Buying?",
     id: "thinkingbuying",
     image: "cta-buying.svg",
@@ -24,7 +25,7 @@ const thinkingBuying = {
     routerLink: ctaLinks.buyingLink.routerlink
 }
 
-const thinkingSelling = {
+const thinkingSelling: Cta = {
     heading: "Thinking of Selling?",
     id: "thinkingselling",
     image: "cta-selling.svg",

@@ -16,12 +16,13 @@
 
 </template>
 
-<script>
+<script lang="ts">
     import WelcomeJohn from "../components/welcomeJohn.vue";
     import PledgeJohn from "../components/pledgeJohn.vue"
     import SellbuyJohn from '@/components/sellbuyJohn.vue';
     import { welcomeMessage, pledgesMessage, pledgesMain } from "../js/components/homepage"
-    export default {
+import { defineComponent } from "vue";
+    export default defineComponent ({
        name: "homeContainer",
        components: {
         WelcomeJohn,
@@ -38,9 +39,7 @@
           pledgesMain: pledgesMain
         };
       },
-    }
-   
-    
+    })
     
 </script>
 

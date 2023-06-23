@@ -20,16 +20,17 @@
   </div>
 </template>
 
-<script>
-import danContact from "../js/components/danContact.js";
-export default {
+<script lang="ts">
+import danContact from "@/js/components/danContact";
+import { defineComponent } from "vue";
+export default defineComponent ({
   Name: "MainDan",
   data() {
     return {
       contact: danContact,
     };
   },
-};
+});
 </script>
 
 <style scoped>

@@ -1,4 +1,6 @@
-const about = {
+import Article from "@/types/article"
+
+const about: Article = {
     heading: "About",
     id: "about",
     image: "agent_showing_home.jpeg",
