@@ -1,4 +1,6 @@
-const buying = {
+import Article from "@/types/article"
+
+const buying: Article = {
     heading: "Buying",
     id: "buying",
     image: "agent_showing_home.jpeg",
@@ -26,7 +28,7 @@ const buying = {
         <p>Let’s work together to find your dream home!</p>`
     },
 }
-const selectingAgent = {
+const selectingAgent: Article = {
     heading: "Selecting an Agent",
     id: "selectingagent",
     image: "agent_talking_to_clients.jpeg",
@@ -62,7 +64,7 @@ const selectingAgent = {
         <p>To schedule an appointment with me, please call or email. If it’s more convenient for you, submit the form below and I’ll get back to you.</p>`,
     },
 }
-const arrangeFinancing = {
+const arrangeFinancing: Article = {
     heading: "Arrange Financing",
     id: "arrangefinancing",
     image: "SuburbanHomesDrone.jpeg",
@@ -88,7 +90,7 @@ const arrangeFinancing = {
         <p>Have questions about arranging financing? Please submit the form below or call or email me.</p>`,
     },
 }
-const viewingHomes = {
+const viewingHomes: Article = {
     heading: "Viewing Homes",
     id: "viewinghomes",
     image: "homeforsale.jpg",
@@ -127,7 +129,7 @@ const viewingHomes = {
         `,
     },
 }
-const makingOffer = {
+const makingOffer: Article = {
     heading: "Making an Offer",
     id: "makingoffer",
     image: "AdobeStock_16789283_New.jpg",
@@ -158,7 +160,7 @@ const makingOffer = {
         `,
     },
 }
-const closingSale = {
+const closingSale: Article = {
     heading: "Closing the Sale",
     id: "closingsale",
     image: "agent_showing_home.jpeg",
