@@ -4,6 +4,9 @@ interface Article {
     image: string,
     altImage: string,
     imageSize?: string,
+    lookingBuy?: Boolean,
+    lookingSell?: Boolean,
+    calculator?: Boolean,
     title: {
         title1: string,
         title2?: string,
