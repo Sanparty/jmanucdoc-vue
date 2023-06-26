@@ -36,10 +36,11 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import BlogBoximage from "@/components/blogBoximage.vue";
-import blogpostArray from "../js/components/data/blogposts";
-export default {
+import blogpostArray from "@/js/components/data/blogposts";
+import { defineComponent } from "vue";
+export default defineComponent ({
   Name: "blogMain",
   components: {
     BlogBoximage,
@@ -55,7 +56,7 @@ export default {
       return blogsData.reverse();
     }
   },
-};
+});
 </script>
 
 <style scoped>

@@ -28,11 +28,12 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 import SubMainJohn from "../components/subMainJohn.vue"
 import SubStory from "../components/subStory.vue"
-import blogpostArray from "../js/components/data/blogposts";
-export default {
+import blogpostArray from "@/js/components/data/blogposts";
+export default defineComponent ({
   Name: "blogHeading",
   components: {
     SubMainJohn,
@@ -45,7 +46,7 @@ export default {
        return blogsData[latestindex]
     },
   },
-};
+});
 </script>
 
 <style scoped>

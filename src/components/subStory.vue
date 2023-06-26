@@ -21,8 +21,10 @@
         </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent ({
   Name: "SubStory",
   methods: {
     showBlogpost() {
@@ -41,7 +43,7 @@ export default {
     blogLink: String,
     blogDate: String
   },
-};
+});
 </script>
 
 <style scoped>

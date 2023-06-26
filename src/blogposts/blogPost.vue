@@ -11,7 +11,7 @@
     "
   >
   <Transition appear>
-    <div class="p-3 col-lg-6 blog-main">
+    <div v-if="blogpost" class="p-3 col-lg-6 blog-main">
       <h1>{{ blogpost.blogName }}</h1>
       <h4>{{ blogpost.date }}</h4>
       <img
@@ -53,6 +53,9 @@
         </button>
       </div>
     </div>
+    <div v-else class="p-e col-lg-6 blog-main">
+      You have reached an unexpected page! Please return home. Thanks!
+    </div>
   </Transition>
   </div>
   <div class="container-fluid">
@@ -60,46 +63,62 @@
   </div>
 </template>
 
-// <script>
-import blogpostarray from "../js/components/data/blogposts";
+<script lang="ts">
+import blogpostarray from "@/js/components/data/blogposts";
 import ContactJohn from "../components/contactJohn.vue";
-export default {
+import Blogpost from "@/types/blogpost";
+import { defineComponent } from "vue";
+export default defineComponent ({
   name: "BlogPost",
   components: {
     ContactJohn,
   },
   computed: {
-    blogpost() {
+    blogpost(): Blogpost {
       const blogId = this.$route.params.blogId;
-      return blogpostarray.find((blogpost) => blogpost.id === blogId);
+      let blogpostWanted = blogpostarray.find((blogpost) => blogpost.id === blogId);
+      if (blogpostWanted) {
+        return blogpostWanted
+      } else {
+        return this.latestBlogpost
+      }
     },
-    blogtotal() {
+    latestBlogpost(): Blogpost {
+       const blogsData = [...blogpostarray];
+       let latestindex =  (blogsData.length - 1);
+       return blogsData[latestindex]
+    },
+    blogtotal(): number {
       return blogpostarray.length;
     },
-    previouspost() {
+    previouspost(): number {
       return parseInt(this.blogpost.id.slice(4)) - 1;
     },
-    nextpost() {
+    nextpost(): number {
       return parseInt(this.blogpost.id.slice(4)) + 1;
     },
   },
   methods: {
     previousBlogpost() {
-      let previousId = parseInt(this.blogpost.id.slice(4)) - 1;
-      this.$router.push({
+      if (this.blogpost) {      
+        let previousId = parseInt(this.blogpost.id.slice(4)) - 1;
+        this.$router.push({
         name: "Blogposts",
         params: { blogId: `blog${previousId}` },
       });
+      }
     },
     nextBlogpost() {
-      let nextId = parseInt(this.blogpost.id.slice(4)) + 1;
+      if (this.blogpost) {
+       let nextId = parseInt(this.blogpost.id.slice(4)) + 1;
       this.$router.push({
         name: "Blogposts",
         params: { blogId: `blog${nextId}` },
       });
+      }
     },
   },
-};
+});
 </script>
 
 <style scoped>

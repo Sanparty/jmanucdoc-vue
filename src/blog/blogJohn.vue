@@ -8,18 +8,19 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import BlogHeading from "../containers/blogHeading.vue"
 import BlogMain from "../containers/blogMain.vue";
 import ContactJohn from "../components/contactJohn.vue"
-export default {
+import { defineComponent } from "vue";
+export default defineComponent ({
   name: "HomeJohn",
   components: {
     BlogHeading,
     BlogMain,
     ContactJohn,
   },
-};
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

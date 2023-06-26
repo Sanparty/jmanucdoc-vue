@@ -49,7 +49,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import BlogBoximage from "@/components/blogBoximage.vue";
-import blogpostArray from "../js/components/data/blogposts";
+import blogpostArray from "@/js/components/data/blogposts";
 
 export default defineComponent ({
   Name: "blogHome",
