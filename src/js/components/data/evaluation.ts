@@ -1,4 +1,6 @@
-const evaluation = {
+import Article from "@/types/article"
+
+const evaluation: Article = {
     heading: "Free Home Evaluation",
     id: "about",
     image: "homeforsale.jpg",

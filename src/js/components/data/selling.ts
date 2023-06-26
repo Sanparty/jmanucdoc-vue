@@ -1,4 +1,6 @@
-const selling = {
+import Article from "@/types/article"
+
+const selling: Article = {
     heading: "Selling",
     id: "selling",
     image: "homeforsale.jpg",
@@ -29,7 +31,7 @@ const selling = {
         <p>So let’s meet. Please submit the form below or call or email me today to schedule your Personal Consultation.</p>`
     },
 }
-const selectingRightAgent = {
+const selectingRightAgent: Article = {
     heading: "Selecting the Right Agent",
     id: "selectingrightagent",
     image: "agent_talking_to_clients.jpeg",
@@ -61,7 +63,7 @@ const selectingRightAgent = {
         <p>To find out more about why you should sell with me, please submit the form below or call or email me to schedule a Personal Consultation.</p>`,   
     },
 }
-const settingYourPrice = {
+const settingYourPrice: Article = {
     heading: "Setting Your Price",
     id: "selectingyourprice",
     image: "SuburbanHomesDrone.jpeg",
@@ -84,7 +86,7 @@ const settingYourPrice = {
         `,   
     },
 }
-const attractingBuyers = {
+const attractingBuyers: Article = {
     heading: "Attracting Buyers",
     id: "attractingbuyers",
     image: "agent_showing_home.jpeg",
@@ -113,7 +115,7 @@ const attractingBuyers = {
         <p>The sooner we start, the sooner your house will be sold – and for a top price.</p>`,   
     },
 }
-const handlingViewings = {
+const handlingViewings: Article = {
     heading: "Handling Viewings",
     id: "handlingviewings",
     image: "homeforsale.jpg",
@@ -141,7 +143,7 @@ const handlingViewings = {
         `,   
     },
 }
-const dealingOffers = {
+const dealingOffers: Article = {
     heading: "Dealing With Offers",
     id: "dealingoffers",
     image: "agent_talking_to_clients.jpeg",
@@ -170,7 +172,7 @@ const dealingOffers = {
         <p>Want to discuss how much you may be able to get for your house? Please submit the form below or call or email me for a no-obligation Personal Consultation.</p>`,   
     },
 }
-const closingTheSale = {
+const closingTheSale: Article = {
     heading: "Closing the Sale",
     id: "closingsale",
     image: "AdobeStock_16789283_New.jpg",
