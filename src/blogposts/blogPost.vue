@@ -66,7 +66,7 @@
 <script lang="ts">
 import blogpostarray from "@/js/components/data/blogposts";
 import ContactJohn from "../components/contactJohn.vue";
-// import Blogpost from "@/types/blogpost";
+import Blogpost from "@/types/blogpost";
 import { defineComponent } from "vue";
 export default defineComponent ({
   name: "BlogPost",
@@ -74,35 +74,28 @@ export default defineComponent ({
     ContactJohn,
   },
   computed: {
-    blogpost() {
+    blogpost(): Blogpost {
       const blogId = this.$route.params.blogId;
-      if (blogpostarray.find((blogpost) => blogpost.id === blogId)) {
-        return blogpostarray.find((blogpost) => blogpost.id === blogId)
+      let blogpostWanted = blogpostarray.find((blogpost) => blogpost.id === blogId);
+      if (blogpostWanted) {
+        return blogpostWanted
       } else {
         return this.latestBlogpost
       }
     },
-    latestBlogpost: function() {
+    latestBlogpost(): Blogpost {
        const blogsData = [...blogpostarray];
        let latestindex =  (blogsData.length - 1);
        return blogsData[latestindex]
     },
-    blogtotal() {
+    blogtotal(): number {
       return blogpostarray.length;
     },
-    previouspost() {
-      if (this.blogpost) {
+    previouspost(): number {
       return parseInt(this.blogpost.id.slice(4)) - 1;
-      } else {
-        return parseInt(this.latestBlogpost.id)
-      }
     },
-    nextpost() {
-      if (this.blogpost) {
+    nextpost(): number {
       return parseInt(this.blogpost.id.slice(4)) + 1;
-      } else {
-        return parseInt(this.latestBlogpost.id)
-      }
     },
   },
   methods: {
