@@ -38,20 +38,25 @@
 
 </template>
 
-<script>
+<script lang="ts">
 import mortgageCalculator from './mortgageCalculator.vue';
 import LookingBuy from "../buying/lookingBuy.vue";
+import Article from '@/types/article';
+import { defineComponent, PropType } from 'vue';
 
-export default {
+export default defineComponent ({
   name: "BuyingHome",
   components: {
     mortgageCalculator,
     LookingBuy
   },
   props: {
-    pageInfo: Object,
+    pageInfo: {
+      type: Object as PropType<Article>,
+      required: true,
+    }
   },
-};
+});
 </script>
 
 <style scoped>

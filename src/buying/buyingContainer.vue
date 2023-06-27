@@ -18,12 +18,13 @@
 
 </template>
 
-<script>
+<script lang="ts">
     import ContactJohn from "../components/contactJohn.vue"
     import BuyingHeading from "../containers/buyingHeading.vue"
     import BuyingHome from "../buying/buyingHome.vue"
-    import { buying } from "../js/components/data"
-    export default {
+    import { buying } from "@/js/components/data"
+import { defineComponent } from "vue"
+    export default defineComponent ({
        name: "buyingContainer",
        components: {
         BuyingHeading,
@@ -35,7 +36,7 @@
           buying: buying
         };
       },
-    }
+    })
    
     
     
