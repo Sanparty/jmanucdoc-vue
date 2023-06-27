@@ -4,7 +4,6 @@
       <div v-if="buyid == buyingpost.id" class="col-12">
       <BuyingHeadingSmall 
         :heading="buyingpost.heading"
-        :contact="contact"
         :image="`url(${require(`../assets/images/${ buyingpost.image }`)})`"
         :altimage="buyingpost.altImage"
         :bgPosition="buyingpost.imageSize"
@@ -21,12 +20,13 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 import ContactJohn from "../components/contactJohn.vue";
 import BuyingHeadingSmall from "../containers/buyingHeadingSmall.vue";
 import BuyingHome from "./buyingHome.vue";
-import { buyingPosts } from "../js/components/data";
-export default {
+import { buyingPosts } from "@/js/components/data";
+export default defineComponent ({
   name: "buyingPost",
   components: {
     BuyingHeadingSmall,
@@ -39,7 +39,7 @@ export default {
       buyid: this.$route.params.buyingid,
     }
   },
-};
+});
 </script>
 
 <style scoped>
