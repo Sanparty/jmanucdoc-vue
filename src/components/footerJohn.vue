@@ -29,7 +29,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue"
-import { footerLinks } from "../js/components/pagelinks"
+import { footerLinks } from "@/js/components/pagelinks"
 import Contact from "@/types/contact"
 
 export default defineComponent ({
