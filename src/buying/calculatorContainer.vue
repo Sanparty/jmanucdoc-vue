@@ -5,7 +5,6 @@
       <AboutHeadingSmall 
         :heading="calculator.heading"
         :name="false"
-        :contact="contact"
         :image="`url(${require(`../assets/images/${ calculator.image }`)})`"
         :altimage="calculator.altImage"
         :bgPosition="calculator.imageSize"
@@ -29,12 +28,13 @@
 
 </template>
 
-<script>
+<script lang="ts">
     import ContactJohn from "../components/contactJohn.vue"
     import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
     import MortgageCalculator from "../buying/mortgageCalculator.vue"
-    import calculator from "../js/components/data/calculator"
-    export default {
+    import calculator from "@/js/components/data/calculator"
+import { defineComponent } from "vue"
+    export default defineComponent ({
        name: "aboutContainer",
        components: {
         AboutHeadingSmall,
@@ -46,7 +46,7 @@
           calculator: calculator
         };
       },
-    }
+    })
    
     
     
