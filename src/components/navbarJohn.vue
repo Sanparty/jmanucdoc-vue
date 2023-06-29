@@ -61,7 +61,7 @@
 </template>
 
 <script lang="ts">
-import { navLinks } from "../js/components/pagelinks"
+import { navLinks } from "@/js/components/pagelinks"
 import { PropType, defineComponent } from 'vue'
 import Contact from "@/types/contact"
 

@@ -21,9 +21,10 @@
     </div>
 </template>
 
-<script>
-    import BuyingMenuSmall from '@/components/buyingMenuSmall.vue';
-    export default {
+<script lang="ts">
+import BuyingMenuSmall from '@/components/buyingMenuSmall.vue';
+import { defineComponent } from 'vue';
+    export default defineComponent ({
         name: "BuyingHeadingSmall",
         components: {
             BuyingMenuSmall
@@ -34,7 +35,7 @@
             heading: String,
             altimage: String
         },
-    }
+    })
 </script>
 
 <style scoped>

@@ -1,44 +1,46 @@
-const homeLink = {
+import Link from "@/types/link"
+
+const homeLink: Link = {
     id: "homelink",
     name: "Home",
     routerlink: "Home",
 }
-const blogLink = {
+const blogLink: Link = {
     id: "bloglink",
     name: "Blog",
     routerlink: "Blog",
 }
-const contactLink = {
+const contactLink: Link = {
     id: "contactlink",
     name: "Contact",
     routerlink: "Contact",
 }
-const buyingLink = {
+const buyingLink: Link = {
     id: "buyinglink",
     name: "Buying",
     routerlink: "Buying",
 }
-const sellingLink = {
+const sellingLink: Link = {
     id: "sellinglink",
     name: "Selling",
     routerlink: "Selling",
 }
-const aboutLink = {
+const aboutLink: Link = {
     id: "aboutlink",
     name: "About",
     routerlink: "About",
 }
-const communitiesLink = {
+const communitiesLink: Link = {
     id: "communitieslink",
     name: "Communities",
     routerlink: "Communities",
 }
-const evaluationLink = {
+const evaluationLink: Link = {
     id: "evaluationlink",
     name: "Free Home Evaluation",
     routerlink: "HomeEvaluation",
 }
-const calculatorLink = {
+const calculatorLink: Link = {
     id: "calculatorlink",
     name: "Mortgage Calculator",
     routerlink: "MortgageCalculator",
