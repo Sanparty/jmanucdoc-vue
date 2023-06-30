@@ -20,8 +20,8 @@
     import WelcomeJohn from "../components/welcomeJohn.vue";
     import PledgeJohn from "../components/pledgeJohn.vue"
     import SellbuyJohn from '@/components/sellbuyJohn.vue';
-    import { welcomeMessage, pledgesMessage, pledgesMain } from "../js/components/homepage"
-import { defineComponent } from "vue";
+    import { welcomeMessage, pledgesMessage, pledgesMain } from "@/js/components/homepage"
+    import { defineComponent } from "vue";
     export default defineComponent ({
        name: "homeContainer",
        components: {

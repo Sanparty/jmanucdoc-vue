@@ -1,4 +1,4 @@
-import { ctaLinks, contactLink } from "./pagelinks"
+import { ctaLinks, contactLink } from "@/js/components/pagelinks"
 
 const welcomeMessage = {
     heading: "Welcome",

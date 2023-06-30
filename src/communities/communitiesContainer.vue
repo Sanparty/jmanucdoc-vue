@@ -28,7 +28,7 @@
     import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
     import AboutHome from "../about/aboutHome.vue"
     import communities from "@/js/components/data/communities"
-import { defineComponent } from "vue"
+    import { defineComponent } from "vue"
     export default defineComponent ({
        name: "communitiesContainer",
        components: {
@@ -42,9 +42,6 @@ import { defineComponent } from "vue"
         };
       },
     })
-   
-    
-    
 </script>
 
 <style scoped>

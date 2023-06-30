@@ -12,7 +12,7 @@
 
 <script lang="ts">
     import { buyingPosts } from "@/js/components/data";
-import { defineComponent } from "vue";
+    import { defineComponent } from "vue";
     export default defineComponent ({
         name: "BuyingMenuSmall",
         data () {

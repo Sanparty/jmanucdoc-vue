@@ -23,7 +23,7 @@
     import BuyingHeading from "../containers/buyingHeading.vue"
     import BuyingHome from "../buying/buyingHome.vue"
     import { buying } from "@/js/components/data"
-import { defineComponent } from "vue"
+    import { defineComponent } from "vue"
     export default defineComponent ({
        name: "buyingContainer",
        components: {
