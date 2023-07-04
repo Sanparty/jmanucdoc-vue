@@ -15,7 +15,6 @@
       <SellingHeadingSmall 
         :heading="evaluation.heading"
         :name="true"
-        :contact="contact"
         :image="`url(${require(`../assets/images/${ evaluation.image }`)})`"
         :altimage="evaluation.altImage"
         :bgPosition="evaluation.imageSize"
@@ -38,16 +37,16 @@
 
 </template>
 
-<script>
+<script lang="ts">
     import ContactJohn from "../components/contactJohn.vue"
     import SellingHeadingSmall from "../containers/sellingHeadingSmall.vue"
     import AboutHome from "../about/aboutHome.vue"
     import HomeEvaluation from "../selling/homeEvaluation.vue"
-    import evaluation from "../js/components/data/evaluation"
-    export default {
+    import evaluation from "@/js/components/data/evaluation"
+import { defineComponent } from "vue"
+    export default defineComponent ({
        name: "aboutContainer",
        components: {
-  
         SellingHeadingSmall,
         AboutHome,
         HomeEvaluation,
@@ -58,7 +57,7 @@
           evaluation: evaluation
         };
       },
-    }
+    })
    
     
     
