@@ -506,7 +506,24 @@ const blogpost27: Blogpost = {
     image: "blog27.jpg",
     imageAlt: "Fitness Area"
 };
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27];
+const blogpost28: Blogpost = {
+    id: "blog28",
+    blogName: "Should You Buy the “Less Than Perfect” Home?",
+    author: "John Manucdoc",
+    date: "July 3, 2023",
+    paragraph1: "When you’re shopping for a new home, you want to find a property that has all the features and characteristics you want. Perhaps you’re looking for a large deck surrounded by picturesque landscaping, a beautiful kitchen with gleaming marble countertops, or a cozy living room with a fireplace.",
+    content: `<p>When you’re shopping for a new home, you want to find a property that has all the features and characteristics you want. Perhaps you’re looking for a large deck surrounded by picturesque landscaping, a beautiful kitchen with gleaming marble countertops, or a cozy living room with a fireplace.</p>
+    <p>You should be looking for the ideal home. You deserve it! But some home buyers become fixated on finding the “perfect” property, and pass too quickly on those homes that don’t quite measure up.</p>
+    <p>That can be a mistake, because some of those less-than-perfect properties have the potential to become your next dream home.</p>
+    <p>First, a home that is lacking some desirable features will probably cost less. Those savings may be more than enough to cover any needed upgrades or renovations.</p>
+    <p>Secondly, if you look at a home in terms of its potential, rather than the features it happens to have now, there will be more properties available on the market for you to consider.</p>
+    <p>If you’re determined to have a large wrap-around deck for entertaining, for example, don’t cross homes off your list that don’t have this feature. At least not yet. Instead, view these properties with an eye on potential. Is the backyard big enough to accommodate a large deck? How would that deck look if it were added to this particular property? How much would such a renovation cost?</p>
+    <p>There’s no doubt about it. You want to find a home that has the features and characteristics you want. But, keep an open mind. Sometimes a “diamond in the rough” can &#8211; with an upgrade or renovation &#8211; become a home you’ll treasure for years.</p>`,
+    link: "blogpost28.html",
+    image: "blog28.jpg",
+    imageAlt: "White Picket Fence"
+};
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28];
 
 export default blogpostArray
 
