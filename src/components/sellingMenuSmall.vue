@@ -11,26 +11,27 @@
     </div>
 </template>
 
-<script>
-   import { sellingPosts } from "../js/components/data";
-   import { evaluationLink } from "../js/components/pagelinks";
-   export default {
-        name: "SellingMenuSmall",
-        data () {
-          return {
-            sellingposts: sellingPosts,
-            evaluationlink: evaluationLink
-          }
-        },
-        computed: {
+<script lang="ts">
+import { defineComponent } from "vue";
+import { sellingPosts } from "@/js/components/data";
+import { evaluationLink } from "@/js/components/pagelinks";
+export default defineComponent ({
+    name: "SellingMenuSmall",
+    data () {
+      return {
+        sellingposts: sellingPosts,
+        evaluationlink: evaluationLink
+      }
+    },
+    computed: {
 
-        },
-        methods:{
-          showSellingPost(id) {
-            this.$router.push({name:'sellingposts', params:{sellingid:id}})
-          }
-        },
-    }
+    },
+    methods:{
+      showSellingPost(id: string) {
+        this.$router.push({name:'sellingposts', params:{sellingid:id}})
+      }
+    },
+})
 </script>
 
 <style scoped>
