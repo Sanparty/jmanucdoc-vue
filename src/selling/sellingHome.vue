@@ -33,17 +33,22 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { PropType, defineComponent } from "vue"
 import LookingSell from "../selling/lookingSell.vue"
-export default {
+import Article from "@/types/article";
+export default defineComponent ({
   name: "SellingHome",
   components: {
     LookingSell
   },
   props: {
-    pageInfo: Object,
+    pageInfo: {
+      type: Object as PropType<Article>,
+      required: true
+    }
   }  
-};
+});
 </script>
 
 <style scoped>

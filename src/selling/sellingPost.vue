@@ -4,7 +4,6 @@
       <div v-if="sellid == sellingpost.id" class="col-12">
       <SellingHeadingSmall 
         :heading="sellingpost.heading"
-        :contact="contact"
         :image="`url(${require(`../assets/images/${ sellingpost.image }`)})`"
         :altimage="sellingpost.altImage"
         :bgPosition="sellingpost.imageSize"
@@ -21,12 +20,13 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import ContactJohn from "../components/contactJohn.vue";
 import SellingHeadingSmall from "../containers/sellingHeadingSmall.vue";
 import SellingHome from "../selling/sellingHome.vue";
-import { sellingPosts } from "../js/components/data";
-export default {
+import { sellingPosts } from "@/js/components/data";
+import { defineComponent } from "vue";
+export default defineComponent ({
   name: "sellingPost",
   components: {
     SellingHeadingSmall,
@@ -39,7 +39,7 @@ export default {
       sellid: this.$route.params.sellingid,
     }
   },
-};
+});
 </script>
 
 <style scoped>

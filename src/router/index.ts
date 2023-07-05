@@ -9,12 +9,12 @@ import BuyingContainer from "../buying/buyingContainer.vue"
 import BuyingPost from "../buying/buyingPost.vue"
 import SellingContainer from "../selling/sellingContainer.vue"
 import SellingPost from "../selling/sellingPost.vue"
-import AboutContainer from "../about/aboutContainer"
-import CommunitiesContainer from "../communities/communitiesContainer"
-import EvaluationContainer from "../selling/evaluationContainer"
-import CalculatorContainer from "../buying/calculatorContainer"
+import AboutContainer from "../about/aboutContainer.vue"
+import CommunitiesContainer from "../communities/communitiesContainer.vue"
+import EvaluationContainer from "../selling/evaluationContainer.vue"
+import CalculatorContainer from "../buying/calculatorContainer.vue"
 
-let router =  createRouter({
+const router =  createRouter({
     history: createWebHistory(process.env.BASE_URL),
     routes: [{
         path:'/',
@@ -136,10 +136,10 @@ let router =  createRouter({
 router.beforeEach((to, from, next) => {
     const titleFromParams = to.params?.blogName
    
-    if (titleFromParams) {
-      document.title = `${titleFromParams}`
-    } else {
-      document.title = to.meta?.title ?? 'John Manucdoc'
+    if (typeof(titleFromParams) === 'string') {
+        document.title = `${titleFromParams}`
+    } else if (typeof(to.meta?.title) === 'string') {
+        document.title = to.meta?.title ?? 'John Manucdoc'
     }
     next()
   })

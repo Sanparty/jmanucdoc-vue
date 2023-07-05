@@ -19,10 +19,11 @@
   </div>
 </template>
 
-<script>
-import { sellingPosts } from "../js/components/data";
+<script lang="ts">
+import { defineComponent } from "vue";
+import { sellingPosts } from "@/js/components/data";
 import { evaluationLink } from "@/js/components/pagelinks";
-export default {
+export default defineComponent ({
   Name: "SellingMenu",
   data () {
     return {
@@ -31,11 +32,11 @@ export default {
     }
   },
   methods:{
-    showSellingPost(id) {
+    showSellingPost(id: string) {
       this.$router.push({name:'sellingposts',params:{sellingid:id}})
     }
   },
-}
+})
 </script>
 
 <style scoped>
