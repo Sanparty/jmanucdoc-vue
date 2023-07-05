@@ -43,7 +43,7 @@
     import AboutHome from "../about/aboutHome.vue"
     import HomeEvaluation from "../selling/homeEvaluation.vue"
     import evaluation from "@/js/components/data/evaluation"
-import { defineComponent } from "vue"
+    import { defineComponent } from "vue"
     export default defineComponent ({
        name: "aboutContainer",
        components: {

@@ -23,7 +23,7 @@
     import SellingHeading from "../containers/sellingHeading.vue"
     import SellingHome from "../selling/sellingHome.vue"
     import { selling } from "@/js/components/data/selling"
-import { defineComponent } from "vue"
+    import { defineComponent } from "vue"
     export default defineComponent ({
        name: "sellingContainer",
        components: {
