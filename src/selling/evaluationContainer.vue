@@ -45,7 +45,7 @@
     import evaluation from "@/js/components/data/evaluation"
     import { defineComponent } from "vue"
     export default defineComponent ({
-       name: "aboutContainer",
+       name: "evaluationContainer",
        components: {
         SellingHeadingSmall,
         AboutHome,
