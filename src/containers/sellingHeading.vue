@@ -21,13 +21,14 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import SubMainJohn from "../components/subMainJohn.vue"
 import SellingMenu from "@/components/sellingMenu.vue";
 import SellingMenuSmall from '@/components/sellingMenuSmall.vue';
-import { selling } from "../js/components/data/selling";
+import { selling } from "@/js/components/data/selling";
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent ({
   Name: "sellingHeading",
   components: {
     SubMainJohn,
@@ -39,7 +40,7 @@ export default {
       selling: selling,
     }
   },
-};
+});
 </script>
 
 <style scoped>

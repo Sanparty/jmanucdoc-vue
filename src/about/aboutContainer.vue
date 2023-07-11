@@ -24,25 +24,24 @@
 </template>
 
 <script lang="ts">
-    import ContactJohn from "../components/contactJohn.vue"
-    import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
-    import AboutHome from "../about/aboutHome.vue"
-    import about from "@/js/components/data/about"
-    
+import ContactJohn from "../components/contactJohn.vue"
+import AboutHeadingSmall from "../containers/aboutHeadingSmall.vue"
+import AboutHome from "../about/aboutHome.vue"
+import about from "@/js/components/data/about"
 import { defineComponent } from "vue"
-    export default defineComponent ({
-       name: "aboutContainer",
-       components: {
-        AboutHeadingSmall,
-        AboutHome,
-        ContactJohn,
-      },
-      data() {      
-        return {
-          about: about
-        };
-      },
-    })
+export default defineComponent ({
+  name: "aboutContainer",
+  components: {
+    AboutHeadingSmall,
+    AboutHome,
+    ContactJohn,
+  },
+  data() {      
+    return {
+      about: about
+    };
+  },
+})
    
     
     

@@ -35,7 +35,7 @@
     import calculator from "@/js/components/data/calculator"
 import { defineComponent } from "vue"
     export default defineComponent ({
-       name: "aboutContainer",
+       name: "calculatorContainer",
        components: {
         AboutHeadingSmall,
         MortgageCalculator,

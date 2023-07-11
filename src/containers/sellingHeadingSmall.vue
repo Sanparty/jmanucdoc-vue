@@ -21,20 +21,21 @@
     </div>
 </template>
 
-<script>
-    import SellingMenuSmall from '@/components/sellingMenuSmall.vue';
-    export default {
-        name: "sellingHeadingSmall",
-        components: {
-            SellingMenuSmall
-        },
-        props: {
-            image: String, 
-            bgPosition: String,
-            heading: String,
-            altimage: String
-        },
-    }
+<script lang="ts">
+import SellingMenuSmall from '@/components/sellingMenuSmall.vue';
+import { defineComponent } from 'vue';
+export default defineComponent ({
+    name: "sellingHeadingSmall",
+    components: {
+        SellingMenuSmall
+    },
+    props: {
+        image: String, 
+        bgPosition: String,
+        heading: String,
+        altimage: String
+    },
+})
 </script>
 
 <style scoped>
