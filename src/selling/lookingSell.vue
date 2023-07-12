@@ -150,7 +150,7 @@ export default defineComponent ({
   },
   methods: {
     sendEmail() {
-      const formData: any = this.$refs.form;
+      const formData = this.$refs.form as HTMLFormElement;
       emailjs.sendForm('jman_web', 'template_tumyy0g', formData, 'EVwDPvs94HElj1O62')
         .then((result) => {
             console.log('SUCCESS!', result.text);

@@ -154,7 +154,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent } from 'vue';
 import emailjs from 'emailjs-com';
 
 export default defineComponent ({
@@ -167,15 +167,10 @@ export default defineComponent ({
       result: ''
     }
   },
-  setup() {
-    const form = ref(null);
-    return { form }
-  },
   methods: {
     sendEmail() {
-      const formData: any = this.form;
-      if (formData !== null) {
-        emailjs.sendForm('jman_web', 'template_tumyy0g', formData, 'EVwDPvs94HElj1O62')
+      const formData = this.$refs.form as HTMLFormElement;
+      emailjs.sendForm('jman_web', 'template_tumyy0g', formData, 'EVwDPvs94HElj1O62')
         .then((result) => {
             console.log('SUCCESS!', result.text);
             // Clears form/inputs after button is Selected
@@ -187,8 +182,6 @@ export default defineComponent ({
             this.result = 'Sorry, your message did not send correctly. Please try again later.'
         }
         );
-      }
-      
     }
   }
 });
