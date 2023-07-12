@@ -155,7 +155,6 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-// import { sendEmail } from '@/utils/sendEmail';
 import emailjs from 'emailjs-com';
 
 export default defineComponent ({
@@ -172,10 +171,6 @@ export default defineComponent ({
     const form = ref(null);
     return { form }
   },
- 
-  // mounted() {
-  //   sendEmail();
-  // }
   methods: {
     sendEmail() {
       const formData: any = this.form;
