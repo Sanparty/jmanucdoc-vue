@@ -153,10 +153,12 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent, ref } from 'vue';
+// import { sendEmail } from '@/utils/sendEmail';
 import emailjs from 'emailjs-com';
 
-export default {
+export default defineComponent ({
   Name: "lookingBuy",
   props: {
     includeHeading: Boolean
@@ -166,23 +168,35 @@ export default {
       result: ''
     }
   },
+  setup() {
+    const form = ref(null);
+    return { form }
+  },
+ 
+  // mounted() {
+  //   sendEmail();
+  // }
   methods: {
     sendEmail() {
-      emailjs.sendForm('jman_web', 'template_tumyy0g', this.$refs.form, 'EVwDPvs94HElj1O62')
+      const formData: any = this.form;
+      if (formData !== null) {
+        emailjs.sendForm('jman_web', 'template_tumyy0g', formData, 'EVwDPvs94HElj1O62')
         .then((result) => {
             console.log('SUCCESS!', result.text);
             // Clears form/inputs after button is Selected
-            console.log(this.$refs.form.firstName)
-            this.$refs.form.reset();
+            console.log(formData.firstName)
+            formData.reset();
             this.result = 'Your message has been received. Thanks for contacting me.'
         }, (error) => {
             console.log('FAILED...', error.text);
             this.result = 'Sorry, your message did not send correctly. Please try again later.'
         }
         );
+      }
+      
     }
   }
-};
+});
 </script>
 
 <style scoped>
