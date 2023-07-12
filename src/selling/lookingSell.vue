@@ -134,10 +134,11 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import emailjs from 'emailjs-com'
+import { defineComponent } from 'vue'
 
-export default {
+export default defineComponent ({
   Name: "lookingSell",
   props: {
     includeHeading: Boolean
@@ -149,12 +150,13 @@ export default {
   },
   methods: {
     sendEmail() {
-      emailjs.sendForm('jman_web', 'template_tumyy0g', this.$refs.form, 'EVwDPvs94HElj1O62')
+      const formData: any = this.$refs.form;
+      emailjs.sendForm('jman_web', 'template_tumyy0g', formData, 'EVwDPvs94HElj1O62')
         .then((result) => {
             console.log('SUCCESS!', result.text);
             // Clears form/inputs after button is Selected
-            console.log(this.$refs.form.firstName)
-            this.$refs.form.reset();
+            console.log(formData.firstName)
+            formData.reset();
             this.result = 'Your message has been received. Thanks for contacting me.'
         }, (error) => {
             console.log('FAILED...', error.text);
@@ -163,7 +165,7 @@ export default {
         );
     }
   }
-};
+});
 </script>
 
 <style scoped>
