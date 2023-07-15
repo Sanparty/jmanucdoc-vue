@@ -33,9 +33,13 @@
       </div>
       <button type="submit" class="btn btn-primary">calculate payment</button>
       <div :class="display"> 
-        <p>For a mortgage of <strong>${{ loanAmount.toLocaleString("en-US") }}</strong> amortized over <strong>{{ numYears }} years</strong>, your <strong>{{ paymentPeriod }}</strong> payment is <strong>${{ payment.toFixed(2) }}</strong></p>        
+        <p v-if="loanAmount >= 0 && parseInt(numYears) > 0 && parseInt(interestRate) > 0 && parseInt(interestRate) < 100">For a mortgage of <strong>${{ loanAmount.toLocaleString("en-US") }}</strong> amortized over <strong>{{ numYears }} years</strong>, your <strong>{{ paymentPeriod }}</strong> payment is <strong>${{ payment.toFixed(2) }}</strong></p>        
+        <p v-else>Your down payment is greater than the house total or your amortization period is not greater than zero or you have an invalid interest rate. Please enter valid numbers.</p>
         <!-- <p>Total Mortgage with Interest: $701,508.05</p>
         <p>Total with Down Payment: $801,508.05</p? -->
+      </div>
+      <div :class="errorInput">
+        <p>Please enter valid numbers.</p>
       </div>
       </form>
     </div>
@@ -43,8 +47,10 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
   Name: "mortgageCalculator",
   props: {
     includeHeading: Boolean
@@ -56,14 +62,15 @@ export default {
       interestRate: "",
       numYears: "",
       paymentPeriod: "Monthly",
-      display: "d-none"
+      display: "d-none",
+      errorInput: "d-none"
     };
   },
   computed: {
     formValid() {
       const { houseTotal, downPayment, interestRate, numYears } = this;
       return (
-        +houseTotal >= downPayment &&
+        houseTotal >= downPayment &&
         +downPayment >= 0 &&
         0 <= +interestRate &&
         +interestRate <= 100 &&
@@ -71,7 +78,7 @@ export default {
       );
     },
     loanAmount() {
-      return this.houseTotal - this.downPayment
+      return parseInt(this.houseTotal) - parseInt(this.downPayment)
     },
     numPayments() {
       if ( this.paymentPeriod == "Monthly" ) {
@@ -83,10 +90,10 @@ export default {
       }
     },
     interestperPayment() {
-      return (this.interestRate / 100) / this.numPayments
+      return (parseInt(this.interestRate) / 100) / this.numPayments
     },
     totalPayments() {
-      return this.numYears * this.numPayments
+      return parseInt(this.numYears) * this.numPayments
     },
     payment () {
       return this.loanAmount * this.interestperPayment * (Math.pow(1 + this.interestperPayment, this.totalPayments)) / (Math.pow(1 + this.interestperPayment, this.totalPayments) - 1)
@@ -94,13 +101,15 @@ export default {
   },
   methods: {
     calculate() {
+      this.errorInput = "d-none";
+      this.display = "d-none";
       if (!this.formValid) {
-        return;
+        return this.errorInput = "d-block mt-3 results"
       }
-      return this.display = "d-block mt-3 results" 
+      return this.display = "d-block mt-3 results"       
     },
   },
-};
+});
 </script>
 
 <style scoped>
