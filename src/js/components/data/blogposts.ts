@@ -523,7 +523,22 @@ const blogpost28: Blogpost = {
     image: "blog28.jpg",
     imageAlt: "White Picket Fence"
 };
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28];
+const blogpost29: Blogpost = {
+    id: "blog29",
+    blogName: "Pack Your Memories Away",
+    author: "John Manucdoc",
+    date: "July 17, 2023",
+    paragraph1: "Items that remind us of special people, events, milestones and interests are an important part of what makes a house a home. Pictures on the fireplace mantle, for example, showcase family and friends that are important to us. You might also have trophies, certificates, greeting cards, and other mementos on display in key places.",
+    content: ` <p>Items that remind us of special people, events, milestones and interests are an important part of what makes a house a home. Pictures on the fireplace mantle, for example, showcase family and friends that are important to us. You might also have trophies, certificates, greeting cards, and other mementos on display in key places.</p>
+    <p>Of course, all of those things add warmth and meaning to your home. However, if you’re preparing your home for sale, it’s a good idea to pack those memories away &#8211; at least until you’ve sold your property and moved to your new home. Why? Those pleasant mementos that mean so much to you may actually turn off potential buyers.</p>
+    <p>You see, when buyers view your property, they want to be able to clearly picture themselves and their families living there. That’s difficult to do if they see reminders of your family everywhere they look!</p>
+    <p>So, to help sell your home quickly, make it look great, but not personalized. Think of the showroom displays you see set up in furniture stores. Those displays are most appealing when they enable you to easily picture yourself, with that furniture, in your home. You probably wouldn’t feel that way if it looked like the furniture belonged to someone else.</p>
+    <p>Of course, buyers will know you currently live in your home. But, helping them imagine themselves living there will help you sell your property faster &#8211; and possibly for a better price.</p>`,
+    link: "blogpost29.html",
+    image: "blog29.jpg",
+    imageAlt: "White Picket Fence"
+};
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29];
 
 export default blogpostArray
 
