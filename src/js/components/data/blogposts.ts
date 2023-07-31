@@ -536,9 +536,27 @@ const blogpost29: Blogpost = {
     <p>Of course, buyers will know you currently live in your home. But, helping them imagine themselves living there will help you sell your property faster &#8211; and possibly for a better price.</p>`,
     link: "blogpost29.html",
     image: "blog29.jpg",
-    imageAlt: "White Picket Fence"
+    imageAlt: "Box for Packing"
 };
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29];
+const blogpost30: Blogpost = {
+    id: "blog30",
+    blogName: "Creating Quiet In a (Sometimes) Noisy Home",
+    author: "John Manucdoc",
+    date: "July 31, 2023",
+    paragraph1: "Does your spouse like to practice the drums in the evening? Does your teenager like to play video games, with the volume turned up high? Are there other sources of noise you’d like to minimize?",
+    content: `<p>Does your spouse like to practice the drums in the evening? Does your teenager like to play video games, with the volume turned up high? Are there other sources of noise you’d like to minimize?</p>
+    <p>There are many ways to soundproof areas of your home to reduce noise. Here are some ideas:</p>
+    <ul>
+        <li>Furniture placement. Surprisingly, where you place furniture can dramatically reduce incoming noise. For example, a bookshelf that covers one third of a wall can muffle sound from an adjoining room by 25%.</li>
+        <li>Noise harmonization techniques. Soft music, air fans, and other sources of rhythmic noises can actually reduce the unpleasantness of incoming sounds.</li>
+        <li>Area rugs. Adding an area rug, even on top of existing carpeting, can significantly reduce noise coming from the floor below.</li>
+        <li>Acoustic tiles and panels. These are special ceiling tiles and wall coverings that are designed to diffuse and reduce sound infiltration. There are some products on the market that are remarkably easy to install.</li>
+    </ul>`,
+    link: "blogpost30.html",
+    image: "blog30.jpg",
+    imageAlt: "Home Audio Studio"
+};
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30];
 
 export default blogpostArray
 
