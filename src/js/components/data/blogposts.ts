@@ -556,7 +556,26 @@ const blogpost30: Blogpost = {
     image: "blog30.jpg",
     imageAlt: "Home Audio Studio"
 };
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30];
+const blogpost31: Blogpost = {
+    id: "blog31",
+    blogName: "How To Make Your Home Sale “Smooth Sailing”",
+    author: "John Manucdoc",
+    date: "August 14, 2023",
+    paragraph1: "If you’ve ever been on a cruise ship, you know that rough waters can result in a miserable experience. Even on modern ships equipped with stabilizers, choppy seas and bad weather can leave you stuck below deck - and possibly sea sick!",
+    content: `<p>If you’ve ever been on a cruise ship, you know that rough waters can result in a miserable experience. Even on modern ships equipped with stabilizers, choppy seas and bad weather can leave you stuck below deck - and possibly sea sick!<br />In fact, the expression “smooth sailing” comes from a desire for calm waters.</p>
+    <p>When you sell your property, you’ll want smooth sailing too! You’ll want the experience to be as nondisruptive as possible, while also having plenty of qualified buyers interested in your listing. In the end, you’ll want the transaction to get done without a hitch.</p>
+    <p>So how do you ensure that happens? Here are some things you can do to help:</p>
+    <p>Think of your home as a product. Potential buyers are more likely to become interested in a product that looks clean, uncluttered and well-maintained.</p>
+    <p>Price it right. If your property is listed too high, potential buyers won’t come. If it’s listed too low, you may leave money on the table. (Potentially thousands.) Setting the price will be one of the most important decisions you’ll need to make when selling your home.</p>
+    <p>Don’t be there during showings. As your real estate agent, I will take buyers through your property and show them all the great features. If you’re there, some buyers may not feel comfortable and may leave before they have had a chance to become interested.</p>
+    <p>Be flexible. This is especially important, when it comes to showing appointments, negotiations, home inspections, closing dates, etc. It’s okay to be firm on some things, just not everything!</p>
+    <p>The best tip of all? Use me as your real estate agent and I will make the entire experience of selling your home trouble-free and successful.</p>
+    <p>In other words, let me help make it smooth sailing!</p>`,
+    link: "blogpost31.html",
+    image: "blog31.jpeg",
+    imageAlt: "Chairs on a Deck"
+};
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31];
 
 export default blogpostArray
 
