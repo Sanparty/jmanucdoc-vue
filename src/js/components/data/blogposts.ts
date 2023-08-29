@@ -575,7 +575,29 @@ const blogpost31: Blogpost = {
     image: "blog31.jpeg",
     imageAlt: "Chairs on a Deck"
 };
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31];
+const blogpost32: Blogpost = {
+    id: "blog32",
+    blogName: "Simplifying Your Home Life",
+    author: "John Manucdoc",
+    date: "August 28, 2023",
+    paragraph1: "Let’s face it. Life can get complicated, complex and stressful very easily. Luckily, there are plenty of ways to simplify your life, especially at home.",
+    content: ` <p>Let’s face it. Life can get complicated, complex and stressful very easily. Luckily, there are plenty of ways to simplify your life, especially at home. Here are some tips from the experts:</p>
+    <ul>
+        <li>Don’t be ruled by the TV guide. Instead, select the shows you want to watch and record them. That way, you can watch what you want at the times that are most convenient for you.</li>
+        <li>Prepare some meals in advance and freeze them. Simply heat them up as needed. That will reduce a lot of after-work, “gotta-get-dinner-ready” stress.</li>
+        <li>Create a weekly dinner menu. It takes some time to prepare, but it allows you to shop effectively, and greatly reduces the stress of figuring out what to cook each day.</li>
+        <li>Don’t accumulate stuff you don’t want or need. Give those things away.</li>
+        <li>Simplify your cleaning by dividing tasks into 10 minute chunks (such as vacuuming the living room.) Then, fit those tasks in whenever you have 10 minutes to spare.</li>
+        <li>To avoid clutter, adopt the “touch it once” rule, which simply means you put things where they belong right away.</li>
+        <li>Limit the time you and others in your family spend checking emails and text messages. Consider having an hour or two of “no screen” time each evening.</li>
+        <li>Develop healthy routines, such as evening walks and family board game night.</li>
+    </ul>
+    <p>These are just a few ideas. If you want to simplify your home life, you can probably brainstorm several other strategies and habits you can try. The idea is to make your home an enjoyable place to be &#8211; for you and your family.</p>`,
+    link: "blogpost32.html",
+    image: "blog32.jpeg",
+    imageAlt: "Simple Kitchen"
+};
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32];
 
 export default blogpostArray
 

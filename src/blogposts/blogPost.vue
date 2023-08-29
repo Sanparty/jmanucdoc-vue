@@ -143,6 +143,7 @@ h1 {
   margin-bottom: 10px;
   float: left;
   margin: 0 10px 0 0;
+  margin-right: 20px;
 }
 .blogcontent ul {
   list-style-type: disc;
