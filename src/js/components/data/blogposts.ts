@@ -597,7 +597,24 @@ const blogpost32: Blogpost = {
     image: "blog32.jpeg",
     imageAlt: "Simple Kitchen"
 };
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32];
+const blogpost33: Blogpost = {
+    id: "blog33",
+    blogName: "Flexible Dumpsters for Home Renos",
+    author: "John Manucdoc",
+    date: "September 11, 2023",
+    paragraph1: "New synthetic fabric dumpsters offer a flexible method of holding and disposing of renovation waste – without the need to order a large and unsightly metal bin that sits on your front lawn or driveway for weeks on end.",
+    content: ` <p>
+    New synthetic fabric dumpsters offer a flexible method of holding and disposing of renovation waste &#8211; without the need to order a large and unsightly metal bin that sits on your front lawn or driveway for weeks on end.
+    <br/>
+    The industry calls them FIBC’s, or Flexible Intermediate Bulk Containers, but they’re more commonly known as big bags, bulk bags, bagsters and super sacks.
+</p>
+<p>These durable trash containers can be purchased and taken home (or delivered) for indefinite use, then picked up for a preset fee when full.</p>
+<p>When the bag is picked up, another bag is dropped off. Available through specialty suppliers or through some home renovation stores, these “soft bins” are easy to move when empty, and they take up much less space than large metal dumpsters. They also take much less time to fill up, so you’ll have a tidier renovation site and less of an eyesore on your property.</p>`,
+    link: "blogpost33.html",
+    image: "blog33.jpeg",
+    imageAlt: "Dumpster"
+};
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33];
 
 export default blogpostArray
 
