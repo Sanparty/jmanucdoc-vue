@@ -614,7 +614,26 @@ const blogpost33: Blogpost = {
     image: "blog33.jpeg",
     imageAlt: "Dumpster"
 };
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33];
+
+const blogpost34: Blogpost = {
+    id: "blog34",
+    blogName: "How a Home Inspection Helps You",
+    author: "John Manucdoc",
+    date: "September 25, 2023",
+    paragraph1: "Whether you’re considering buying a particular home, selling your current property – or doing both – a home inspection can help.",
+    content: `<p>Whether you’re considering buying a particular home, selling your current property &#8211; or doing both &#8211; a home inspection can help.</p>
+    <p>This inspection is conducted by a qualified professional who takes a close look at every aspect of a home &#8211; structure, wiring, plumbing, and more &#8211; and identifies issues you may not have noticed yourself.</p>
+    <p>For example, a home inspector can determine that a furnace will need to be replaced soon, or that there is a water leak that needs to be fixed.</p>
+    <p>You’ll definitely want to get a professional home inspection before you buy a particular property. That’s why most offers to purchase a home are conditional upon passing a home inspection. (The last thing you want is to buy your dream home only to discover that the wiring needs to be updated!)</p>
+    <p>You may also want to get a home inspection on your own home before you list it for sale. A certificate from a qualified professional that states that your home passed inspection will make your property more attractive to buyers.</p>
+    <p>Many reputable home inspectors are members of a professional industry association. However, it’s important to note that certification or licensing is not a requirement in many jurisdictions. So, select a home inspector carefully.</p>`,
+    link: "blogpost34.html",
+    image: "blog34.jpg",
+    imageAlt: "Inspector"
+};
+
+
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34];
 
 export default blogpostArray
 
