@@ -55,7 +55,7 @@ h2 {
   font-weight: bold;
 }
 .mainimage {
-  background-image: url(../assets/images/SuburbanHomesDrone.jpeg);
+  background-image: url(../assets/images/Suburban-Homes-1080x675.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
