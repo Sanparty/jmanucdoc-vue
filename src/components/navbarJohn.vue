@@ -11,7 +11,7 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
-      </button>
+          </button>
       <div class="order-lg-2">
         <div class="d-flex flex-column-reverse flex-xl-row align-items-end">
           <div class="phone">
@@ -84,7 +84,8 @@ export default defineComponent({
 
 <style scoped>
 nav {
-  background-color: #c1202f;
+  /* background-color: #c1202f; */
+  background-color: #272727;
   padding: 10px;
   top: 0;
   width: 100%;
@@ -188,7 +189,8 @@ button a {
   color: #f7f7f7;
 }
 .navbar-nav li > a:hover {
-  color: #272727;
+  color: #c1202f;
+  /* color: #272727; */
   transition: 0.25s ease;
 }
 .navbar-nav-scroll {
@@ -217,7 +219,8 @@ button a {
   .navbar-nav li > a:hover,
   .navbar-nav a:active,
   .navbar-nav a:focus {
-    color: #272727;
+    color:#c1202f
+    /* color: #272727; */
   }
 }
 @media screen and (min-width: 1200px) {
