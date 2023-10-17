@@ -632,8 +632,30 @@ const blogpost34: Blogpost = {
     imageAlt: "Inspector"
 };
 
+const blogpost35: Blogpost = {
+    id: "blog35",
+    blogName: "5 Things Buyers Hate to See",
+    author: "John Manucdoc",
+    date: "October 9, 2023",
+    paragraph1: "When you show your home to prospective buyers, there is probably a long list of things you’re hoping they’ll notice. But what about those things you’re hoping buyers will not notice?",
+    content: `<p>When you show your home to prospective buyers, there is probably a long list of things you’re hoping they’ll notice. For example, you’ll want them to see the beautiful chandelier in the foyer or the spacious backyard and large deck, or the kitchen with the island big enough for a whole family to sit down for breakfast.<br />But what about those things you’re hoping buyers will not notice?</p>
+    <p>Every home has some features that are less than enticing to the typical buyer. You may not be able to do much about a small kitchen or a home backing onto a noisy main street.</p>
+    <p>However, there are several things buyers don’t want to see that you can change. Here are five of the most common:</p>
+    <ul>
+    <li><strong>Clutter.</strong> Closets stuffed full of clothes or rooms crammed with too much furniture are distractions. Clutter of any kind makes buyers feel uneasy &#8211; and gets in the way of showcasing the wonderful features of your home.</li>
+    <li><strong>Maintenance issues.</strong> Buyers definitely don’t want to see a lot of things that need repairs or replacement, such as dripping faucets, faded or chipped walls, or overgrown lawns and shrubbery.</li>
+    <li><strong>Smells.</strong> Of course, you can’t see smells. But buyers will notice the lingering aroma of exotic cooking, cigarette smoke, and pets. These smells may even limit the amount of time they want to spend exploring the home.</li>
+    <li><strong>Personal items.</strong> Buyers will understand that a family is living in the home they’re viewing. However, constant reminders &#8211; in the form of vacation pictures, trophies, or scattered children’s toys &#8211; can make a buyer feel like an intruder.</li>
+    <li><strong>You.</strong> It’s nothing personal, but buyers prefer to view your home without you in it.<br />Fortunately, all these things can be easily dealt with before you show your home.</li>
+    </ul>
+    <p>Looking for more ideas on selling your home quickly and for the best price? Call me today.</p>`,
+    link: "blogpost35.html",
+    image: "blog35.jpg",
+    imageAlt: "Cutouts of Houses"
+};
 
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34];
+
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35];
 
 export default blogpostArray
 
