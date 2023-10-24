@@ -54,7 +54,14 @@ export default defineComponent ({
       let blogsData = [...blogpostArray];
       blogsData.pop()
       return blogsData.reverse();
+    },
+    blogsMostRecent: function () {
+      let blogsSliced = blogpostArray.slice(-9)
+      let blogsData = [...blogsSliced];
+      blogsData.pop()
+      return blogsData.reverse();
     }
+    
   },
 });
 </script>
