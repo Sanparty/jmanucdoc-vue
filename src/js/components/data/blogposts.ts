@@ -653,9 +653,28 @@ const blogpost35: Blogpost = {
     image: "blog35.jpg",
     imageAlt: "Cutouts of Houses"
 };
+const blogpost36: Blogpost = {
+    id: "blog36",
+    blogName: "Preventing Burglaries Requires More Than Locks and Alarms",
+    author: "John Manucdoc",
+    date: "October 23, 2023",
+    paragraph1: "There’s no doubt about it. If you want to keep your home safe from break-ins, you should have good locks on all doors and windows and ideally have an alarm system in place.",
+    content: `<p>There’s no doubt about it. If you want to keep your home safe from break-ins, you should have good locks on all doors and windows and ideally have an alarm system in place.</p>
+    <p>But home security doesn’t end with locks and alarms. There are other less obvious ways to keep your home safe. For example:</p>
+    <ul>
+    <li>Install exterior lights with a motion detection feature. A light suddenly going on will almost always send a potential intruder away.</li>
+    <li>Look for &#8211; and, if possible, eliminate &#8211; potential hiding spots around your property.</li>
+    <li>Always leave some lights on in your home when you’re away for an evening.</li>
+    <li>Never announce that you’re on vacation or otherwise away from your home on social media sites. (Ask your kids not to do this either!)</li>
+    <li>Don’t leave tempting valuables where they can be easily seen through a window.</li>
+    </ul>
+    <p>In addition to good locking systems on doors and windows, simple precautions like these will significantly lower the risk of a break-in.</p>`,
+    link: "blogpost36.html",
+    image: "blog36small.jpg",
+    imageAlt: "Padlocks and Keys"
+};
 
-
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35];
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36];
 
 export default blogpostArray
 
