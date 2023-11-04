@@ -256,13 +256,9 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-.blog_button_stack {
-  display: flex;
-  flex-direction: column;
-}
 .postName {
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-style: italic;
+  font-size: 0.9rem;
   padding-top: 0.5rem;
 }
 .postNameRight {
