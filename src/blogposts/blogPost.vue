@@ -26,31 +26,41 @@
           ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
         </button>
       </router-link>
-      <div
-        v-if="previouspost >= 1"
-        class="no-underline"
-        @click="previousBlogpost()"
-      >
-        <button
-          class="btn btn-primary no-active mt-3 cont-reading"
-          type="submit"
-        >
-          <i class="fa fa-chevron-left" aria-hidden="true"></i>
-          <span class="cont-reading-text px-3">Previous</span>
-        </button>
+      <div class="blog_buttons">
+        <div v-if="previouspost >= 1">
+          <div
+            class="no-underline"
+            @click="previousBlogpost()"
+          >
+            <button
+              class="btn btn-primary no-active mt-3 cont-reading"
+              type="submit"
+            >
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              <span class="cont-reading-text px-3">Previous</span>
+            </button>
+            
+          </div>
+        </div>  
+        <div v-if="nextpost <= blogtotal">
+          <div
+            class="no-underline"
+            @click="nextBlogpost()"
+          >
+            <button
+              class="btn btn-primary no-active mt-3 cont-reading"
+              type="submit"
+            >
+              <span class="cont-reading-text px-3">Next</span
+              ><i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        
+        </div>
       </div>
-      <div
-        v-if="nextpost <= blogtotal"
-        class="no-underline"
-        @click="nextBlogpost()"
-      >
-        <button
-          class="btn btn-primary no-active mt-3 cont-reading"
-          type="submit"
-        >
-          <span class="cont-reading-text px-3">Next</span
-          ><i class="fa fa-chevron-right" aria-hidden="true"></i>
-        </button>
+      <div class="blog_buttons">
+        <div v-if="previouspost >= 1" class="postName">{{ previousPostName }}</div>
+        <div v-if="nextpost <= blogtotal" class="postName postNameRight">{{ nextPostName }}</div>
       </div>
     </div>
     <div v-else class="p-e col-lg-6 blog-main">
@@ -91,6 +101,34 @@ export default defineComponent ({
     blogtotal(): number {
       return blogpostarray.length;
     },
+    previousPostName(): string {
+      if (this.blogpost) {      
+        let previousId = parseInt(this.blogpost.id.slice(4)) - 1;
+        let blogPrevious= `blog${previousId}`;
+        let blogpostWanted = blogpostarray.find((blogpost) => blogpost.id === blogPrevious);
+        if (blogpostWanted) {
+          return blogpostWanted.blogName
+        } else {
+          return "No Previous Blog"
+        }
+      } else {
+        return "No Previous Blog"
+      }
+    },
+    nextPostName(): string {
+      if (this.blogpost) {      
+        let nextId = parseInt(this.blogpost.id.slice(4)) + 1;
+        let blogNext= `blog${nextId}`;
+        let blogpostWanted = blogpostarray.find((blogpost) => blogpost.id === blogNext);
+        if (blogpostWanted) {
+          return blogpostWanted.blogName
+        } else {
+          return "No Next Blog"
+        }
+      } else {
+        return "No Next Blog"
+      }
+    }, 
     previouspost(): number {
       return parseInt(this.blogpost.id.slice(4)) - 1;
     },
@@ -213,6 +251,22 @@ h1 {
 .v-enter-from,
 .v-leave-to {
   opacity: 0;
+}
+.blog_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.blog_button_stack {
+  display: flex;
+  flex-direction: column;
+}
+.postName {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+.postNameRight {
+  text-align: right;
 }
 @media (hover: none) {
   .btn:hover {
