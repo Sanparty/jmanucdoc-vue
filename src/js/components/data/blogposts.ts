@@ -673,12 +673,27 @@ const blogpost36: Blogpost = {
     image: "blog36small.jpg",
     imageAlt: "Padlocks and Keys"
 };
-
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36];
+const blogpost37: Blogpost = {
+    id: "blog37",
+    blogName: "Four Signs You’ve Outgrown Your Current Home",
+    author: "John Manucdoc",
+    date: "November 6, 2023",
+    paragraph1: "It’s not uncommon for couples with growing families to trade in their compact cars for something roomier, like a mini-van. The same thing happens with homes. Sometimes families simply outgrow them.",
+    content: `<p>It’s not uncommon for couples with growing families to trade in their compact cars for something roomier, like a mini-van. The same thing happens with homes. Sometimes families simply outgrow them.</p>
+    <p>How can you tell if that’s happening with your property? Here are some sure-fire signs:</p>
+    <p><strong>1 &#8211; You need more space.<br /></strong>This is the most common reason people upgrade to a new home. They need more room. For any number of reasons, you might want an extra bedroom, a larger living room, a bigger backyard, or a more spacious kitchen. Rather than put up with feeling cramped, consider exploring the extra space a new home can provide.</p>
+    <p><strong>2 &#8211; A renovation won’t fix it.</strong><br />Sometimes, when a property doesn’t fit its owners’ needs anymore, they consider a renovation. For example, if they need more space for a home office, they convert a spare room. However, a renovation doesn’t always fix the problem. For example, building a double, rather than single driveway and garage, may not be possible given the constraints of your property. Only a new home can solve that problem.</p>
+    <p><strong>3 &#8211; You’re interested in a new area.<br /></strong>The community may have been perfect for you at one time. But needs evolve. You may now be looking for something the area doesn’t provide &#8211; like closer access to a recreational activity your family enjoys, or a more convenient commute to work. If that’s the case, it might be time to look at other communities you’d like to consider, and see what types of homes are currently available there.</p>
+    <p><strong>4 &#8211; It’s time for a change.<br /></strong>Sometimes you simply feel it’s time for a change. There’s nothing wrong with that. Don’t feel you need a practical reason to sell and find a new home. If this feels like the right time for you and your family to move, go for it.</p>`,
+    link: "blogpost37.html",
+    image: "blog37small.jpg",
+    imageAlt: "Person Holding Clock"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37];
 
 export default blogpostArray
 
 
 // Possible to only provide latest posts
-// const latestposts = blogpostArray.slice(-9}
+// const latestposts = blogpostArray.slice(-9);
 // export default latestposts;
