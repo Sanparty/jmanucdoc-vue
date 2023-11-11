@@ -632,12 +632,68 @@ const blogpost34: Blogpost = {
     imageAlt: "Inspector"
 };
 
-
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34];
+const blogpost35: Blogpost = {
+    id: "blog35",
+    blogName: "5 Things Buyers Hate to See",
+    author: "John Manucdoc",
+    date: "October 9, 2023",
+    paragraph1: "When you show your home to prospective buyers, there is probably a long list of things you’re hoping they’ll notice. But what about those things you’re hoping buyers will not notice?",
+    content: `<p>When you show your home to prospective buyers, there is probably a long list of things you’re hoping they’ll notice. For example, you’ll want them to see the beautiful chandelier in the foyer or the spacious backyard and large deck, or the kitchen with the island big enough for a whole family to sit down for breakfast.<br />But what about those things you’re hoping buyers will not notice?</p>
+    <p>Every home has some features that are less than enticing to the typical buyer. You may not be able to do much about a small kitchen or a home backing onto a noisy main street.</p>
+    <p>However, there are several things buyers don’t want to see that you can change. Here are five of the most common:</p>
+    <ul>
+    <li><strong>Clutter.</strong> Closets stuffed full of clothes or rooms crammed with too much furniture are distractions. Clutter of any kind makes buyers feel uneasy &#8211; and gets in the way of showcasing the wonderful features of your home.</li>
+    <li><strong>Maintenance issues.</strong> Buyers definitely don’t want to see a lot of things that need repairs or replacement, such as dripping faucets, faded or chipped walls, or overgrown lawns and shrubbery.</li>
+    <li><strong>Smells.</strong> Of course, you can’t see smells. But buyers will notice the lingering aroma of exotic cooking, cigarette smoke, and pets. These smells may even limit the amount of time they want to spend exploring the home.</li>
+    <li><strong>Personal items.</strong> Buyers will understand that a family is living in the home they’re viewing. However, constant reminders &#8211; in the form of vacation pictures, trophies, or scattered children’s toys &#8211; can make a buyer feel like an intruder.</li>
+    <li><strong>You.</strong> It’s nothing personal, but buyers prefer to view your home without you in it.<br />Fortunately, all these things can be easily dealt with before you show your home.</li>
+    </ul>
+    <p>Looking for more ideas on selling your home quickly and for the best price? Call me today.</p>`,
+    link: "blogpost35.html",
+    image: "blog35.jpg",
+    imageAlt: "Cutouts of Houses"
+};
+const blogpost36: Blogpost = {
+    id: "blog36",
+    blogName: "Preventing Burglaries Requires More Than Locks and Alarms",
+    author: "John Manucdoc",
+    date: "October 23, 2023",
+    paragraph1: "There’s no doubt about it. If you want to keep your home safe from break-ins, you should have good locks on all doors and windows and ideally have an alarm system in place.",
+    content: `<p>There’s no doubt about it. If you want to keep your home safe from break-ins, you should have good locks on all doors and windows and ideally have an alarm system in place.</p>
+    <p>But home security doesn’t end with locks and alarms. There are other less obvious ways to keep your home safe. For example:</p>
+    <ul>
+    <li>Install exterior lights with a motion detection feature. A light suddenly going on will almost always send a potential intruder away.</li>
+    <li>Look for &#8211; and, if possible, eliminate &#8211; potential hiding spots around your property.</li>
+    <li>Always leave some lights on in your home when you’re away for an evening.</li>
+    <li>Never announce that you’re on vacation or otherwise away from your home on social media sites. (Ask your kids not to do this either!)</li>
+    <li>Don’t leave tempting valuables where they can be easily seen through a window.</li>
+    </ul>
+    <p>In addition to good locking systems on doors and windows, simple precautions like these will significantly lower the risk of a break-in.</p>`,
+    link: "blogpost36.html",
+    image: "blog36small.jpg",
+    imageAlt: "Padlocks and Keys"
+};
+const blogpost37: Blogpost = {
+    id: "blog37",
+    blogName: "Four Signs You’ve Outgrown Your Current Home",
+    author: "John Manucdoc",
+    date: "November 6, 2023",
+    paragraph1: "It’s not uncommon for couples with growing families to trade in their compact cars for something roomier, like a mini-van. The same thing happens with homes. Sometimes families simply outgrow them.",
+    content: `<p>It’s not uncommon for couples with growing families to trade in their compact cars for something roomier, like a mini-van. The same thing happens with homes. Sometimes families simply outgrow them.</p>
+    <p>How can you tell if that’s happening with your property? Here are some sure-fire signs:</p>
+    <p><strong>1 &#8211; You need more space.<br /></strong>This is the most common reason people upgrade to a new home. They need more room. For any number of reasons, you might want an extra bedroom, a larger living room, a bigger backyard, or a more spacious kitchen. Rather than put up with feeling cramped, consider exploring the extra space a new home can provide.</p>
+    <p><strong>2 &#8211; A renovation won’t fix it.</strong><br />Sometimes, when a property doesn’t fit its owners’ needs anymore, they consider a renovation. For example, if they need more space for a home office, they convert a spare room. However, a renovation doesn’t always fix the problem. For example, building a double, rather than single driveway and garage, may not be possible given the constraints of your property. Only a new home can solve that problem.</p>
+    <p><strong>3 &#8211; You’re interested in a new area.<br /></strong>The community may have been perfect for you at one time. But needs evolve. You may now be looking for something the area doesn’t provide &#8211; like closer access to a recreational activity your family enjoys, or a more convenient commute to work. If that’s the case, it might be time to look at other communities you’d like to consider, and see what types of homes are currently available there.</p>
+    <p><strong>4 &#8211; It’s time for a change.<br /></strong>Sometimes you simply feel it’s time for a change. There’s nothing wrong with that. Don’t feel you need a practical reason to sell and find a new home. If this feels like the right time for you and your family to move, go for it.</p>`,
+    link: "blogpost37.html",
+    image: "blog37small.jpg",
+    imageAlt: "Person Holding Clock"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37];
 
 export default blogpostArray
 
 
 // Possible to only provide latest posts
-// const latestposts = blogpostArray.slice(-9}
+// const latestposts = blogpostArray.slice(-9);
 // export default latestposts;
