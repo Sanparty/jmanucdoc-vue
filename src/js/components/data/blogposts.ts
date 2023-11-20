@@ -689,7 +689,24 @@ const blogpost37: Blogpost = {
     image: "blog37small.jpg",
     imageAlt: "Person Holding Clock"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37];
+const blogpost38: Blogpost = {
+    id: "blog38",
+    blogName: "How To Minimize Water Damage",
+    author: "John Manucdoc",
+    date: "November 20, 2023",
+    paragraph1: "It’s amazing how much damage water can cause. Just two gallons of water from a burst pipe or overflowing toilet can wreak havoc throughout your home and necessitate thousands of dollars in repairs. Ouch! What should you do at the first sign of water leakage?",
+    content: `<p>It’s amazing how much damage water can cause. Just two gallons of water from a burst pipe or overflowing toilet can wreak havoc throughout your home and necessitate thousands of dollars in repairs. Ouch!<br />What should you do at the first sign of water leakage?</p>
+    <p>First, stop the source. Turn off the nearest water valve. If you can’t find it, turn off the main water valve to your home.</p>
+    <p>Next, do everything you can to soak up as much water as possible. If necessary, lift carpeting. Pay particular attention to water settling next to walls or inside ductwork. Get these areas dry as quickly as possible.</p>
+    <p>Contain the water. This is important. Do your best to prevent water from infiltrating other rooms to prevent further damage.</p>
+    <p>Once the area is as dry as possible, run fans in the room along with a good dehumidifier &#8211; for at least a full day &#8211; to draw in the remaining moisture.</p>
+    <p>If, despite your best efforts, you suspect that moisture remains inside the walls, floors or ceilings, call in the professionals. There are many companies that specialize in emergency water damage control. The key is to prevent the possibility that remaining moisture will provide an environment for mould to grow.</p>
+    <p>Also, consider contacting your insurance company. They’re as motivated as you are to reduce the damage.</p>`,
+    link: "blogpost38.html",
+    image: "blog38.jpg",
+    imageAlt: "Water Damage Cleanup"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38];
 
 export default blogpostArray
 
