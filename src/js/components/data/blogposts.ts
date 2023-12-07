@@ -706,7 +706,24 @@ const blogpost38: Blogpost = {
     image: "blog38.jpg",
     imageAlt: "Water Damage Cleanup"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38];
+const blogpost39: Blogpost = {
+    id: "blog39",
+    blogName: "Gentle Ways to Deal with Insects in the Home",
+    author: "John Manucdoc",
+    date: "December 4, 2023",
+    paragraph1: "A growing number of homeowners are uncomfortable using traditional pesticides for a variety of reasons, including health and environmental concerns. If you’re among them, here are some natural ways to deal with insects in your home...",
+    content: `<p>A growing number of homeowners are uncomfortable using traditional pesticides for a variety of reasons, including health and environmental concerns. If you’re among them, here are some natural ways to deal with insects in your home:</p>
+    <ul>
+    <li>Use a mixture of unsweetened lemon juice and water to deter spiders. Spray the solution near doorways and window sills where these arachnoids can enter.</li>
+    <li>Combine an equal mixture of vinegar and water to create an effective deterrent for a variety of crawling insects, particularly ants. Spray the solution on floors and countertops that are close to these creatures’ food sources.</li>
+    <li>Believe it or not, invest in a fake wasp nest (which you can purchase at your local home improvement store) to deter real wasps from building a nest on your property.</li>
+    <li>Experts recommend that you test any surface spray you plan to use to make sure it doesn’t stain or otherwise harm the surface.</li>
+    </ul>`,
+    link: "blogpost39.html",
+    image: "blog39.jpg",
+    imageAlt: "Cleaning Up Insects"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39];
 
 export default blogpostArray
 
