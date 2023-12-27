@@ -723,7 +723,21 @@ const blogpost39: Blogpost = {
     image: "blog39.jpg",
     imageAlt: "Cleaning Up Insects"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39];
+const blogpost40: Blogpost = {
+    id: "blog40",
+    blogName: "Set Learning Goals Instead of Resolutions",
+    author: "John Manucdoc",
+    date: "December 18, 2023",
+    paragraph1: "Are you making a New Year’s resolution this month? Whether it’s to quit smoking, lose weight, or spend more time with your family, you’ll have a much better chance of success if you turn that goal into a learning goal instead.",
+    content: `<p>Are you making a New Year’s resolution this month? Whether it’s to quit smoking, lose weight, or spend more time with your family, you’ll have a much better chance of success if you turn that goal into a learning goal instead.<br />A learning goal is simply a commitment to learn something rather than to achieve a specific milestone.</p>
+    <p>Say, for example, that your New Year’s resolution is to get into better physical shape. A traditional goal might be: “I’m going to work out at the gym three days a week.” A corresponding learning goal would be: “I’m going to hire a fitness trainer to teach me an appropriate workout program.”</p>
+    <p>Research, published in many journals, reveals that people who set learning goals are much more likely to achieve them. They also tend to stay motivated over a longer period of time and get better results overall. So, if you set a learning goal instead of a traditional goal in the area of fitness, you stand a much better chance of actually getting fit!</p>
+    <p>Tired of New Year’s resolutions that go nowhere? Try setting a learning goal instead. It just might make 2024 your best year ever!</p>`,
+    link: "blogpost40.html",
+    image: "blog40.jpeg",
+    imageAlt: "Setting Learning Goals"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40];
 
 export default blogpostArray
 
