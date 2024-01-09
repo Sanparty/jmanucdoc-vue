@@ -749,7 +749,7 @@ const blogpost41: Blogpost = {
     <p>There are many ways to make selling your home and buying another one relatively simple and easy.</p>
     <p>Sure, there will be some work to do. You may need to prepare your property so that it looks appealing to potential buyers &#8211; cleaning, decluttering, doing some repairs, etc. Of course, you will also need to view some properties for sale in order to find your next dream home.</p>
     <p>But those activities may not be as time-consuming or difficult as you had imagined. In fact, you and your family might actually enjoy the experience &#8211; and see it as an adventure.</p>`,
-    link: "blogpost41   .html",
+    link: "blogpost41.html",
     image: "blog41.jpeg",
     imageAlt: "Real Estate Agent Crossing Fingers"
 }
