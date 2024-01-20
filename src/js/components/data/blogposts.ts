@@ -737,7 +737,38 @@ const blogpost40: Blogpost = {
     image: "blog40.jpeg",
     imageAlt: "Setting Learning Goals"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40];
+const blogpost41: Blogpost = {
+    id: "blog41",
+    blogName: "Selling Your Home Doesn’t Have to be Overwhelming",
+    author: "John Manucdoc",
+    date: "January 1, 2024",
+    paragraph1: "When people think about selling their home, many focus on all the things they will have to do: paint the kitchen; clean closets; prepare for viewings; find another home; arrange financing; start packing; etc. It can all seem very overwhelming, very quickly.",
+    content: `<p>When people think about selling their home, many focus on all the things they will have to do: paint the kitchen; clean closets; prepare for viewings; find another home; arrange financing; start packing; etc. It can all seem very overwhelming, very quickly.</p>
+    <p>In fact, if you focus on the long to-do list, you may be dissuaded from ever making a move!</p>
+    <p>It doesn’t have to be that way.</p>
+    <p>There are many ways to make selling your home and buying another one relatively simple and easy.</p>
+    <p>Sure, there will be some work to do. You may need to prepare your property so that it looks appealing to potential buyers &#8211; cleaning, decluttering, doing some repairs, etc. Of course, you will also need to view some properties for sale in order to find your next dream home.</p>
+    <p>But those activities may not be as time-consuming or difficult as you had imagined. In fact, you and your family might actually enjoy the experience &#8211; and see it as an adventure.</p>`,
+    link: "blogpost41.html",
+    image: "blog41.jpeg",
+    imageAlt: "Real Estate Agent Crossing Fingers"
+}
+const blogpost42: Blogpost = {
+    id: "blog42",
+    blogName: "Three Lists to Make When Selling Your Home",
+    author: "John Manucdoc",
+    date: "January 15, 2024",
+    paragraph1: "When you put your property up for sale, you want to make sure that potential buyers get all the information they need on the features of your home and its surrounding area. If, for example, buyers don’t realize there is a great school just a couple of blocks away, they might cross your property off their shortlist.",
+    content: `<p>When you put your property up for sale, you want to make sure that potential buyers get all the information they need on the features of your home and its surrounding area. If, for example, buyers don’t realize there is a great school just a couple of blocks away, they might cross your property off their shortlist.<br />An effective way to make sure something like that doesn’t happen is to create three lists.</p>
+    <p><strong>1: The “I’ll miss it” list.</strong> Chances are, there are things about your home that you’re really going to miss when you move. One of those may be the spacious living room that’s ideal for entertaining or the nearby park with scenic trails that are perfect for walking and biking.</p>
+    <p>Whatever you’ll miss, put it on the list! Chances are, those are features that will also interest buyers.</p>
+    <p><strong>2: The “Just the facts” list.</strong> What are the facts about your property that a buyer needs to know in order to consider purchasing it? This may be a very long list including such items as total square footage, number of bedrooms, number of bathrooms, property taxes, size of yard, and more.</p>
+    <p><strong>3: The “repairs and improvements” list.</strong> Buyers are interested in the state of repair of your home, and in any improvements you have made to it. On this list include all repairs you have done during the past three years and, if possible, attach receipts. It’s especially important to include anything that has been replaced, such as the furnace or roof shingles.</p>`,
+    link: "blogpost42.html",
+    image: "blog42.jpeg",
+    imageAlt: "Homeowner making list"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42];
 
 export default blogpostArray
 
