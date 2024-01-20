@@ -753,7 +753,22 @@ const blogpost41: Blogpost = {
     image: "blog41.jpeg",
     imageAlt: "Real Estate Agent Crossing Fingers"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41];
+const blogpost42: Blogpost = {
+    id: "blog42",
+    blogName: "Three Lists to Make When Selling Your Home",
+    author: "John Manucdoc",
+    date: "January 15, 2024",
+    paragraph1: "When you put your property up for sale, you want to make sure that potential buyers get all the information they need on the features of your home and its surrounding area. If, for example, buyers don’t realize there is a great school just a couple of blocks away, they might cross your property off their shortlist.",
+    content: `<p>When you put your property up for sale, you want to make sure that potential buyers get all the information they need on the features of your home and its surrounding area. If, for example, buyers don’t realize there is a great school just a couple of blocks away, they might cross your property off their shortlist.<br />An effective way to make sure something like that doesn’t happen is to create three lists.</p>
+    <p><strong>1: The “I’ll miss it” list.</strong> Chances are, there are things about your home that you’re really going to miss when you move. One of those may be the spacious living room that’s ideal for entertaining or the nearby park with scenic trails that are perfect for walking and biking.</p>
+    <p>Whatever you’ll miss, put it on the list! Chances are, those are features that will also interest buyers.</p>
+    <p><strong>2: The “Just the facts” list.</strong> What are the facts about your property that a buyer needs to know in order to consider purchasing it? This may be a very long list including such items as total square footage, number of bedrooms, number of bathrooms, property taxes, size of yard, and more.</p>
+    <p><strong>3: The “repairs and improvements” list.</strong> Buyers are interested in the state of repair of your home, and in any improvements you have made to it. On this list include all repairs you have done during the past three years and, if possible, attach receipts. It’s especially important to include anything that has been replaced, such as the furnace or roof shingles.</p>`,
+    link: "blogpost42.html",
+    image: "blog42.jpeg",
+    imageAlt: "Homeowner making list"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42];
 
 export default blogpostArray
 
