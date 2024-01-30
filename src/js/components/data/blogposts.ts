@@ -768,7 +768,24 @@ const blogpost42: Blogpost = {
     image: "blog42.jpeg",
     imageAlt: "Homeowner making list"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42];
+const blogpost43: Blogpost = {
+    id: "blog43",
+    blogName: "Inspect Your Walls Before You Sell",
+    author: "John Manucdoc",
+    date: "January 29, 2024",
+    paragraph1: "Say you’re trying to sell a used car. Imagine that it’s a desirable make and model, the mileage is low, and, overall, it’s in great condition…except, that is, for the body.",
+    content: `<p>Say you’re trying to sell a used car. Imagine that it’s a desirable make and model, the mileage is low, and, overall, it’s in great condition…except, that is, for the body.</p>
+    <p>Unfortunately, there are a few areas where the paint is scratched, and there are a couple of dents and rust spots too.</p>
+    <p>Are you going to have trouble selling that car? Probably. Many potential buyers will have trouble seeing past the condition of the body and hence not appreciate the true value of the vehicle.</p>
+    <p>The same thing can happen when you’re trying to sell your home.</p>
+    <p>Everything about it could be wonderful, but if the paint on the walls is faded in spots, and there are dents, scuffs and holes, buyers may notice those things more than the other more important features of your property.</p>
+    <p>So, it’s a good idea to inspect your walls to make sure they look great.</p>
+    <p>There are numerous products available at your local home improvement center for repairing gouges and holes. Fixing them is a relatively easy do-it-yourself job.</p>`,
+    link: "blogpost43.html",
+    image: "blog43.jpg",
+    imageAlt: "Homeowner looking at walls of house"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43];
 
 export default blogpostArray
 
