@@ -12,7 +12,7 @@
         <div> 
           <a :href="contact.contactTwitter" target="_blank"
             ><img v-if="contact.contactTwitter"
-              class="social col-4"
+              class="social twitter col-4"
               src="../assets/images/social_tw_white.svg"
               alt="Twitter"
           /></a>
@@ -62,6 +62,9 @@ export default defineComponent ({
 
 .social {
   height: 18px;
+}
+.twitter {
+  height: 15px;
 }
 /* .email,
 .phone {

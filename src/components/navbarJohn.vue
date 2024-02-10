@@ -24,7 +24,7 @@
         <div class="d-none d-lg-block">
           <a :href="contact.contactTwitter" target="_blank"
             ><img v-if="contact.contactTwitter"
-              class="social col-1"
+              class="social twitter col-1"
               src="../assets/images/social_tw_white.svg"
               alt="Twitter"
           /></a>
@@ -141,6 +141,10 @@ li {
 .social {
   max-height: 18px;
   float: right;
+}
+.twitter {
+  margin-top: 2px;
+  max-height: 15px;
 }
 .navbar-toggler-icon:hover {
   color: #f7f7f7;
