@@ -51,7 +51,7 @@ export default defineComponent ({
 
 <style scoped>
 .bar {
-  background-color: #c1202f;
+  background-color: #272727;
   padding: 5px;
   position: fixed;
   bottom: 10px;
