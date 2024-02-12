@@ -787,20 +787,33 @@ const blogpost43: Blogpost = {
 }
 const blogpost44: Blogpost = {
     id: "blog44",
-    blogName: "Inspect Your Walls Before You Sell",
+    blogName: "Fresh Air Sells",
     author: "John Manucdoc",
     date: "February 12, 2024",
-    paragraph1: "Say you’re trying to sell a used car. Imagine that it’s a desirable make and model, the mileage is low, and, overall, it’s in great condition…except, that is, for the body.",
-    content: `<p>Say you’re trying to sell a used car. Imagine that it’s a desirable make and model, the mileage is low, and, overall, it’s in great condition…except, that is, for the body.</p>
-    <p>Unfortunately, there are a few areas where the paint is scratched, and there are a couple of dents and rust spots too.</p>
-    <p>Are you going to have trouble selling that car? Probably. Many potential buyers will have trouble seeing past the condition of the body and hence not appreciate the true value of the vehicle.</p>
-    <p>The same thing can happen when you’re trying to sell your home.</p>
-    <p>Everything about it could be wonderful, but if the paint on the walls is faded in spots, and there are dents, scuffs and holes, buyers may notice those things more than the other more important features of your property.</p>
-    <p>So, it’s a good idea to inspect your walls to make sure they look great.</p>
-    <p>There are numerous products available at your local home improvement center for repairing gouges and holes. Fixing them is a relatively easy do-it-yourself job.</p>`,
+    paragraph1: "Household smells in our own homes can be a problem because we get accustomed to them. However, it takes just a few seconds in a stranger’s home, to know if a smoker lives there. The smell is in the air!",
+    content: `<p>Household smells in our own homes can be a problem because we get accustomed to them. However, it takes just a few seconds in a stranger’s home, to know if a smoker lives there. The smell is in the air!</p>
+    <p>So, when you put your home on the market, think about the common smells you might have lingering in your home. Remember, you may no longer notice them, but a prospective buyer will.</p>
+    <p>These may include:</p>
+    <ul>
+    <li>A diaper bin in the baby’s room.</li>
+    <li>Kitty litter.</li>
+    <li>Model-making glue.</li>
+    <li>Paints, even if the cans or tubes are closed tightly.</li>
+    <li>Food. The aroma of a spicy meal can linger for hours.</li>
+    <li>Garbage cans. Even empty ones, if they are not clean.</li>
+    <li>Strong smelling soaps, perfumes and other cosmetics and toiletries.</li>
+    <li>Flowers and other plants.</li>
+    <li>Firewood (especially pine.)</li>
+    <li>Outdoor shoes.</li>
+    <li>Ashtrays.</li>
+    <li>Sinks.</li>
+    <li>Carpets.</li>
+    <li>Door mats. These are especially prone to stains and smells.</li>
+    </ul>
+    <p>Try to eliminate as many odors as possible. An hour or so before a viewing, open a few windows to give your home a breath of fresh air.</p>`,
     link: "blogpost44.html",
-    image: "blog43.jpg",
-    imageAlt: "Homeowner looking at walls of house"
+    image: "blog44.jpg",
+    imageAlt: "View of Room"
 }
 const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44]
 
