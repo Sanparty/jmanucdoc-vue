@@ -815,7 +815,26 @@ const blogpost44: Blogpost = {
     image: "blog44.jpg",
     imageAlt: "View of Room"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44]
+const blogpost45: Blogpost = {
+    id: "blog45",
+    blogName: "Are You Ready to Buy Up?",
+    author: "John Manucdoc",
+    date: "February 26, 2024",
+    paragraph1: "No matter how much you love your current home, you may still be dreaming of the day you can buy up into a better home in a better neighborhood. Is that day today or a few years down the road?",
+    content: `<p>No matter how much you love your current home, you may still be dreaming of the day you can buy up into a better home in a better neighborhood.</p>
+    <p>Is that day today or a few years down the road?</p>
+    <p>Here’s a quick way to make that assessment.</p>
+    <p>First, make a list of all the&nbsp;<em>practical</em>&nbsp;reasons why it might be time to move up. Those reasons might include features such as: more bedrooms; proximity to work and school; a larger backyard with trees; nearby parks and walking paths; and, better access to things you enjoy, like theater.</p>
+    <p>Next, make a list of the&nbsp;<em>emotional</em>&nbsp;reasons for making such a move. Those reasons might include memorable get-togethers with friends on a more spacious deck; an easier and less stressful commute to work; more family time with the kids; and, enjoyable Saturday golf at a nearby course.</p>
+    <p>Finally, take a&nbsp;<em>financial</em>&nbsp;snapshot to determine if you can afford to move up. You’ll need to get a good idea of what your current property will sell for in today’s market, the average price of homes in your desired neighborhood, and how much mortgage you can afford.</p>
+    <p>Once you have all of that down on paper, you’ll have a clear picture of your readiness. If the practical and emotional reasons for buying up are compelling, and you can afford to make the move, then, you have your answer.</p>
+    <p>The time to move is now!</p>
+    <p>By the way, if you need help in making this determination &#8211; especially figuring out what<br />your home will likely sell for, call today.</p>`,
+    link: "blogpost45.html",
+    image: "blog45.jpg",
+    imageAlt: "Small house with a big house"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45]
 
 export default blogpostArray
 
