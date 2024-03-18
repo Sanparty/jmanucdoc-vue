@@ -846,7 +846,7 @@ const blogpost46: Blogpost = {
     <p>When you view properties on the market, take those measurements with you. That way, you’ll be able to quickly determine if room sizes are going to be an issue.</p>`,
     link: "blogpost46.html",
     image: "blog46.jpg",
-    imageAlt: "Small house with a big house"
+    imageAlt: "Living Room with Furniture"
 }
 const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46]
 
