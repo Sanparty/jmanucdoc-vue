@@ -2,7 +2,7 @@
   <Transition appear>
   <div v-if="blogImage" class="col-sm-12 col-md-6 my-3">
     <div class="p-3 content blog-link mb-3">
-      <h3>{{ blogName }}</h3>
+      <h3 :title="blogName">{{ blogName }}</h3>
       <img
         :src="require('../assets/images/blog/' + blogImage)"
         :alt="blogImagealt"

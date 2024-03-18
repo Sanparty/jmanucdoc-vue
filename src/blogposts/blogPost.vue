@@ -12,7 +12,7 @@
   >
   <Transition appear>
     <div v-if="blogpost" class="p-3 col-lg-6 blog-main">
-      <h1>{{ blogpost.blogName }}</h1>
+      <h1 :title="blogpost.blogName">{{ blogpost.blogName }}</h1>
       <h4>{{ blogpost.date }}</h4>
       <img
         :src="require('../assets/images/blog/' + blogpost.image)"
