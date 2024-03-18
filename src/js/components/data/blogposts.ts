@@ -834,7 +834,21 @@ const blogpost45: Blogpost = {
     image: "blog45.jpg",
     imageAlt: "Small house with a big house"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45]
+const blogpost46: Blogpost = {
+    id: "blog46",
+    blogName: "Will Your Furniture Fit?",
+    author: "John Manucdoc",
+    date: "March 11, 2024",
+    paragraph1: "When shopping for a new house or condo, most buyers consider factors such as neighborhood, proximity to schools, number of bedrooms and bathrooms, size of the kitchen, and more.",
+    content: `<p>When shopping for a new house or condo, most buyers consider factors such as neighborhood, proximity to schools, number of bedrooms and bathrooms, size of the kitchen, and more.<br />These are, of course, all important considerations. But, there’s one question that few buyers ask until it’s too late: “Will our furniture fit?”</p>
+    <p>This may seem like a trivial concern. But, if you’ve invested thousands of dollars in a new living room set, you’re going to be very disappointed if it looks too crowded in your new home.</p>
+    <p>Here’s a tip: measure rooms in your current home that contain the furniture you like most. This could be the living room, rec room, master bedroom or even the patio. Then imagine how much smaller &#8211; if at all &#8211; that room could be while still accommodating the furniture.</p>
+    <p>When you view properties on the market, take those measurements with you. That way, you’ll be able to quickly determine if room sizes are going to be an issue.</p>`,
+    link: "blogpost46.html",
+    image: "blog46.jpg",
+    imageAlt: "Living Room with Furniture"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46]
 
 export default blogpostArray
 
