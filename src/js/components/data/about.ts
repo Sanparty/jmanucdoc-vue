@@ -23,7 +23,7 @@ const about: Article = {
         content3: `<p>Whether you’re buying or selling, it’s ultimately about realizing a dream. I understand how much the decision will mean to you. In fact, that’s one of the reasons I became a real estate agent – to help people buy or sell a home, while making the process easy and trouble-free.  Clients often tell me how much they appreciate my expertise, my willingness to be there with them every step of the way, and my determination to get them the best deal. They also tell me I’m friendly and a pleasure to work with – which is quite a compliment!</p>
         `,
         content4: `<p>If you’re looking for a real estate agent, it’s important that you find someone who is a good fit for you. <strong>So let’s talk</strong>. Whether you’re selling or buying, I’d like to learn more about you and your needs and goals. You can count on me to “tell it like it is” and give you a realistic picture of what is possible.</p>
-        <p><a href="/john/contact/" style="text-decoration: none; color: #cc2a38; font-weight: bold;">Contact me</a> to get in touch.</p>
+        <p>Contact me to get in touch.</p>
         <p>As a real estate agent who puts clients first, I look forward to hearing from you.</p>`,
     },
 }
