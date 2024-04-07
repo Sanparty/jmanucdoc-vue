@@ -859,7 +859,7 @@ const blogpost47: Blogpost = {
     <p><strong>Environment: </strong>Is it safe? Do your kids need to cross busy streets to go to parks or to school? Are there other families with kids the same age?</p>
     <p><strong>Entertainment:</strong> Swimmers need pools and soccer players need a field. Are the right facilities, programs, and leagues available for your kids? Where will you play as a family?</p>
     <p>Keep the 3 E’s in mind when choosing your next neighborhood. You’ll start a lifetime of wonderful memories for you &#8211; and your kids.</p>`,
-    link: "blogpost46.html",
+    link: "blogpost47.html",
     image: "blog47.jpeg",
     imageAlt: "Neighbourhood Park"
 }
