@@ -848,7 +848,22 @@ const blogpost46: Blogpost = {
     image: "blog46.jpg",
     imageAlt: "Living Room with Furniture"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46]
+const blogpost47: Blogpost = {
+    id: "blog47",
+    blogName: "Finding the Perfect “Kid-Friendly” Neighborhood",
+    author: "John Manucdoc",
+    date: "March 25, 2024",
+    paragraph1: "Fast forward a few years and imagine that your kids have grown up. They’ve come back to the “old neighborhood” to reminisce. What will they remember? The playground where they hung out with their friends? The quiet cul-de-sac where they learned to ride their bikes? The park where they picnicked and flew kites?",
+    content: `<p>Fast forward a few years and imagine that your kids have grown up. They’ve come back to the “old neighborhood” to reminisce. What will they remember? The playground where they hung out with their friends? The quiet cul-de-sac where they learned to ride their bikes? The park where they picnicked and flew kites?<br />Lasting memories are built in neighborhoods where amenities match lifestyles. When shopping for a new home, evaluate a prospective new neighborhood against the following 3 E’s:</p>
+    <p><strong>Education:</strong> What resources are available in the neighborhood to help with your child’s education? Are there schools and other services, such as libraries or art studios? How do they rate?</p>
+    <p><strong>Environment: </strong>Is it safe? Do your kids need to cross busy streets to go to parks or to school? Are there other families with kids the same age?</p>
+    <p><strong>Entertainment:</strong> Swimmers need pools and soccer players need a field. Are the right facilities, programs, and leagues available for your kids? Where will you play as a family?</p>
+    <p>Keep the 3 E’s in mind when choosing your next neighborhood. You’ll start a lifetime of wonderful memories for you &#8211; and your kids.</p>`,
+    link: "blogpost46.html",
+    image: "blog47.jpeg",
+    imageAlt: "Neighbourhood Park"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47]
 
 export default blogpostArray
 
