@@ -863,7 +863,42 @@ const blogpost47: Blogpost = {
     image: "blog47.jpeg",
     imageAlt: "Neighbourhood Park"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47]
+const blogpost48: Blogpost = {
+    id: "blog48",
+    blogName: "Should You Worry About Market Fluctuations?",
+    author: "John Manucdoc",
+    date: "April 8, 2024",
+    paragraph1: "You turn on the television and watch a news story about housing prices going down. Then you read an article about the housing market on the upswing again.",
+    content: `<p>You turn on the television and watch a news story about housing prices going down. Then you read an article about the housing market on the upswing again.</p>
+    <p>It’s a little like being on a roller-coaster ride!</p>
+    <p>Unfortunately, the ride isn’t much fun if you’re thinking of buying or selling a home. In fact, it can be very confusing and frustrating. You just don’t know if “now” is the right time to make a move.</p>
+    <p>In reality, the housing market has been fluctuating for decades. Yet, people sell their homes every day for good prices, and just as many people get into their next dream home affordably.</p>
+    <p>When you hear news of market fluctuations, there are two important things to consider.</p>
+    <p>First, a lot of media information about the housing market is national, or at least regional. If the housing market is trending up or down nationally, remember that it doesn’t necessarily mean that your LOCAL market is doing the same. In fact, it’s entirely possible for housing prices to be rising in your neighbourhood, while they are falling nationally, and vice versa.</p>
+    <p>Second, if you’re selling your current property while buying another home, then the net effect of market fluctuations may cancel out. Say, for example, that the local market is on the upswing. You’ll probably be able to sell your current home for a good price. However, the home you purchase will likely also be priced to reflect the upswing. The same holds true when the market is down.</p>
+    <p>All that being said, there are some circumstances in which you need to consider market fluctuations when deciding whether or not to make a move. Call today for more information.</p>`,
+    link: "blogpost48.html",
+    image: "blog48.png",
+    imageAlt: "Graph showing fluctuating housing prices"
+}
+const blogpost49: Blogpost = {
+    id: "blog49",
+    blogName: "Moisture on Windows",
+    author: "John Manucdoc",
+    date: "April 22, 2024",
+    paragraph1: "You’re standing by your window admiring the view. Then you notice it. Moisture has built up around the edges of the glass. Should you worry? It all depends on the reason for the build up.",
+    content: `<p>You’re standing by your window admiring the view. Then you notice it. Moisture has built up around the edges of the glass. Should you worry?<br />It all depends on the reason for the build up.</p>
+    <p>Assuming you have traditional double-pane glass in your windows, there are a few things to look for if you notice moisture.</p>
+    <p>Often, moisture at the bottom of your windows is simply caused by too much humidity in your indoor air. If that’s the case, simply adjust your humidifier.</p>
+    <p>If the moisture is on the outside of the window, typically there’s also no problem with the window itself. It may have rained recently, or the outside humidity may have spiked causing the accumulation. Generally, there’s no reason for concern.</p>
+    <p>However, if the moisture is in between the two panes of glass, the seal has broken and surrounding air &#8211; along with its water content &#8211; has made its way in. This disrupts the thermal barrier of the window, reducing its energy efficiency. In fact, the glass might feel noticeably colder than your other windows on chilly days. In that case, you’ll need to replace the pane.</p>
+    <p>Similarly, if the moisture is coming in through only one spot &#8211; the bottom right corner for example &#8211; then you might have a leak. If you have a wood frame or sill, you may also notice a growing water stain. It’s important to get leaks fixed quickly. There may be water damage occurring within the frame that you cannot see.</p>
+    `,
+    link: "blogpost49.html",
+    image: "blog49.png",
+    imageAlt: "Window with moisture"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49]
 
 export default blogpostArray
 
