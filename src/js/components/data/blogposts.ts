@@ -879,7 +879,7 @@ const blogpost48: Blogpost = {
     <p>All that being said, there are some circumstances in which you need to consider market fluctuations when deciding whether or not to make a move. Call today for more information.</p>`,
     link: "blogpost48.html",
     image: "blog48.png",
-    imageAlt: "Graph shoing fluctuating housing prices"
+    imageAlt: "Graph showing fluctuating housing prices"
 }
 const blogpost49: Blogpost = {
     id: "blog49",
