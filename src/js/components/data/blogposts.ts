@@ -898,7 +898,42 @@ const blogpost49: Blogpost = {
     image: "blog49.png",
     imageAlt: "Window with moisture"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49]
+const blogpost50: Blogpost = {
+    id: "blog50",
+    blogName: "Home Shopping and the Four-Legged Stool",
+    author: "John Manucdoc",
+    date: "May 6, 2024",
+    paragraph1: "What kind of stool is most likely to keep you from toppling over when you sit on it? Of course, two-legged stools won’t even stand on their own. Three-legged stools are okay, but still unstable. Four-legged stools are rock solid.",
+    content: `<p>What kind of stool is most likely to keep you from toppling over when you sit on it? Of course, two-legged stools won’t even stand on their own. Three-legged stools are okay, but still unstable. Four-legged stools are rock solid.<br />What does this have to do with shopping for a new home?</p>
+    <p>Well, if you want to find the right home quickly and for the best price, you need to have four things in place &#8211; the four legs of the stool. They will help ensure the experience goes smoothly.</p>
+    <p>The first leg is your wish list. You need to have a clear picture of the type of home you want. How many bedrooms? A large deck? Don’t forget about the community. Do you need to be close to major highways for ease of commuting?</p>
+    <p>The second leg is a pre-approved mortgage. Getting the financing handled upfront takes the guesswork out of what you can afford. And, sellers are more likely to take any offers you make more seriously.</p>
+    <p>The third leg is realistic expectations. Of homes that sell, 99% sell at or near their current market values. That doesn’t mean you can’t find a good deal. It does mean you’re unlikely to find a “steal”. Fortunately, there are likely several wonderful properties available within your price range.</p>
+    <p>The final leg of the stool is a great real estate professional. Choosing the right real estate professional is crucial to making your home shopping experience less stressful and more productive.</p>
+    <p>So, when you’re hunting for a new home, make sure you start with a stable “four-legged stool”. It will dramatically increase your chances of finding a home that fits your needs and budget.</p>
+    <p>Need help with that? Call today.</p>
+    `,
+    link: "blogpost50.html",
+    image: "blog50.png",
+    imageAlt: "Four-legged stool"
+}
+const blogpost51: Blogpost = {
+    id: "blog51",
+    blogName: "Not-So-Obvious Home Staging Tips",
+    author: "John Manucdoc",
+    date: "May 20, 2024",
+    paragraph1: "When it comes to “staging” your home for sale – which basically means ensuring it looks clean and uncluttered – you probably already know the basics: clean the counters, vacuum the floors, mow the lawn, etc. But there are also some less obvious home staging tips that can help to sell your property faster and for a higher price.",
+    content: `<p>When it comes to “staging” your home for sale &#8211; which basically means ensuring it looks clean and uncluttered &#8211; you probably already know the basics: clean the counters, vacuum the floors, mow the lawn, etc.<br />But there are also some less obvious home staging tips that can help to sell your property faster and for a higher price. Here are a few examples.</p>
+    <p><strong>The Kitchen<br /></strong><em>Obvious:</em> The stove, sinks and countertops should be spotless.<br /><em>Not-so-obvious:</em> The contents of your cabinets and refrigerator should be facing forward.</p>
+    <p><strong>The Bathrooms<br /></strong><em>Obvious:</em> They should be clean and uncluttered. Have fresh towels hanging neatly on the rack. (Create the “hotel bathroom” look.)<br /><em>Not-so-obvious:</em> All towels should match. Ensure toilet lids are closed.</p>
+    <p><strong>Your Bedroom<br /></strong><em>Obvious:</em> Make the bed neatly. Check that the closet is organized and uncluttered. (If your closet is bulging with clothes, put some in storage.)<br /><em>Not-so-obvious: </em>Don’t leave any clothes out. Even clean clothes neatly folded in a hamper can seem untidy to some people.</p>
+    <p><strong>The Kids’ Bedrooms<br /></strong><em>Obvious:</em> They need to be clean and uncluttered. (Good luck!)<br /><em>Not-so-obvious: </em>Arrange stuffed animals, games and other toys like an attractive display in a toy store. It’s okay to have a toy, like a racetrack, out of the box. Just make sure it’s completely put together.</p>
+    `,
+    link: "blogpost51.html",
+    image: "blog51.png",
+    imageAlt: "Staged Kitchen"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51]
 
 export default blogpostArray
 
