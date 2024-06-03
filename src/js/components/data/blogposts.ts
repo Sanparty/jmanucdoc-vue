@@ -933,7 +933,22 @@ const blogpost51: Blogpost = {
     image: "blog51.png",
     imageAlt: "Staged Kitchen"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51]
+const blogpost52: Blogpost = {
+    id: "blog52",
+    blogName: "A Quick Household Check Helps Conserve Resources",
+    author: "John Manucdoc",
+    date: "June 3, 2024",
+    paragraph1: "This is a good time to visually check of all your utilities, fixtures and appliances to make sure they are not using expensive energy and resources inefficiently.",
+    content: `<p>This is a good time to visually check of all your utilities, fixtures and appliances to make sure they are not using expensive energy and resources inefficiently.<br />Start with the faucets. Ensure they don’t drip when closed. If they do, replace the washers (or in the case of washerless units, the valve cartridges).</p>
+    <p>Next, check that your toilets don’t leak. To check for leaks, pour coloured liquid bowl cleaner into the tank, then wait several hours to see if it appears in the bowl without flushing. If it does, you likely have a leak, and may need to replace the stopper in the bottom of the tank.</p>
+    <p>Then, make sure your hot water tank and/or pipes are not sweating. While you’re at it, consider turning down the tank thermostat by a couple of degrees &#8211; chances are you won’t notice a difference, except hopefully on your energy bill.</p>
+    <p>Finally, check that windows and doors are not drafty. If they are, consider caulking, repairing or replacing them.</p>    
+    `,
+    link: "blogpost52.html",
+    image: "blog52.png",
+    imageAlt: "Kitchen Faucet"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52]
 
 export default blogpostArray
 
