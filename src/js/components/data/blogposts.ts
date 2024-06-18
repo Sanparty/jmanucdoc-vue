@@ -948,7 +948,34 @@ const blogpost52: Blogpost = {
     image: "blog52.png",
     imageAlt: "Kitchen Faucet"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52]
+const blogpost53: Blogpost = {
+    id: "blog53",
+    blogName: "Help Buyers Understand the Area",
+    author: "John Manucdoc",
+    date: "June 17, 2024",
+    paragraph1: "There’s a famous saying in the real estate business: “Location, location, location”. It simply means that where your home is located - your community - is just as important to potential buyers as the features of the property itself.",
+    content: `<p>
+    There’s a famous saying in the real estate business: “Location, location, location”. It simply means that where your home is located &#8211; your community &#8211; is just as important to potential buyers as the features of the property itself.
+    <br/>
+    Sellers often make the mistake of creating a long list of home features while ignoring community features. They tout the spacious kitchen, and the newly renovated bathrooms, but say little about the area.
+</p>
+<p>So, when you’re ready to sell your home, sit down and create two lists: home features and community features. Buyers want to know both.</p>
+<p>On the community features list, include:</p>
+<ul>
+    <li>Locations of schools and daycares.</li>
+    <li>Major retailers and shopping areas.</li>
+    <li>Proximity to major commuting routes.</li>
+    <li>Theatres, night clubs and other entertainment.</li>
+    <li>Rinks, gyms and other sporting facilities.</li>
+    <li>Green space, walking trails, and ponds.</li>
+</ul>
+<p>When buyers have their eyes on two properties which are comparable in features, the community is often the deciding factor.</p>    
+    `,
+    link: "blogpost53.html",
+    image: "blog53.png",
+    imageAlt: "Woman looking at cellphone"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53    ]
 
 export default blogpostArray
 
