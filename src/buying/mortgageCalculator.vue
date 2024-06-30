@@ -67,7 +67,7 @@ export default defineComponent({
     };
   },
   computed: {
-    formValid() {
+    formValid(): boolean {
       const { houseTotal, downPayment, interestRate, numYears } = this;
       return (
         houseTotal >= downPayment &&
@@ -77,7 +77,7 @@ export default defineComponent({
         +numYears > 0
       );
     },
-    loanAmount() {
+    loanAmount(): number {
       return parseInt(this.houseTotal) - parseInt(this.downPayment)
     },
     numPayments() {
@@ -89,13 +89,13 @@ export default defineComponent({
         return 52
       }
     },
-    interestperPayment() {
+    interestperPayment(): number {
       return (parseInt(this.interestRate) / 100) / this.numPayments
     },
-    totalPayments() {
+    totalPayments(): number {
       return parseInt(this.numYears) * this.numPayments
     },
-    payment () {
+    payment (): number {
       return this.loanAmount * this.interestperPayment * (Math.pow(1 + this.interestperPayment, this.totalPayments)) / (Math.pow(1 + this.interestperPayment, this.totalPayments) - 1)
     }
   },

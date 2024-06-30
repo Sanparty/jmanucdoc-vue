@@ -834,7 +834,148 @@ const blogpost45: Blogpost = {
     image: "blog45.jpg",
     imageAlt: "Small house with a big house"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45]
+const blogpost46: Blogpost = {
+    id: "blog46",
+    blogName: "Will Your Furniture Fit?",
+    author: "John Manucdoc",
+    date: "March 11, 2024",
+    paragraph1: "When shopping for a new house or condo, most buyers consider factors such as neighborhood, proximity to schools, number of bedrooms and bathrooms, size of the kitchen, and more.",
+    content: `<p>When shopping for a new house or condo, most buyers consider factors such as neighborhood, proximity to schools, number of bedrooms and bathrooms, size of the kitchen, and more.<br />These are, of course, all important considerations. But, there’s one question that few buyers ask until it’s too late: “Will our furniture fit?”</p>
+    <p>This may seem like a trivial concern. But, if you’ve invested thousands of dollars in a new living room set, you’re going to be very disappointed if it looks too crowded in your new home.</p>
+    <p>Here’s a tip: measure rooms in your current home that contain the furniture you like most. This could be the living room, rec room, master bedroom or even the patio. Then imagine how much smaller &#8211; if at all &#8211; that room could be while still accommodating the furniture.</p>
+    <p>When you view properties on the market, take those measurements with you. That way, you’ll be able to quickly determine if room sizes are going to be an issue.</p>`,
+    link: "blogpost46.html",
+    image: "blog46.jpg",
+    imageAlt: "Living Room with Furniture"
+}
+const blogpost47: Blogpost = {
+    id: "blog47",
+    blogName: "Finding the Perfect “Kid-Friendly” Neighborhood",
+    author: "John Manucdoc",
+    date: "March 25, 2024",
+    paragraph1: "Fast forward a few years and imagine that your kids have grown up. They’ve come back to the “old neighborhood” to reminisce. What will they remember? The playground where they hung out with their friends? The quiet cul-de-sac where they learned to ride their bikes? The park where they picnicked and flew kites?",
+    content: `<p>Fast forward a few years and imagine that your kids have grown up. They’ve come back to the “old neighborhood” to reminisce. What will they remember? The playground where they hung out with their friends? The quiet cul-de-sac where they learned to ride their bikes? The park where they picnicked and flew kites?<br />Lasting memories are built in neighborhoods where amenities match lifestyles. When shopping for a new home, evaluate a prospective new neighborhood against the following 3 E’s:</p>
+    <p><strong>Education:</strong> What resources are available in the neighborhood to help with your child’s education? Are there schools and other services, such as libraries or art studios? How do they rate?</p>
+    <p><strong>Environment: </strong>Is it safe? Do your kids need to cross busy streets to go to parks or to school? Are there other families with kids the same age?</p>
+    <p><strong>Entertainment:</strong> Swimmers need pools and soccer players need a field. Are the right facilities, programs, and leagues available for your kids? Where will you play as a family?</p>
+    <p>Keep the 3 E’s in mind when choosing your next neighborhood. You’ll start a lifetime of wonderful memories for you &#8211; and your kids.</p>`,
+    link: "blogpost47.html",
+    image: "blog47.jpeg",
+    imageAlt: "Neighbourhood Park"
+}
+const blogpost48: Blogpost = {
+    id: "blog48",
+    blogName: "Should You Worry About Market Fluctuations?",
+    author: "John Manucdoc",
+    date: "April 8, 2024",
+    paragraph1: "You turn on the television and watch a news story about housing prices going down. Then you read an article about the housing market on the upswing again.",
+    content: `<p>You turn on the television and watch a news story about housing prices going down. Then you read an article about the housing market on the upswing again.</p>
+    <p>It’s a little like being on a roller-coaster ride!</p>
+    <p>Unfortunately, the ride isn’t much fun if you’re thinking of buying or selling a home. In fact, it can be very confusing and frustrating. You just don’t know if “now” is the right time to make a move.</p>
+    <p>In reality, the housing market has been fluctuating for decades. Yet, people sell their homes every day for good prices, and just as many people get into their next dream home affordably.</p>
+    <p>When you hear news of market fluctuations, there are two important things to consider.</p>
+    <p>First, a lot of media information about the housing market is national, or at least regional. If the housing market is trending up or down nationally, remember that it doesn’t necessarily mean that your LOCAL market is doing the same. In fact, it’s entirely possible for housing prices to be rising in your neighbourhood, while they are falling nationally, and vice versa.</p>
+    <p>Second, if you’re selling your current property while buying another home, then the net effect of market fluctuations may cancel out. Say, for example, that the local market is on the upswing. You’ll probably be able to sell your current home for a good price. However, the home you purchase will likely also be priced to reflect the upswing. The same holds true when the market is down.</p>
+    <p>All that being said, there are some circumstances in which you need to consider market fluctuations when deciding whether or not to make a move. Call today for more information.</p>`,
+    link: "blogpost48.html",
+    image: "blog48.png",
+    imageAlt: "Graph showing fluctuating housing prices"
+}
+const blogpost49: Blogpost = {
+    id: "blog49",
+    blogName: "Moisture on Windows",
+    author: "John Manucdoc",
+    date: "April 22, 2024",
+    paragraph1: "You’re standing by your window admiring the view. Then you notice it. Moisture has built up around the edges of the glass. Should you worry? It all depends on the reason for the build up.",
+    content: `<p>You’re standing by your window admiring the view. Then you notice it. Moisture has built up around the edges of the glass. Should you worry?<br />It all depends on the reason for the build up.</p>
+    <p>Assuming you have traditional double-pane glass in your windows, there are a few things to look for if you notice moisture.</p>
+    <p>Often, moisture at the bottom of your windows is simply caused by too much humidity in your indoor air. If that’s the case, simply adjust your humidifier.</p>
+    <p>If the moisture is on the outside of the window, typically there’s also no problem with the window itself. It may have rained recently, or the outside humidity may have spiked causing the accumulation. Generally, there’s no reason for concern.</p>
+    <p>However, if the moisture is in between the two panes of glass, the seal has broken and surrounding air &#8211; along with its water content &#8211; has made its way in. This disrupts the thermal barrier of the window, reducing its energy efficiency. In fact, the glass might feel noticeably colder than your other windows on chilly days. In that case, you’ll need to replace the pane.</p>
+    <p>Similarly, if the moisture is coming in through only one spot &#8211; the bottom right corner for example &#8211; then you might have a leak. If you have a wood frame or sill, you may also notice a growing water stain. It’s important to get leaks fixed quickly. There may be water damage occurring within the frame that you cannot see.</p>
+    `,
+    link: "blogpost49.html",
+    image: "blog49.png",
+    imageAlt: "Window with moisture"
+}
+const blogpost50: Blogpost = {
+    id: "blog50",
+    blogName: "Home Shopping and the Four-Legged Stool",
+    author: "John Manucdoc",
+    date: "May 6, 2024",
+    paragraph1: "What kind of stool is most likely to keep you from toppling over when you sit on it? Of course, two-legged stools won’t even stand on their own. Three-legged stools are okay, but still unstable. Four-legged stools are rock solid.",
+    content: `<p>What kind of stool is most likely to keep you from toppling over when you sit on it? Of course, two-legged stools won’t even stand on their own. Three-legged stools are okay, but still unstable. Four-legged stools are rock solid.<br />What does this have to do with shopping for a new home?</p>
+    <p>Well, if you want to find the right home quickly and for the best price, you need to have four things in place &#8211; the four legs of the stool. They will help ensure the experience goes smoothly.</p>
+    <p>The first leg is your wish list. You need to have a clear picture of the type of home you want. How many bedrooms? A large deck? Don’t forget about the community. Do you need to be close to major highways for ease of commuting?</p>
+    <p>The second leg is a pre-approved mortgage. Getting the financing handled upfront takes the guesswork out of what you can afford. And, sellers are more likely to take any offers you make more seriously.</p>
+    <p>The third leg is realistic expectations. Of homes that sell, 99% sell at or near their current market values. That doesn’t mean you can’t find a good deal. It does mean you’re unlikely to find a “steal”. Fortunately, there are likely several wonderful properties available within your price range.</p>
+    <p>The final leg of the stool is a great real estate professional. Choosing the right real estate professional is crucial to making your home shopping experience less stressful and more productive.</p>
+    <p>So, when you’re hunting for a new home, make sure you start with a stable “four-legged stool”. It will dramatically increase your chances of finding a home that fits your needs and budget.</p>
+    <p>Need help with that? Call today.</p>
+    `,
+    link: "blogpost50.html",
+    image: "blog50.png",
+    imageAlt: "Four-legged stool"
+}
+const blogpost51: Blogpost = {
+    id: "blog51",
+    blogName: "Not-So-Obvious Home Staging Tips",
+    author: "John Manucdoc",
+    date: "May 20, 2024",
+    paragraph1: "When it comes to “staging” your home for sale – which basically means ensuring it looks clean and uncluttered – you probably already know the basics: clean the counters, vacuum the floors, mow the lawn, etc. But there are also some less obvious home staging tips that can help to sell your property faster and for a higher price.",
+    content: `<p>When it comes to “staging” your home for sale &#8211; which basically means ensuring it looks clean and uncluttered &#8211; you probably already know the basics: clean the counters, vacuum the floors, mow the lawn, etc.<br />But there are also some less obvious home staging tips that can help to sell your property faster and for a higher price. Here are a few examples.</p>
+    <p><strong>The Kitchen<br /></strong><em>Obvious:</em> The stove, sinks and countertops should be spotless.<br /><em>Not-so-obvious:</em> The contents of your cabinets and refrigerator should be facing forward.</p>
+    <p><strong>The Bathrooms<br /></strong><em>Obvious:</em> They should be clean and uncluttered. Have fresh towels hanging neatly on the rack. (Create the “hotel bathroom” look.)<br /><em>Not-so-obvious:</em> All towels should match. Ensure toilet lids are closed.</p>
+    <p><strong>Your Bedroom<br /></strong><em>Obvious:</em> Make the bed neatly. Check that the closet is organized and uncluttered. (If your closet is bulging with clothes, put some in storage.)<br /><em>Not-so-obvious: </em>Don’t leave any clothes out. Even clean clothes neatly folded in a hamper can seem untidy to some people.</p>
+    <p><strong>The Kids’ Bedrooms<br /></strong><em>Obvious:</em> They need to be clean and uncluttered. (Good luck!)<br /><em>Not-so-obvious: </em>Arrange stuffed animals, games and other toys like an attractive display in a toy store. It’s okay to have a toy, like a racetrack, out of the box. Just make sure it’s completely put together.</p>
+    `,
+    link: "blogpost51.html",
+    image: "blog51.png",
+    imageAlt: "Staged Kitchen"
+}
+const blogpost52: Blogpost = {
+    id: "blog52",
+    blogName: "A Quick Household Check Helps Conserve Resources",
+    author: "John Manucdoc",
+    date: "June 3, 2024",
+    paragraph1: "This is a good time to visually check of all your utilities, fixtures and appliances to make sure they are not using expensive energy and resources inefficiently.",
+    content: `<p>This is a good time to visually check of all your utilities, fixtures and appliances to make sure they are not using expensive energy and resources inefficiently.<br />Start with the faucets. Ensure they don’t drip when closed. If they do, replace the washers (or in the case of washerless units, the valve cartridges).</p>
+    <p>Next, check that your toilets don’t leak. To check for leaks, pour coloured liquid bowl cleaner into the tank, then wait several hours to see if it appears in the bowl without flushing. If it does, you likely have a leak, and may need to replace the stopper in the bottom of the tank.</p>
+    <p>Then, make sure your hot water tank and/or pipes are not sweating. While you’re at it, consider turning down the tank thermostat by a couple of degrees &#8211; chances are you won’t notice a difference, except hopefully on your energy bill.</p>
+    <p>Finally, check that windows and doors are not drafty. If they are, consider caulking, repairing or replacing them.</p>    
+    `,
+    link: "blogpost52.html",
+    image: "blog52.png",
+    imageAlt: "Kitchen Faucet"
+}
+const blogpost53: Blogpost = {
+    id: "blog53",
+    blogName: "Help Buyers Understand the Area",
+    author: "John Manucdoc",
+    date: "June 17, 2024",
+    paragraph1: "There’s a famous saying in the real estate business: “Location, location, location”. It simply means that where your home is located - your community - is just as important to potential buyers as the features of the property itself.",
+    content: `<p>
+    There’s a famous saying in the real estate business: “Location, location, location”. It simply means that where your home is located &#8211; your community &#8211; is just as important to potential buyers as the features of the property itself.
+    <br/>
+    Sellers often make the mistake of creating a long list of home features while ignoring community features. They tout the spacious kitchen, and the newly renovated bathrooms, but say little about the area.
+</p>
+<p>So, when you’re ready to sell your home, sit down and create two lists: home features and community features. Buyers want to know both.</p>
+<p>On the community features list, include:</p>
+<ul>
+    <li>Locations of schools and daycares.</li>
+    <li>Major retailers and shopping areas.</li>
+    <li>Proximity to major commuting routes.</li>
+    <li>Theatres, night clubs and other entertainment.</li>
+    <li>Rinks, gyms and other sporting facilities.</li>
+    <li>Green space, walking trails, and ponds.</li>
+</ul>
+<p>When buyers have their eyes on two properties which are comparable in features, the community is often the deciding factor.</p>    
+    `,
+    link: "blogpost53.html",
+    image: "blog53.png",
+    imageAlt: "Woman looking at cellphone"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53    ]
 
 export default blogpostArray
 
