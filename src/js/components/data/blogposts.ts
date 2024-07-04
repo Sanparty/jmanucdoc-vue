@@ -975,7 +975,22 @@ const blogpost53: Blogpost = {
     image: "blog53.png",
     imageAlt: "Woman looking at cellphone"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53    ]
+const blogpost54: Blogpost = {
+    id: "blog54",
+    blogName: "Healthy Lighting for Your Home",
+    author: "John Manucdoc",
+    date: "July 1, 2024",
+    paragraph1: "Recently, researchers discovered that the lighting in your home can have a much greater impact on your health and well-being than originally thought. Better lighting can boost your energy, help you sleep better, and even enhance healing.",
+    content: `<p>Recently, researchers discovered that the lighting in your home can have a much greater impact on your health and well-being than originally thought. Better lighting can boost your energy, help you sleep better, and even enhance healing.<br />So, it pays to make sure the lighting in your home has a positive impact on the health of your family.</p>
+<p>Start by enhancing sources of natural light, such as windows and skylights. Study each room of your home and replace as much of the artificial light as possible with sunlight. For example, reposition a favourite reading chair next to a window.</p>
+<p>Consider dimming the lighting in your home during the evenings. If your home is very bright when it’s dark outside, it can affect your body’s natural rhythms, resulting in disturbed sleep.</p>
+<p>Avoid over-lighting, which is common in rooms where there are few windows. Over time, excessive light can cause headaches and even mood changes. Lighting that is sufficient to see everything clearly is all you need.</p>`,
+    link: "blogpost54.html",
+    image: "blog54.png",
+    imageAlt: "Bright living room"
+}
+
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54 ]
 
 export default blogpostArray
 
