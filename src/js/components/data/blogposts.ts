@@ -989,8 +989,27 @@ const blogpost54: Blogpost = {
     image: "blog54.png",
     imageAlt: "Bright living room"
 }
+const blogpost55: Blogpost = {
+    id: "blog55",
+    blogName: "Estimating Your Selling Costs",
+    author: "John Manucdoc",
+    date: "July 15, 2024",
+    paragraph1: "When the time comes to sell your house, you’ll want to determine roughly how much you can expect to net after the sale. To figure that out, you’ll not only need to know how much your house will likely sell for, but also the selling costs you are likely to incur in the process.",
+    content: `<p>When the time comes to sell your house, you’ll want to determine roughly how much you can expect to net after the sale. To figure that out, you’ll not only need to know how much your house will likely sell for, but also the selling costs you are likely to incur in the process.<br />The costs of selling vary depending on a number of factors. Here’s a general rundown of what to consider:</p>
+<ul>
+<li><strong><em>Repairs. </em></strong>You will want your house to look its best to buyers. That may require you to get any needed repairs done before listing. You don’t want a buyer to see a dent in the wall or a dripping faucet.</li>
+<li><em><strong>Renovations.</strong></em> It might make sense to get a few improvements done to make the house more attractive. For example, you may want to replace old and worn kitchen countertops.</li>
+<li><strong><em>Legal fees.</em></strong> Selling a house requires a lot of legal work. You’ll need a good real estate lawyer to take care of that for you.</li>
+<li><strong><em>Commissions.</em></strong> This is usually calculated as a percentage of the sale price.</li>
+<li><strong><em>Moving costs.</em></strong> Once you sell, you’ll obviously need to move! So, factoring in this expense is a smart idea.</li>
+</ul>
+<p>Although this may seem like a long list, selling costs are fairly easy to estimate. Once you have that number, it’s easy to calculate how much money you’ll have available to put towards your next home.</p>`,
+    link: "blogpost55.html",
+    image: "blog55.png",
+    imageAlt: "Person doing calculations"
+}
 
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54 ]
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55 ]
 
 export default blogpostArray
 
