@@ -1008,8 +1008,23 @@ const blogpost55: Blogpost = {
     image: "blog55.png",
     imageAlt: "Person doing calculations"
 }
-
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55 ]
+const blogpost56: Blogpost = {
+    id: "blog56",
+    blogName: "How to Quickly Improve Indoor Air Quality",
+    author: "John Manucdoc",
+    date: "July 29, 2024",
+    paragraph1: "There are many reasons why the air quality in your home may not be at its best. A faulty furnace or an aged carpet are just two potential culprits. Until you get those issues addressed, how can you make your indoor air healthier today?",
+    content: `<p>There are many reasons why the air quality in your home may not be at its best. A faulty furnace or an aged carpet are just two potential culprits. Until you get those issues addressed, how can you make your indoor air healthier &#8211; today?<br />Here are some ideas:</p>
+<p><strong>Check the furnace filter.</strong> This is one of the most overlooked maintenance items in the home. Any furnace repair person can tell you stories about filters they’ve seen caked in dust. Make sure those aren’t yours. Air passes through those filters before circulating throughout your home. Replacing a filter takes less than five minutes.</p>
+<p><strong>Clean the drains. </strong>Drains are a surprisingly common source of smells in the home. Most people only clean them when they’re clogged, but they should be flushed thoroughly with a good-quality cleaner at least once a season.</p>
+<p><strong>Turn on the bathroom fan.</strong> Not only do bathroom fans remove smells, they also reduce moisture build-up. About 50% of air pollutants originate from some type of moisture. Mould is the worst of these pollutants. Professionals recommend you keep your bathroom fan on for at least 30 minutes after a shower.</p>
+<p><strong>Clean your doormat.</strong> Even if your doormat doesn’t smell, it can be a source of air pollutants. When people wipe their shoes, they transfer outside ground pollutants from their shoes to your mat.</p>
+<p>Of course, you can always open a window. That’s the most popular and easiest way to freshen the air, and it works.</p>`,
+    link: "blogpost56.html",
+    image: "blog56.png",
+    imageAlt: "Person opening door to let fresh air in"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55, blogpost56 ]
 
 export default blogpostArray
 
