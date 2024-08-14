@@ -1024,7 +1024,27 @@ const blogpost56: Blogpost = {
     image: "blog56.png",
     imageAlt: "Person opening door to let fresh air in"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55, blogpost56 ]
+const blogpost57: Blogpost = {
+    id: "blog57",
+    blogName: "Predicting Your Future Housing Needs",
+    author: "John Manucdoc",
+    date: "August 12, 2024",
+    paragraph1: "What will your housing needs be in three to five years? If you can figure that out, you can watch the market, target areas and communities you might like to live in, and reap the benefits of planning ahead.",
+    content: `<p>What will your housing needs be in three to five years? If you can figure that out, you can watch the market, target areas and communities you might like to live in, and reap the benefits of planning ahead.<br />To begin the process, start by asking yourself the following questions:</p>
+<ul>
+<li>What will my family look like in three to five years? Will there be a new addition (or two) to your family? Will you have kids that are grown up and about to move out? What is the possibility that an elderly relative (Mom, Dad or grandparent) will be living with you?</li>
+<li>What will change regarding work and school? Will a teenager be off to college? Will you or your spouse be retired Will someone in your household be starting a home business?</li>
+<li>How will your lifestyle be different? Will you take up a hobby that you’d like to be able to reach easily (such as golf) Do you see yourself wanting to live closer to shopping, theatre, walks in the woods, etc.? Will you eventually be traveling more often and, therefore, not be at home as much?</li>
+<li>How is the community changing? Where is it heading relative to your future needs in terms of residents, noise, sense of community, local developments, etc.? Do you see yourself wanting to live in a quieter community, or a more urban center?</li>
+<li>Will the type of home you need change? In three to five years, can you see yourself wanting a larger home? Smaller home? More bedrooms? Larger kitchen?</li>
+<li>What are your dreams? Do you dream of living in a particular area or community? Would you love to have a big backyard with a garden someday? Do you sometimes think, “It would be great to have a wooded park with walking trails just a few minutes away.”</li>
+</ul>
+<p>By looking three to five years into the future, you will be able to predict your housing needs and make plans &#8211; today &#8211; to ensure you get what you want in the future.</p>`,
+    link: "blogpost57.html",
+    image: "blog57.png",
+    imageAlt: "Woman thinking with questions mark around her"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55, blogpost56, blogpost57]
 
 export default blogpostArray
 
