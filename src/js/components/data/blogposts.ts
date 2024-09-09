@@ -968,8 +968,8 @@ const blogpost53: Blogpost = {
     <li>Theatres, night clubs and other entertainment.</li>
     <li>Rinks, gyms and other sporting facilities.</li>
     <li>Green space, walking trails, and ponds.</li>
-</ul>
-<p>When buyers have their eyes on two properties which are comparable in features, the community is often the deciding factor.</p>    
+    </ul>
+    <p>When buyers have their eyes on two properties which are comparable in features, the community is often the deciding factor.</p>    
     `,
     link: "blogpost53.html",
     image: "blog53.png",
@@ -982,9 +982,9 @@ const blogpost54: Blogpost = {
     date: "July 1, 2024",
     paragraph1: "Recently, researchers discovered that the lighting in your home can have a much greater impact on your health and well-being than originally thought. Better lighting can boost your energy, help you sleep better, and even enhance healing.",
     content: `<p>Recently, researchers discovered that the lighting in your home can have a much greater impact on your health and well-being than originally thought. Better lighting can boost your energy, help you sleep better, and even enhance healing.<br />So, it pays to make sure the lighting in your home has a positive impact on the health of your family.</p>
-<p>Start by enhancing sources of natural light, such as windows and skylights. Study each room of your home and replace as much of the artificial light as possible with sunlight. For example, reposition a favourite reading chair next to a window.</p>
-<p>Consider dimming the lighting in your home during the evenings. If your home is very bright when it’s dark outside, it can affect your body’s natural rhythms, resulting in disturbed sleep.</p>
-<p>Avoid over-lighting, which is common in rooms where there are few windows. Over time, excessive light can cause headaches and even mood changes. Lighting that is sufficient to see everything clearly is all you need.</p>`,
+    <p>Start by enhancing sources of natural light, such as windows and skylights. Study each room of your home and replace as much of the artificial light as possible with sunlight. For example, reposition a favourite reading chair next to a window.</p>
+    <p>Consider dimming the lighting in your home during the evenings. If your home is very bright when it’s dark outside, it can affect your body’s natural rhythms, resulting in disturbed sleep.</p>
+    <p>Avoid over-lighting, which is common in rooms where there are few windows. Over time, excessive light can cause headaches and even mood changes. Lighting that is sufficient to see everything clearly is all you need.</p>`,
     link: "blogpost54.html",
     image: "blog54.png",
     imageAlt: "Bright living room"
@@ -996,14 +996,14 @@ const blogpost55: Blogpost = {
     date: "July 15, 2024",
     paragraph1: "When the time comes to sell your house, you’ll want to determine roughly how much you can expect to net after the sale. To figure that out, you’ll not only need to know how much your house will likely sell for, but also the selling costs you are likely to incur in the process.",
     content: `<p>When the time comes to sell your house, you’ll want to determine roughly how much you can expect to net after the sale. To figure that out, you’ll not only need to know how much your house will likely sell for, but also the selling costs you are likely to incur in the process.<br />The costs of selling vary depending on a number of factors. Here’s a general rundown of what to consider:</p>
-<ul>
-<li><strong><em>Repairs. </em></strong>You will want your house to look its best to buyers. That may require you to get any needed repairs done before listing. You don’t want a buyer to see a dent in the wall or a dripping faucet.</li>
-<li><em><strong>Renovations.</strong></em> It might make sense to get a few improvements done to make the house more attractive. For example, you may want to replace old and worn kitchen countertops.</li>
-<li><strong><em>Legal fees.</em></strong> Selling a house requires a lot of legal work. You’ll need a good real estate lawyer to take care of that for you.</li>
-<li><strong><em>Commissions.</em></strong> This is usually calculated as a percentage of the sale price.</li>
-<li><strong><em>Moving costs.</em></strong> Once you sell, you’ll obviously need to move! So, factoring in this expense is a smart idea.</li>
-</ul>
-<p>Although this may seem like a long list, selling costs are fairly easy to estimate. Once you have that number, it’s easy to calculate how much money you’ll have available to put towards your next home.</p>`,
+    <ul>
+    <li><strong><em>Repairs. </em></strong>You will want your house to look its best to buyers. That may require you to get any needed repairs done before listing. You don’t want a buyer to see a dent in the wall or a dripping faucet.</li>
+    <li><em><strong>Renovations.</strong></em> It might make sense to get a few improvements done to make the house more attractive. For example, you may want to replace old and worn kitchen countertops.</li>
+    <li><strong><em>Legal fees.</em></strong> Selling a house requires a lot of legal work. You’ll need a good real estate lawyer to take care of that for you.</li>
+    <li><strong><em>Commissions.</em></strong> This is usually calculated as a percentage of the sale price.</li>
+    <li><strong><em>Moving costs.</em></strong> Once you sell, you’ll obviously need to move! So, factoring in this expense is a smart idea.</li>
+    </ul>
+    <p>Although this may seem like a long list, selling costs are fairly easy to estimate. Once you have that number, it’s easy to calculate how much money you’ll have available to put towards your next home.</p>`,
     link: "blogpost55.html",
     image: "blog55.png",
     imageAlt: "Person doing calculations"
@@ -1015,11 +1015,11 @@ const blogpost56: Blogpost = {
     date: "July 29, 2024",
     paragraph1: "There are many reasons why the air quality in your home may not be at its best. A faulty furnace or an aged carpet are just two potential culprits. Until you get those issues addressed, how can you make your indoor air healthier today?",
     content: `<p>There are many reasons why the air quality in your home may not be at its best. A faulty furnace or an aged carpet are just two potential culprits. Until you get those issues addressed, how can you make your indoor air healthier &#8211; today?<br />Here are some ideas:</p>
-<p><strong>Check the furnace filter.</strong> This is one of the most overlooked maintenance items in the home. Any furnace repair person can tell you stories about filters they’ve seen caked in dust. Make sure those aren’t yours. Air passes through those filters before circulating throughout your home. Replacing a filter takes less than five minutes.</p>
-<p><strong>Clean the drains. </strong>Drains are a surprisingly common source of smells in the home. Most people only clean them when they’re clogged, but they should be flushed thoroughly with a good-quality cleaner at least once a season.</p>
-<p><strong>Turn on the bathroom fan.</strong> Not only do bathroom fans remove smells, they also reduce moisture build-up. About 50% of air pollutants originate from some type of moisture. Mould is the worst of these pollutants. Professionals recommend you keep your bathroom fan on for at least 30 minutes after a shower.</p>
-<p><strong>Clean your doormat.</strong> Even if your doormat doesn’t smell, it can be a source of air pollutants. When people wipe their shoes, they transfer outside ground pollutants from their shoes to your mat.</p>
-<p>Of course, you can always open a window. That’s the most popular and easiest way to freshen the air, and it works.</p>`,
+    <p><strong>Check the furnace filter.</strong> This is one of the most overlooked maintenance items in the home. Any furnace repair person can tell you stories about filters they’ve seen caked in dust. Make sure those aren’t yours. Air passes through those filters before circulating throughout your home. Replacing a filter takes less than five minutes.</p>
+    <p><strong>Clean the drains. </strong>Drains are a surprisingly common source of smells in the home. Most people only clean them when they’re clogged, but they should be flushed thoroughly with a good-quality cleaner at least once a season.</p>
+    <p><strong>Turn on the bathroom fan.</strong> Not only do bathroom fans remove smells, they also reduce moisture build-up. About 50% of air pollutants originate from some type of moisture. Mould is the worst of these pollutants. Professionals recommend you keep your bathroom fan on for at least 30 minutes after a shower.</p>
+    <p><strong>Clean your doormat.</strong> Even if your doormat doesn’t smell, it can be a source of air pollutants. When people wipe their shoes, they transfer outside ground pollutants from their shoes to your mat.</p>
+    <p>Of course, you can always open a window. That’s the most popular and easiest way to freshen the air, and it works.</p>`,
     link: "blogpost56.html",
     image: "blog56.png",
     imageAlt: "Person opening door to let fresh air in"
@@ -1031,20 +1031,51 @@ const blogpost57: Blogpost = {
     date: "August 12, 2024",
     paragraph1: "What will your housing needs be in three to five years? If you can figure that out, you can watch the market, target areas and communities you might like to live in, and reap the benefits of planning ahead.",
     content: `<p>What will your housing needs be in three to five years? If you can figure that out, you can watch the market, target areas and communities you might like to live in, and reap the benefits of planning ahead.<br />To begin the process, start by asking yourself the following questions:</p>
-<ul>
-<li>What will my family look like in three to five years? Will there be a new addition (or two) to your family? Will you have kids that are grown up and about to move out? What is the possibility that an elderly relative (Mom, Dad or grandparent) will be living with you?</li>
-<li>What will change regarding work and school? Will a teenager be off to college? Will you or your spouse be retired Will someone in your household be starting a home business?</li>
-<li>How will your lifestyle be different? Will you take up a hobby that you’d like to be able to reach easily (such as golf) Do you see yourself wanting to live closer to shopping, theatre, walks in the woods, etc.? Will you eventually be traveling more often and, therefore, not be at home as much?</li>
-<li>How is the community changing? Where is it heading relative to your future needs in terms of residents, noise, sense of community, local developments, etc.? Do you see yourself wanting to live in a quieter community, or a more urban center?</li>
-<li>Will the type of home you need change? In three to five years, can you see yourself wanting a larger home? Smaller home? More bedrooms? Larger kitchen?</li>
-<li>What are your dreams? Do you dream of living in a particular area or community? Would you love to have a big backyard with a garden someday? Do you sometimes think, “It would be great to have a wooded park with walking trails just a few minutes away.”</li>
-</ul>
-<p>By looking three to five years into the future, you will be able to predict your housing needs and make plans &#8211; today &#8211; to ensure you get what you want in the future.</p>`,
+    <ul>
+    <li>What will my family look like in three to five years? Will there be a new addition (or two) to your family? Will you have kids that are grown up and about to move out? What is the possibility that an elderly relative (Mom, Dad or grandparent) will be living with you?</li>
+    <li>What will change regarding work and school? Will a teenager be off to college? Will you or your spouse be retired Will someone in your household be starting a home business?</li>
+    <li>How will your lifestyle be different? Will you take up a hobby that you’d like to be able to reach easily (such as golf) Do you see yourself wanting to live closer to shopping, theatre, walks in the woods, etc.? Will you eventually be traveling more often and, therefore, not be at home as much?</li>
+    <li>How is the community changing? Where is it heading relative to your future needs in terms of residents, noise, sense of community, local developments, etc.? Do you see yourself wanting to live in a quieter community, or a more urban center?</li>
+    <li>Will the type of home you need change? In three to five years, can you see yourself wanting a larger home? Smaller home? More bedrooms? Larger kitchen?</li>
+    <li>What are your dreams? Do you dream of living in a particular area or community? Would you love to have a big backyard with a garden someday? Do you sometimes think, “It would be great to have a wooded park with walking trails just a few minutes away.”</li>
+    </ul>
+    <p>By looking three to five years into the future, you will be able to predict your housing needs and make plans &#8211; today &#8211; to ensure you get what you want in the future.</p>`,
     link: "blogpost57.html",
     image: "blog57.png",
     imageAlt: "Woman thinking with questions mark around her"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55, blogpost56, blogpost57]
+const blogpost58: Blogpost = {
+    id: "blog58",
+    blogName: "Whole-Home Security Systems Continue to Evolve",
+    author: "John Manucdoc",
+    date: "August 26, 2024",
+    paragraph1: "Until recently, even the latest home security system could become obsolete overnight. But, newer whole-home integration systems are much more compatible with interchangeable parts and innovative add-ons.",
+    content: `<p>Until recently, even the latest home security system could become obsolete overnight. But, newer whole-home integration systems are much more compatible with interchangeable parts and innovative add-ons.</p>
+    <p>As a result, it’s now possible to have a multi-faceted security system that watches over many of the functions and activities in and around your home. For example, you can organize and control your home’s exterior cameras, motion detectors, door locks, window coverings, lighting, entertainment, appliances and HVAC with one system.</p>
+    <p>If you’re buying an entirely new system, there are many established and emerging brands available, so consider their functions, cost, convenience and reliability. But, if you want the whole-home system to manage existing utilities and appliances, things can become challenging. You will need to ensure that your specific devices can communicate with your new hub, which means you need to identify the protocol under which they can share information. Because their compatibility is not certain, it’s advisable to identify the make and model of your existing equipment and check for compatibility before you purchase a new security hub or system.</p>`,
+    link: "blogpost58.html",
+    image: "blog58.png",
+    imageAlt: "Security Control Center on iPad"
+}
+const blogpost59: Blogpost = {
+    id: "blog59",
+    blogName: "Lists to Make When Selling Your Home",
+    author: "John Manucdoc",
+    date: "September 9, 2024",
+    paragraph1: "When you put your property up for sale, you want to make sure that potential buyers get all the information they need on the features of your home and its surrounding area. If, for example, a buyer doesn’t realize there is a great school just a couple of blocks away, he might cross your property off his shortlist.",
+    content: `<p>When you put your property up for sale, you want to make sure that potential buyers get all the information they need on the features of your home and its surrounding area. If, for example, a buyer doesn’t realize there is a great school just a couple of blocks away, he might cross your property off his shortlist.<br />An effective way to make sure something like that doesn’t happen is to create three lists.</p>
+    <h3 style="color: #272727; font-weight: bold;">1: The “I’ll miss it” list.</h1>
+    <p>Chances are, there are things about your home that you’re really going to miss when you move. It may be the spacious living room, ideal for entertaining. Or maybe it’s the nearby park with scenic trails, perfect for walking and biking, or the large deck that has just the right combination of shade and sun to make spending time on it so pleasant. Whatever you’ll miss, put it on the list! Those are features that will probably interest buyers too.</p>
+    <h3 style="color: #272727; font-weight: bold;">2: The “Just the facts” list.</h1>
+    <p>What are the facts about your property that a buyer needs to know in order to consider purchasing it? This may be a very long list including such items as total square footage, number of bedrooms and bathrooms, property taxes, size of the lot, and more. This list should also include special features such as upgraded kitchen features and the nearby golf course.</p>
+    <h3 style="color: #272727; font-weight: bold;">3: The “repairs and improvements” list.</h1>
+    <p>Buyers are interested in the state of repair of your home, and in any improvements you have made to it. On this list, include all repairs you have done during the past three years and, if possible, attach receipts. It’s especially important to include anything that has been replaced, such as a furnace or roof. If you’ve done any major remodeling or renovations, include the details on those too.</p>
+    <p>Want more tips on selling your home? Call today.</p>`,
+    link: "blogpost59.html",
+    image: "blog59.png",
+    imageAlt: "Woman making list on paper"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55, blogpost56, blogpost57, blogpost58, blogpost59]
 
 export default blogpostArray
 
