@@ -1075,7 +1075,31 @@ const blogpost59: Blogpost = {
     image: "blog59.png",
     imageAlt: "Woman making list on paper"
 }
-const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55, blogpost56, blogpost57, blogpost58, blogpost59]
+const blogpost60: Blogpost = {
+    id: "blog60",
+    blogName: '“Non-Market” Reasons Why it Might Be the Ideal Time to Sell',
+    author: "John Manucdoc",
+    date: "September 23, 2024",
+    paragraph1: "When considering whether or not to sell their home, many people think about market conditions. They consider whether it’s a buyer’s or seller’s market. They look at trends. They try to time the sale to get the best price for their property.",
+    content: `<p>When considering whether or not to sell their home, many people think about market conditions. They consider whether it’s a buyer’s or seller’s market. They look at trends. They try to time the sale to get the best price for their property.</p>
+<p>While market conditions certainly can play a role in deciding whether you should sell now rather than later, many other factors can influence that decision too.</p>
+<p>For example, you might have outgrown your home and need more space. Perhaps you need an extra bedroom or a larger kitchen. If you wait until market conditions are perfect, you may languish for months — or even years — in a home that’s too small for you.</p>
+<p>The same can be said for downsizing.</p>
+<p>Another “non-market” reason you might want to sell your home sooner rather than later is the neighbourhood. Is there another community more suited to your lifestyle that you want to get into? If it’s a particularly desirable area, you don’t want to wait too long to make a move. If you do, you might lose some good opportunities.</p>
+<p>There’s also the emotional side of the decision to consider. You might simply want to move for no other reason than you need a change. That’s as good a reason as any to put up the For Sale sign and find your next dream home.</p>
+<p>Other non-market reasons for selling include:</p>
+<ul>
+<li>Wanting a shorter commute to work.</li>
+<li>Adapting to a change in your family situation.</li>
+<li>Wishing to live closer to relatives and friends.</li>
+<li>Yearning for a particular property feature, such as a backyard with mature trees.</li>
+</ul>
+<p>So, don’t just consider market conditions when deciding to sell. Look at all the reasons and then move forward with confidence. After all, you can sell and buy in any market.</p>`,
+    link: "blogpost60.html",
+    image: "blog60.png",
+    imageAlt: "Agent Talking to family"
+}
+const blogpostArray = [blogpost1, blogpost2, blogpost3, blogpost4, blogpost5, blogpost6, blogpost7, blogpost8, blogpost9, blogpost10, blogpost11, blogpost12, blogpost13, blogpost14, blogpost15, blogpost16, blogpost17, blogpost18, blogpost19, blogpost20, blogpost21, blogpost22, blogpost23, blogpost24, blogpost25, blogpost26, blogpost27, blogpost28, blogpost29, blogpost30, blogpost31, blogpost32, blogpost33, blogpost34, blogpost35, blogpost36, blogpost37, blogpost38, blogpost39, blogpost40, blogpost41, blogpost42, blogpost43, blogpost44, blogpost45, blogpost46, blogpost47, blogpost48, blogpost49, blogpost50, blogpost51, blogpost52, blogpost53, blogpost54, blogpost55, blogpost56, blogpost57, blogpost58, blogpost59, blogpost60]
 
 export default blogpostArray
 
