@@ -1181,6 +1181,28 @@ const blogpost61: Blogpost = {
   image: "blog61.png",
   imageAlt: "Foyer of house",
 };
+const blogpost62: Blogpost = {
+  id: "blog62",
+  blogName: "Kitchen Improvements for under $100",
+  author: "John Manucdoc",
+  date: "October 21, 2024",
+  paragraph1:
+    "Is it really possible to improve your kitchen’s look for about the cost of a takeout gourmet dinner with the family?",
+  content: `<p>Is it really possible to improve your kitchen’s look for about the cost of a takeout gourmet dinner with the family?</p>
+<p>Obviously you’re not going to be able to do anything major, such as replace the cabinets within that budget. But, there are many surprisingly low-budget ways to spruce up the kitchen. Here are a few ideas:</p>
+<ul>
+<li>Do you have old cabinets? You’d be surprised by how much newer they can look simply by replacing the knobs and/or handles. Pick a style that blends, rather than contrasts, with the cabinets.</li>
+<li>Does your sink have a few stains? That’s not unusual! There are special cleaning products available to get out the toughest stains without damaging or scratching the sink’s finish.</li>
+<li>Lighting can have an enormous impact on the look and feel of a space, particularly the kitchen. Experiment with new lighting ideas. Try different bulb wattages. Consider a new lighting fixture that looks good and distributes the light more pleasantly.</li>
+<li>Often you don’t need to upgrade anything – you just need to do a little redecorating. Consider new window coverings. Declutter to create a greater sense of space. Play with design touches such as placing trendy cookbooks on the counter, adding a plant, or putting an attractive fruit basket on the counter.</li>
+</ul>
+<p>Sure, depending on your choices, some of these ideas may cost you more than $100. However, any of these low-budget improvements can make your kitchen look considerably more attractive.</p>
+<p>You’ll notice the difference. And, if you’re selling, so will buyers.</p>
+`,
+  link: "blogpost62.html",
+  image: "blog62.png",
+  imageAlt: "Kitchen Cabinets",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1243,6 +1265,7 @@ const blogpostArray = [
   blogpost59,
   blogpost60,
   blogpost61,
+  blogpost62,
 ];
 
 export default blogpostArray;
