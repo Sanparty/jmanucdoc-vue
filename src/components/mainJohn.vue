@@ -137,6 +137,13 @@ h2 {
     margin-top: 5%;
   }
 }
+@media screen and (max-height: 600px) {
+  .mainText {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 8rem;
@@ -149,6 +156,7 @@ h2 {
   }
   .mainText {
     height: 80%;
+    width: 65%;
   }
 }
 </style>
