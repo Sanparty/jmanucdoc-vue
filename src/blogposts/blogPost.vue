@@ -1,75 +1,63 @@
 <template>
   <div
-    class="
-      col-12
-      d-lg-flex d-flex
-      justify-content-center
-      align-items-center
-      py-5
-      mt-5
-      blog-container
-    "
+    class="col-12 d-lg-flex d-flex justify-content-center align-items-center py-5 mt-5 blog-container"
   >
-  <Transition appear>
-    <div v-if="blogpost" class="p-3 col-lg-6 blog-main">
-      <h1 :title="blogpost.blogName">{{ blogpost.blogName }}</h1>
-      <h4>{{ blogpost.date }}</h4>
-      <img
-        :src="require('../assets/images/blog/' + blogpost.image)"
-        :alt="blogpost.imageAlt"
-        class="blogimage"
-      />
-      <div class="blogcontent" v-html="blogpost.content"></div>
-      <router-link :to="{ name: 'Blog' }">
-        <button class="btn btn-primary mt-3 cont-reading" type="submit">
-          <span class="cont-reading-text">More Blog News</span
-          ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
-        </button>
-      </router-link>
-      <div class="blog_buttons">
-        <div v-if="previouspost >= 1">
-          <div
-            class="no-underline"
-            @click="previousBlogpost()"
-          >
-            <button
-              class="btn btn-primary no-active mt-3 cont-reading"
-              type="submit"
-            >
-              <i class="fa fa-chevron-left" aria-hidden="true"></i>
-              <span class="cont-reading-text px-3">Previous</span>
-            </button>
-            
+    <Transition appear>
+      <div v-if="blogpost" class="p-3 col-lg-6 blog-main">
+        <h1 :title="blogpost.blogName">{{ blogpost.blogName }}</h1>
+        <h4>{{ blogpost.date }}</h4>
+        <img
+          :src="require('../assets/images/blog/' + blogpost.image)"
+          :alt="blogpost.imageAlt"
+          class="blogimage"
+        />
+        <div class="blogcontent" v-html="blogpost.content"></div>
+        <router-link :to="{ name: 'Blog' }">
+          <button class="btn btn-primary mt-3 cont-reading" type="submit">
+            <span class="cont-reading-text">More Blog News</span
+            ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
+          </button>
+        </router-link>
+        <div class="blog_buttons">
+          <div v-if="previouspost >= 1">
+            <div class="no-underline" @click="previousBlogpost()">
+              <button
+                class="btn btn-primary no-active mt-3 cont-reading"
+                type="submit"
+              >
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                <span class="cont-reading-text px-3">Previous</span>
+              </button>
+            </div>
           </div>
-        </div>  
-        <div v-if="nextpost <= blogtotal">
-          <div
-            class="no-underline"
-            @click="nextBlogpost()"
-          >
-            <button
-              class="btn btn-primary no-active mt-3 cont-reading"
-              type="submit"
-            >
-              <span class="cont-reading-text px-3">Next</span
-              ><i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </button>
+          <div v-if="nextpost <= blogtotal">
+            <div class="no-underline" @click="nextBlogpost()">
+              <button
+                class="btn btn-primary no-active mt-3 cont-reading"
+                type="submit"
+              >
+                <span class="cont-reading-text px-3">Next</span
+                ><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
           </div>
-        
+        </div>
+        <div class="blog_buttons">
+          <div v-if="previouspost >= 1" class="postName">
+            {{ previousPostName }}
+          </div>
+          <div v-if="nextpost <= blogtotal" class="postName postNameRight">
+            {{ nextPostName }}
+          </div>
         </div>
       </div>
-      <div class="blog_buttons">
-        <div v-if="previouspost >= 1" class="postName">{{ previousPostName }}</div>
-        <div v-if="nextpost <= blogtotal" class="postName postNameRight">{{ nextPostName }}</div>
+      <div v-else class="p-e col-lg-6 blog-main">
+        You have reached an unexpected page! Please return home. Thanks!
       </div>
-    </div>
-    <div v-else class="p-e col-lg-6 blog-main">
-      You have reached an unexpected page! Please return home. Thanks!
-    </div>
-  </Transition>
+    </Transition>
   </div>
   <div class="container-fluid">
-  <ContactJohn />
+    <ContactJohn />
   </div>
 </template>
 
@@ -78,7 +66,7 @@ import blogpostarray from "@/js/components/data/blogposts";
 import ContactJohn from "../components/contactJohn.vue";
 import Blogpost from "@/types/blogpost";
 import { defineComponent } from "vue";
-export default defineComponent ({
+export default defineComponent({
   name: "BlogPost",
   components: {
     ContactJohn,
@@ -86,49 +74,55 @@ export default defineComponent ({
   computed: {
     blogpost(): Blogpost {
       const blogId = this.$route.params.blogId;
-      let blogpostWanted = blogpostarray.find((blogpost) => blogpost.id === blogId);
+      let blogpostWanted = blogpostarray.find(
+        (blogpost) => blogpost.id === blogId
+      );
       if (blogpostWanted) {
-        return blogpostWanted
+        return blogpostWanted;
       } else {
-        return this.latestBlogpost
+        return this.latestBlogpost;
       }
     },
     latestBlogpost(): Blogpost {
-       const blogsData = [...blogpostarray];
-       let latestindex =  (blogsData.length - 1);
-       return blogsData[latestindex]
+      const blogsData = [...blogpostarray];
+      let latestindex = blogsData.length - 1;
+      return blogsData[latestindex];
     },
     blogtotal(): number {
       return blogpostarray.length;
     },
     previousPostName(): string {
-      if (this.blogpost) {      
+      if (this.blogpost) {
         let previousId = parseInt(this.blogpost.id.slice(4)) - 1;
-        let blogPrevious= `blog${previousId}`;
-        let blogpostWanted = blogpostarray.find((blogpost) => blogpost.id === blogPrevious);
+        let blogPrevious = `blog${previousId}`;
+        let blogpostWanted = blogpostarray.find(
+          (blogpost) => blogpost.id === blogPrevious
+        );
         if (blogpostWanted) {
-          return blogpostWanted.blogName
+          return blogpostWanted.blogName;
         } else {
-          return "No Previous Blog"
+          return "No Previous Blog";
         }
       } else {
-        return "No Previous Blog"
+        return "No Previous Blog";
       }
     },
     nextPostName(): string {
-      if (this.blogpost) {      
+      if (this.blogpost) {
         let nextId = parseInt(this.blogpost.id.slice(4)) + 1;
-        let blogNext= `blog${nextId}`;
-        let blogpostWanted = blogpostarray.find((blogpost) => blogpost.id === blogNext);
+        let blogNext = `blog${nextId}`;
+        let blogpostWanted = blogpostarray.find(
+          (blogpost) => blogpost.id === blogNext
+        );
         if (blogpostWanted) {
-          return blogpostWanted.blogName
+          return blogpostWanted.blogName;
         } else {
-          return "No Next Blog"
+          return "No Next Blog";
         }
       } else {
-        return "No Next Blog"
+        return "No Next Blog";
       }
-    }, 
+    },
     previouspost(): number {
       return parseInt(this.blogpost.id.slice(4)) - 1;
     },
@@ -138,21 +132,21 @@ export default defineComponent ({
   },
   methods: {
     previousBlogpost() {
-      if (this.blogpost) {      
+      if (this.blogpost) {
         let previousId = parseInt(this.blogpost.id.slice(4)) - 1;
         this.$router.push({
-        name: "Blogposts",
-        params: { blogId: `blog${previousId}` },
-      });
+          name: "Blogposts",
+          params: { blogId: `blog${previousId}` },
+        });
       }
     },
     nextBlogpost() {
       if (this.blogpost) {
-       let nextId = parseInt(this.blogpost.id.slice(4)) + 1;
-      this.$router.push({
-        name: "Blogposts",
-        params: { blogId: `blog${nextId}` },
-      });
+        let nextId = parseInt(this.blogpost.id.slice(4)) + 1;
+        this.$router.push({
+          name: "Blogposts",
+          params: { blogId: `blog${nextId}` },
+        });
       }
     },
   },
