@@ -1,46 +1,46 @@
-  <template>
+<template>
   <div
-    class="
-      container-fluid
-      mainimage
-      d-flex
-      flex-column
-      align-items-center
-      justify-content-center
-    "
+    class="container-fluid mainimage d-flex flex-column align-items-center justify-content-center"
   >
-  <span class="background-image" role="img" aria-label="Houses On Suburban Street"> </span>
-  <Transition appear>
-    <div class="mainbio flex-grow-1 text-center">
-      <h1>{{ contact.contactName }}</h1>
-      <h2>{{ contact.contactTitle }}</h2>
-    </div>
-  </Transition>
-  <Transition appear>
-    <div class="byline">{{ contact.contactMessage }}</div>
-     </Transition>
-       <Transition appear>
-    <div class="contact-email">
-      <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
-    </div>
-</Transition>
+    <span
+      class="background-image"
+      role="img"
+      aria-label="Houses On Suburban Street"
+    >
+    </span>
   </div>
-
+  <div class="mainText">
+    <Transition appear>
+      <div class="mainbio flex-grow-1 text-center">
+        <h1>{{ contact.contactName }}</h1>
+        <h2>{{ contact.contactTitle }}</h2>
+      </div>
+    </Transition>
+    <Transition appear>
+      <div class="byline">{{ contact.contactMessage }}</div>
+    </Transition>
+    <Transition appear>
+      <div class="contact-email">
+        <a :href="`mailto:${contact.contactEmail}`">{{
+          contact.contactEmail
+        }}</a>
+      </div>
+    </Transition>
+  </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from 'vue';
-import Contact from '@/types/contact';
+import { defineComponent, PropType } from "vue";
+import Contact from "@/types/contact";
 
-
-export default defineComponent ({
+export default defineComponent({
   Name: "MainJohn",
   props: {
     contact: {
       type: Object as PropType<Contact>,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 });
 </script>
 
@@ -56,10 +56,12 @@ h2 {
 }
 .mainimage {
   background-image: url(../assets/images/Suburban-Homes-1080x675.jpg);
+  filter: blur(5px);
   background-size: cover;
   background-position: center center;
   height: 100vh;
   width: 100%;
+
   /* padding: 10px; */
 }
 .mainbio,
@@ -69,6 +71,20 @@ h2 {
 }
 .mainbio {
   margin-top: 40%;
+}
+.mainText {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 65%;
+  border: solid #f7f7f7;
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  border-radius: 5px;
+  padding: 20px;
 }
 .byline {
   color: #f7f7f7;
@@ -130,6 +146,9 @@ h2 {
   }
   .contact-email {
     font-size: 1.5rem;
+  }
+  .mainText {
+    height: 80%;
   }
 }
 </style>
