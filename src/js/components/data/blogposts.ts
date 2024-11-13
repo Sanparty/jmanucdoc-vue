@@ -1203,6 +1203,27 @@ const blogpost62: Blogpost = {
   image: "blog62.png",
   imageAlt: "Kitchen Cabinets",
 };
+const blogpost63: Blogpost = {
+  id: "blog63",
+  blogName: "Plans to Make before Closing Day",
+  author: "John Manucdoc",
+  date: "November 4, 2024",
+  paragraph1:
+    "When you sell your property and buy your next dream home, closing day can come faster than you might imagine. Before you know it, it’s just weeks away! So it’s important to make the proper plans to ensure everything goes smoothly.",
+  content: `<p>When you sell your property and buy your next dream home, closing day can come faster than you might imagine. Before you know it, it’s just weeks away! So it’s important to make the proper plans to ensure everything goes smoothly.</p>
+<p>Here are the most common plans you’ll need to make:</p>
+<ul>
+<li>Contact the post office to get your mail forwarded. No matter how thorough you are in updating your address with companies you deal with regularly, you’re bound to miss a few. Using the mail forwarding service will ensure you get that mail.</li>
+<li>Double-check that your home insurance will be transferred on closing day, so your new home is covered from day one. Also, don’t forget to update vehicle and personal insurance (medical, life, etc.)</li>
+<li>Make arrangements with utility companies – phone, electricity, heating, etc. – as soon as possible. Remember, you might be closing some accounts and opening new ones. That can take time.</li>
+<li>If you are upgrading your internet at the new home, a visit from a technician might be required. Make that appointment now.</li>
+</ul>
+<p>There may be more arrangements to make before closing day. Create a checklist to make getting it all done easier and less stressful!</p>
+`,
+  link: "blogpost63.html",
+  image: "blog63.png",
+  imageAlt: "Woman making plans on phone",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1266,6 +1287,7 @@ const blogpostArray = [
   blogpost60,
   blogpost61,
   blogpost62,
+  blogpost63,
 ];
 
 export default blogpostArray;
