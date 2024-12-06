@@ -1224,6 +1224,24 @@ const blogpost63: Blogpost = {
   image: "blog63.png",
   imageAlt: "Woman making plans on phone",
 };
+const blogpost64: Blogpost = {
+  id: "blog64",
+  blogName: "Should You Buy a Home that Needs Work?",
+  author: "John Manucdoc",
+  date: "November 18, 2024",
+  paragraph1:
+    "Imagine you find a home on the market that checks all the boxes. There’s only one issue. It needs work. Perhaps the paint has faded, or the kitchen is old, or there are repairs needed.",
+  content: `<p>Imagine you find a home on the market that checks all the boxes. There’s only one issue. It needs work. Perhaps the paint has faded, or the kitchen is old, or there are repairs needed.</p>
+<p>Should you make an offer on that home? That depends on many factors, of course.</p>
+<p>The first thing you should consider is whether or not the home is otherwise ideal. If it has everything you want — location, size, style, number of bedrooms, etc. — then you may only be a few improvements away from a real gem.</p>
+<p>You should also consider how much those improvements are likely to cost. Cosmetic projects — such as painting, replacing light fixtures, etc. — tend to be more affordable. In many cases, those projects are also DIY-friendly. However, major improvements, such as upgrading the kitchen with new countertops, sink, and cabinetry, can be expensive.</p>
+<p>Fortunately, homes that need work don’t show as well as pristine listings. So, the cost of doing the improvements you need might be offset by getting the home at a lower price.</p>
+<p>The bottom line is, buying a home that needs work is definitely worth considering.</p>
+`,
+  link: "blogpost64.html",
+  image: "blog64.png",
+  imageAlt: "Fixer Upper",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1288,6 +1306,7 @@ const blogpostArray = [
   blogpost61,
   blogpost62,
   blogpost63,
+  blogpost64,
 ];
 
 export default blogpostArray;
