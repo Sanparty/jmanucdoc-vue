@@ -1242,6 +1242,55 @@ const blogpost64: Blogpost = {
   image: "blog64.png",
   imageAlt: "Fixer Upper",
 };
+const blogpost65: Blogpost = {
+  id: "blog65",
+  blogName: "Will a Home Inspection Help Sell your Home Faster?",
+  author: "John Manucdoc",
+  date: "December 16, 2024",
+  paragraph1:
+    "Usually, a home inspection is done after an offer is made to buy a home. The offer will typically include a condition that the property must pass such an inspection.",
+  content: ` <p>Usually, a home inspection is done after an offer is made to buy a home. The offer will typically include a condition that the property must pass such an inspection. The buyer then hires the inspector, who goes through the home, top to bottom, inside and out, looking for issues.</p>
+<p>However, you can also get an inspection done as the seller. In this case, you are paying for an inspector to produce a report on your home — before you sell. In fact, this is often called a pre-sale home inspection.</p>
+<p>Why would you do this?</p>
+<p>A pre-sale home inspection can make your property more attractive to buyers. This is especially helpful if you’re selling in a buyer’s market, where there are more homes like yours for sale than there are buyers. The report serves as an enticing feature of your listing because it reassures buyers that there are no unknown issues.</p>
+  <p>So, getting a pre-home inspection is something worth considering. For a buyer deciding between your listing and another home for sale, it can be a determining factor.</p>
+`,
+  link: "blogpost65.html",
+  image: "blog65.png",
+  imageAlt: "Guy with clipboard",
+};
+const blogpost66: Blogpost = {
+  id: "blog66",
+  blogName: "Take Advantage of Year-End Savings Opportunities",
+  author: "John Manucdoc",
+  date: "December 30, 2024",
+  paragraph1:
+    "Want to save money in 2025? There are many money-saving opportunities — including tax savings — that you can realize if you take action before the year ends.",
+  content: `<p>Want to save money in 2025? There are many money-saving opportunities — including tax savings — that you can realize if you take action before the year ends. Here are just a few examples of what to consider:</p>
+  <ul>
+      <li>
+          <strong>Do you own a business?</strong>
+            Even if it’s just a side-hustle to make extra money, you can save on taxes if you make planned purchases this month. For example, if you need a new printer, buy it in December. That way, you may be able to take a deduction this year.
+      </li>
+      <li>
+          <strong>Check your subscriptions. </strong>
+          Many types of subscriptions — publications, online apps, memberships — automatically renew in December. If you subscribe to something you no longer want, cancel it this month. Otherwise, you might be stuck paying the renewal fee.
+      </li>
+      <li>
+          <strong>Review your investments.</strong>
+            Sit down with your advisor and go over your investments and other savings. You may be able to take advantage of year-end opportunities. Also check for investments or financial instruments that may be set to automatically renew this month.
+      </li>
+      <li>
+          <strong>Watch for price hikes.</strong>
+            It’s common for companies to raise prices at the beginning of a new year. Review your bills for announcements of fee increases. Some of those may be negotiable. You might also want to make other changes to reduce the impact.
+      </li>
+  </ul>
+  <p>Taking time this month to review expenses and investments could save you a bundle in 2025. It’s worth the effort!</p>
+`,
+  link: "blogpost66.html",
+  image: "blog66.png",
+  imageAlt: "Putting coin in piggy bank",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1307,6 +1356,8 @@ const blogpostArray = [
   blogpost62,
   blogpost63,
   blogpost64,
+  blogpost65,
+  blogpost66,
 ];
 
 export default blogpostArray;
