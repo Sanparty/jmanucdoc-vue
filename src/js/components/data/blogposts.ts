@@ -1291,6 +1291,24 @@ const blogpost66: Blogpost = {
   image: "blog66.png",
   imageAlt: "Putting coin in piggy bank",
 };
+const blogpost67: Blogpost = {
+  id: "blog67",
+  blogName: "The Psychology of Clutter",
+  author: "John Manucdoc",
+  date: "January 6, 2025",
+  paragraph1:
+    "There’s an interesting psychological characteristic of clutter. We tend to notice it more in other people’s homes than in our own. In fact, we may not even realize a room in our house feels cluttered and uncomfortable to visitors.",
+  content: ` <p>There’s an interesting psychological characteristic of clutter. We tend to notice it more in other people’s homes than in our own. In fact, we may not even realize a room in our house feels cluttered and uncomfortable to visitors.</p>
+  <p>That’s why making each room look neat and spacious is so important when you’re selling your property.</p>
+  <p>Although the task may seem daunting at first, decluttering is relatively easy to do.</p>
+  <p>The simplest technique is to box things. You’re going to move anyway, so boxing makes sense. You can store the boxes of items you’re keeping in your garage. If you have a lot of boxes, renting short-term storage is an option.</p>
+  <p>When decluttering, you’re bound to come across items you no longer need or want. You can create separate boxes for items to trash, donate, or sell online. Deal with these right away, so they’re not included in your stored boxes.</p>
+  <p>An uncluttered home shows dramatically better to buyers. When they see a cluttered space — even if it’s neatly organized — it creates a reason not to buy. So, declutter your way to a faster sale at a higher price!</p>
+`,
+  link: "blogpost67.html",
+  image: "blog67.png",
+  imageAlt: "Woman arranging pillows on couch",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1358,6 +1376,7 @@ const blogpostArray = [
   blogpost64,
   blogpost65,
   blogpost66,
+  blogpost67,
 ];
 
 export default blogpostArray;
