@@ -1309,6 +1309,37 @@ const blogpost67: Blogpost = {
   image: "blog67.png",
   imageAlt: "Woman arranging pillows on couch",
 };
+const blogpost68: Blogpost = {
+  id: "blog68",
+  blogName: "Does your Home Still Match your Lifestyle?",
+  author: "John Manucdoc",
+  date: "January 20, 2025",
+  paragraph1:
+    "When you purchased your current home, chances are it was a good match for your lifestyle. It had the space you needed, the features you wanted, and a location that worked for you.",
+  content: `<p>
+    When you purchased your current home, chances are it was a good match for your lifestyle. It had the space you needed, the features you wanted, and a location that worked for you.
+    <br/>
+    But for most people, lifestyle and needs evolve through the years. Kids get older. Jobs or careers change. People take on new hobbies and other interests.
+</p>
+<p>As a result, the home that was ideal a few years ago may not fit with your current lifestyle.</p>
+<p>That doesn’t necessarily mean you need to shop for a new home! However, it may mean that it’s worth taking a look at the market and seeing what’s possible.</p>
+<p>Think about the kind of home that would support your lifestyle today. Ask questions like:</p>
+<ul>
+    <li>How many bedrooms do we need?</li>
+    <li>How easy is it to travel to work each day?</li>
+    <li>What special features do we want in our home? (Big backyard? Rec room? Quiet area?)</li>
+    <li>What do we want nearby? (School? Playground? Walking and biking trails? Shopping? Entertainment? Golf?)</li>
+    <li>What else does our home need in order to support our lifestyle?</li>
+    <li>After asking yourself some of these key questions, ask other family members for their opinions too.</li>
+</ul>
+<p>You may, in fact, find that the property you have now is still ideal for your lifestyle.</p>
+<p>If, however, your home is no longer a good fit, you have options. You can stay in your current home despite it no longer being ideal; you can make some changes (a renovation, perhaps); or, you can see what’s available in the housing market.</p>
+<p>If you need help with any of these options, call today.</p>
+`,
+  link: "blogpost68.html",
+  image: "blog68.png",
+  imageAlt: "Couple looking out window",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1377,6 +1408,7 @@ const blogpostArray = [
   blogpost65,
   blogpost66,
   blogpost67,
+  blogpost68,
 ];
 
 export default blogpostArray;
