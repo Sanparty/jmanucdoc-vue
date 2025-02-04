@@ -1340,6 +1340,21 @@ const blogpost68: Blogpost = {
   image: "blog68.png",
   imageAlt: "Couple looking out window",
 };
+const blogpost69: Blogpost = {
+  id: "blog69",
+  blogName: "Synthetic and Composite Countertops",
+  author: "John Manucdoc",
+  date: "February 3, 2025",
+  paragraph1:
+    "New countertops have always been a major contributor to kitchen makeovers, and the range of choices has never been greater. Beyond laminates and tile, or natural stone, wood and bamboo, some durable acrylics have become quite popular.",
+  content: `<p>New countertops have always been a major contributor to kitchen makeovers, and the range of choices has never been greater. Beyond laminates and tile, or natural stone, wood and bamboo, some durable acrylics have become quite popular.</p>
+<p>But, there are also newer composite materials that offer advantages which might make them an ideal compromise between natural and synthetic countertops. Generically known as solid surface, engineered stone or quartz composite, they go by many different brand names, and have unique features not found in other surfaces.</p>
+<p>For example, they tend to be harder and more durable and stain resistant than traditional countertops, because they are formed with a combination of natural materials and synthetic bonding compounds. The solid-surface types appear seamless, are made of about 2/3 mineral powders and 1/3 resin, and are available in a range of pigments and designs that sometimes mimic nature (e.g., white marble). The quartz types are closer to 90% natural stone fragments with about 10% resin, so they are even harder by comparison, although the range of pigment and design options is narrower. </p>
+<p>Nowadays, with so much to consider, it’s wise to consult a countertop expert about your material options and installation costs.</p>`,
+  link: "blogpost69.html",
+  image: "blog69.png",
+  imageAlt: "Countertop with cutting board and food",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1409,6 +1424,7 @@ const blogpostArray = [
   blogpost66,
   blogpost67,
   blogpost68,
+  blogpost69,
 ];
 
 export default blogpostArray;
