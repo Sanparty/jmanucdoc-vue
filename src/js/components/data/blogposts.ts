@@ -1355,6 +1355,34 @@ const blogpost69: Blogpost = {
   image: "blog69.png",
   imageAlt: "Countertop with cutting board and food",
 };
+const blogpost70: Blogpost = {
+  id: "blog70",
+  blogName: "Lighting Matters when Selling your Home",
+  author: "John Manucdoc",
+  date: "February 17, 2025",
+  paragraph1:
+    "Remember the last time you were in a furniture store or other major home retailer? Remember the fully decorated displays of furniture, appliances and other products? Some of those may have even been organized as model rooms. What did most of those displays have in common?",
+  content: `<p>Remember the last time you were in a furniture store or other major home retailer? Remember the fully decorated displays of furniture, appliances and other products? Some of those may have even been organized as model rooms.</p>
+<p>What did most of those displays have in common?</p>
+<p>Chances are, they were well lit.</p>
+<p>In fact, in the retail industry, there are professionals who specialize exclusively in display lighting. It plays such an important role in showcasing and selling home products successfully that the stores are willing to absorb the expense.</p>
+<p>The same holds true for your home.</p>
+<p>If you want to show your home well, and sell it quickly and for the best price, make sure every room is well lit.</p>
+<p>There are probably some rooms in your home where the lighting is adequate, such as the kitchen and bathrooms, and perhaps the foyer. But there are other areas where the lighting may be mediocre. Take a close look at:</p>
+<ul>
+<li>Closets</li>
+<li>Storage areas</li>
+<li>Bedrooms</li>
+<li>Laundry rooms</li>
+<li>Hallways</li>
+<li>The garage</li>
+</ul>
+<p>If there are areas in your home that are dark or shadowy, the solution may be as simple as installing higher wattage bulbs, provided your fixture can accommodate them. Keep in mind that brightness can vary significantly from one type of bulb to another. Your goal is to make the room feel bright yet comfortable on the eyes.</p>
+<p>Also, don’t forget to open drapes and blinds. Often the best and most pleasant source of light for a room is the sun shining through a window.</p>`,
+  link: "blogpost70.html",
+  image: "blog70.png",
+  imageAlt: "Walk-in closet with bright lighting",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1425,6 +1453,7 @@ const blogpostArray = [
   blogpost67,
   blogpost68,
   blogpost69,
+  blogpost70,
 ];
 
 export default blogpostArray;
