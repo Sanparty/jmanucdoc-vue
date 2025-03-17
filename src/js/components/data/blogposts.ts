@@ -1402,6 +1402,20 @@ const blogpost71: Blogpost = {
   image: "blog71.png",
   imageAlt: "Paper with to-do list for selling home",
 };
+const blogpost72: Blogpost = {
+  id: "blog72",
+  blogName: "Scams Are On The Rise",
+  author: "John Manucdoc",
+  date: "March 17, 2025",
+  paragraph1:
+    "The more consumers increase their use of online shopping using a variety of sites and payment methods, the more susceptible they become to fraud, including false threats or enticements from scammers posing as retail, bank and credit card companies.",
+  content: `<p>The more consumers increase their use of online shopping using a variety of sites and payment methods, the more susceptible they become to fraud, including false threats or enticements from scammers posing as retail, bank and credit card companies.</p>
+<p>With personal profiles being shared more frequently, it stands to reason that hackers will gain increased access to email addresses and other contact information. In addition, the scammers’ methods of “phishing” for personal information has become increasingly sophisticated, with correspondence that is often difficult to distinguish from legitimate business communications.</p>
+<p>Disguised as a legitimate business or bank, they can send phony alerts that act like an electronic Trojan horse. The consumer is tricked into divulging additional more sensitive data such as an account number or a password. We all need to be wary of any unexpected emails and phone messages that may implore us to act on impulse by clicking or replying. Always ensure you are not giving away personal information to criminals.</p>`,
+  link: "blogpost72.html",
+  image: "blog72.png",
+  imageAlt: "Caution Sign",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1474,6 +1488,7 @@ const blogpostArray = [
   blogpost69,
   blogpost70,
   blogpost71,
+  blogpost72,
 ];
 
 export default blogpostArray;
