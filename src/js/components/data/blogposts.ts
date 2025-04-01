@@ -1431,7 +1431,7 @@ const blogpost73: Blogpost = {
 <p>So, consider each improvement you’re thinking of making based on its cost, how much more you’ll get for your home, and how much more quickly you anticipate your property will sell.</p>`,
   link: "blogpost73.html",
   image: "blog73.png",
-  imageAlt: "Caution Sign",
+  imageAlt: "Multiple trades people and real estate agent",
 };
 const blogpostArray = [
   blogpost1,
