@@ -1416,6 +1416,23 @@ const blogpost72: Blogpost = {
   image: "blog72.png",
   imageAlt: "Caution Sign",
 };
+const blogpost73: Blogpost = {
+  id: "blog73",
+  blogName: "Should You Get a Major Improvement Done before Selling?",
+  author: "John Manucdoc",
+  date: "March 31, 2025",
+  paragraph1:
+    "There’s no doubt about it. The more “move in” ready your property is, the more attractive it will be to buyers. There is always an advantage when buyers can imagine living in the home without having to make any major repairs or improvements — at least for the short term.",
+  content: `<p>There’s no doubt about it. The more “move in” ready your property is, the more attractive it will be to buyers. There is always an advantage when buyers can imagine living in the home without having to make any major repairs or improvements — at least for the short term.</p>
+<p>But, does that mean you need to get every big issue dealt with before you sell? Not necessarily.</p>
+<p>Say, for example, your flooring needs replacing soon. Sure, that may influence the interest-level some buyers have in your property. Yet, homes sell every day with these kinds of issues.</p>
+<p>What it comes down to is cost-versus-benefit. Painting, for example, costs little (compared to other types of improvements), yet can make a big difference in how your home appears. So, the benefit is high compared to the cost.</p>
+<p>On the other hand, redoing your kitchen is an expensive undertaking. Although you’re likely to add value to your home as a result of the renovation, you might not get your entire investment back when you sell.</p>
+<p>So, consider each improvement you’re thinking of making based on its cost, how much more you’ll get for your home, and how much more quickly you anticipate your property will sell.</p>`,
+  link: "blogpost73.html",
+  image: "blog73.png",
+  imageAlt: "Multiple trades people and real estate agent",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1489,6 +1506,7 @@ const blogpostArray = [
   blogpost70,
   blogpost71,
   blogpost72,
+  blogpost73,
 ];
 
 export default blogpostArray;
