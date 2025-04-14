@@ -1433,6 +1433,31 @@ const blogpost73: Blogpost = {
   image: "blog73.png",
   imageAlt: "Multiple trades people and real estate agent",
 };
+const blogpost74: Blogpost = {
+  id: "blog74",
+  blogName: "What Buyers Want to See when They Walk into a Room",
+  author: "John Manucdoc",
+  date: "April 14, 2025",
+  paragraph1:
+    "When buyers view your property, they’re likely to visit each room and look around. Their imagination is turned on high. Often, within just a few moments in a space, they’ll form an impression — ideally, a positive one!",
+  content: `<p>When buyers view your property, they’re likely to visit each room and look around. Their imagination is turned on high. Often, within just a few moments in a space, they’ll form an impression — ideally, a positive one!</p>
+    <p>So, how do you ensure each room shows well? Here’s what buyers want to see:</p>
+    <ol>
+        <li>
+            <strong>Space</strong>. Buyers will often mentally fit their furniture into a room when they see it. So, make sure each room is uncluttered and staged in a way that showcases its spaciousness.
+        </li>
+        <li>
+            <strong>Functionality</strong>. Buyers want to see the room for what it is. So, if it’s a bedroom, but you’ve turned it into an exercise room, it might become a distraction to buyers. Consider restoring the room to its original purpose.
+        </li>
+        <li>
+            <strong>Themselves</strong>. Buyers want to imagine the room as part of their home, not yours. They want to see themselves in it. That’s why it’s smart to depersonalize the space as much as possible. For example, replace the family picture on the wall with a landscape print.
+        </li>
+    </ol>
+    <p>Anticipating how buyers will view each room will help you stage your property effectively.</p>`,
+  link: "blogpost74.html",
+  image: "blog74.png",
+  imageAlt: "Couple looking over papers",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1507,6 +1532,7 @@ const blogpostArray = [
   blogpost71,
   blogpost72,
   blogpost73,
+  blogpost74,
 ];
 
 export default blogpostArray;
