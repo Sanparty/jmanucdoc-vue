@@ -1458,6 +1458,20 @@ const blogpost74: Blogpost = {
   image: "blog74.png",
   imageAlt: "Couple looking over papers",
 };
+const blogpost75: Blogpost = {
+  id: "blog75",
+  blogName: "Inspect your House & Property",
+  author: "John Manucdoc",
+  date: "April 28, 2025",
+  paragraph1:
+    "It is advisable to do a thorough visual inspection of your home’s exterior, as well as any fences, sheds and other secondary buildings on your property, at least once or twice a year.",
+  content: `<p>It is advisable to do a thorough visual inspection of your home’s exterior, as well as any fences, sheds and other secondary buildings on your property, at least once or twice a year. Now, more than ever, extreme and unexpected weather events happen with greater severity and less predictable outcomes.</p>
+  <p>So, it’s important to anticipate the ability of your property assets to withstand the unexpected. The most critical areas in need of protection are your roof and foundation, as they work hand-in-hand to protect your home’s overall structural soundness.</p>
+<p>Check that roofing, gutters and downspouts offer seamless protection and runoff management. Ensure that joints and valleys are sealed, and overhangs are stabilized so that wind and rain won’t force a rupture or breach. On the ground, look for cracks and gaps in concrete that are susceptible to invasive moisture. Likewise, make an effort to build soil up at foundation walls and fence posts, to direct the runoff away from all buildings and fences. Also, be sure that nearby trees are trimmed to mitigate the risk of branches falling during a storm. By keeping a close eye on the condition of your real estate investment, and preventing avoidable damage, you’ll be protecting its long-term value.</p>`,
+  link: "blogpost75.html",
+  image: "blog75.png",
+  imageAlt: "Buyer with Inspector",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1533,6 +1547,7 @@ const blogpostArray = [
   blogpost72,
   blogpost73,
   blogpost74,
+  blogpost75,
 ];
 
 export default blogpostArray;
