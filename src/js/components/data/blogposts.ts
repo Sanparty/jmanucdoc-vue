@@ -1472,6 +1472,23 @@ const blogpost75: Blogpost = {
   image: "blog75.png",
   imageAlt: "Buyer with Inspector",
 };
+const blogpost76: Blogpost = {
+  id: "blog76",
+  blogName: "Worried about Finding a Home if You Sell First?",
+  author: "John Manucdoc",
+  date: "May 12, 2025",
+  paragraph1:
+    "There are many reasons why selling your current home before buying another one may be a good idea. But, once you’ve made that decision, you may still worry that you won’t find another home to buy after you sell. Fortunately, there’s plenty you can do to minimize that possibility.",
+  content: `<p>There are many reasons why selling your current home before buying another one may be a good idea. But, once you’ve made that decision, you may still worry that you won’t find another home to buy after you sell.<br />Fortunately, there’s plenty you can do to minimize that possibility.</p>
+<p>For example, if you sell first, you’ll know exactly how much you’ll be able to put towards a new home. Having that specific number in your back pocket will enable you to target your search and jump on buying opportunities right away. When you see a home you like, you won’t have to wonder, “Can we afford it?”</p>
+<p>Creating a buying plan will also help ensure that you find the home you want, quickly.</p>
+<p>Ideally, it should have a shortlist of neighbourhoods or areas you are considering. Narrowing your search in that way actually increases the likelihood of finding a “right fit” home. You should also create a profile of the kind of home you’re looking for — type, number of bedrooms, etc. — as well as the features you need, such as a spacious kitchen.</p>
+<p>Being open-minded about the homes you see is also crucial. If the “perfect” home isn’t coming up in the listings, be flexible. Often, a less-than-perfect home can become a dream home with just a few improvements.</p>
+<p>So, replace worry with planning and action. Then, once you sell, the home you want will be out there – and you’ll find it!</p>`,
+  link: "blogpost76.html",
+  image: "blog76.png",
+  imageAlt: "Living Area in House",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1548,6 +1565,7 @@ const blogpostArray = [
   blogpost73,
   blogpost74,
   blogpost75,
+  blogpost76,
 ];
 
 export default blogpostArray;
