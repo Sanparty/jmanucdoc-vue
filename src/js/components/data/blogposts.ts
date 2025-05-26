@@ -1489,6 +1489,21 @@ const blogpost76: Blogpost = {
   image: "blog76.png",
   imageAlt: "Living Area in House",
 };
+const blogpost77: Blogpost = {
+  id: "blog77",
+  blogName: "Understanding Market Value",
+  author: "John Manucdoc",
+  date: "May 26, 2025",
+  paragraph1:
+    "When you decide to put your house up for sale, we will start by working together to determine the market value of your property.",
+  content: `<p>When you decide to put your house up for sale, we will start by working together to determine the market value of your property. That’s important to know because if you price your home too much above its market value, you probably won’t get any offers. Alternatively, if you price your property too low, it might get snapped up quickly, but you’ll have left a lot of money on the table.</p>
+<p>So how do we determine your home’s current market value?</p>
+<p>We will look at a variety of factors, such as the desirability of the neighbourhood, the features of your home, how well it has been maintained, renovations and other improvements you’ve made, and of course, its location. We will also review what similar homes in your area have sold for recently – which is, perhaps, the strongest indicator of current market value.</p>
+<p>Once we know the market value of your home, we can make an informed decision as to how to price it so that it will attract the right type of buyers and the best possible price.</p>`,
+  link: "blogpost77.html",
+  image: "blog77.png",
+  imageAlt: "Miniature house with surrounding coins",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1566,6 +1581,7 @@ const blogpostArray = [
   blogpost74,
   blogpost75,
   blogpost76,
+  blogpost77,
 ];
 
 export default blogpostArray;
