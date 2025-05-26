@@ -1203,6 +1203,307 @@ const blogpost62: Blogpost = {
   image: "blog62.png",
   imageAlt: "Kitchen Cabinets",
 };
+const blogpost63: Blogpost = {
+  id: "blog63",
+  blogName: "Plans to Make before Closing Day",
+  author: "John Manucdoc",
+  date: "November 4, 2024",
+  paragraph1:
+    "When you sell your property and buy your next dream home, closing day can come faster than you might imagine. Before you know it, it’s just weeks away! So it’s important to make the proper plans to ensure everything goes smoothly.",
+  content: `<p>When you sell your property and buy your next dream home, closing day can come faster than you might imagine. Before you know it, it’s just weeks away! So it’s important to make the proper plans to ensure everything goes smoothly.</p>
+<p>Here are the most common plans you’ll need to make:</p>
+<ul>
+<li>Contact the post office to get your mail forwarded. No matter how thorough you are in updating your address with companies you deal with regularly, you’re bound to miss a few. Using the mail forwarding service will ensure you get that mail.</li>
+<li>Double-check that your home insurance will be transferred on closing day, so your new home is covered from day one. Also, don’t forget to update vehicle and personal insurance (medical, life, etc.)</li>
+<li>Make arrangements with utility companies – phone, electricity, heating, etc. – as soon as possible. Remember, you might be closing some accounts and opening new ones. That can take time.</li>
+<li>If you are upgrading your internet at the new home, a visit from a technician might be required. Make that appointment now.</li>
+</ul>
+<p>There may be more arrangements to make before closing day. Create a checklist to make getting it all done easier and less stressful!</p>
+`,
+  link: "blogpost63.html",
+  image: "blog63.png",
+  imageAlt: "Woman making plans on phone",
+};
+const blogpost64: Blogpost = {
+  id: "blog64",
+  blogName: "Should You Buy a Home that Needs Work?",
+  author: "John Manucdoc",
+  date: "November 18, 2024",
+  paragraph1:
+    "Imagine you find a home on the market that checks all the boxes. There’s only one issue. It needs work. Perhaps the paint has faded, or the kitchen is old, or there are repairs needed.",
+  content: `<p>Imagine you find a home on the market that checks all the boxes. There’s only one issue. It needs work. Perhaps the paint has faded, or the kitchen is old, or there are repairs needed.</p>
+<p>Should you make an offer on that home? That depends on many factors, of course.</p>
+<p>The first thing you should consider is whether or not the home is otherwise ideal. If it has everything you want — location, size, style, number of bedrooms, etc. — then you may only be a few improvements away from a real gem.</p>
+<p>You should also consider how much those improvements are likely to cost. Cosmetic projects — such as painting, replacing light fixtures, etc. — tend to be more affordable. In many cases, those projects are also DIY-friendly. However, major improvements, such as upgrading the kitchen with new countertops, sink, and cabinetry, can be expensive.</p>
+<p>Fortunately, homes that need work don’t show as well as pristine listings. So, the cost of doing the improvements you need might be offset by getting the home at a lower price.</p>
+<p>The bottom line is, buying a home that needs work is definitely worth considering.</p>
+`,
+  link: "blogpost64.html",
+  image: "blog64.png",
+  imageAlt: "Fixer Upper",
+};
+const blogpost65: Blogpost = {
+  id: "blog65",
+  blogName: "Will a Home Inspection Help Sell your Home Faster?",
+  author: "John Manucdoc",
+  date: "December 16, 2024",
+  paragraph1:
+    "Usually, a home inspection is done after an offer is made to buy a home. The offer will typically include a condition that the property must pass such an inspection.",
+  content: ` <p>Usually, a home inspection is done after an offer is made to buy a home. The offer will typically include a condition that the property must pass such an inspection. The buyer then hires the inspector, who goes through the home, top to bottom, inside and out, looking for issues.</p>
+<p>However, you can also get an inspection done as the seller. In this case, you are paying for an inspector to produce a report on your home — before you sell. In fact, this is often called a pre-sale home inspection.</p>
+<p>Why would you do this?</p>
+<p>A pre-sale home inspection can make your property more attractive to buyers. This is especially helpful if you’re selling in a buyer’s market, where there are more homes like yours for sale than there are buyers. The report serves as an enticing feature of your listing because it reassures buyers that there are no unknown issues.</p>
+  <p>So, getting a pre-home inspection is something worth considering. For a buyer deciding between your listing and another home for sale, it can be a determining factor.</p>
+`,
+  link: "blogpost65.html",
+  image: "blog65.png",
+  imageAlt: "Guy with clipboard",
+};
+const blogpost66: Blogpost = {
+  id: "blog66",
+  blogName: "Take Advantage of Year-End Savings Opportunities",
+  author: "John Manucdoc",
+  date: "December 30, 2024",
+  paragraph1:
+    "Want to save money in 2025? There are many money-saving opportunities — including tax savings — that you can realize if you take action before the year ends.",
+  content: `<p>Want to save money in 2025? There are many money-saving opportunities — including tax savings — that you can realize if you take action before the year ends. Here are just a few examples of what to consider:</p>
+  <ul>
+      <li>
+          <strong>Do you own a business?</strong>
+            Even if it’s just a side-hustle to make extra money, you can save on taxes if you make planned purchases this month. For example, if you need a new printer, buy it in December. That way, you may be able to take a deduction this year.
+      </li>
+      <li>
+          <strong>Check your subscriptions. </strong>
+          Many types of subscriptions — publications, online apps, memberships — automatically renew in December. If you subscribe to something you no longer want, cancel it this month. Otherwise, you might be stuck paying the renewal fee.
+      </li>
+      <li>
+          <strong>Review your investments.</strong>
+            Sit down with your advisor and go over your investments and other savings. You may be able to take advantage of year-end opportunities. Also check for investments or financial instruments that may be set to automatically renew this month.
+      </li>
+      <li>
+          <strong>Watch for price hikes.</strong>
+            It’s common for companies to raise prices at the beginning of a new year. Review your bills for announcements of fee increases. Some of those may be negotiable. You might also want to make other changes to reduce the impact.
+      </li>
+  </ul>
+  <p>Taking time this month to review expenses and investments could save you a bundle in 2025. It’s worth the effort!</p>
+`,
+  link: "blogpost66.html",
+  image: "blog66.png",
+  imageAlt: "Putting coin in piggy bank",
+};
+const blogpost67: Blogpost = {
+  id: "blog67",
+  blogName: "The Psychology of Clutter",
+  author: "John Manucdoc",
+  date: "January 6, 2025",
+  paragraph1:
+    "There’s an interesting psychological characteristic of clutter. We tend to notice it more in other people’s homes than in our own. In fact, we may not even realize a room in our house feels cluttered and uncomfortable to visitors.",
+  content: ` <p>There’s an interesting psychological characteristic of clutter. We tend to notice it more in other people’s homes than in our own. In fact, we may not even realize a room in our house feels cluttered and uncomfortable to visitors.</p>
+  <p>That’s why making each room look neat and spacious is so important when you’re selling your property.</p>
+  <p>Although the task may seem daunting at first, decluttering is relatively easy to do.</p>
+  <p>The simplest technique is to box things. You’re going to move anyway, so boxing makes sense. You can store the boxes of items you’re keeping in your garage. If you have a lot of boxes, renting short-term storage is an option.</p>
+  <p>When decluttering, you’re bound to come across items you no longer need or want. You can create separate boxes for items to trash, donate, or sell online. Deal with these right away, so they’re not included in your stored boxes.</p>
+  <p>An uncluttered home shows dramatically better to buyers. When they see a cluttered space — even if it’s neatly organized — it creates a reason not to buy. So, declutter your way to a faster sale at a higher price!</p>
+`,
+  link: "blogpost67.html",
+  image: "blog67.png",
+  imageAlt: "Woman arranging pillows on couch",
+};
+const blogpost68: Blogpost = {
+  id: "blog68",
+  blogName: "Does your Home Still Match your Lifestyle?",
+  author: "John Manucdoc",
+  date: "January 20, 2025",
+  paragraph1:
+    "When you purchased your current home, chances are it was a good match for your lifestyle. It had the space you needed, the features you wanted, and a location that worked for you.",
+  content: `<p>
+    When you purchased your current home, chances are it was a good match for your lifestyle. It had the space you needed, the features you wanted, and a location that worked for you.
+    <br/>
+    But for most people, lifestyle and needs evolve through the years. Kids get older. Jobs or careers change. People take on new hobbies and other interests.
+</p>
+<p>As a result, the home that was ideal a few years ago may not fit with your current lifestyle.</p>
+<p>That doesn’t necessarily mean you need to shop for a new home! However, it may mean that it’s worth taking a look at the market and seeing what’s possible.</p>
+<p>Think about the kind of home that would support your lifestyle today. Ask questions like:</p>
+<ul>
+    <li>How many bedrooms do we need?</li>
+    <li>How easy is it to travel to work each day?</li>
+    <li>What special features do we want in our home? (Big backyard? Rec room? Quiet area?)</li>
+    <li>What do we want nearby? (School? Playground? Walking and biking trails? Shopping? Entertainment? Golf?)</li>
+    <li>What else does our home need in order to support our lifestyle?</li>
+    <li>After asking yourself some of these key questions, ask other family members for their opinions too.</li>
+</ul>
+<p>You may, in fact, find that the property you have now is still ideal for your lifestyle.</p>
+<p>If, however, your home is no longer a good fit, you have options. You can stay in your current home despite it no longer being ideal; you can make some changes (a renovation, perhaps); or, you can see what’s available in the housing market.</p>
+<p>If you need help with any of these options, call today.</p>
+`,
+  link: "blogpost68.html",
+  image: "blog68.png",
+  imageAlt: "Couple looking out window",
+};
+const blogpost69: Blogpost = {
+  id: "blog69",
+  blogName: "Synthetic and Composite Countertops",
+  author: "John Manucdoc",
+  date: "February 3, 2025",
+  paragraph1:
+    "New countertops have always been a major contributor to kitchen makeovers, and the range of choices has never been greater. Beyond laminates and tile, or natural stone, wood and bamboo, some durable acrylics have become quite popular.",
+  content: `<p>New countertops have always been a major contributor to kitchen makeovers, and the range of choices has never been greater. Beyond laminates and tile, or natural stone, wood and bamboo, some durable acrylics have become quite popular.</p>
+<p>But, there are also newer composite materials that offer advantages which might make them an ideal compromise between natural and synthetic countertops. Generically known as solid surface, engineered stone or quartz composite, they go by many different brand names, and have unique features not found in other surfaces.</p>
+<p>For example, they tend to be harder and more durable and stain resistant than traditional countertops, because they are formed with a combination of natural materials and synthetic bonding compounds. The solid-surface types appear seamless, are made of about 2/3 mineral powders and 1/3 resin, and are available in a range of pigments and designs that sometimes mimic nature (e.g., white marble). The quartz types are closer to 90% natural stone fragments with about 10% resin, so they are even harder by comparison, although the range of pigment and design options is narrower. </p>
+<p>Nowadays, with so much to consider, it’s wise to consult a countertop expert about your material options and installation costs.</p>`,
+  link: "blogpost69.html",
+  image: "blog69.png",
+  imageAlt: "Countertop with cutting board and food",
+};
+const blogpost70: Blogpost = {
+  id: "blog70",
+  blogName: "Lighting Matters when Selling your Home",
+  author: "John Manucdoc",
+  date: "February 17, 2025",
+  paragraph1:
+    "Remember the last time you were in a furniture store or other major home retailer? Remember the fully decorated displays of furniture, appliances and other products? Some of those may have even been organized as model rooms. What did most of those displays have in common?",
+  content: `<p>Remember the last time you were in a furniture store or other major home retailer? Remember the fully decorated displays of furniture, appliances and other products? Some of those may have even been organized as model rooms.</p>
+<p>What did most of those displays have in common?</p>
+<p>Chances are, they were well lit.</p>
+<p>In fact, in the retail industry, there are professionals who specialize exclusively in display lighting. It plays such an important role in showcasing and selling home products successfully that the stores are willing to absorb the expense.</p>
+<p>The same holds true for your home.</p>
+<p>If you want to show your home well, and sell it quickly and for the best price, make sure every room is well lit.</p>
+<p>There are probably some rooms in your home where the lighting is adequate, such as the kitchen and bathrooms, and perhaps the foyer. But there are other areas where the lighting may be mediocre. Take a close look at:</p>
+<ul>
+<li>Closets</li>
+<li>Storage areas</li>
+<li>Bedrooms</li>
+<li>Laundry rooms</li>
+<li>Hallways</li>
+<li>The garage</li>
+</ul>
+<p>If there are areas in your home that are dark or shadowy, the solution may be as simple as installing higher wattage bulbs, provided your fixture can accommodate them. Keep in mind that brightness can vary significantly from one type of bulb to another. Your goal is to make the room feel bright yet comfortable on the eyes.</p>
+<p>Also, don’t forget to open drapes and blinds. Often the best and most pleasant source of light for a room is the sun shining through a window.</p>`,
+  link: "blogpost70.html",
+  image: "blog70.png",
+  imageAlt: "Walk-in closet with bright lighting",
+};
+const blogpost71: Blogpost = {
+  id: "blog71",
+  blogName: "6 Undisputed Ways to Make your Home Sell Faster",
+  author: "John Manucdoc",
+  date: "March 3, 2025",
+  paragraph1:
+    "There are few certainties in this world, but there are surefire ways to sell your property faster regardless of market conditions. These strategies have been proven time and time again.",
+  content: `<p>There are few certainties in this world, but there are surefire ways to sell your property faster regardless of market conditions. These strategies have been proven time and time again. So, if you’re thinking of selling this year, take a good look at these recommendations:</p>
+<p>1. Clean and tidy up. Making your home “guest ready” is the easiest way to ensure buyers are impressed during a viewing.</p>
+<p>2. Declutter. The more spacious your home looks, the more impressive it will be to buyers. You can box items and give them away, sell them or put them in storage.</p>
+<p>3. Price it right. Deciding on the right listing price is crucial. If it’s too high, you’ll discourage otherwise qualified buyers from seeing your home. If it’s too low, you might send the wrong message to the marketplace.</p>
+<p>4. Optimize curb appeal. The better your home looks from the street, the more buyers will become interested. Curb appeal is important because it’s the first impression a buyer makes, and that impression lasts.</p>
+<p>5. Stage your home. You don’t necessarily need to replace all the furniture. However, studies consistently confirm that a well-staged home sells significantly faster than a comparable un-staged property.</p>
+<p>6. Leverage the latest marketing and selling tactics. You want the marketing of your home to bring in the most qualified and interested buyers. You then want sales strategies that turn those buyers into offers and negotiation skills to turn the right offer into a sale.</p>
+<p>Keep these proven strategies in mind when putting your home up for sale.</p>`,
+  link: "blogpost71.html",
+  image: "blog71.png",
+  imageAlt: "Paper with to-do list for selling home",
+};
+const blogpost72: Blogpost = {
+  id: "blog72",
+  blogName: "Scams Are On The Rise",
+  author: "John Manucdoc",
+  date: "March 17, 2025",
+  paragraph1:
+    "The more consumers increase their use of online shopping using a variety of sites and payment methods, the more susceptible they become to fraud, including false threats or enticements from scammers posing as retail, bank and credit card companies.",
+  content: `<p>The more consumers increase their use of online shopping using a variety of sites and payment methods, the more susceptible they become to fraud, including false threats or enticements from scammers posing as retail, bank and credit card companies.</p>
+<p>With personal profiles being shared more frequently, it stands to reason that hackers will gain increased access to email addresses and other contact information. In addition, the scammers’ methods of “phishing” for personal information has become increasingly sophisticated, with correspondence that is often difficult to distinguish from legitimate business communications.</p>
+<p>Disguised as a legitimate business or bank, they can send phony alerts that act like an electronic Trojan horse. The consumer is tricked into divulging additional more sensitive data such as an account number or a password. We all need to be wary of any unexpected emails and phone messages that may implore us to act on impulse by clicking or replying. Always ensure you are not giving away personal information to criminals.</p>`,
+  link: "blogpost72.html",
+  image: "blog72.png",
+  imageAlt: "Caution Sign",
+};
+const blogpost73: Blogpost = {
+  id: "blog73",
+  blogName: "Should You Get a Major Improvement Done before Selling?",
+  author: "John Manucdoc",
+  date: "March 31, 2025",
+  paragraph1:
+    "There’s no doubt about it. The more “move in” ready your property is, the more attractive it will be to buyers. There is always an advantage when buyers can imagine living in the home without having to make any major repairs or improvements — at least for the short term.",
+  content: `<p>There’s no doubt about it. The more “move in” ready your property is, the more attractive it will be to buyers. There is always an advantage when buyers can imagine living in the home without having to make any major repairs or improvements — at least for the short term.</p>
+<p>But, does that mean you need to get every big issue dealt with before you sell? Not necessarily.</p>
+<p>Say, for example, your flooring needs replacing soon. Sure, that may influence the interest-level some buyers have in your property. Yet, homes sell every day with these kinds of issues.</p>
+<p>What it comes down to is cost-versus-benefit. Painting, for example, costs little (compared to other types of improvements), yet can make a big difference in how your home appears. So, the benefit is high compared to the cost.</p>
+<p>On the other hand, redoing your kitchen is an expensive undertaking. Although you’re likely to add value to your home as a result of the renovation, you might not get your entire investment back when you sell.</p>
+<p>So, consider each improvement you’re thinking of making based on its cost, how much more you’ll get for your home, and how much more quickly you anticipate your property will sell.</p>`,
+  link: "blogpost73.html",
+  image: "blog73.png",
+  imageAlt: "Multiple trades people and real estate agent",
+};
+const blogpost74: Blogpost = {
+  id: "blog74",
+  blogName: "What Buyers Want to See when They Walk into a Room",
+  author: "John Manucdoc",
+  date: "April 14, 2025",
+  paragraph1:
+    "When buyers view your property, they’re likely to visit each room and look around. Their imagination is turned on high. Often, within just a few moments in a space, they’ll form an impression — ideally, a positive one!",
+  content: `<p>When buyers view your property, they’re likely to visit each room and look around. Their imagination is turned on high. Often, within just a few moments in a space, they’ll form an impression — ideally, a positive one!</p>
+    <p>So, how do you ensure each room shows well? Here’s what buyers want to see:</p>
+    <ol>
+        <li>
+            <strong>Space</strong>. Buyers will often mentally fit their furniture into a room when they see it. So, make sure each room is uncluttered and staged in a way that showcases its spaciousness.
+        </li>
+        <li>
+            <strong>Functionality</strong>. Buyers want to see the room for what it is. So, if it’s a bedroom, but you’ve turned it into an exercise room, it might become a distraction to buyers. Consider restoring the room to its original purpose.
+        </li>
+        <li>
+            <strong>Themselves</strong>. Buyers want to imagine the room as part of their home, not yours. They want to see themselves in it. That’s why it’s smart to depersonalize the space as much as possible. For example, replace the family picture on the wall with a landscape print.
+        </li>
+    </ol>
+    <p>Anticipating how buyers will view each room will help you stage your property effectively.</p>`,
+  link: "blogpost74.html",
+  image: "blog74.png",
+  imageAlt: "Couple looking over papers",
+};
+const blogpost75: Blogpost = {
+  id: "blog75",
+  blogName: "Inspect your House & Property",
+  author: "John Manucdoc",
+  date: "April 28, 2025",
+  paragraph1:
+    "It is advisable to do a thorough visual inspection of your home’s exterior, as well as any fences, sheds and other secondary buildings on your property, at least once or twice a year.",
+  content: `<p>It is advisable to do a thorough visual inspection of your home’s exterior, as well as any fences, sheds and other secondary buildings on your property, at least once or twice a year. Now, more than ever, extreme and unexpected weather events happen with greater severity and less predictable outcomes.</p>
+  <p>So, it’s important to anticipate the ability of your property assets to withstand the unexpected. The most critical areas in need of protection are your roof and foundation, as they work hand-in-hand to protect your home’s overall structural soundness.</p>
+<p>Check that roofing, gutters and downspouts offer seamless protection and runoff management. Ensure that joints and valleys are sealed, and overhangs are stabilized so that wind and rain won’t force a rupture or breach. On the ground, look for cracks and gaps in concrete that are susceptible to invasive moisture. Likewise, make an effort to build soil up at foundation walls and fence posts, to direct the runoff away from all buildings and fences. Also, be sure that nearby trees are trimmed to mitigate the risk of branches falling during a storm. By keeping a close eye on the condition of your real estate investment, and preventing avoidable damage, you’ll be protecting its long-term value.</p>`,
+  link: "blogpost75.html",
+  image: "blog75.png",
+  imageAlt: "Buyer with Inspector",
+};
+const blogpost76: Blogpost = {
+  id: "blog76",
+  blogName: "Worried about Finding a Home if You Sell First?",
+  author: "John Manucdoc",
+  date: "May 12, 2025",
+  paragraph1:
+    "There are many reasons why selling your current home before buying another one may be a good idea. But, once you’ve made that decision, you may still worry that you won’t find another home to buy after you sell.",
+  content: `<p>There are many reasons why selling your current home before buying another one may be a good idea. But, once you’ve made that decision, you may still worry that you won’t find another home to buy after you sell.<br />Fortunately, there’s plenty you can do to minimize that possibility.</p>
+<p>For example, if you sell first, you’ll know exactly how much you’ll be able to put towards a new home. Having that specific number in your back pocket will enable you to target your search and jump on buying opportunities right away. When you see a home you like, you won’t have to wonder, “Can we afford it?”</p>
+<p>Creating a buying plan will also help ensure that you find the home you want, quickly.</p>
+<p>Ideally, it should have a shortlist of neighbourhoods or areas you are considering. Narrowing your search in that way actually increases the likelihood of finding a “right fit” home. You should also create a profile of the kind of home you’re looking for — type, number of bedrooms, etc. — as well as the features you need, such as a spacious kitchen.</p>
+<p>Being open-minded about the homes you see is also crucial. If the “perfect” home isn’t coming up in the listings, be flexible. Often, a less-than-perfect home can become a dream home with just a few improvements.</p>
+<p>So, replace worry with planning and action. Then, once you sell, the home you want will be out there – and you’ll find it!</p>`,
+  link: "blogpost76.html",
+  image: "blog76.png",
+  imageAlt: "Living Area in House",
+};
+const blogpost77: Blogpost = {
+  id: "blog77",
+  blogName: "Understanding Market Value",
+  author: "John Manucdoc",
+  date: "May 26, 2025",
+  paragraph1:
+    "When you decide to put your house up for sale, we will start by working together to determine the market value of your property.",
+  content: `<p>When you decide to put your house up for sale, we will start by working together to determine the market value of your property. That’s important to know because if you price your home too much above its market value, you probably won’t get any offers. Alternatively, if you price your property too low, it might get snapped up quickly, but you’ll have left a lot of money on the table.</p>
+<p>So how do we determine your home’s current market value?</p>
+<p>We will look at a variety of factors, such as the desirability of the neighbourhood, the features of your home, how well it has been maintained, renovations and other improvements you’ve made, and of course, its location. We will also review what similar homes in your area have sold for recently – which is, perhaps, the strongest indicator of current market value.</p>
+<p>Once we know the market value of your home, we can make an informed decision as to how to price it so that it will attract the right type of buyers and the best possible price.</p>`,
+  link: "blogpost77.html",
+  image: "blog77.png",
+  imageAlt: "Miniature house with surrounding coins",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1266,6 +1567,21 @@ const blogpostArray = [
   blogpost60,
   blogpost61,
   blogpost62,
+  blogpost63,
+  blogpost64,
+  blogpost65,
+  blogpost66,
+  blogpost67,
+  blogpost68,
+  blogpost69,
+  blogpost70,
+  blogpost71,
+  blogpost72,
+  blogpost73,
+  blogpost74,
+  blogpost75,
+  blogpost76,
+  blogpost77,
 ];
 
 export default blogpostArray;
