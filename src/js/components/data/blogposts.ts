@@ -1478,7 +1478,7 @@ const blogpost76: Blogpost = {
   author: "John Manucdoc",
   date: "May 12, 2025",
   paragraph1:
-    "There are many reasons why selling your current home before buying another one may be a good idea. But, once you’ve made that decision, you may still worry that you won’t find another home to buy after you sell. Fortunately, there’s plenty you can do to minimize that possibility.",
+    "There are many reasons why selling your current home before buying another one may be a good idea. But, once you’ve made that decision, you may still worry that you won’t find another home to buy after you sell.",
   content: `<p>There are many reasons why selling your current home before buying another one may be a good idea. But, once you’ve made that decision, you may still worry that you won’t find another home to buy after you sell.<br />Fortunately, there’s plenty you can do to minimize that possibility.</p>
 <p>For example, if you sell first, you’ll know exactly how much you’ll be able to put towards a new home. Having that specific number in your back pocket will enable you to target your search and jump on buying opportunities right away. When you see a home you like, you won’t have to wonder, “Can we afford it?”</p>
 <p>Creating a buying plan will also help ensure that you find the home you want, quickly.</p>
