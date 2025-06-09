@@ -1504,6 +1504,23 @@ const blogpost77: Blogpost = {
   image: "blog77.png",
   imageAlt: "Miniature house with surrounding coins",
 };
+const blogpost78: Blogpost = {
+  id: "blog78",
+  blogName: 'When to Consider Buying a “Diamond in the Rough"',
+  author: "John Manucdoc",
+  date: "June 9, 2025",
+  paragraph1:
+    "Let’s face it. When you visit a home during a scheduled viewing or open house, you’re usually seeing it at its best. The rooms are tidy. The sinks are clean. The closets are organized and uncluttered. Even the lighting is set to its brightest.",
+  content: `<p>Let’s face it. When you visit a home during a scheduled viewing or open house, you’re usually seeing it at its best. The rooms are tidy. The sinks are clean. The closets are organized and uncluttered. Even the lighting is set to its brightest.</p>
+<p>That’s just good old-fashioned marketing.</p>
+<p>However, not every house you see will actually look this way. For any number of reasons, a house on the market may be less than tidy, poorly decorated, and even in need of minor repairs. You may open the front door in anticipation, only to be immediately turned off by stains on the carpets, faded paint on the walls, cluttered hallways, and more.</p>
+<p>First impressions form quickly. It’s easy to make quick judgments and move on. But, you may be passing on what could be a dream home. Don’t make that mistake. Make your purchase decision based on a carefully considered second impression, not just your first. When viewing a house, imagine how it will look with a fresh coat of paint, some redecorating, the minor repairs completed, and your furniture adorning the rooms. You might just find that a home that doesn’t show well is really a diamond in the rough.</p>
+<p>(One caveat: Be careful of houses that don’t look like they’ve been well maintained. There could be issues lurking that may require expensive repairs or renovations. Always make a professional home inspection a condition of your offer.)</p>
+<p>There are advantages to buying a home that doesn’t show well. They attract less interest and, therefore, less competition from other potential buyers.</p>`,
+  link: "blogpost78.html",
+  image: "blog78.png",
+  imageAlt: "Real Estate Agent pointing out issues to clients",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1582,6 +1599,7 @@ const blogpostArray = [
   blogpost75,
   blogpost76,
   blogpost77,
+  blogpost78,
 ];
 
 export default blogpostArray;
