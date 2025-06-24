@@ -1521,6 +1521,21 @@ const blogpost78: Blogpost = {
   image: "blog78.png",
   imageAlt: "Real Estate Agent pointing out issues to clients",
 };
+const blogpost79: Blogpost = {
+  id: "blog79",
+  blogName: "Is this your Year to Get Gardening?",
+  author: "John Manucdoc",
+  date: "June 23, 2025",
+  paragraph1:
+    "Whether you have a large backyard or a modest balcony, gardening is fast becoming one of the most popular pastimes across the land. Homeowners have become more focused on their property’s appearance and productivity, while also recognizing how gardening can contribute to a healthy lifestyle.",
+  content: `<p>Whether you have a large backyard or a modest balcony, gardening is fast becoming one of the most popular pastimes across the land. Homeowners have become more focused on their property’s appearance and productivity, while also recognizing how gardening can contribute to a healthy lifestyle.</p>
+<p>Whether you are interested in nurturing beautiful blooms and bushes, or cultivating home-grown herbs and vegetables, a little planning will give you lasting enjoyment. One of the first things you need to do is to identify your microclimate in order to determine its suitability for growing specific plants.</p>
+<p>Similarly, it’s important to know the hardiness of your preferred plants, and how much sun and shade they require. Make sure your soil is conducive for optimum growth and supplement with appropriate nutrients as needed. Be prepared to back up nature’s rainfall with a reliable source of supplementary water, either manually or through an automatic system. Now that you’ve done your prep work, the true pleasures of gardening begin – but don’t think it’s an easy hobby! It takes hard work to keep the weeds at bay and your garden on track, but you’ll see the fruits of your labor grow before your very eyes.</p>`,
+  link: "blogpost79.html",
+  image: "blog79.png",
+  imageAlt: "Garden holding potted plants",
+};
+
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1600,6 +1615,7 @@ const blogpostArray = [
   blogpost76,
   blogpost77,
   blogpost78,
+  blogpost79,
 ];
 
 export default blogpostArray;
