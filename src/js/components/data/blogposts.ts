@@ -1535,6 +1535,25 @@ const blogpost79: Blogpost = {
   image: "blog79.png",
   imageAlt: "Garden holding potted plants",
 };
+const blogpost80: Blogpost = {
+  id: "blog80",
+  blogName: "Creating the “Wow” Effect in Buyers",
+  author: "John Manucdoc",
+  date: "July 7, 2025",
+  paragraph1:
+    "It’s incredible how quickly people form first impressions. According to some studies, people can develop lasting opinions within seconds of seeing someone, something, or someplace new.",
+  content: `<p>It’s incredible how quickly people form first impressions. According to some studies, people can develop lasting opinions within seconds of seeing someone, something, or someplace new.</p>
+<p>That’s why, when preparing your property for sale, it’s important to do everything you can to make sure it looks attractive to buyers.</p>
+<p>Nowhere does this first impression phenomenon play out more than when a buyer first enters your home. The moment they walk through your front door, they’ll look around, take in the scene and form an impression.</p>
+<p>Ideally, you want that crucial first impression to be, “Wow. This place looks great! I can hardly wait to check out the rest of this home.”</p>
+<p>So how do you ensure that happens?</p>
+<p>One way is to play the role of a buyer yourself. Walk through your front door as if you’ve never been inside your home before. Pretend you’re a buyer and look around. What do you see? What impresses you most from that perspective? What do you notice that concerns you?</p>
+<p>Pay attention to anything distracting: walls in need of painting, cluttered furniture arrangements, too much or too little lighting. This exercise will give you immediate ideas for improving — or Home Staging, as it’s called in real estate — the view from the front door foyer. For example, you might discover that a weekend painting project along with some decluttering, would make a big difference in how your home looks from this vantage point.</p>
+<p>Typically, it doesn’t take much work to make these types of changes and improvements. But, when you do, your home is likely to look more impressive to buyers as they walk through your front door. That’s an impression that’s likely to linger as they view the rest of your property.</p>`,
+  link: "blogpost80.html",
+  image: "blog80.png",
+  imageAlt: "Visually pleasing house hallway",
+};
 
 const blogpostArray = [
   blogpost1,
@@ -1616,6 +1635,7 @@ const blogpostArray = [
   blogpost77,
   blogpost78,
   blogpost79,
+  blogpost80,
 ];
 
 export default blogpostArray;
