@@ -1527,7 +1527,7 @@ const blogpost79: Blogpost = {
   author: "John Manucdoc",
   date: "June 23, 2025",
   paragraph1:
-    "Whether you have a large backyard or a modest balcony, gardening is fast becoming one of the most popular pastimes across the land. Homeowners have become more focused on their property’s appearance and productivity, while also recognizing how gardening can contribute to a healthy lifestyle.",
+    "Whether you have a large backyard or a modest balcony, gardening is fast becoming one of the most popular pastimes across the land.",
   content: `<p>Whether you have a large backyard or a modest balcony, gardening is fast becoming one of the most popular pastimes across the land. Homeowners have become more focused on their property’s appearance and productivity, while also recognizing how gardening can contribute to a healthy lifestyle.</p>
 <p>Whether you are interested in nurturing beautiful blooms and bushes, or cultivating home-grown herbs and vegetables, a little planning will give you lasting enjoyment. One of the first things you need to do is to identify your microclimate in order to determine its suitability for growing specific plants.</p>
 <p>Similarly, it’s important to know the hardiness of your preferred plants, and how much sun and shade they require. Make sure your soil is conducive for optimum growth and supplement with appropriate nutrients as needed. Be prepared to back up nature’s rainfall with a reliable source of supplementary water, either manually or through an automatic system. Now that you’ve done your prep work, the true pleasures of gardening begin – but don’t think it’s an easy hobby! It takes hard work to keep the weeds at bay and your garden on track, but you’ll see the fruits of your labor grow before your very eyes.</p>`,
@@ -1553,6 +1553,41 @@ const blogpost80: Blogpost = {
   link: "blogpost80.html",
   image: "blog80.png",
   imageAlt: "Visually pleasing house hallway",
+};
+const blogpost81: Blogpost = {
+  id: "blog81",
+  blogName: "Cleaning Tips for Instantly Improving Curb Appeal",
+  author: "John Manucdoc",
+  date: "July 21, 2025",
+  paragraph1:
+    "As you may know, curb appeal refers to how your property looks from the street, where potential buyers first see it. Your home’s curb appeal can have a big impact on the sale of your property.",
+  content: `<p>As you may know, curb appeal refers to how your property looks from the street, where potential buyers first see it. Your home’s curb appeal can have a big impact on the sale of your property.</p>
+<p>In fact, it’s not uncommon for a buyer to drive by a listing, rather than stop, because they don’t like what they see.</p>
+<p>So, how can you improve your home’s curb appeal quickly? One way is to do some outside cleaning.</p>
+<p>Start with the main entryway. Wash down the front door and sweep (or power wash) the front steps. It only takes a few minutes, but you’d be surprised by the impact it can have. Sweep or power wash your walkway too and you’ll improve the overall look of your home — sometimes dramatically.</p>
+<p>Clean your front windows to brighten the look of your home’s facade. It doesn’t have to be an arduous chore. In fact, there are washing products available that attach to your garden hose. You don’t even need a ladder! Ask your local home improvement retailer for recommendations.</p>
+<p>If you have hedges and shrubs, give them a trim. To keep your trimming level, use a wide board, or even a piece of cardboard, then cut to the desired height. Pull off any dead leaves or branches. Of course, also mow the lawn!</p>
+<p>Finally, inspect your property from the street. Can you see anything else you can do to quickly improve the look? Do you notice anything that is unsightly or distracting, such as garbage bins that could be relocated?</p>`,
+  link: "blogpost81.html",
+  image: "blog81.png",
+  imageAlt: "Spraywashing front steps",
+};
+const blogpost82: Blogpost = {
+  id: "blog82",
+  blogName: "How to Deal with a Competitive Disadvantage",
+  author: "John Manucdoc",
+  date: "August 4, 2025",
+  paragraph1:
+    "If you’re selling your home and there are other listings in your area, buyers will naturally compare your property to those other listings.",
+  content: `<p>If you’re selling your home and there are other listings in your area, buyers will naturally compare your property to those other listings.</p>
+<p>Is there something about your home that you’re concerned will be seen as a competitive disadvantage? For example, do you have a small kitchen or fewer bedrooms than most other homes in the community?</p>
+<p>There are a few things you can do to compensate for such disadvantages.</p>
+<p>First, highlight the advantageous features of your home. Chances are, there are characteristics that make it stand out. For example, the look and style of your home may be cozy and enchanting. Or, you might have a desired feature, such as a terrific view.</p>
+<p>Next, do everything you can to ensure your home makes the best impression possible to buyers. Remember, most buyers will only see your property once. So, pull out all the stops. That means decluttering, cleaning, painting, getting any needed repairs done, and staging effectively.</p>
+<p>Finally, make sure you set the asking price strategically. That doesn’t necessarily mean it needs to be low. But, it does mean that the price should reflect the market value of your home.</p>`,
+  link: "blogpost82.html",
+  image: "blog82.png",
+  imageAlt: "Painting over a house interior",
 };
 
 const blogpostArray = [
@@ -1636,6 +1671,8 @@ const blogpostArray = [
   blogpost78,
   blogpost79,
   blogpost80,
+  blogpost81,
+  blogpost82,
 ];
 
 export default blogpostArray;
