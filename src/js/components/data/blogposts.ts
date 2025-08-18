@@ -1589,6 +1589,21 @@ const blogpost82: Blogpost = {
   image: "blog82.png",
   imageAlt: "Painting over a house interior",
 };
+const blogpost83: Blogpost = {
+  id: "blog83",
+  blogName: "Setting Emotions Aside When Selling",
+  author: "John Manucdoc",
+  date: "August 18, 2025",
+  paragraph1:
+    "Imagine shopping for a used car. You find one that you like and while negotiating the price, the seller gets sentimental.",
+  content: `<p>Imagine shopping for a used car. You find one that you like and while negotiating the price, the seller gets sentimental. He shares happy memories of family picnics, his kids’ soccer games and other adventures with the vehicle. Then he demands a higher price. After all, he couldn’t possibly part with it for anything less.</p>
+<p>Are you likely to pay for his sentimental value? Probably not. Yet the same thing often happens when selling a home.</p>
+<p>It’s normal for homeowners to form an emotional attachment to their property. It can be very difficult to watch their home being treated as a product with a price tag, and watch buyers stand in the living room discussing furniture arrangements. Emotions can get in the way of a sale. It can even cause some sellers to stay firm on a high price, when a reasonable offer within market value is received.</p>
+<p>After all, as they say, ‘Home is where the heart is.’ So, when it’s time to sell your property, think about all the ways you will take your happy memories with you. Then, focus on selling for the best price within the current market conditions.</p>`,
+  link: "blogpost83.html",
+  image: "blog83.png",
+  imageAlt: "Back of family looking at house",
+};
 
 const blogpostArray = [
   blogpost1,
@@ -1673,6 +1688,7 @@ const blogpostArray = [
   blogpost80,
   blogpost81,
   blogpost82,
+  blogpost83,
 ];
 
 export default blogpostArray;
