@@ -1604,6 +1604,22 @@ const blogpost83: Blogpost = {
   image: "blog83.png",
   imageAlt: "Back of family looking at house",
 };
+const blogpost84: Blogpost = {
+  id: "blog84",
+  blogName: "Is it the Right Time to Sell?",
+  author: "John Manucdoc",
+  date: "September 1, 2025",
+  paragraph1:
+    "If you’re entertaining the idea of selling your home, especially within the next year, one question you might be grappling with is, “Should I sell now, or wait until market conditions are more favourable?”",
+  content: `<p>If you’re entertaining the idea of selling your home, especially within the next year, one question you might be grappling with is, “Should I sell now, or wait until market conditions are more favourable?”</p>
+<p>The answer is simple. Your decision to sell should be guided by your own needs and desires and not by what you think the market will be like months from now.</p>
+<p>First of all, it’s nearly impossible to predict the future in the real estate market. Months from now, it could be a buyer’s market, a seller’s market, a quiet market, or even a frenzied market! Who knows? It’s like trying to predict what the weather will be like on this day next year.</p>
+<p>And, if you’re also buying a new home, then market conditions play a less important role. After all, if you sell in a seller’s market and get a high price for your home, you’ll also be paying a seller’s market price for your new home.</p>
+<p>In most situations, the “right” time to sell is when you’re ready to make a move.</p>`,
+  link: "blogpost84.html",
+  image: "blog84.png",
+  imageAlt: "Back of family looking at house",
+};
 
 const blogpostArray = [
   blogpost1,
@@ -1689,6 +1705,7 @@ const blogpostArray = [
   blogpost81,
   blogpost82,
   blogpost83,
+  blogpost84,
 ];
 
 export default blogpostArray;
