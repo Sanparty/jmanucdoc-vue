@@ -1620,6 +1620,22 @@ const blogpost84: Blogpost = {
   image: "blog84.png",
   imageAlt: "Back of family looking at house",
 };
+const blogpost85: Blogpost = {
+  id: "blog85",
+  blogName: "Savvy Negotiation Helps Win the Deal",
+  author: "John Manucdoc",
+  date: "September 15, 2025",
+  paragraph1:
+    "Purchasing a home is not the same as buying a product off the shelf. You don’t simply pay the price on the tag and know it’s yours.",
+  content: `<p>Purchasing a home is not the same as buying a product off the shelf. You don’t simply pay the price on the tag and know it’s yours. You can’t just see a home for sale and say, “I’ll take it!”, especially if the market is competitive. You need to make an enticing offer.</p>
+<p>That offer, of course, would include the price you propose to pay. That price may or may not be the “price tag” or the asking price. In order for your offer to be successful, it needs other ingredients too. For example, winning offers often include evidence that appropriate financing has been arranged. This gives the seller confidence that you can afford the home and that the deal won’t fall through due to an issue with the mortgage.</p>
+<p>Also, you may need to put conditions on your offer, such as making it conditional on selling your current home. You’ll need to be careful here. Adding a condition or two may be necessary to protect your best interests, but may also dissuade the seller from accepting your offer.</p>
+<p>Negotiation is perhaps the most important part of the buying process. Even if there are no competing offers, there will likely be back-and-forth discussions about price, conditions, closing dates, and more. Savvy negotiating is critical, not only to ensure you get the home, but also that you get it for the lowest price and best terms possible.</p>
+<p>Real estate negotiation is not for the timid. It requires in-depth knowledge of the local market, hard-won negotiating skills, and experience. If you’re selling your home, buying a new home, or both, keep in mind the important role that negotiation has in getting you what you want.</p>`,
+  link: "blogpost85.html",
+  image: "blog85.png",
+  imageAlt: "Real Estate Agent and Client",
+};
 
 const blogpostArray = [
   blogpost1,
@@ -1706,6 +1722,7 @@ const blogpostArray = [
   blogpost82,
   blogpost83,
   blogpost84,
+  blogpost85,
 ];
 
 export default blogpostArray;
