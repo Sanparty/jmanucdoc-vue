@@ -1636,6 +1636,22 @@ const blogpost85: Blogpost = {
   image: "blog85.png",
   imageAlt: "Real Estate Agent and Client",
 };
+const blogpost86: Blogpost = {
+  id: "blog86",
+  blogName: "Buying the Faraway Home",
+  author: "John Manucdoc",
+  date: "September 29, 2025",
+  paragraph1:
+    "Shopping for a new home in a distant town, city or community can be a challenge. It’s especially difficult if getting there requires a very long drive or flight. So, if you’re thinking of moving out-of-town, here are some home shopping tips to consider...",
+  content: `<p>Shopping for a new home in a distant town, city or community can be a challenge. It’s especially difficult if getting there requires a very long drive or flight. So, if you’re thinking of moving out-of-town, here are some home shopping tips to consider:</p>
+<p><strong>Schedule a longer than normal viewing appointment. </strong>Make sure the seller is aware that you’ll need more time to see and evaluate the home, so they don’t book another appointment too soon after yours.</p>
+<p><strong>Spend extra time in the community and surrounding area. </strong>Drive the streets. Go for a walk. If possible, chat with residents you run into.</p>
+<p><strong>Get all the facts you can about the home and surrounding area.</strong> You’ll want to take a close look at crime statistics, property turnover, demographics, etc.</p>
+<p><strong>Don’t rush your travel plans when going to see a listed home.</strong> Try to arrive for the viewing relaxed and energized (rather than stressed and fatigued), so you can see the property in an unhurried manner.Following these simple tips can bring you a lot closer to finding your faraway dream home.</P`,
+  link: "blogpost86.html",
+  image: "blog86.png",
+  imageAlt: "Luggage with airplane in background",
+};
 
 const blogpostArray = [
   blogpost1,
@@ -1723,6 +1739,7 @@ const blogpostArray = [
   blogpost83,
   blogpost84,
   blogpost85,
+  blogpost86,
 ];
 
 export default blogpostArray;
