@@ -1652,7 +1652,25 @@ const blogpost86: Blogpost = {
   image: "blog86.png",
   imageAlt: "Luggage with airplane in background",
 };
-
+const blogpost87: Blogpost = {
+  id: "blog87",
+  blogName: "The Cure for Cabinet Clutter",
+  author: "John Manucdoc",
+  date: "October 13, 2025",
+  paragraph1:
+    "When a buyer opens a cabinet door in your kitchen, it’s not an invasion of privacy. The buyer simply wants to get a sense of the available space. So, you can expect some buyers to explore cabinet space, especially in your kitchen and bathrooms.",
+  content: `
+<p>When a buyer opens a cabinet door in your kitchen, it’s not an invasion of privacy. The buyer simply wants to get a sense of the available space. So, you can expect some buyers to explore cabinet space, especially in your kitchen and bathrooms.</p>
+<p>That’s why making sure cabinet space looks clean, organized and spacious is so important. Consider these tips:</p>
+<p>If you store a lot of items inside a cabinet, make liberal use of storage bins, baskets, and small plastic containers. Clutter doesn’t look like clutter when it’s organized!</p>
+<p>Go through each cabinet and get rid of as many items as possible. Pay particular attention to expired products. If you haven’t used an item for a while, question whether you need to keep it anymore.</p>
+<p>Consider storing some items somewhere else in your home. For example, pack up less used items and store them in a larger closet or other storage space.</p>
+<p>Thoroughly clean cabinets that are prone to smells, such as the ones under the kitchen sink or used for storing food.</p>
+<p>Buyers will only give a cabinet space a quick glance, yet they’ll form a lasting impression. <br />Make sure it’s a good one!</p>`,
+  link: "blogpost87.html",
+  image: "blog87.png",
+  imageAlt: "Kitchen Drawer",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1740,6 +1758,7 @@ const blogpostArray = [
   blogpost84,
   blogpost85,
   blogpost86,
+  blogpost87,
 ];
 
 export default blogpostArray;
