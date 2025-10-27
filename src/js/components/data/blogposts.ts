@@ -1671,6 +1671,21 @@ const blogpost87: Blogpost = {
   image: "blog87.png",
   imageAlt: "Kitchen Drawer",
 };
+const blogpost88: Blogpost = {
+  id: "blog88",
+  blogName: "Monitoring Devices for Seniors",
+  author: "John Manucdoc",
+  date: "October 27, 2025",
+  paragraph1:
+    "The 2020s may become known as the decade in which we re-evaluated our homes, and found ways to make them better serve our needs. Part of that assessment has already begun, especially amongst seniors who desire greater independence and want to continue to enjoy comfortable, productive lives in their own homes.",
+  content: `
+<p>The 2020s may become known as the decade in which we re-evaluated our homes, and found ways to make them better serve our needs. Part of that assessment has already begun, especially amongst seniors who desire greater independence and want to continue to enjoy comfortable, productive lives in their own homes. Enabling their wishes in as safe an environment as possible often requires support from other family members and/or caregivers. It’s a big responsibility that may be eased somewhat by increased confidence in the latest electronic monitoring devices.</p>
+<p>Thanks to improved portability and tracking capabilities, the latest models of these devices are less restrictive and require less input from users. Some types monitor vital statistics such as heart rate or blood pressure. Others track movement from room to room, or doors unlocking, while some even monitor medication schedules or facilitate live one-on-one conversations. With so much technology available to help seniors live in ways they prefer, it’s important to consider all aspects of electronic supervision, and have frank conversations about the costs and benefits of the various options.</p>
+`,
+  link: "blogpost88.html",
+  image: "blog88.png",
+  imageAlt: "Senior Citizen with Monitor",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1759,6 +1774,7 @@ const blogpostArray = [
   blogpost85,
   blogpost86,
   blogpost87,
+  blogpost88,
 ];
 
 export default blogpostArray;
