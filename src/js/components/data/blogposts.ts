@@ -1686,6 +1686,39 @@ const blogpost88: Blogpost = {
   image: "blog88.png",
   imageAlt: "Senior Citizen with Monitor",
 };
+const blogpost89: Blogpost = {
+  id: "blog89",
+  blogName: "How to Sweeten an Offer without Raising the Price",
+  author: "John Manucdoc",
+  date: "November 10, 2025",
+  paragraph1:
+    "If you’re making an offer on a property, obviously the price you go in at plays a big role in whether or not you get that home. That’s especially true when there are other competing offers.",
+  content: `<p>If you’re making an offer on a property, obviously the price you go in at plays a big role in whether or not you get that home. That’s especially true when there are other competing offers. However, while the price is important, it’s not the only factor. There are other ways to make your offer more appealing.</p>
+<p>For example, the closing date may be important to the seller. They may be relocating out-of-town and need to move on a specific date. If you can accommodate the closing date, that’s likely to be an attractive benefit to the seller.</p>
+<p>Having your financing in order and being able to attach a pre-arranged mortgage certificate to your offer will also sweeten the deal. Knowing there is unlikely to be financing issues will make the seller feel more comfortable selling to you — as opposed to someone whose financing is less certain.</p>`,
+  link: "blogpost89.html",
+  image: "blog89.png",
+  imageAlt: "Real estate agent going over offer to clients",
+};
+const blogpost90: Blogpost = {
+  id: "blog90",
+  blogName: "Tips for “After Dusk” Viewing Appointments",
+  author: "John Manucdoc",
+  date: "November 24, 2025",
+  paragraph1:
+    "When you’re selling your property, you want buyers to see it at its best. But, a percentage of potential buyers will only be able to see your home in the evening.",
+  content: `
+<p>When you’re selling your property, you want buyers to see it at its best. But, a percentage of potential buyers will only be able to see your home in the evening. If it’s getting dark by the time they arrive, your home may not look as good as it does during the day.</p>
+<p>Fortunately, there’s a lot you can do to compensate.</p>
+<p>Start with lighting. Make sure your home is well lit during an evening viewing. It doesn’t need to be so bright that it’s blinding! You’re looking for pleasant lighting throughout the home, including in traditionally darker spaces such as closets. Professional stagers say turning the light on above the stove is a good idea too.</p>
+<p>Also, make sure the curtains are open, especially if there’s an appealing evening view. Open curtains add to the sense of spaciousness.</p>
+<p>People tend to equate evenings with relaxation. Put on soft background music during a viewing and avoid anything loud or energetic, such as the television.</p>
+<p>Finally, buyers are particularly sensitive to seeing clutter when viewing a home after dusk. As much as possible, try to make your home “guest ready.”</p>
+`,
+  link: "blogpost90.html",
+  image: "blog90.png",
+  imageAlt: "Staged House living room at night",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1775,6 +1808,8 @@ const blogpostArray = [
   blogpost86,
   blogpost87,
   blogpost88,
+  blogpost89,
+  blogpost90,
 ];
 
 export default blogpostArray;
