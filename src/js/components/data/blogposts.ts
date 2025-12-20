@@ -1740,7 +1740,7 @@ const blogpost91: Blogpost = {
 `,
   link: "blogpost91.html",
   image: "blog91.png",
-  imageAlt: "Women making video of house",
+  imageAlt: "Woman making video of house",
 };
 const blogpostArray = [
   blogpost1,
