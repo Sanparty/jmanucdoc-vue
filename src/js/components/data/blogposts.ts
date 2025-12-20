@@ -1719,6 +1719,29 @@ const blogpost90: Blogpost = {
   image: "blog90.png",
   imageAlt: "Staged House living room at night",
 };
+const blogpost91: Blogpost = {
+  id: "blog91",
+  blogName: "What to Look for When Watching a Walk-Through Video",
+  author: "John Manucdoc",
+  date: "December 8, 2025",
+  paragraph1:
+    "When you’re shopping for a new home, you want to get the most out of watching this type of video, especially if you’re relying on it to help you decide whether or not to make a viewing appointment.",
+  content: `
+<p>When you’re shopping for a new home, you want to get the most out of watching this type of video, especially if you’re relying on it to help you decide whether or not to make a viewing appointment.</p>
+<p>Consider these suggestions:</p>
+<p>• Remember, it’s a video. Take advantage of the ability to pause, go back and forth, and take screenshots you can review later.</p>
+<p>• When you’re watching, look for everyday items that can give you perspective, such as a lamp, sofa or chair. These items will help you gain a more accurate sense of room sizes.</p>
+<p>• Although that previous tip will help, it’s still difficult to judge room size on a video. So, don’t be quick to dismiss a listing because you think the rooms might be too small.</p>
+<p>• Pay attention to what is not shown. Did the agent leave the ensuite bathroom out of the video? That may indicate an issue.</p>
+<p>• When viewing the main rooms, such as the living room and kitchen, try to get a sense of how your furniture will fit.</p>
+<p>• Make a list of features and characteristics you want in your next home. Have that list handy as you watch the video. You can use it as a checklist.</p>
+<p>• While you’re watching, jot down any questions you have about the property.</p>
+<p>After watching the video, if you like what you see, take the next step. Schedule a viewing appointment.</p>
+`,
+  link: "blogpost91.html",
+  image: "blog91.png",
+  imageAlt: "Woman making video of house",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1810,6 +1833,7 @@ const blogpostArray = [
   blogpost88,
   blogpost89,
   blogpost90,
+  blogpost91,
 ];
 
 export default blogpostArray;
