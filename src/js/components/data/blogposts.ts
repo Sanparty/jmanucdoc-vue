@@ -1742,6 +1742,30 @@ const blogpost91: Blogpost = {
   image: "blog91.png",
   imageAlt: "Woman making video of house",
 };
+const blogpost92: Blogpost = {
+  id: "blog92",
+  blogName: "Start the Home Selling Process this Month",
+  author: "John Manucdoc",
+  date: "December 22, 2025",
+  paragraph1:
+    "If you’re thinking about selling in the spring, don’t wait until the new year to start planning. In fact, you’ll save yourself a lot of work and get ahead of the game if you start planning now.",
+  content: `
+<p>If you’re thinking about selling in the spring, don’t wait until the new year to start planning. In fact, you’ll save yourself a lot of work and get ahead of the game if you start planning now.</p>
+<p>What’s that old saying? The early bird gets the worm! In this case, by starting the process this month, you’ll be in excellent shape when you’re ready to list in the spring.</p>
+<p>Here are just a few examples of what you can do in December to get the process started:</p>
+<p>• Walk your property and note any maintenance issues that need attention.</p>
+<p>• Decide which items to stow or sell to declutter your home.</p>
+<p>• Determine what improvements you’ll need to make in order for your home to look great to buyers.</p>
+<p>• Find out approximately how much your property will likely sell for in the spring market.</p>
+<p>• Clarify the kind of new home you’d like to move into, including ideal areas.</p>
+<p>• Look into your financing options, so you’ll know the price range you can afford.</p>
+<p>• Connect with any professionals you may need, such as contractors, a mover, and a real estate lawyer.</p>
+<p>• Take advantage of any December shopping deals for products you may need, such as home improvement project materials, packing supplies, etc. As you can see, the more prepared you are this month, the more stress-free and successful the home selling process will be in the spring.</p>
+`,
+  link: "blogpost92.html",
+  image: "blog92.png",
+  imageAlt: "Woman looking at bookshelves",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1834,6 +1858,7 @@ const blogpostArray = [
   blogpost89,
   blogpost90,
   blogpost91,
+  blogpost92,
 ];
 
 export default blogpostArray;
