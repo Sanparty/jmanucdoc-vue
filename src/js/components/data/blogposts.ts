@@ -1766,6 +1766,27 @@ const blogpost92: Blogpost = {
   image: "blog92.png",
   imageAlt: "Woman looking at bookshelves",
 };
+const blogpost93: Blogpost = {
+  id: "blog93",
+  blogName: "Protecting your Home Gadgets from Hacking",
+  author: "John Manucdoc",
+  date: "January 5, 2026",
+  paragraph1:
+    "Imagine your coffee maker switching on by itself, staying on for hours, overheating and becoming a fire hazard. That’s not science fiction. As more and more appliances incorporate Wi-Fi, the opportunities for hackers to play havoc with your home gadgets increase.",
+  content: `
+<p>Imagine your coffee maker switching on by itself, staying on for hours, overheating and becoming a fire hazard. That’s not science fiction. As more and more appliances incorporate Wi-Fi, the opportunities for hackers to play havoc with your home gadgets increase.</p>
+<p>How do you prevent that from happening? Here are some safety tips:</p>
+<p>If your gadget uses a password to access the settings, change that password frequently. Ideally, change it once every 3 months.</p>
+<p>Some gadgets, such as alarm systems, come with their own connection to the internet. Learn how to turn that connection off if it becomes necessary to do so.</p>
+<p>Don’t leave an internet-connected appliance or other gadget on constantly unless it’s required. For example, you don’t need your home speaker system connected to your digital music providers all the time.</p>
+<p>Baby monitors with video are a common target for hackers. Use a password unique to that device and change it often. Never leave the monitor on when not in use.</p>
+<p>Never share passwords with anyone unless it is absolutely necessary. Most home Wi-Fi systems have a “guest” feature with a separate password and limited access. Use it.</p>
+<p>In this age of internet connectivity — from coffee makers to stereos and even washing machines — it’s smart to play it safe. Know what’s connected and protect yourself.</p>
+`,
+  link: "blogpost93.html",
+  image: "blog93.png",
+  imageAlt: "Woman looking at bookshelves",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1859,6 +1880,7 @@ const blogpostArray = [
   blogpost90,
   blogpost91,
   blogpost92,
+  blogpost93,
 ];
 
 export default blogpostArray;
