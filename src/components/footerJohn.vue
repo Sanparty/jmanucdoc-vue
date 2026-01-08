@@ -3,9 +3,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-8 order-md-2 mb-3">
-          <ul v-for="footerlink in footerlinks" :key="footerlink.id" class="footer-list">
+          <ul
+            v-for="footerlink in footerlinks"
+            :key="footerlink.id"
+            class="footer-list"
+          >
             <li class="col-12 col-sm-6 col-lg-4">
-              <router-link :to="{name: footerlink.routerlink}">{{ footerlink.name }}</router-link>
+              <router-link :to="{ name: footerlink.routerlink }">{{
+                footerlink.name
+              }}</router-link>
             </li>
           </ul>
         </div>
@@ -13,14 +19,23 @@
         <div class="col-md-6 col-lg-4 order-md-1 contact-footer">
           <h3>{{ contact.contactName }}</h3>
           <div class="phone">
-            <a :href="`tel:${contact.contactNumber}`">{{ contact.contactNumber }}</a>
+            <a :href="`tel:${contact.contactNumber}`">{{
+              contact.contactNumber
+            }}</a>
           </div>
-          <div class="email">  
-            <a :href="`mailto:${contact.contactEmail}`">{{ contact.contactEmail }}</a>
+          <div class="email">
+            <a :href="`mailto:${contact.contactEmail}`">{{
+              contact.contactEmail
+            }}</a>
           </div>
-          
+
           <div>{{ contact.contactTitle }}</div>
           <div>{{ contact.contactCompany }}</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-lg-12 copyright">
+          © {{ getYear() }} {{ contact.contactName }}. All Rights Reserved.
         </div>
       </div>
     </div>
@@ -28,23 +43,28 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue"
-import { footerLinks } from "@/js/components/pagelinks"
-import Contact from "@/types/contact"
+import { defineComponent, PropType } from "vue";
+import { footerLinks } from "@/js/components/pagelinks";
+import Contact from "@/types/contact";
 
-export default defineComponent ({
+export default defineComponent({
   Name: "FooterJohn",
-  props:  {
+  props: {
     contact: {
       type: Object as PropType<Contact>,
-      required: true
+      required: true,
     },
-  }, 
-  data () {
+  },
+  data() {
     return {
-      footerlinks: footerLinks
-    }
-  }
+      footerlinks: footerLinks,
+    };
+  },
+  methods: {
+    getYear() {
+      return new Date().getFullYear();
+    },
+  },
 });
 </script>
 
@@ -104,7 +124,8 @@ footer li {
 .email:before {
   content: "";
   display: block;
-  background: url(../assets/images/1011335_email_envelope_mail_message_send_icon_darkbg.svg) no-repeat;
+  background: url(../assets/images/1011335_email_envelope_mail_message_send_icon_darkbg.svg)
+    no-repeat;
   width: 20px;
   height: 20px;
   float: left;
@@ -113,6 +134,12 @@ footer li {
 .footer-list a {
   color: #f7f7f7;
   text-decoration: none;
+}
+.copyright {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.75rem;
+  opacity: 50%;
 }
 @media screen and (min-width: 768px) {
   .contact-footer {
