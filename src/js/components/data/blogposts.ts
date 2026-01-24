@@ -1504,6 +1504,315 @@ const blogpost77: Blogpost = {
   image: "blog77.png",
   imageAlt: "Miniature house with surrounding coins",
 };
+const blogpost78: Blogpost = {
+  id: "blog78",
+  blogName: 'When to Consider Buying a “Diamond in the Rough"',
+  author: "John Manucdoc",
+  date: "June 9, 2025",
+  paragraph1:
+    "Let’s face it. When you visit a home during a scheduled viewing or open house, you’re usually seeing it at its best. The rooms are tidy. The sinks are clean. The closets are organized and uncluttered. Even the lighting is set to its brightest.",
+  content: `<p>Let’s face it. When you visit a home during a scheduled viewing or open house, you’re usually seeing it at its best. The rooms are tidy. The sinks are clean. The closets are organized and uncluttered. Even the lighting is set to its brightest.</p>
+<p>That’s just good old-fashioned marketing.</p>
+<p>However, not every house you see will actually look this way. For any number of reasons, a house on the market may be less than tidy, poorly decorated, and even in need of minor repairs. You may open the front door in anticipation, only to be immediately turned off by stains on the carpets, faded paint on the walls, cluttered hallways, and more.</p>
+<p>First impressions form quickly. It’s easy to make quick judgments and move on. But, you may be passing on what could be a dream home. Don’t make that mistake. Make your purchase decision based on a carefully considered second impression, not just your first. When viewing a house, imagine how it will look with a fresh coat of paint, some redecorating, the minor repairs completed, and your furniture adorning the rooms. You might just find that a home that doesn’t show well is really a diamond in the rough.</p>
+<p>(One caveat: Be careful of houses that don’t look like they’ve been well maintained. There could be issues lurking that may require expensive repairs or renovations. Always make a professional home inspection a condition of your offer.)</p>
+<p>There are advantages to buying a home that doesn’t show well. They attract less interest and, therefore, less competition from other potential buyers.</p>`,
+  link: "blogpost78.html",
+  image: "blog78.png",
+  imageAlt: "Real Estate Agent pointing out issues to clients",
+};
+const blogpost79: Blogpost = {
+  id: "blog79",
+  blogName: "Is this your Year to Get Gardening?",
+  author: "John Manucdoc",
+  date: "June 23, 2025",
+  paragraph1:
+    "Whether you have a large backyard or a modest balcony, gardening is fast becoming one of the most popular pastimes across the land.",
+  content: `<p>Whether you have a large backyard or a modest balcony, gardening is fast becoming one of the most popular pastimes across the land. Homeowners have become more focused on their property’s appearance and productivity, while also recognizing how gardening can contribute to a healthy lifestyle.</p>
+<p>Whether you are interested in nurturing beautiful blooms and bushes, or cultivating home-grown herbs and vegetables, a little planning will give you lasting enjoyment. One of the first things you need to do is to identify your microclimate in order to determine its suitability for growing specific plants.</p>
+<p>Similarly, it’s important to know the hardiness of your preferred plants, and how much sun and shade they require. Make sure your soil is conducive for optimum growth and supplement with appropriate nutrients as needed. Be prepared to back up nature’s rainfall with a reliable source of supplementary water, either manually or through an automatic system. Now that you’ve done your prep work, the true pleasures of gardening begin – but don’t think it’s an easy hobby! It takes hard work to keep the weeds at bay and your garden on track, but you’ll see the fruits of your labor grow before your very eyes.</p>`,
+  link: "blogpost79.html",
+  image: "blog79.png",
+  imageAlt: "Garden holding potted plants",
+};
+const blogpost80: Blogpost = {
+  id: "blog80",
+  blogName: "Creating the “Wow” Effect in Buyers",
+  author: "John Manucdoc",
+  date: "July 7, 2025",
+  paragraph1:
+    "It’s incredible how quickly people form first impressions. According to some studies, people can develop lasting opinions within seconds of seeing someone, something, or someplace new.",
+  content: `<p>It’s incredible how quickly people form first impressions. According to some studies, people can develop lasting opinions within seconds of seeing someone, something, or someplace new.</p>
+<p>That’s why, when preparing your property for sale, it’s important to do everything you can to make sure it looks attractive to buyers.</p>
+<p>Nowhere does this first impression phenomenon play out more than when a buyer first enters your home. The moment they walk through your front door, they’ll look around, take in the scene and form an impression.</p>
+<p>Ideally, you want that crucial first impression to be, “Wow. This place looks great! I can hardly wait to check out the rest of this home.”</p>
+<p>So how do you ensure that happens?</p>
+<p>One way is to play the role of a buyer yourself. Walk through your front door as if you’ve never been inside your home before. Pretend you’re a buyer and look around. What do you see? What impresses you most from that perspective? What do you notice that concerns you?</p>
+<p>Pay attention to anything distracting: walls in need of painting, cluttered furniture arrangements, too much or too little lighting. This exercise will give you immediate ideas for improving — or Home Staging, as it’s called in real estate — the view from the front door foyer. For example, you might discover that a weekend painting project along with some decluttering, would make a big difference in how your home looks from this vantage point.</p>
+<p>Typically, it doesn’t take much work to make these types of changes and improvements. But, when you do, your home is likely to look more impressive to buyers as they walk through your front door. That’s an impression that’s likely to linger as they view the rest of your property.</p>`,
+  link: "blogpost80.html",
+  image: "blog80.png",
+  imageAlt: "Visually pleasing house hallway",
+};
+const blogpost81: Blogpost = {
+  id: "blog81",
+  blogName: "Cleaning Tips for Instantly Improving Curb Appeal",
+  author: "John Manucdoc",
+  date: "July 21, 2025",
+  paragraph1:
+    "As you may know, curb appeal refers to how your property looks from the street, where potential buyers first see it. Your home’s curb appeal can have a big impact on the sale of your property.",
+  content: `<p>As you may know, curb appeal refers to how your property looks from the street, where potential buyers first see it. Your home’s curb appeal can have a big impact on the sale of your property.</p>
+<p>In fact, it’s not uncommon for a buyer to drive by a listing, rather than stop, because they don’t like what they see.</p>
+<p>So, how can you improve your home’s curb appeal quickly? One way is to do some outside cleaning.</p>
+<p>Start with the main entryway. Wash down the front door and sweep (or power wash) the front steps. It only takes a few minutes, but you’d be surprised by the impact it can have. Sweep or power wash your walkway too and you’ll improve the overall look of your home — sometimes dramatically.</p>
+<p>Clean your front windows to brighten the look of your home’s facade. It doesn’t have to be an arduous chore. In fact, there are washing products available that attach to your garden hose. You don’t even need a ladder! Ask your local home improvement retailer for recommendations.</p>
+<p>If you have hedges and shrubs, give them a trim. To keep your trimming level, use a wide board, or even a piece of cardboard, then cut to the desired height. Pull off any dead leaves or branches. Of course, also mow the lawn!</p>
+<p>Finally, inspect your property from the street. Can you see anything else you can do to quickly improve the look? Do you notice anything that is unsightly or distracting, such as garbage bins that could be relocated?</p>`,
+  link: "blogpost81.html",
+  image: "blog81.png",
+  imageAlt: "Spraywashing front steps",
+};
+const blogpost82: Blogpost = {
+  id: "blog82",
+  blogName: "How to Deal with a Competitive Disadvantage",
+  author: "John Manucdoc",
+  date: "August 4, 2025",
+  paragraph1:
+    "If you’re selling your home and there are other listings in your area, buyers will naturally compare your property to those other listings.",
+  content: `<p>If you’re selling your home and there are other listings in your area, buyers will naturally compare your property to those other listings.</p>
+<p>Is there something about your home that you’re concerned will be seen as a competitive disadvantage? For example, do you have a small kitchen or fewer bedrooms than most other homes in the community?</p>
+<p>There are a few things you can do to compensate for such disadvantages.</p>
+<p>First, highlight the advantageous features of your home. Chances are, there are characteristics that make it stand out. For example, the look and style of your home may be cozy and enchanting. Or, you might have a desired feature, such as a terrific view.</p>
+<p>Next, do everything you can to ensure your home makes the best impression possible to buyers. Remember, most buyers will only see your property once. So, pull out all the stops. That means decluttering, cleaning, painting, getting any needed repairs done, and staging effectively.</p>
+<p>Finally, make sure you set the asking price strategically. That doesn’t necessarily mean it needs to be low. But, it does mean that the price should reflect the market value of your home.</p>`,
+  link: "blogpost82.html",
+  image: "blog82.png",
+  imageAlt: "Painting over a house interior",
+};
+const blogpost83: Blogpost = {
+  id: "blog83",
+  blogName: "Setting Emotions Aside When Selling",
+  author: "John Manucdoc",
+  date: "August 18, 2025",
+  paragraph1:
+    "Imagine shopping for a used car. You find one that you like and while negotiating the price, the seller gets sentimental.",
+  content: `<p>Imagine shopping for a used car. You find one that you like and while negotiating the price, the seller gets sentimental. He shares happy memories of family picnics, his kids’ soccer games and other adventures with the vehicle. Then he demands a higher price. After all, he couldn’t possibly part with it for anything less.</p>
+<p>Are you likely to pay for his sentimental value? Probably not. Yet the same thing often happens when selling a home.</p>
+<p>It’s normal for homeowners to form an emotional attachment to their property. It can be very difficult to watch their home being treated as a product with a price tag, and watch buyers stand in the living room discussing furniture arrangements. Emotions can get in the way of a sale. It can even cause some sellers to stay firm on a high price, when a reasonable offer within market value is received.</p>
+<p>After all, as they say, ‘Home is where the heart is.’ So, when it’s time to sell your property, think about all the ways you will take your happy memories with you. Then, focus on selling for the best price within the current market conditions.</p>`,
+  link: "blogpost83.html",
+  image: "blog83.png",
+  imageAlt: "Back of family looking at house",
+};
+const blogpost84: Blogpost = {
+  id: "blog84",
+  blogName: "Is it the Right Time to Sell?",
+  author: "John Manucdoc",
+  date: "September 1, 2025",
+  paragraph1:
+    "If you’re entertaining the idea of selling your home, especially within the next year, one question you might be grappling with is, “Should I sell now, or wait until market conditions are more favourable?”",
+  content: `<p>If you’re entertaining the idea of selling your home, especially within the next year, one question you might be grappling with is, “Should I sell now, or wait until market conditions are more favourable?”</p>
+<p>The answer is simple. Your decision to sell should be guided by your own needs and desires and not by what you think the market will be like months from now.</p>
+<p>First of all, it’s nearly impossible to predict the future in the real estate market. Months from now, it could be a buyer’s market, a seller’s market, a quiet market, or even a frenzied market! Who knows? It’s like trying to predict what the weather will be like on this day next year.</p>
+<p>And, if you’re also buying a new home, then market conditions play a less important role. After all, if you sell in a seller’s market and get a high price for your home, you’ll also be paying a seller’s market price for your new home.</p>
+<p>In most situations, the “right” time to sell is when you’re ready to make a move.</p>`,
+  link: "blogpost84.html",
+  image: "blog84.png",
+  imageAlt: "Back of family looking at house",
+};
+const blogpost85: Blogpost = {
+  id: "blog85",
+  blogName: "Savvy Negotiation Helps Win the Deal",
+  author: "John Manucdoc",
+  date: "September 15, 2025",
+  paragraph1:
+    "Purchasing a home is not the same as buying a product off the shelf. You don’t simply pay the price on the tag and know it’s yours.",
+  content: `<p>Purchasing a home is not the same as buying a product off the shelf. You don’t simply pay the price on the tag and know it’s yours. You can’t just see a home for sale and say, “I’ll take it!”, especially if the market is competitive. You need to make an enticing offer.</p>
+<p>That offer, of course, would include the price you propose to pay. That price may or may not be the “price tag” or the asking price. In order for your offer to be successful, it needs other ingredients too. For example, winning offers often include evidence that appropriate financing has been arranged. This gives the seller confidence that you can afford the home and that the deal won’t fall through due to an issue with the mortgage.</p>
+<p>Also, you may need to put conditions on your offer, such as making it conditional on selling your current home. You’ll need to be careful here. Adding a condition or two may be necessary to protect your best interests, but may also dissuade the seller from accepting your offer.</p>
+<p>Negotiation is perhaps the most important part of the buying process. Even if there are no competing offers, there will likely be back-and-forth discussions about price, conditions, closing dates, and more. Savvy negotiating is critical, not only to ensure you get the home, but also that you get it for the lowest price and best terms possible.</p>
+<p>Real estate negotiation is not for the timid. It requires in-depth knowledge of the local market, hard-won negotiating skills, and experience. If you’re selling your home, buying a new home, or both, keep in mind the important role that negotiation has in getting you what you want.</p>`,
+  link: "blogpost85.html",
+  image: "blog85.png",
+  imageAlt: "Real Estate Agent and Client",
+};
+const blogpost86: Blogpost = {
+  id: "blog86",
+  blogName: "Buying the Faraway Home",
+  author: "John Manucdoc",
+  date: "September 29, 2025",
+  paragraph1:
+    "Shopping for a new home in a distant town, city or community can be a challenge. It’s especially difficult if getting there requires a very long drive or flight. So, if you’re thinking of moving out-of-town, here are some home shopping tips to consider...",
+  content: `<p>Shopping for a new home in a distant town, city or community can be a challenge. It’s especially difficult if getting there requires a very long drive or flight. So, if you’re thinking of moving out-of-town, here are some home shopping tips to consider:</p>
+<p><strong>Schedule a longer than normal viewing appointment. </strong>Make sure the seller is aware that you’ll need more time to see and evaluate the home, so they don’t book another appointment too soon after yours.</p>
+<p><strong>Spend extra time in the community and surrounding area. </strong>Drive the streets. Go for a walk. If possible, chat with residents you run into.</p>
+<p><strong>Get all the facts you can about the home and surrounding area.</strong> You’ll want to take a close look at crime statistics, property turnover, demographics, etc.</p>
+<p><strong>Don’t rush your travel plans when going to see a listed home.</strong> Try to arrive for the viewing relaxed and energized (rather than stressed and fatigued), so you can see the property in an unhurried manner.Following these simple tips can bring you a lot closer to finding your faraway dream home.</P`,
+  link: "blogpost86.html",
+  image: "blog86.png",
+  imageAlt: "Luggage with airplane in background",
+};
+const blogpost87: Blogpost = {
+  id: "blog87",
+  blogName: "The Cure for Cabinet Clutter",
+  author: "John Manucdoc",
+  date: "October 13, 2025",
+  paragraph1:
+    "When a buyer opens a cabinet door in your kitchen, it’s not an invasion of privacy. The buyer simply wants to get a sense of the available space. So, you can expect some buyers to explore cabinet space, especially in your kitchen and bathrooms.",
+  content: `
+<p>When a buyer opens a cabinet door in your kitchen, it’s not an invasion of privacy. The buyer simply wants to get a sense of the available space. So, you can expect some buyers to explore cabinet space, especially in your kitchen and bathrooms.</p>
+<p>That’s why making sure cabinet space looks clean, organized and spacious is so important. Consider these tips:</p>
+<p>If you store a lot of items inside a cabinet, make liberal use of storage bins, baskets, and small plastic containers. Clutter doesn’t look like clutter when it’s organized!</p>
+<p>Go through each cabinet and get rid of as many items as possible. Pay particular attention to expired products. If you haven’t used an item for a while, question whether you need to keep it anymore.</p>
+<p>Consider storing some items somewhere else in your home. For example, pack up less used items and store them in a larger closet or other storage space.</p>
+<p>Thoroughly clean cabinets that are prone to smells, such as the ones under the kitchen sink or used for storing food.</p>
+<p>Buyers will only give a cabinet space a quick glance, yet they’ll form a lasting impression. <br />Make sure it’s a good one!</p>`,
+  link: "blogpost87.html",
+  image: "blog87.png",
+  imageAlt: "Kitchen Drawer",
+};
+const blogpost88: Blogpost = {
+  id: "blog88",
+  blogName: "Monitoring Devices for Seniors",
+  author: "John Manucdoc",
+  date: "October 27, 2025",
+  paragraph1:
+    "The 2020s may become known as the decade in which we re-evaluated our homes, and found ways to make them better serve our needs. Part of that assessment has already begun, especially amongst seniors who desire greater independence and want to continue to enjoy comfortable, productive lives in their own homes.",
+  content: `
+<p>The 2020s may become known as the decade in which we re-evaluated our homes, and found ways to make them better serve our needs. Part of that assessment has already begun, especially amongst seniors who desire greater independence and want to continue to enjoy comfortable, productive lives in their own homes. Enabling their wishes in as safe an environment as possible often requires support from other family members and/or caregivers. It’s a big responsibility that may be eased somewhat by increased confidence in the latest electronic monitoring devices.</p>
+<p>Thanks to improved portability and tracking capabilities, the latest models of these devices are less restrictive and require less input from users. Some types monitor vital statistics such as heart rate or blood pressure. Others track movement from room to room, or doors unlocking, while some even monitor medication schedules or facilitate live one-on-one conversations. With so much technology available to help seniors live in ways they prefer, it’s important to consider all aspects of electronic supervision, and have frank conversations about the costs and benefits of the various options.</p>
+`,
+  link: "blogpost88.html",
+  image: "blog88.png",
+  imageAlt: "Senior Citizen with Monitor",
+};
+const blogpost89: Blogpost = {
+  id: "blog89",
+  blogName: "How to Sweeten an Offer without Raising the Price",
+  author: "John Manucdoc",
+  date: "November 10, 2025",
+  paragraph1:
+    "If you’re making an offer on a property, obviously the price you go in at plays a big role in whether or not you get that home. That’s especially true when there are other competing offers.",
+  content: `<p>If you’re making an offer on a property, obviously the price you go in at plays a big role in whether or not you get that home. That’s especially true when there are other competing offers. However, while the price is important, it’s not the only factor. There are other ways to make your offer more appealing.</p>
+<p>For example, the closing date may be important to the seller. They may be relocating out-of-town and need to move on a specific date. If you can accommodate the closing date, that’s likely to be an attractive benefit to the seller.</p>
+<p>Having your financing in order and being able to attach a pre-arranged mortgage certificate to your offer will also sweeten the deal. Knowing there is unlikely to be financing issues will make the seller feel more comfortable selling to you — as opposed to someone whose financing is less certain.</p>`,
+  link: "blogpost89.html",
+  image: "blog89.png",
+  imageAlt: "Real estate agent going over offer to clients",
+};
+const blogpost90: Blogpost = {
+  id: "blog90",
+  blogName: "Tips for “After Dusk” Viewing Appointments",
+  author: "John Manucdoc",
+  date: "November 24, 2025",
+  paragraph1:
+    "When you’re selling your property, you want buyers to see it at its best. But, a percentage of potential buyers will only be able to see your home in the evening.",
+  content: `
+<p>When you’re selling your property, you want buyers to see it at its best. But, a percentage of potential buyers will only be able to see your home in the evening. If it’s getting dark by the time they arrive, your home may not look as good as it does during the day.</p>
+<p>Fortunately, there’s a lot you can do to compensate.</p>
+<p>Start with lighting. Make sure your home is well lit during an evening viewing. It doesn’t need to be so bright that it’s blinding! You’re looking for pleasant lighting throughout the home, including in traditionally darker spaces such as closets. Professional stagers say turning the light on above the stove is a good idea too.</p>
+<p>Also, make sure the curtains are open, especially if there’s an appealing evening view. Open curtains add to the sense of spaciousness.</p>
+<p>People tend to equate evenings with relaxation. Put on soft background music during a viewing and avoid anything loud or energetic, such as the television.</p>
+<p>Finally, buyers are particularly sensitive to seeing clutter when viewing a home after dusk. As much as possible, try to make your home “guest ready.”</p>
+`,
+  link: "blogpost90.html",
+  image: "blog90.png",
+  imageAlt: "Staged House living room at night",
+};
+const blogpost91: Blogpost = {
+  id: "blog91",
+  blogName: "What to Look for When Watching a Walk-Through Video",
+  author: "John Manucdoc",
+  date: "December 8, 2025",
+  paragraph1:
+    "When you’re shopping for a new home, you want to get the most out of watching this type of video, especially if you’re relying on it to help you decide whether or not to make a viewing appointment.",
+  content: `
+<p>When you’re shopping for a new home, you want to get the most out of watching this type of video, especially if you’re relying on it to help you decide whether or not to make a viewing appointment.</p>
+<p>Consider these suggestions:</p>
+<p>• Remember, it’s a video. Take advantage of the ability to pause, go back and forth, and take screenshots you can review later.</p>
+<p>• When you’re watching, look for everyday items that can give you perspective, such as a lamp, sofa or chair. These items will help you gain a more accurate sense of room sizes.</p>
+<p>• Although that previous tip will help, it’s still difficult to judge room size on a video. So, don’t be quick to dismiss a listing because you think the rooms might be too small.</p>
+<p>• Pay attention to what is not shown. Did the agent leave the ensuite bathroom out of the video? That may indicate an issue.</p>
+<p>• When viewing the main rooms, such as the living room and kitchen, try to get a sense of how your furniture will fit.</p>
+<p>• Make a list of features and characteristics you want in your next home. Have that list handy as you watch the video. You can use it as a checklist.</p>
+<p>• While you’re watching, jot down any questions you have about the property.</p>
+<p>After watching the video, if you like what you see, take the next step. Schedule a viewing appointment.</p>
+`,
+  link: "blogpost91.html",
+  image: "blog91.png",
+  imageAlt: "Woman making video of house",
+};
+const blogpost92: Blogpost = {
+  id: "blog92",
+  blogName: "Start the Home Selling Process this Month",
+  author: "John Manucdoc",
+  date: "December 22, 2025",
+  paragraph1:
+    "If you’re thinking about selling in the spring, don’t wait until the new year to start planning. In fact, you’ll save yourself a lot of work and get ahead of the game if you start planning now.",
+  content: `
+<p>If you’re thinking about selling in the spring, don’t wait until the new year to start planning. In fact, you’ll save yourself a lot of work and get ahead of the game if you start planning now.</p>
+<p>What’s that old saying? The early bird gets the worm! In this case, by starting the process this month, you’ll be in excellent shape when you’re ready to list in the spring.</p>
+<p>Here are just a few examples of what you can do in December to get the process started:</p>
+<p>• Walk your property and note any maintenance issues that need attention.</p>
+<p>• Decide which items to stow or sell to declutter your home.</p>
+<p>• Determine what improvements you’ll need to make in order for your home to look great to buyers.</p>
+<p>• Find out approximately how much your property will likely sell for in the spring market.</p>
+<p>• Clarify the kind of new home you’d like to move into, including ideal areas.</p>
+<p>• Look into your financing options, so you’ll know the price range you can afford.</p>
+<p>• Connect with any professionals you may need, such as contractors, a mover, and a real estate lawyer.</p>
+<p>• Take advantage of any December shopping deals for products you may need, such as home improvement project materials, packing supplies, etc. As you can see, the more prepared you are this month, the more stress-free and successful the home selling process will be in the spring.</p>
+`,
+  link: "blogpost92.html",
+  image: "blog92.png",
+  imageAlt: "Woman looking at bookshelves",
+};
+const blogpost93: Blogpost = {
+  id: "blog93",
+  blogName: "Protecting your Home Gadgets from Hacking",
+  author: "John Manucdoc",
+  date: "January 5, 2026",
+  paragraph1:
+    "Imagine your coffee maker switching on by itself, staying on for hours, overheating and becoming a fire hazard. That’s not science fiction. As more and more appliances incorporate Wi-Fi, the opportunities for hackers to play havoc with your home gadgets increase.",
+  content: `
+<p>Imagine your coffee maker switching on by itself, staying on for hours, overheating and becoming a fire hazard. That’s not science fiction. As more and more appliances incorporate Wi-Fi, the opportunities for hackers to play havoc with your home gadgets increase.</p>
+<p>How do you prevent that from happening? Here are some safety tips:</p>
+<p>If your gadget uses a password to access the settings, change that password frequently. Ideally, change it once every 3 months.</p>
+<p>Some gadgets, such as alarm systems, come with their own connection to the internet. Learn how to turn that connection off if it becomes necessary to do so.</p>
+<p>Don’t leave an internet-connected appliance or other gadget on constantly unless it’s required. For example, you don’t need your home speaker system connected to your digital music providers all the time.</p>
+<p>Baby monitors with video are a common target for hackers. Use a password unique to that device and change it often. Never leave the monitor on when not in use.</p>
+<p>Never share passwords with anyone unless it is absolutely necessary. Most home Wi-Fi systems have a “guest” feature with a separate password and limited access. Use it.</p>
+<p>In this age of internet connectivity — from coffee makers to stereos and even washing machines — it’s smart to play it safe. Know what’s connected and protect yourself.</p>
+`,
+  link: "blogpost93.html",
+  image: "blog93.png",
+  imageAlt: "Keyhole with hand trying to intrude",
+};
+const blogpost94: Blogpost = {
+  id: "blog94",
+  blogName: "Open House Questions Some Buyers Forget to Ask",
+  author: "John Manucdoc",
+  date: "January 19, 2026",
+  paragraph1:
+    "An Open House is an event. And, like many events, it’s easy to get caught up in all the excitement and energy. In fact, when you visit an Open House, you might even end up rubbing elbows with other buyers who are there at the same time. It can feel like a party!",
+  content: `
+<p>An Open House is an event. And, like many events, it’s easy to get caught up in all the excitement and energy. In fact, when you visit an Open House, you might even end up rubbing elbows with other buyers who are there at the same time. It can feel like a party!</p>
+<p>In an environment like that, it’s not unusual to forget to ask important questions about the property. Here are some of the most common:</p>
+<ul>
+<li>How old is the roof?</li>
+<li>How old is the furnace, air conditioner and other HVAC equipment?</li>
+<li>How does the price compare to similar properties in the community?</li>
+<li>What are the characteristics of the community? (Amenities, safety, traffic, access to public transit, property turnover, etc.)</li>
+<li>What doesn’t come with the home? (Ask specifically about kitchen appliances, gas-connected BBQs, chandeliers, window coverings.)</li>
+<li>Are there any potential impediments to the sale? (Tenants, outstanding liens, etc.)</li>
+<li>Are there any outstanding maintenance issues, or repairs that need to be done? (For example, cracked ceramics on the foyer floor.&nbsp;</li>
+<li>Are there any issues that impact the full use of the property? (Ask specifically about shared driveways or walkways, public “right of way” through the property, water drainage rights, etc.)</li>
+</ul>
+<p>Yes, an Open House can feel like a frenzy, and if it’s a home you love, you might feel pressured to make an offer. But, it’s important to take the time to ask the right questions and consider your decision carefully. You don’t want to find out, too late, that there were questions you should have asked.</p>
+`,
+  link: "blogpost94.html",
+  image: "blog94.png",
+  imageAlt: "Couple looking at open house with realtors",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1582,6 +1891,23 @@ const blogpostArray = [
   blogpost75,
   blogpost76,
   blogpost77,
+  blogpost78,
+  blogpost79,
+  blogpost80,
+  blogpost81,
+  blogpost82,
+  blogpost83,
+  blogpost84,
+  blogpost85,
+  blogpost86,
+  blogpost87,
+  blogpost88,
+  blogpost89,
+  blogpost90,
+  blogpost91,
+  blogpost92,
+  blogpost93,
+  blogpost94,
 ];
 
 export default blogpostArray;

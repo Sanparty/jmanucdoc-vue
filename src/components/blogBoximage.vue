@@ -1,43 +1,43 @@
 <template>
   <Transition appear>
-  <div v-if="blogImage" class="col-sm-12 col-md-6 my-3">
-    <div class="p-3 content blog-link mb-3">
-      <h3 :title="blogName">{{ blogName }}</h3>
-      <img
-        :src="require('../assets/images/blog/' + blogImage)"
-        :alt="blogImagealt"
-        class="blogimage"
-      />
-      <p>{{ blogParagraph1 }}</p>
+    <div v-if="blogImage" class="col-sm-12 col-md-6 my-3">
+      <div class="p-3 content blog-link mb-3">
+        <h3 :title="blogName">{{ blogName }}</h3>
+        <img
+          :src="require('../assets/images/blog/' + blogImage)"
+          :alt="blogImagealt"
+          class="blogimage"
+        />
+        <p>{{ blogParagraph1 }}</p>
 
-      <div class="no-underline" @click="showBlogpost()">
-        <button class="btn btn-primary mt-3 cont-reading" type="submit">
-          <span class="cont-reading-text">Continue Reading</span
-          ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
-        </button>
+        <div class="no-underline" @click="showBlogpost()">
+          <button class="btn btn-primary mt-3 cont-reading" type="submit">
+            <span class="cont-reading-text">Continue Reading</span
+            ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-  <div v-else class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
-    <div class="p-3 content blog-link mb-3">
-      <h3>{{ blogName }}</h3>
-      <p>{{ blogParagraph1 }}</p>
+    <div v-else class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+      <div class="p-3 content blog-link mb-3">
+        <h3>{{ blogName }}</h3>
+        <p>{{ blogParagraph1 }}</p>
 
-      <div class="no-underline" @click="showBlogpost()">
-        <button class="btn btn-primary mt-3 cont-reading" type="submit">
-          <span class="cont-reading-text">Continue Reading</span
-          ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
-        </button>
+        <div class="no-underline" @click="showBlogpost()">
+          <button class="btn btn-primary mt-3 cont-reading" type="submit">
+            <span class="cont-reading-text">Continue Reading</span
+            ><i class="fa fa-long-arrow-right px-3" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</Transition>
+  </Transition>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
-export default defineComponent ({
+export default defineComponent({
   Name: "BlogBoximage",
   methods: {
     showBlogpost() {
@@ -134,6 +134,11 @@ export default defineComponent ({
 @media screen and (min-width: 768px) {
   .blogimage {
     margin: 0 10px 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .blogimage {
+    margin: 0 10px 10px 0;
   }
 }
 </style>
