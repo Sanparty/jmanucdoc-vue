@@ -1,6 +1,6 @@
 <template>
   <div class="home-container container-fluid p-0">
-    <MainJohn :contact="john" />
+    <MainJohn :contact="dan" />
     <HomeContainer />
     <CtaContainer />
     <BlogHome />
