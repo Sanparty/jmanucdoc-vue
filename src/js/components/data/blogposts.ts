@@ -1785,7 +1785,33 @@ const blogpost93: Blogpost = {
 `,
   link: "blogpost93.html",
   image: "blog93.png",
-  imageAlt: "Woman looking at bookshelves",
+  imageAlt: "Keyhole with hand trying to intrude",
+};
+const blogpost94: Blogpost = {
+  id: "blog94",
+  blogName: "Open House Questions Some Buyers Forget to Ask",
+  author: "John Manucdoc",
+  date: "January 19, 2026",
+  paragraph1:
+    "An Open House is an event. And, like many events, it’s easy to get caught up in all the excitement and energy. In fact, when you visit an Open House, you might even end up rubbing elbows with other buyers who are there at the same time. It can feel like a party!",
+  content: `
+<p>An Open House is an event. And, like many events, it’s easy to get caught up in all the excitement and energy. In fact, when you visit an Open House, you might even end up rubbing elbows with other buyers who are there at the same time. It can feel like a party!</p>
+<p>In an environment like that, it’s not unusual to forget to ask important questions about the property. Here are some of the most common:</p>
+<ul>
+<li>How old is the roof?</li>
+<li>How old is the furnace, air conditioner and other HVAC equipment?</li>
+<li>How does the price compare to similar properties in the community?</li>
+<li>What are the characteristics of the community? (Amenities, safety, traffic, access to public transit, property turnover, etc.)</li>
+<li>What doesn’t come with the home? (Ask specifically about kitchen appliances, gas-connected BBQs, chandeliers, window coverings.)</li>
+<li>Are there any potential impediments to the sale? (Tenants, outstanding liens, etc.)</li>
+<li>Are there any outstanding maintenance issues, or repairs that need to be done? (For example, cracked ceramics on the foyer floor.&nbsp;</li>
+<li>Are there any issues that impact the full use of the property? (Ask specifically about shared driveways or walkways, public “right of way” through the property, water drainage rights, etc.)</li>
+</ul>
+<p>Yes, an Open House can feel like a frenzy, and if it’s a home you love, you might feel pressured to make an offer. But, it’s important to take the time to ask the right questions and consider your decision carefully. You don’t want to find out, too late, that there were questions you should have asked.</p>
+`,
+  link: "blogpost94.html",
+  image: "blog94.png",
+  imageAlt: "Couple looking at open house with realtors",
 };
 const blogpostArray = [
   blogpost1,
@@ -1881,6 +1907,7 @@ const blogpostArray = [
   blogpost91,
   blogpost92,
   blogpost93,
+  blogpost94,
 ];
 
 export default blogpostArray;
