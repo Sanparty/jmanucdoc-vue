@@ -1,43 +1,39 @@
 <template>
-<div class="home-container container-fluid p-0">
-  <MainJohn 
-  :contact="john"/>
-  <HomeContainer />
-  <CtaContainer />
-  <BlogHome />
-<div class="container-fluid">
-  <ContactJohn />
+  <div class="home-container container-fluid p-0">
+    <MainJohn :contact="john" />
+    <HomeContainer />
+    <CtaContainer />
+    <BlogHome />
+    <div class="container-fluid">
+      <ContactJohn />
+    </div>
   </div>
-</div>
 </template>
 
 <script lang="ts">
-
 import MainJohn from "../components/mainJohn.vue";
 import BlogHome from "../containers/blogHome.vue";
-import HomeContainer from "../containers/homeContainer.vue"
+import HomeContainer from "../containers/homeContainer.vue";
 import CtaContainer from "../containers/ctaContainer.vue";
-import ContactJohn from "../components/contactJohn.vue"
+import ContactJohn from "../components/contactJohn.vue";
 import johnContact from "@/js/components/johnContact";
-import danContact from "@/js/components/danContact"
+import danContact from "@/js/components/danContact";
 import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "HomeJohn",
-  data () {
+  data() {
     return {
       john: johnContact,
-      dan: danContact
-    }
+      dan: danContact,
+    };
   },
   components: {
-
     MainJohn,
     BlogHome,
     HomeContainer,
     CtaContainer,
     ContactJohn,
-
   },
 });
 </script>
