@@ -1813,6 +1813,26 @@ const blogpost94: Blogpost = {
   image: "blog94.png",
   imageAlt: "Couple looking at open house with realtors",
 };
+const blogpost95: Blogpost = {
+  id: "blog95",
+  blogName: "Should You Worry about Competing Listings?",
+  author: "John Manucdoc",
+  date: "February 2, 2026",
+  paragraph1:
+    "Imagine you’ve been waiting for the right moment to sell your home and you’re finally ready to list it. But, just as you’re about to put up the sign, you notice that a few other FOR SALE signs have unexpectedly popped up in the community.",
+  content: `
+<p>Imagine you’ve been waiting for the right moment to sell your home and you’re finally ready to list it. But, just as you’re about to put up the sign, you notice that a few other FOR SALE signs have unexpectedly popped up in the community.</p>
+<p>Oh no! Now there are competing listings. Does that mean you should put your plan to sell your property on hold?</p>
+<p>Not necessarily.</p>
+<p>Just because comparable homes are for sale in the area doesn’t mean it’s not a good time to make your move. In fact, even if there is a sharp increase in local listings, active buyers might still outnumber properties available.</p>
+<p>In that scenario, you’d likely get several interested buyers.</p>
+<p>And, even if it’s a buyer’s market, this might still be the ideal time to sell, especially if your home has desirable features buyers want. You may even have an advantage over other listings on the market.</p>
+<p>In addition, a large part of a successful sale is in how a property is marketed and promoted. With effective marketing, your home is more likely to be noticed by the right type of buyers… buyers who are actively looking for a property like yours.</p>
+<p>So, waiting for the perfect moment to sell your home rarely makes sense. In most cases, the best time to list is now.</p>`,
+  link: "blogpost95.html",
+  image: "blog95.png",
+  imageAlt: "Couple looking at open house with realtors",
+};
 const blogpostArray = [
   blogpost1,
   blogpost2,
@@ -1908,10 +1928,11 @@ const blogpostArray = [
   blogpost92,
   blogpost93,
   blogpost94,
+  blogpost95,
 ];
 
-export default blogpostArray;
+// export default blogpostArray;
 
 // Possible to only provide latest posts
-// const latestposts = blogpostArray.slice(-9);
-// export default latestposts;
+const latestposts = blogpostArray.slice(-9);
+export default latestposts;
